@@ -1,11 +1,11 @@
 """
-CHALK — headless prediction pipeline.
+ModelXI - headless prediction pipeline (curated world leagues).
 
-Runs on a schedule (GitHub Actions), with no notebook and no human. It pulls
-real data for several leagues, fits a Dixon-Coles model per league, has Claude
-write grounded analysis, and writes predictions.json for the dashboard to read.
+Runs on a schedule (GitHub Actions). Pulls real data for a curated set of the
+world's major leagues, fits a Dixon-Coles model per league, has Claude write
+grounded analysis for the soonest fixtures, and writes predictions.json.
 
-API keys come from environment variables (GitHub Secrets), never hard-coded:
+Keys come from environment variables (GitHub Secrets), never hard-coded:
     API_FOOTBALL_KEY, ANTHROPIC_API_KEY
 """
 
@@ -23,20 +23,46 @@ import anthropic
 API_FOOTBALL_KEY  = os.environ["API_FOOTBALL_KEY"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
+# Curated global set. Each has enough history for the model to be credible.
+# NOTE: these are API-Football league ids to the best of our knowledge. A wrong
+# id simply gets skipped (too little data) - so check the run log: each league
+# prints its top teams, and if they don't belong to that league, fix the id.
 LEAGUES = {
-    "Premier League": 39,
-    "La Liga":        140,
-    "Serie A":        135,
-    "Bundesliga":     78,
-    "Ligue 1":        61,
-    # "Liga I":       283,   # Romania - confirm the id in your dashboard, then uncomment
+    # --- Europe ---
+    "Premier League":     39,
+    "La Liga":            140,
+    "Serie A":            135,
+    "Bundesliga":         78,
+    "Ligue 1":            61,
+    "Champions League":   2,
+    "Europa League":      3,
+    "Championship":       40,
+    "Eredivisie":         88,
+    "Primeira Liga":      94,
+    "Belgian Pro League": 144,
+    "Super Lig":          203,
+    "Scottish Premiership": 179,
+    "Liga I":             283,    # Romania (home league) - verify id if it looks off
+    # --- Americas ---
+    "Brazil Serie A":     71,
+    "Argentina Primera":  128,
+    "MLS":                253,
+    "Liga MX":            262,
+    # --- World ---
+    "Saudi Pro League":   307,
+    "J1 League":          98,
 }
 
 TRAIN_SEASONS      = [2024, 2025]
 LIVE_SEASON        = 2026
-DAYS_AHEAD         = 21          # widened: early season fixtures are weeks out
-MATCHES_PER_LEAGUE = 12
+DAYS_AHEAD         = 10          # how far ahead to show fixtures
+MATCHES_PER_LEAGUE = 8           # cap per league (breadth without flooding)
+MAX_ANALYSES       = 100         # HARD cap on paid AI write-ups per run (cost control)
 MODEL              = "claude-sonnet-5"   # or "claude-haiku-4-5" to spend less
+
+# Cost note: only the soonest MAX_ANALYSES fixtures get a full Claude write-up;
+# any overflow still appears with a free template summary. Raise/lower
+# MAX_ANALYSES to trade quality vs spend.
 
 MAX_GOALS = 10
 API_BASE = "https://v3.football.api-sports.io"
@@ -233,32 +259,48 @@ def build_league(name, league_id):
     res = finished_results(league_id, TRAIN_SEASONS)
     print(f"  {len(res)} training matches")
     if len(res) < 100:
-        print("  !! too little data - skipping")
+        print("  !! too little data - skipping (check the league id or your plan)")
         return None
     m = fit_model(res)
-    return {"model":m, "results":res}
+    top = sorted(m["attack"], key=m["attack"].get, reverse=True)[:3]
+    print("  top attacks:", ", ".join(top), " <- should belong to this league")
+    return {"model":m, "results":res, "id":league_id}
 
 def main():
-    all_predictions=[]
+    # 1) build each league and collect its upcoming fixtures (cheap, no AI yet)
+    leagues_built = {}
+    all_fixtures = []
     for name, lid in LEAGUES.items():
-        league = build_league(name, lid)
-        if not league: continue
-        m, res = league["model"], league["results"]
-        known = set(m["teams"]); made=0
+        lg = build_league(name, lid)
+        if not lg:
+            continue
+        leagues_built[name] = lg
+        known = set(lg["model"]["teams"])
         for kickoff, home, away in upcoming_fixtures(lid, LIVE_SEASON, DAYS_AHEAD, MATCHES_PER_LEAGUE):
-            if home not in known or away not in known: continue
-            p = predict(m, home, away)
-            p["league"]=name; p["league_id"]=lid; p["kickoff"]=kickoff
-            p["analysis"]=write_analysis(p, res)
-            all_predictions.append(p); made+=1
-        print(f"  -> {made} predictions for {name}")
+            if home in known and away in known:
+                all_fixtures.append((kickoff, name, home, away))
 
-    all_predictions.sort(key=lambda p: p["kickoff"])
-    payload={"generated_at": datetime.now(timezone.utc).isoformat(),
-             "predictions": all_predictions}
-    with open("predictions.json","w") as f:
+    all_fixtures.sort(key=lambda t: t[0])   # soonest first
+    print(f"\n{len(all_fixtures)} fixtures across {len(leagues_built)} leagues; "
+          f"full AI analysis on the soonest {MAX_ANALYSES}")
+
+    # 2) predict every fixture; AI-write the soonest MAX_ANALYSES, template the rest
+    preds = []
+    for i, (kickoff, name, home, away) in enumerate(all_fixtures):
+        lg = leagues_built[name]
+        p = predict(lg["model"], home, away)
+        p["league"] = name; p["league_id"] = lg["id"]; p["kickoff"] = kickoff
+        if i < MAX_ANALYSES:
+            p["analysis"] = write_analysis(p, lg["results"])
+        else:
+            fh = build_facts(lg["results"], home); fa = build_facts(lg["results"], away)
+            p["analysis"] = _fallback(p, fh, fa)
+        preds.append(p)
+
+    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "predictions": preds}
+    with open("predictions.json", "w") as f:
         json.dump(payload, f, indent=2)
-    print(f"\nSaved {len(all_predictions)} predictions to predictions.json")
+    print(f"\nSaved {len(preds)} predictions across {len(leagues_built)} leagues to predictions.json")
 
 if __name__ == "__main__":
     main()
