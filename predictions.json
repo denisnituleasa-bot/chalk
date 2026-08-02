@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-02T20:25:06.690693+00:00",
+  "generated_at": "2026-08-02T20:48:45.790225+00:00",
   "predictions": [
     {
       "home": "River Plate",
       "away": "Rosario Central",
       "xg_home": 1.15,
       "xg_away": 0.83,
-      "prob_home": 0.4164684866777833,
-      "prob_draw": 0.33100591478253416,
-      "prob_away": 0.25252559853968265,
-      "over25": 0.3185531790161214,
-      "btts": 0.39941571948608995,
+      "prob_home": 0.4164529883645006,
+      "prob_draw": 0.3310025875083868,
+      "prob_away": 0.25254442412711264,
+      "over25": 0.31856434026142766,
+      "btts": 0.3994283982333026,
       "top_score": "0-0",
-      "top_score_prob": 0.15081765908714276,
+      "top_score_prob": 0.1508111331651651,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.6814468209838787,
+      "primary_prob": 0.6814356597385723,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-02T22:15:00+00:00",
-      "analysis": "River Plate are favored but this points to a tight, low-scoring affair.\n\nThe model gives River Plate 42% to win, with a draw at 33% and Rosario Central at 25% \u2014 a lean toward the hosts but far from decisive. Expected goals are modest for both sides (1.15 vs 0.83), supporting the strong Under 2.5 call at 68%, and BTTS sits at just 40%. The most likely single scoreline is 0-0 at 15%. River Plate arrive out of form (L D L L W, 1W 1D 3L, scored 4 conceded 6), while Rosario Central have picked up recently (L L D W W, 2W 1D 2L, scored 4 conceded 3) \u2014 consistent with a cagey, goal-shy contest."
+      "analysis": "River Plate are favorites but this shapes up as a low-scoring affair.\n\nThe model gives River Plate 42% to win, with a draw at 33% and Rosario Central at 25% \u2014 a lean toward the hosts, not a strong conviction. Expected goals sit at 1.15 for River Plate and 0.83 for Rosario Central, modest totals that support the strong Under 2.5 call at 68%, with 0-0 the single most likely scoreline at 15%. BTTS sits at just 40%, reinforcing the tight, low-goal picture. Form has been shaky for River Plate (1W 1D 3L, L D L L W, scoring 4/conceding 6), while Rosario Central arrive slightly better off (2W 1D 2L, L L D W W, scoring 4/conceding 3)."
     },
     {
       "home": "Club America",
@@ -39,27 +39,27 @@
       "league": "Liga MX",
       "league_id": 262,
       "kickoff": "2026-08-02T23:00:00+00:00",
-      "analysis": "Club America are strong favorites here, with the model giving them a 78% chance to win against just 7% for Santos Laguna (15% draw).\n\nThe projected scoreline of 2.58 expected goals for America versus 0.67 for Santos points to a comfortable home win, and the most likely scoreline of 2-0 (13%) backs that up. With over 2.5 goals at 63%, the model leans toward a moderately high-scoring game, though BTTS at 45% is close to a coin flip. America's form (2W 2D 1L, D D L W W, scoring 11) shows more punch than Santos (1W 1D 3L, W L L L D, scoring just 6 while conceding 8) \u2014 consistent with a strong home-side edge."
+      "analysis": "Club America are strong favorites at 78% to beat Santos Laguna, with the draw at just 15% and an away win at only 7%.\n\nThe model projects a lopsided expected-goals split, 2.58 to 0.67, and backs a 2-0 scoreline as the single most likely result at 13%. Over 2.5 goals sits at 63%, while BTTS is a coin flip at 45%. Club America's recent form (2W 2D 1L, D D L W W, scoring 11/conceding 10) shows more punch than Santos Laguna's (1W 1D 3L, W L L L D, scoring 6/conceding 8), supporting the model's clear lean toward a home win."
     },
     {
       "home": "Lanus",
       "away": "Instituto Cordoba",
       "xg_home": 1.45,
       "xg_away": 0.74,
-      "prob_home": 0.5266894579569354,
-      "prob_draw": 0.292626301758403,
-      "prob_away": 0.18068424028466168,
-      "over25": 0.37489716708144577,
-      "btts": 0.4133782891893061,
+      "prob_home": 0.5266914151493546,
+      "prob_draw": 0.2926216575896494,
+      "prob_away": 0.18068692726099597,
+      "over25": 0.37490739557894415,
+      "btts": 0.41338620545670995,
       "top_score": "1-0",
-      "top_score_prob": 0.14979182506410094,
+      "top_score_prob": 0.1497889165125235,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.6251028329185542,
+      "primary_prob": 0.6250926044210559,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-03T00:30:00+00:00",
-      "analysis": "**Verdict: Lanus favored but a low-scoring, tight affair is the model's main lean.**\n\nLanus is given a 53% chance to win, well ahead of Instituto Cordoba's 18%, with a draw at 29%. Expected goals sit at 1.45 for Lanus against just 0.74 for Instituto, pointing to a narrow scoreline \u2014 the model's most likely result is 1-0 at 15%. The strongest signal here is Under 2.5 goals at 63%, backed by BTTS at only 41% and Over 2.5 at just 37%. Form supports the tilt toward Lanus: they're 2W 1D 2L (L W D L W, scoring 7/conceding 5) versus Instituto's 1W 1D 3L (D L L L W, scoring 4/conceding 6)."
+      "analysis": "**Lanus are favored to edge a low-scoring affair.**\n\nThe model gives Lanus a 53% chance to win, against 29% for a draw and just 18% for Instituto Cordoba. Expected goals sit at 1.45 for Lanus versus 0.74 for Instituto, pointing to a narrow margin \u2014 the most likely scoreline is 1-0 at 15%. The primary call is Under 2.5 goals at 63% (strong), backed by BTTS at just 41% and Over 2.5 at only 37%. Lanus arrive off a mixed 2W 1D 2L run (L W D L W, 7 scored/5 conceded), while Instituto's 1W 1D 3L form (D L L L W, 4 scored/6 conceded) supports the tighter, low-scoring projection."
     },
     {
       "home": "Toluca",
@@ -79,7 +79,7 @@
       "league": "Liga MX",
       "league_id": 262,
       "kickoff": "2026-08-03T01:05:00+00:00",
-      "analysis": "**Verdict: Toluca is the strong favorite at 74%, with Necaxa a long shot at just 10%.**\n\nThe model backs Toluca heavily despite a rough recent stretch (1W 0D 4L, L L W L L, scoring 8/conceding 10), projecting 2.59 expected goals against Necaxa's 0.89. A 2-0 scoreline is the single most likely result at 10%, and the model leans toward a high-scoring affair with Over 2.5 goals at 67% and BTTS at 55%. Necaxa's own form (1W 2D 2L, L D D L W, 5 scored/9 conceded) supports the gap, with the draw sitting at 16%."
+      "analysis": "Toluca are strong favorites here, and the model backs it firmly.\n\nThe model gives Toluca a 74% chance to win, well clear of the draw (16%) and Necaxa (10%). Expected goals sit at 2.59 for Toluca against just 0.89 for Necaxa, and the most likely scoreline is 2-0 at 10%. There's a 67% chance of over 2.5 goals and a 55% shot at both teams scoring, suggesting a game where Toluca should control matters but Necaxa may still find the net.\n\nForm reads oddly against the numbers: Toluca have gone L L W L L (1W 0D 4L, scoring 8 conceding 10), while Necaxa are L D D L W (1W 2D 2L, scoring 5 conceding 9). Despite that, the model's strong call remains Toluca win at 74%."
     },
     {
       "home": "Universitatea Cluj",
@@ -99,7 +99,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-03T15:30:00+00:00",
-      "analysis": "Universitatea Cluj are strong favorites at 64% to beat FC Botosani.\n\nThe model backs the hosts with an xG edge of 1.92 to 0.79, and the most likely scoreline is a tight 1-0 at 12%. A draw sits at 22% and Botosani's win chance is just 14%, making an away upset unlikely. Recent form leans Cluj's way too \u2014 2W 1D 2L (D L W W L) versus Botosani's winless 0W 3D 2L (L L D D D), though Cluj have conceded 7 in their last 5. With over 2.5 goals at 51% and BTTS at 47%, both markets are close to a coin flip."
+      "analysis": "**Verdict: Universitatea Cluj are strong favorites at 64%.**\n\nThe model backs the hosts convincingly, with FC Botosani given just 14% and the draw sitting at 22%. Expected goals (1.92 vs 0.79) point to a comfortable edge for Cluj, and the most likely scoreline is a tight 1-0 at 12% probability. Cluj's recent form (2W 1D 2L, D L W W L) shows some inconsistency, while Botosani arrive winless in their last five (0W 3D 2L, L L D D D). With over 2.5 goals at 51% and BTTS at 47%, both sit close to a coin flip, suggesting a low-scoring, Cluj-controlled game is the more likely outcome."
     },
     {
       "home": "Celtic",
@@ -119,7 +119,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-03T18:30:00+00:00",
-      "analysis": "Celtic are heavy favorites here, and the model backs it strongly.\n\nCeltic take this 84% of the time, with a draw at just 10% and Dundee winning only 5%. Expected goals sit at 3.22 for Celtic against 0.77 for Dundee, and the model's most likely scoreline is 3-0 at 10% probability. Over 2.5 goals is favored at 76%, while BTTS is close at 52%, essentially a coin flip. Celtic's form supports the pick: 5W 0D 0L (W W W W W), scoring 14 and conceding 6. Dundee sit at 3W 0D 2L (W L W W L), scoring 8 and conceding 8."
+      "analysis": "Celtic are heavy favorites here, and the model backs it strongly.\n\nThe model gives Celtic an 84% chance to win, against just 10% for a draw and 5% for Dundee. Expected goals sit at 3.22 for Celtic versus 0.77 for Dundee, with the most likely scoreline pegged at 3-0 (10% probability). Over 2.5 goals is favored at 76%, while BTTS is close to a coin flip at 52%. Celtic's form supports the pick \u2014 5W 0D 0L in their last five (W W W W W), scoring 14 and conceding 6. Dundee are mixed at 3W 0D 2L (W L W W L), scoring 8 and conceding 8, consistent with the model's lopsided read."
     },
     {
       "home": "FCSB",
@@ -139,107 +139,107 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-03T18:30:00+00:00",
-      "analysis": "**Verdict: FCSB the clear favorites, backed strongly by the model at 60%.**\n\nThe model gives FCSB a 60% chance of victory, well clear of the draw (23%) and a Farul Constanta win (17%) \u2014 a strong pick. Expected goals sit at 1.86 for FCSB against just 0.88 for Farul, and the most likely scoreline is a tight 1-0 (12%). The Over 2.5 (52%) and BTTS (50%) markets are essentially coin flips, suggesting a low-scoring, controlled game rather than an open one. Form supports the gap: FCSB are 2W 1D 2L (W W L D L, scoring 6, conceding 7), while Farul are winless at 0W 3D 2L (D D L L D, scoring 7, conceding 9)."
+      "analysis": "**Verdict: FCSB are strong favorites to beat Farul Constanta.**\n\nThe model gives FCSB a 60% chance of victory, well clear of the draw (23%) and a Farul win (17%). Expected goals sit at 1.86 for FCSB against just 0.88 for Farul, with the most likely scoreline coming in at 1-0 (12%). The Over 2.5 (52%) and BTTS (50%) markets are both essentially coin flips, suggesting goals could come from either end but no clear blowout is nailed on. Form supports the numbers loosely - FCSB are 2W 1D 2L (W W L D L) in their last five, while Farul are winless at 0W 3D 2L (D D L L D), scoring 7 but conceding 9."
     },
     {
       "home": "Sarmiento Junin",
       "away": "Independ. Rivadavia",
       "xg_home": 0.83,
       "xg_away": 0.93,
-      "prob_home": 0.2935166959082077,
-      "prob_draw": 0.3597904570353507,
-      "prob_away": 0.3466928470564416,
-      "over25": 0.2571723011454478,
-      "btts": 0.35328054076374393,
+      "prob_home": 0.2935374745487886,
+      "prob_draw": 0.35977747389277026,
+      "prob_away": 0.34668505155844115,
+      "over25": 0.25720003819939835,
+      "btts": 0.35330612332305883,
       "top_score": "0-0",
-      "top_score_prob": 0.18618344425524297,
+      "top_score_prob": 0.1861646509910629,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.7428276988545521,
+      "primary_prob": 0.7427999618006016,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-03T19:45:00+00:00",
-      "analysis": "**Verdict: A tight, low-scoring affair with no clear favorite \u2014 Under 2.5 goals is the strongest signal here.**\n\nThe three-way market is essentially a coin flip: draw leads narrowly at 36%, with Independ. Rivadavia at 35% and Sarmiento Junin at 29%. Expected goals are modest for both sides (0.83 vs 0.93), and the model's most likely scoreline is 0-0 at 19%. That feeds into a strong 74% call for Under 2.5 goals, backed by just 26% odds of Over 2.5 and a 35% BTTS chance. Form supports the tight profile: Sarmiento Junin (1W 2D 2L, D W D L L) and Independ. Rivadavia (1W 2D 2L, W D L L D) have similar recent output, with neither scoring more than 4 in their last five."
+      "analysis": "**Verdict: A tight, low-scoring affair with no clear favorite \u2014 this one's a coin flip.**\n\nThe model gives Sarmiento Junin 29%, the draw 36%, and Independiente Rivadavia 35%, essentially splitting the outcome three ways. Expected goals are modest for both sides (0.83 vs 0.93), supporting the strong Under 2.5 call at 74%, with the most likely scoreline sitting at 0-0 (19%). BTTS at just 35% reinforces the low-scoring picture. Form mirrors the tightness: both teams sit at 1W 2D 2L in their last five (Sarmiento D W D L L, scoring 4/conceding 6; Rivadavia W D L L D, scoring 4/conceding 5)."
     },
     {
       "home": "Velez Sarsfield",
       "away": "Independiente",
       "xg_home": 0.84,
       "xg_away": 0.85,
-      "prob_home": 0.3129867711738872,
-      "prob_draw": 0.36732292506716463,
-      "prob_away": 0.3196903037589481,
-      "over25": 0.24130358840600838,
-      "btts": 0.33953818990025697,
+      "prob_home": 0.3129557486308301,
+      "prob_draw": 0.3673356105182096,
+      "prob_away": 0.3197086408509602,
+      "over25": 0.24127039325874375,
+      "btts": 0.3395058287380968,
       "top_score": "0-0",
-      "top_score_prob": 0.19677324900868903,
+      "top_score_prob": 0.19679506869240024,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.7586964115939916,
+      "primary_prob": 0.7587296067412562,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-03T22:00:00+00:00",
-      "analysis": "Verdict: Dead-even coin flip on the result, but a clear low-scoring game on paper.\n\nThe model has this three-way split almost identical \u2014 Velez 31%, draw 37%, Independiente 32% \u2014 so no side is favored. Expected goals are nearly matched too (0.84 vs 0.85), pointing to a tight, low-event match, with 0-0 the single most likely scoreline at 20%. That lines up with the primary call: Under 2.5 goals at 76%, rated strong, alongside a modest 34% BTTS and just 24% for Over 2.5. Form contrasts sharply \u2014 Velez are 1W 1D 3L (L D L L W, scored 2/conceded 5) while Independiente are 4W 0D 1L (W W W W L, scored 8/conceded 1) \u2014 yet the goal expectancy still comes out level."
+      "analysis": "Verdict: A genuine coin flip on the result, but a clear low-scoring game expected.\n\nThe model has this fixture almost even \u2014 Velez Sarsfield 31%, draw 37%, Independiente 32% \u2014 essentially a three-way toss-up. Expected goals sit low for both sides (0.84 vs 0.85), backing the strong Under 2.5 call at 76%, with 0-0 the single most likely scoreline at 20% and BTTS at just 34%. Form contrasts sharply: Velez are 1W 1D 3L (L D L L W, scored 2/conceded 5), while Independiente are 4W 0D 1L (W W W W L, scored 8/conceded 1) \u2014 but the model still prices the match tight and defensively minded."
     },
     {
       "home": "Platense",
       "away": "Talleres Cordoba",
       "xg_home": 0.84,
       "xg_away": 0.69,
-      "prob_home": 0.3518475107776602,
-      "prob_draw": 0.38558256518258094,
-      "prob_away": 0.2625699240397588,
-      "over25": 0.19992588717529272,
-      "btts": 0.29675599353022475,
+      "prob_home": 0.35185249131586854,
+      "prob_draw": 0.3855935815353328,
+      "prob_away": 0.26255392714879866,
+      "over25": 0.199899930546884,
+      "btts": 0.29672785236630955,
       "top_score": "0-0",
-      "top_score_prob": 0.22795967462322536,
+      "top_score_prob": 0.22798030706901018,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.8000741128247073,
+      "primary_prob": 0.800100069453116,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-03T22:00:00+00:00",
-      "analysis": "**Verdict: A low-scoring, tight affair with no clear favorite \u2014 draw is the model's top pick at 39%.**\n\nPlatense sit at 35% to win, Talleres Cordoba at 26%, with the draw leading at 39% \u2014 essentially a coin flip across all three outcomes. Expected goals are modest for both sides (0.84 vs 0.69), and the model's primary call is Under 2.5 goals at 80%, a strong signal, with the most likely scoreline set at 0-0 (23%). BTTS sits low at 30%, reinforcing the tight, low-event forecast. Form supports the caution: Platense have gone L L D L L (0W 1D 4L, scoring just 1 in 5), while Talleres are L D W W L (2W 1D 2L, scoring 2 in 5)."
+      "analysis": "**Verdict: A low-scoring, tight affair \u2014 draw shades it at 39%, with Under 2.5 the standout play at 80%.**\n\nThe model gives Platense 35%, the draw 39%, and Talleres 26% \u2014 essentially a three-way coin flip tilted slightly toward a stalemate. Expected goals are modest for both sides (0.84 vs 0.69), aligning with a 23% chance of a 0-0 as the single most likely scoreline and BTTS at just 30%. Form supports the low-scoring picture: Platense arrive on L L D L L (0W 1D 4L, scoring 1/conceding 9), while Talleres are L D W W L (2W 1D 2L, scoring 2/conceding 4). With Over 2.5 at only 20%, the strong 80% Under 2.5 call is the headline number here."
     },
     {
       "home": "Huracan",
       "away": "Atletico Tucuman",
       "xg_home": 1.35,
       "xg_away": 0.74,
-      "prob_home": 0.503068457480446,
-      "prob_draw": 0.30590786209774773,
-      "prob_away": 0.1910236804218062,
-      "over25": 0.3470387401997819,
-      "btts": 0.3981437954177995,
+      "prob_home": 0.5030678883804316,
+      "prob_draw": 0.30590647822844697,
+      "prob_away": 0.19102563339112139,
+      "over25": 0.3470383152074585,
+      "btts": 0.3981430887869373,
       "top_score": "1-0",
-      "top_score_prob": 0.15547873954674934,
+      "top_score_prob": 0.1554794876563753,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.6529612598002181,
+      "primary_prob": 0.6529616847925415,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-04T00:15:00+00:00",
-      "analysis": "**Verdict: Huracan favored but no blowout expected \u2014 expect a tight, low-scoring affair.**\n\nHuracan sit at 50% to win versus 31% for the draw and just 19% for Atletico Tucuman, giving the hosts a clear edge without dominance. Expected goals of 1.35 to 0.74 support a narrow scoreline, and the model's most likely result is 1-0 at 16%. The primary call is Under 2.5 goals at 65% (strong), backed by Over 2.5 sitting at only 35% and BTTS at 40%. Form has been rough for both sides \u2014 Huracan are 1W 1D 3L (D L W L L), Atletico Tucuman 1W 0D 4L (L W L L L) \u2014 consistent with a game where goals are hard to come by."
+      "analysis": "Huracan are favorites at 50%, with the draw at 31% and Atletico Tucuman at just 19%.\n\nExpected goals sit at 1.35 for Huracan against 0.74 for Tucuman, pointing to a low-scoring, home-tilted contest \u2014 the model's most likely score is 1-0 at 16%. That aligns with a strong Under 2.5 call at 65%, backed by Over 2.5 at just 35% and BTTS at 40%. Recent form fits the modest goal expectations: Huracan are 1W 1D 3L (D L W L L, scored 4/conceded 7), while Tucuman are 1W 0D 4L (L W L L L, scored 4/conceded 11)."
     },
     {
       "home": "Central Cordoba de Santiago",
       "away": "San Lorenzo",
       "xg_home": 1.02,
       "xg_away": 0.78,
-      "prob_home": 0.39058939855087726,
-      "prob_draw": 0.35169262542070723,
-      "prob_away": 0.2577179760284154,
-      "over25": 0.26849882087691296,
-      "btts": 0.3583347995496944,
+      "prob_home": 0.3905734264696288,
+      "prob_draw": 0.3516986011873883,
+      "prob_away": 0.25772797234298284,
+      "over25": 0.2684829783211207,
+      "btts": 0.35832187881607463,
       "top_score": "0-0",
-      "top_score_prob": 0.17886345958083857,
+      "top_score_prob": 0.17887227799740946,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.731501179123087,
+      "primary_prob": 0.7315170216788793,
       "primary_strength": "strong",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-04T00:15:00+00:00",
-      "analysis": "Verdict: A tight, low-scoring affair leans slightly toward the hosts, but this is close to a coin flip.\n\nCentral Cordoba (39%) hold a narrow edge over San Lorenzo (26%), with a draw at 35% underlining how even the model sees this. Expected goals are modest for both sides, 1.02 vs 0.78, and the most likely scoreline is 0-0 at 18%. The headline call is Under 2.5 goals at 73% (\"strong\"), backed by BTTS at just 36% and Over 2.5 at only 27%. Central Cordoba's form (1W 3D 1L, L W D D D) has been low-scoring, while San Lorenzo (2W 2D 1L, L D D W W) have been slightly more open \u2014 but the model still expects a tight, defensive match overall."
+      "analysis": "Verdict: A tight, low-scoring affair, with Central Cordoba the slight favorite but no side clearly on top.\n\nThe model gives Central Cordoba 39%, the draw 35%, and San Lorenzo just 26% \u2014 essentially a three-way coin flip with a mild home edge. Expected goals sit low at 1.02 vs 0.78, and the model's clearest signal is Under 2.5 goals at 73% (strong), backed by a 0-0 as the most likely scoreline (18%) and BTTS at just 36%. Central Cordoba come in on 1W 3D 1L (L W D D D, 3 scored/3 conceded), while San Lorenzo are 2W 2D 1L (L D D W W, 5 scored/4 conceded) \u2014 both patterns fit a cagey, tight match."
     },
     {
       "home": "Union St. Gilloise",
@@ -259,27 +259,27 @@
       "league": "Champions League",
       "league_id": 2,
       "kickoff": "2026-08-04T18:00:00+00:00",
-      "analysis": "Bodo/Glimt hold the edge, with the model giving them 49% to win against 28% for Union St. Gilloise and 23% for the draw. Expected goals sit at 1.73 for Bodo/Glimt versus 1.24 for Union, backing a projected 1-1 as the single most likely scoreline at just 11%. Both teams should find the net \u2014 BTTS: Yes is the primary call at 58%, with over 2.5 goals also favored at 57%. Form supports Bodo/Glimt's superior expected output: they're 4W 0D 1L (W W W W L... sequence L W W W W) scoring 10 and conceding 8 in their last five, while Union are 2W 0D 3L (W L L W L), scoring 5 and conceding 8."
+      "analysis": "Bodo/Glimt are the model's favorites, but this leans rather than convinces.\n\nThe model gives Bodo/Glimt 49% to win against 28% for Union St. Gilloise and 23% for the draw \u2014 a clear edge, not a lock. Expected goals sit at 1.73 for Bodo/Glimt versus 1.24 for Union St. Gilloise, pointing to a tight, goal-friendly contest, backed by a 57% Over 2.5 and 58% BTTS reading. The most likely scoreline is 1-1 at just 11%, underlining how open this is. Form supports the numbers: Bodo/Glimt come in on 4W 0D 1L (L W W W W, 10 scored/8 conceded) while Union St. Gilloise sit at 2W 0D 3L (W L L W L, 5 scored/8 conceded). Primary call: BTTS Yes at 58%, a lean."
     },
     {
       "home": "Boca Juniors",
       "away": "Estudiantes L.P.",
       "xg_home": 1.67,
       "xg_away": 0.72,
-      "prob_home": 0.5933011166455455,
-      "prob_draw": 0.26080993838342087,
-      "prob_away": 0.14588894497103358,
-      "over25": 0.42751542710620316,
-      "btts": 0.426016533517119,
+      "prob_home": 0.5933410284090499,
+      "prob_draw": 0.2607925320077618,
+      "prob_away": 0.14586643958318837,
+      "over25": 0.4275291780665147,
+      "btts": 0.42600461146395735,
       "top_score": "1-0",
-      "top_score_prob": 0.14261778697020938,
+      "top_score_prob": 0.1426207424779785,
       "primary_pick": "Boca Juniors win",
-      "primary_prob": 0.5933011166455455,
+      "primary_prob": 0.5933410284090499,
       "primary_strength": "lean",
       "league": "Argentina Primera",
       "league_id": 128,
       "kickoff": "2026-08-05T22:00:00+00:00",
-      "analysis": "**Verdict: Boca Juniors are favored (59%) in a moderate lean over Estudiantes L.P.**\n\nThe model gives Boca 59% to win, with a draw at 26% and Estudiantes at just 15%, making the away upset unlikely. Expected goals sit at 1.67 for Boca versus 0.72 for Estudiantes, pointing to a low-scoring, Boca-controlled game \u2014 the most likely scoreline is 1-0 at 14%. Both Over 2.5 (43%) and BTTS (43%) lean toward \"no,\" reinforcing a tight, low-goal script. Boca's form backs this up with 4W 0D 1L (L W W W W) and 7 scored/1 conceded, while Estudiantes' 3W 1D 1L (D W W W L) shows they're competitive but facing a stronger current run."
+      "analysis": "**Verdict: Boca Juniors are the lean pick at 59%, but this is no lock.**\n\nThe model gives Boca 59% to win, with a draw at 26% and Estudiantes at just 15%, making an upset a genuine long shot. Expected goals favor Boca 1.67 to 0.72, and the most likely scoreline is a tight 1-0 (14%), reflecting a low-scoring lean\u2014Over 2.5 goals and BTTS both sit at 43%. Boca's form backs the numbers: 4W 0D 1L in their last five (L W W W W), scoring 7 and conceding just 1. Estudiantes are solid too at 3W 1D 1L (D W W W L), scoring 5 and conceding 3, but the model still rates them clear underdogs here."
     },
     {
       "home": "Jagiellonia",
@@ -299,7 +299,7 @@
       "league": "Europa League",
       "league_id": 3,
       "kickoff": "2026-08-06T16:00:00+00:00",
-      "analysis": "Rangers are strongly favored to win this one.\n\nThe model gives Rangers a 78% chance of victory, against just 8% for Jagiellonia and 14% for a draw \u2014 a clear, one-sided call. Expected goals back this up heavily, 2.25 for Rangers versus only 0.52 for Jagiellonia, with the most likely scoreline sitting at 0-2 (16%). Over 2.5 goals is close to a coin flip at 52%, while BTTS sits lower at 35%. Recent form shows Jagiellonia have lost their last two (L L), scoring 1 and conceding 7, while Rangers' sequence (L W L D L) is shakier but still enough for the model to back them strongly here."
+      "analysis": "Rangers are strongly favored to win this one.\n\nThe model gives Rangers a 78% chance of victory, against just 8% for Jagiellonia and 14% for a draw \u2014 a clear, strong pick. Expected goals back this up heavily, 2.25 for Rangers versus only 0.52 for Jagiellonia, with the most likely scoreline coming in at 0-2 (16%). The Over 2.5 market sits close to even at 52%, while BTTS is unfavored at 35%. Recent form is rough for both sides \u2014 Jagiellonia have lost their last two (L L), scoring 1 and conceding 7, while Rangers are 1W 1D 3L in their last five (L W L D L), scoring 4 and conceding 8 \u2014 but the model still leans firmly toward Rangers here."
     },
     {
       "home": "Lech Poznan",
@@ -319,7 +319,7 @@
       "league": "Europa League",
       "league_id": 3,
       "kickoff": "2026-08-06T17:00:00+00:00",
-      "analysis": "Lech Poznan are strong favorites to win an extremely high-scoring shootout.\n\nThe model gives Lech Poznan a 79% chance to win, against just 8% for a draw and 13% for KI Klaksvik. Expected goals sit at 7.93 for Lech versus 4.23 for Klaksvik, which is why Over 2.5 goals is rated at 100% and BTTS at 98% \u2014 this is projected as a goal-fest for both sides. The most likely single scoreline is 7-4, though even that carries only a 3% probability given how open the model sees this game. Recent form fits the profile: Lech went W L (1W 0D 1L, scoring 3 and conceding 6 in their last two), while Klaksvik went L W (1W 0D 1L, scoring 3 and conceding 4) \u2014 both leaking goals."
+      "analysis": "Verdict: Lech Poznan are strongly favored (79%) in a match the model expects to be a goal avalanche.\n\nThe projected scoreline of 7.93 expected goals for Lech against 4.23 for KI Klaksvik points to an extremely open, high-scoring affair, backed by a 100% Over 2.5 call and 98% BTTS. The model's most likely exact score is 7-4, though even that carries just a 3% probability given how many scorelines fit this profile. KI Klaksvik retain a 13% path to the win, with the draw a low 8%. Recent form supports the goals theme: Lech scored 3 and conceded 6 in their last two, while Klaksvik scored 3 and conceded 4 in theirs, each going 1W 0D 1L across their last two results."
     },
     {
       "home": "Petrolul Ploiesti",
@@ -339,7 +339,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-07T15:30:00+00:00",
-      "analysis": "**Verdict: A genuine three-way coin flip, but low scoring is the strong play.**\n\nThe model has this almost dead level \u2014 O\u0163elul 36%, Petrolul 32%, draw 32% \u2014 essentially a toss-up on the result. Expected goals are modest for both sides (O\u0163elul 1.03, Petrolul 0.96), and the most likely scoreline is 0-0 at 14%. That feeds the standout number here: Under 2.5 goals at 68%, a strong call, with Over 2.5 just 32% and BTTS at 40%. Form contrasts sharply \u2014 O\u0163elul come in on 3W 2D 0L (W W D D W, scored 12/conceded 6), while Petrolul are 0W 3D 2L (L D D L D, scored 5/conceded 11) \u2014 but the model still sees the match outcome as balanced."
+      "analysis": "**Verdict: A genuine three-way coin flip, but a low-scoring one.**\n\nThe model gives O\u0163elul a slight edge at 36% against Petrolul's 32%, with draw also at 32% \u2014 essentially even odds across the board. Expected goals are modest for both sides (Petrolul 0.96, O\u0163elul 1.03), supporting the strong Under 2.5 call at 68%, with the most likely scoreline just 0-0 at 14%. BTTS sits below half at 40%, reinforcing a tight, low-event game. Form contrasts sharply: Petrolul are winless (0W 3D 2L, L D D L D, scoring 5/conceding 11), while O\u0163elul arrive unbeaten (3W 2D 0L, W W D D W, scoring 12/conceding 6) \u2014 yet the model still sees this as a near-even contest goals-wise."
     },
     {
       "home": "Cambuur",
@@ -359,7 +359,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-07T18:00:00+00:00",
-      "analysis": "Excelsior are strongly favored to win this one.\n\nThe model gives Excelsior a 70% chance of victory, against just 11% for Cambuur and 20% for a draw. Expected goals back this up heavily, 2.29 for Excelsior versus only 0.81 for Cambuur, with the most likely scoreline sitting at 0-2 (12% probability). It fits the recent picture: Excelsior come in unbeaten in their last five (3W 2D 0L, W D W W D) with 14 goals scored, while Cambuur have managed just 1 goal and conceded 2 across their last two (D L). Over 2.5 goals is favored at 60%, with BTTS close to even at 51%."
+      "analysis": "Excelsior are strongly favored to win at Cambuur.\n\nThe model gives Excelsior 70% to take all three points, against just 11% for Cambuur and 20% for a draw \u2014 a clear, strong lean. Expected goals back this up heavily, 2.29 for Excelsior versus only 0.81 for Cambuur, with the most likely scoreline sitting at 0-2 (12%). There's a solid chance of goals overall, with over 2.5 goals at 60% and BTTS at 51%, essentially a coin flip on both teams scoring. Form supports the numbers: Excelsior arrive on 3W 2D 0L (W D W W D), scoring 14 and conceding 7 in that spell, while Cambuur have managed just 0W 1D 1L, scoring 1 and conceding 2 in their last two."
     },
     {
       "home": "Uta Arad",
@@ -379,7 +379,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-07T18:30:00+00:00",
-      "analysis": "**Verdict: A tight, low-scoring toss-up, with Rapid holding the slimmest of edges.**\n\nThe model gives Rapid 38%, Uta Arad 34%, and the draw 29% \u2014 essentially a three-way coin flip. Expected goals are near-identical (1.24 vs 1.15), pointing to the 1-1 scoreline as the single most likely outcome at 14%. The primary call leans Under 2.5 goals at 57%, backed by BTTS sitting under half at 49% and Over 2.5 at just 43%. Form tells a contrasting story: Uta Arad are unbeaten in five (W W D D L, 2W 2D 1L, scored 3 conceded 2), while Rapid have lost three straight (D D L L L, 0W 2D 3L, scored 4 conceded 8) \u2014 yet the model still edges them narrowly on the scoreline."
+      "analysis": "Verdict: A tight, low-scoring three-way toss-up with Rapid holding the slightest edge.\n\nThe model gives Rapid 38% to win, Uta Arad 34%, and a draw 29% \u2014 essentially a coin flip. Expected goals are modest for both sides (1.24 for Rapid, 1.15 for Uta Arad), supporting the Under 2.5 lean at 57% and a most-likely score of 1-1 (14%). BTTS sits at 49%, another coin flip. Uta Arad arrive in decent form (2W 2D 1L, W W D D L), while Rapid have struggled (0W 2D 3L, D D L L L, conceding 8 in five games), though the model still edges them narrowly in the win market."
     },
     {
       "home": "Club Brugge KV",
@@ -399,27 +399,27 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-07T18:45:00+00:00",
-      "analysis": "Club Brugge are heavily favored to beat Kortrijk, with the model giving them an 84% win probability against just 5% for Kortrijk (11% draw) \u2014 a strong, clear-cut call.\n\nThe expected goals split, 3.28 to 0.81, reflects Brugge's dominant recent form (4W 1D 0L, scoring 17 and conceding just 3 in their last 5, sequence W D W W W). Kortrijk arrive with a decent record of their own (3W 1D 1L, W W D L W... actually D W L W W), scoring 10 and conceding 6, but that hasn't moved the needle here.\n\nThe model leans toward goals: 77% for over 2.5 and 54% for both teams to score, with 3-0 the single most likely scoreline at 10%."
+      "analysis": "Club Brugge KV are strongly favored to beat Kortrijk.\n\nThe model gives Club Brugge an 84% win probability, well clear of the draw (11%) and Kortrijk's 5%. Expected goals sit at 3.28 for Brugge against just 0.81 for Kortrijk, with the most likely scoreline pegged at 3-0 (10% probability). The Over 2.5 goals figure (77%) points to a high-scoring affair, while BTTS at 54% is close to a coin flip. Supporting the numbers, Brugge come in on a 4W 1D 0L run (W D W W W), scoring 17 and conceding just 3, while Kortrijk's 3W 1D 1L (D W L W W) form, with 10 scored and 6 conceded, still leaves them well behind statistically."
     },
     {
       "home": "Estoril",
       "away": "Famalicao",
       "xg_home": 1.27,
       "xg_away": 1.38,
-      "prob_home": 0.34546148121379144,
-      "prob_draw": 0.2587993066185018,
-      "prob_away": 0.395739212167707,
-      "over25": 0.4939912832653572,
-      "btts": 0.5373391288975866,
+      "prob_home": 0.34543877423606445,
+      "prob_draw": 0.25879211932814117,
+      "prob_away": 0.3957691064357941,
+      "over25": 0.49399335541715134,
+      "btts": 0.5373362442509305,
       "top_score": "1-1",
-      "top_score_prob": 0.12295521947151926,
+      "top_score_prob": 0.12295164959328093,
       "primary_pick": "BTTS: Yes",
-      "primary_prob": 0.5373391288975866,
+      "primary_prob": 0.5373362442509305,
       "primary_strength": "lean",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-07T19:15:00+00:00",
-      "analysis": "Verdict: A tight, low-scoring affair leaning slightly toward Famalicao, with BTTS the clearest signal.\n\nThe model gives Famalicao 40% to win against Estoril's 35%, with 26% for a draw \u2014 essentially a coin flip with a slight edge to the visitors. Expected goals are close too, 1.38 for Famalicao versus 1.27 for Estoril, pointing to the model's most likely scoreline of 1-1 (12%). BTTS: Yes sits at 54%, a lean rather than a strong call, backed by over 2.5 goals at 49%. Form supports the slight tilt: Famalicao are unbeaten in their last five (2W 3D 0L, W D D W D, scoring 6/conceding 4), while Estoril have struggled (0W 2D 3L, L D D L L, scoring 3/conceding 7)."
+      "analysis": "**Verdict: Famalicao edge as slight favorites, but this is close to a coin flip.**\n\nThe model gives Famalicao 40% to win against Estoril's 35%, with a 26% draw chance \u2014 no side has real conviction here. Expected goals sit tight too, 1.38 for Famalicao vs 1.27 for Estoril, with the most likely scoreline a 1-1 (12%). BTTS: Yes is the lean pick at 54%, and Over 2.5 sits at 49%, basically a toss-up. Form supports the numbers: Famalicao are unbeaten in five (2W 3D 0L, W D D W D, scoring 6/conceding 4), while Estoril have struggled (0W 2D 3L, L D D L L, scoring 3/conceding 7)."
     },
     {
       "home": "ST Mirren",
@@ -439,7 +439,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-08T14:00:00+00:00",
-      "analysis": "St Mirren are favourites, but nothing here is overwhelming.\n\nThe model gives St Mirren 48% to win, with a draw at 29% and St Johnstone at 23% \u2014 a lean toward the hosts rather than a certainty. Expected goals sit at 1.36 for St Mirren against 0.86 for St Johnstone, feeding into a most-likely scoreline of 1-0 (14%). The clearest signal is Under 2.5 goals at 62% (\"strong\"), backed by Over 2.5 sitting at just 38% and BTTS at 43%. Form supports the tighter scoreline picture: St Mirren are 2W 2D 1L (W D D W L), while St Johnstone slumped to 1W 0D 4L (L L W L L), conceding 10 in their last five."
+      "analysis": "St Mirren are favourites, but this points to a tight, low-scoring affair rather than a rout.\n\nThe model gives St Mirren 48% to win, with a draw at 29% and St Johnstone at 23% \u2014 a clear edge for the hosts without being dominant. Expected goals sit at 1.36 for St Mirren against 0.86 for St Johnstone, and the most likely scoreline is 1-0 at 14%. The headline call is Under 2.5 goals at 62% (strong), backed by Over 2.5 sitting at just 38% and BTTS at 43%. St Mirren's recent form (2W 2D 1L, W D D W L) looks steadier than St Johnstone's (1W 0D 4L, L L W L L, conceding 10 in five), fitting a narrow home edge."
     },
     {
       "home": "Dundee",
@@ -459,7 +459,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-08T14:00:00+00:00",
-      "analysis": "Dundee hold the edge, but this is far from a sure thing.\n\nThe model gives Dundee 45% to win, with Aberdeen at 29% and the draw at 26% \u2014 a lean toward the hosts rather than a strong favorite. Expected goals sit at 1.53 for Dundee versus 1.18 for Aberdeen, supporting a tight, low-scoring contest, with the most likely scoreline pegged at 1-1 (12%). BTTS: Yes is the primary call at 55% (a lean, not a strong conviction), while over 2.5 goals is essentially a coin flip at 51%. Dundee's form reads 3W 0D 2L (W L W W L, 8 scored/8 conceded), while Aberdeen's is 2W 1D 2L (L L W D W, 7 scored/7 conceded) \u2014 both sides have shown they can score and concede freely."
+      "analysis": "Dundee hold the edge, but this one's far from settled.\n\nThe model gives Dundee 45% to win against Aberdeen's 29%, with a draw sitting at 26% \u2014 enough separation to favor the home side without real conviction. Expected goals (1.53 vs 1.18) point to a tight, competitive contest, and the most likely scoreline is 1-1 at just 12%. BTTS: Yes is the lean pick at 55%, with over 2.5 goals close to a coin flip at 51%. Dundee's last 5 (3W 0D 2L, W L W W L, 8 scored/8 conceded) and Aberdeen's (2W 1D 2L, L L W D W, 7 scored/7 conceded) both show goals at both ends, supporting that BTTS lean."
     },
     {
       "home": "NEC Nijmegen",
@@ -479,7 +479,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-08T14:30:00+00:00",
-      "analysis": "**Verdict: NEC Nijmegen is favored at 60%, with goals expected at both ends.**\n\nThe model gives Telstar just 19% and the draw 21%, making NEC the clear pick despite a modest recent run of 1W 3D 1L (W L D D D), scoring 6 and conceding 6 in that span. Telstar arrive in better form, 3W 1D 1L (W W D W L) with 11 scored and 7 conceded, but the model still sees NEC's expected goals edge (2.32 vs 1.28) as decisive. Over 2.5 goals is the strongest signal here at 70%, backed by a 66% BTTS rate, and the most likely scoreline is 2-1 at 9%."
+      "analysis": "NEC Nijmegen are clear favorites, and the model backs a goal-heavy game in Nijmegen.\n\nThe model gives NEC a 60% chance to win, with the draw at 21% and Telstar at just 19%. Expected goals sit at 2.32 for NEC versus 1.28 for Telstar, feeding into a 70% probability of Over 2.5 goals \u2014 the model's strongest and primary call \u2014 plus a 66% chance both teams score. The most likely scoreline is 2-1, at just 9%, showing no single result dominates. NEC's form is mixed (1W 3D 1L, W L D D D, scoring 6 and conceding 6), while Telstar arrive hotter (3W 1D 1L, W W D W L, scoring 11 and conceding 7), which helps explain the BTTS lean despite NEC's clear favorite tag."
     },
     {
       "home": "Farul Constanta",
@@ -499,7 +499,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-08T15:30:00+00:00",
-      "analysis": "Verdict: Farul Constanta are favored but not convincingly so, with an Under 2.5 lean giving this a low-scoring feel.\n\nThe model gives Farul 53% to win against 26% for the draw and 21% for Csikszereda, with expected goals of 1.6 to 0.93 favoring the hosts. The most likely scoreline is a narrow 1-0 (12%), backed by an Under 2.5 lean at 54% and BTTS sitting at a coin-flip 49%. Farul's form reads D D L L D (0W 3D 2L, scored 7, conceded 9), while Csikszereda arrive in better shape at W L W D W (3W 1D 1L, scored 6, conceded 3) \u2014 yet the model still leans toward a tight, low-scoring Farul win."
+      "analysis": "Farul Constanta are favored, but this one leans cautious rather than convincing.\n\nThe model gives Farul Constanta 53% to win, with a draw at 26% and Csikszereda at 21%. Expected goals sit at 1.6 to 0.93 in the hosts' favor, supporting a projected edge without pointing to a rout \u2014 the most likely scoreline is a narrow 1-0 at just 12% probability. The primary call is Under 2.5 goals at 54%, a lean rather than a strong signal, backed by Over 2.5 at only 46% and BTTS a near coin-flip at 49%. Form contrasts sharply: Farul are winless in their last five (0W 3D 2L, D D L L D, scoring 7/conceding 9), while Csikszereda arrive in better shape (3W 1D 1L, W L W D W, scoring 6/conceding 3)."
     },
     {
       "home": "Standard Liege",
@@ -519,7 +519,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-08T16:15:00+00:00",
-      "analysis": "Standard Liege hold a slight edge, but this one leans tight and low-scoring.\n\nThe model gives Standard Liege 42% to win against 28% for Cercle Brugge, with the draw at 31% \u2014 a genuine three-way coin flip. Expected goals sit at 1.31 for Standard Liege and 1.02 for Cercle Brugge, pointing to the model's Under 2.5 lean (59%) and a most likely score of 1-1 (14%), with BTTS at 48%. Standard Liege arrive in better form (3W 1D 1L, L W D W W, scoring 9/conceding 4) than Cercle Brugge (3W 0D 2L, L L W W W, scoring 12/conceding 9), though the model still projects a fairly cagey, low-goal contest."
+      "analysis": "Verdict: Standard Liege hold a slight edge at home, but this leans toward a low-scoring, tight contest.\n\nThe model gives Standard Liege 42% to win, with the draw at 31% and Cercle Brugge at 28% \u2014 essentially a three-way coin flip with a mild home tilt. Expected goals sit at 1.31 for Standard Liege and 1.02 for Cercle Brugge, supporting the Under 2.5 pick at 59% (a lean, not a strong call), while BTTS sits near even at 48%. The most likely scoreline is 1-1 at 14%. Form-wise, Standard Liege arrive on 3W 1D 1L (L W D W W, 9 scored/4 conceded), while Cercle Brugge are 3W 0D 2L (L L W W W, 12 scored/9 conceded), consistent with a closer-than-the-table-suggests matchup."
     },
     {
       "home": "GO Ahead Eagles",
@@ -539,27 +539,27 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-08T16:45:00+00:00",
-      "analysis": "**GO Ahead Eagles favored at 65% in a clash of shaky form.**\n\nThe model backs GO Ahead Eagles strongly (65% win, \"strong\" primary call), with expected goals of 2.1 against Willem II's 0.86, and 2-0 as the most likely score at 11%. This comes despite the Eagles' rough patch \u2014 0W 3D 2L (L L D D D), scoring just 4 and conceding 8 in their last five. Willem II arrive with 1W 2D 2L (L D W L D), scoring 8 but conceding 10. Over 2.5 goals sits at 57% and BTTS at 52% \u2014 essentially a coin flip on both markets, with the draw a real alternative at 22% and Willem II a long shot at just 13%."
+      "analysis": "Go Ahead Eagles are strong favorites here, and the model backs it clearly.\n\nThe model gives Go Ahead Eagles 65% to win, with the draw at 22% and Willem II at just 13% \u2014 a strong home pick. Expected goals sit at 2.1 for Go Ahead Eagles versus 0.86 for Willem II, and the most likely scoreline is 2-0 (11%). Over 2.5 goals is favored at 57%, and BTTS is close to a coin flip at 52%. Form doesn't scream dominance for either side \u2014 Go Ahead Eagles are 0W 3D 2L (L L D D D), Willem II 1W 2D 2L (L D W L D) \u2014 but the model's numbers still lean heavily toward a home win."
     },
     {
       "home": "Guimaraes",
       "away": "Arouca",
       "xg_home": 1.75,
       "xg_away": 1.22,
-      "prob_home": 0.49990615884274586,
-      "prob_draw": 0.23349777060901009,
-      "prob_away": 0.2665960705482441,
-      "over25": 0.5700111421307402,
-      "btts": 0.5812405984759698,
+      "prob_home": 0.49998813145258514,
+      "prob_draw": 0.23348091374098998,
+      "prob_away": 0.26653095480642475,
+      "over25": 0.5700107382217519,
+      "btts": 0.5812166789713947,
       "top_score": "1-1",
-      "top_score_prob": 0.10870489823945234,
+      "top_score_prob": 0.10869772048189509,
       "primary_pick": "BTTS: Yes",
-      "primary_prob": 0.5812405984759698,
+      "primary_prob": 0.5812166789713947,
       "primary_strength": "lean",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-08T17:00:00+00:00",
-      "analysis": "Guimaraes are favored but this one leans only slightly their way.\n\nThe model gives Guimaraes 50% to win, with Arouca at 27% and the draw at 23% \u2014 a clear edge, not a lock. Expected goals sit at 1.75 for Guimaraes to 1.22 for Arouca, supporting the 57% chance of over 2.5 goals and a 58% lean toward BTTS: Yes, the model's primary call. The most likely scoreline is a modest 1-1 at just 11%. Form contrasts sharply: Guimaraes are 2W 0D 3L (L L L W W, scored 4/conceded 8), while Arouca come in hotter at 3W 1D 1L (W W D L W, scored 10/conceded 6)."
+      "analysis": "Guimaraes are favored but not comfortably so \u2014 this is a moderate edge, not a lock.\n\nThe model gives Guimaraes 50% to win, with Arouca at 27% and the draw at 23%. Expected goals sit at 1.75 for Guimaraes versus 1.22 for Arouca, supporting a lean toward BTTS: Yes at 58%, with overs at 57%. Arouca arrive in better form (3W 1D 1L, W W D L W, scoring 10 and conceding 6) than Guimaraes (2W 0D 3L, L L L W W, scoring 4 and conceding 8), which helps explain why the home edge isn't larger. The most likely single scoreline is 1-1 at just 11%, reflecting a genuinely open game."
     },
     {
       "home": "PSV Eindhoven",
@@ -579,7 +579,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-08T18:00:00+00:00",
-      "analysis": "**Verdict: PSV are heavy favorites, with the model giving them an 86% chance to win.**\n\nThe expected-goals split (3.81 vs 0.97) points to a lopsided game, backed by PSV's 4W 1D 0L run (W W D W W) and 19 goals scored/5 conceded in their last five. Fortuna arrive out of form at 1W 1D 3L (L W L L D), managing just 6 goals scored while conceding 9. The model leans strongly toward goals here too, with over 2.5 at 86% and BTTS at 61%, and pegs 3-0 as the single most likely scoreline at 8%. Draw (9%) and a Fortuna win (5%) are both marginal side outcomes."
+      "analysis": "PSV are heavy favorites, and the model backs it strongly at 86%.\n\nPSV's expected goals sit at 3.81 against just 0.97 for Fortuna, pointing to a lopsided contest. The model gives just 9% to a draw and 5% to a Fortuna win, while over 2.5 goals sits at 86% and the most likely scoreline is 3-0 (8%). PSV's form supports this: 4W 1D 0L in their last five (W W D W W), scoring 19 and conceding just 5. Fortuna arrive out of form at 1W 1D 3L (L W L L D), scoring 6 and conceding 9. BTTS is a near coin-flip at 61%, but the headline is a clear, one-sided PSV win."
     },
     {
       "home": "Dinamo Bucuresti",
@@ -599,7 +599,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-08T18:30:00+00:00",
-      "analysis": "Verdict: Dinamo Bucuresti are moderate favorites, with goals expected at both ends.\n\nThe model gives Dinamo a 54% chance of victory, against 23% for a draw and 23% for FC Voluntari \u2014 a clear edge, but not a dominant one. Expected goals sit at 1.94 for Dinamo versus 1.2 for Voluntari, supporting the strong 61% Over 2.5 call and a 60% BTTS rate. The most likely single scoreline is actually 1-1 at 10%, showing how tight things could get despite the favorite tag. Dinamo's recent form reads 1W 2D 2L (L D D W L, 5 scored/6 conceded), while Voluntari sit at 2W 0D 2L (W L L W, 7 scored/5 conceded in 4) \u2014 both leaky enough to fuel the goals expectation."
+      "analysis": "Verdict: Dinamo Bucuresti are moderate favorites at 54%, with goals expected at both ends.\n\nThe model gives Dinamo a 54% chance to win, against 23% for a draw and 23% for FC Voluntari \u2014 a real edge for the hosts, but far from a lock. Expected goals sit at 1.94 for Dinamo versus 1.2 for Voluntari, supporting the 61% Over 2.5 call, rated a strong pick, alongside 60% BTTS. The most likely single scoreline is 1-1 at just 10%, showing no result stands out strongly. Form has been mixed: Dinamo are 1W 2D 2L (L D D W L, scored 5, conceded 6), while Voluntari are 2W 0D 2L (W L L W, scored 7, conceded 5 in last 4)."
     },
     {
       "home": "KVC Westerlo",
@@ -619,7 +619,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-08T18:45:00+00:00",
-      "analysis": "Union St. Gilloise are favored at 59%, a clear lean but not a lock, with the draw (26%) well ahead of a Westerlo upset (15%).\n\nThe expected goals split, 0.77 for Westerlo vs 1.73 for Union, points to a comfortable edge for the visitors, and the model's most likely scoreline is a tight 0-1 at 13%. Over 2.5 goals sits at 45% and BTTS at 45%, both essentially coin flips. Form supports the lean: Westerlo have gone L L W L D (1W 1D 3L, scored 5, conceded 10), while Union are W D L W L (2W 1D 2L, scored 9, conceded 8), a steadier goal-scoring record backing their favorite status."
+      "analysis": "Union St. Gilloise are moderate favorites at Westerlo.\n\nThe model gives Union St. Gilloise a 59% chance to win, with Westerlo at just 15% and the draw at 26% \u2014 a clear lean rather than a lock. Expected goals sit at 1.73 for Union St. Gilloise versus 0.77 for Westerlo, pointing to a low-scoring edge for the visitors, and the most likely scoreline is 0-1 at 13%. With over 2.5 goals at 45% and BTTS also at 45%, both are essentially coin flips. Form supports the lean: Westerlo have gone 1W 1D 3L (L L W L D), conceding 10 in five games, while Union St. Gilloise sit at 2W 1D 2L (W D L W L), scoring 9."
     },
     {
       "home": "St. Truiden",
@@ -639,7 +639,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-08T18:45:00+00:00",
-      "analysis": "St. Truiden hold a slight edge, but this one leans toward goals at both ends.\n\nThe model gives St. Truiden 42% to win against Lommel United's 32%, with draw at 26% \u2014 a modest home tilt rather than a clear favorite. Expected goals sit close, 1.69 to 1.45, and BTTS is the strongest signal at 64%, backed by over 2.5 goals at 61%. The most likely single scoreline is 1-1 at just 12%, reflecting how open the model sees this. Form supports the goal expectation: St. Truiden are W L D L W (2W 1D 2L, 7 scored/7 conceded), while Lommel United ride a hot streak, D W W W W (4W 1D 0L, 11 scored/5 conceded)."
+      "analysis": "St. Truiden hold a slight edge, but this is far from decisive.\n\nThe model gives St. Truiden 42% to win against Lommel United's 32%, with a 26% draw chance \u2014 a moderate lean, not a coin flip but close to one. Expected goals sit at 1.69 for St. Truiden versus 1.45 for Lommel United, supporting the 61% Over 2.5 and a strong 64% BTTS call, with 1-1 the single most likely score at 12%. Form backs the goal expectation: St. Truiden are 2W 1D 2L (W L D L W, scored 7/conceded 7), while Lommel United are in better shape at 4W 1D 0L (D W W W W, scored 11/conceded 5). Expect goals at both ends."
     },
     {
       "home": "AZ Alkmaar",
@@ -659,87 +659,87 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-08T19:00:00+00:00",
-      "analysis": "AZ Alkmaar are heavy favorites here, and the model backs it strongly.\n\nAZ sit at 84% to win, with ADO Den Haag given 0% and the draw taking 16% \u2014 this is effectively a two-way market tilted almost entirely toward the hosts. Expected goals of 1.91 vs just 0.04 for ADO reinforce that gap, and the most likely scoreline is 1-0 at 27%. The primary call is BTTS: No at 97% (strong), consistent with ADO's 0 goals scored across their last 2 (0W 0D 2L, L L) against AZ's 9 scored in their last 5 (1W 4D 0L, D D D D W). Over 2.5 goals sits at just 31%, pointing to a low-scoring, one-sided AZ win."
+      "analysis": "AZ Alkmaar are heavy favorites to see this one out at home.\n\nThe model gives AZ an 84% win chance against just 16% for the draw, with ADO's odds rounding to 0%. Expected goals of 1.91 vs 0.04 underline the gulf, and the most likely scoreline is a tight 1-0 (27%). AZ arrive on 1W 4D 0L (D D D D W, 9 scored/6 conceded), while ADO are 0W 0D 2L (L L, 0 scored/3 conceded in 2). With ADO expected to struggle to score, BTTS: No is the strong call at 97%, and over 2.5 goals sits at just 31%."
     },
     {
       "home": "Gremio",
       "away": "Sao Paulo",
       "xg_home": 1.47,
       "xg_away": 1.04,
-      "prob_home": 0.4708043483746478,
-      "prob_draw": 0.25823788686178173,
-      "prob_away": 0.27095776476357053,
-      "over25": 0.45837548654961846,
-      "btts": 0.49601514805327585,
+      "prob_home": 0.47081511101831597,
+      "prob_draw": 0.2582364073789965,
+      "prob_away": 0.2709484816026875,
+      "over25": 0.4583906380278531,
+      "btts": 0.49602653674702124,
       "top_score": "1-1",
-      "top_score_prob": 0.12241036916943879,
+      "top_score_prob": 0.12241006369394576,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.5416245134503815,
+      "primary_prob": 0.5416093619721469,
       "primary_strength": "lean",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-08T19:00:00+00:00",
-      "analysis": "Gremio hold the edge, but this one's no lock.\n\nThe model gives Gremio 47% to win against Sao Paulo's 27%, with a draw at 26% \u2014 a clear lean toward the hosts, not a certainty. Expected goals favor Gremio 1.47 to 1.04, consistent with Gremio's 3W 0D 2L form (W L W L W, 12 scored/7 conceded) versus Sao Paulo's shakier 2W 0D 3L (L W L W L, 6 scored/11 conceded). The primary call is Under 2.5 goals at 54%, a lean, with BTTS a coin flip at 50%. Most likely scoreline is 1-1 at just 12%, reflecting a tight, low-scoring script overall."
+      "analysis": "Gremio hold the edge, but this is far from a lock.\n\nThe model gives Gremio 47% to win, with Sao Paulo at 27% and the draw at 26% \u2014 a clear lean toward the hosts without being decisive. Expected goals sit at 1.47 for Gremio versus 1.04 for Sao Paulo, and that modest combined total shapes the Under 2.5 lean at 54% (a lean, not a strong call), alongside a 46% shot at Over 2.5. BTTS is a flat coin flip at 50%, and the most likely scoreline is 1-1 at just 12%. Form supports the split picture: Gremio are 3W 0D 2L (W L W L W, 12 scored/7 conceded), while Sao Paulo sit 2W 0D 3L (L W L W L, 6 scored/11 conceded)."
     },
     {
       "home": "Estrela",
       "away": "Sporting CP",
       "xg_home": 0.67,
       "xg_away": 2.65,
-      "prob_home": 0.07082719002759783,
-      "prob_draw": 0.13404103197168799,
-      "prob_away": 0.7951317780007143,
-      "over25": 0.6449051598247939,
-      "btts": 0.45330103024608986,
+      "prob_home": 0.07083655098899716,
+      "prob_draw": 0.13404637109617307,
+      "prob_away": 0.7951170779148297,
+      "over25": 0.6448954159034633,
+      "btts": 0.4533101274117674,
       "top_score": "0-2",
-      "top_score_prob": 0.12691792053684806,
+      "top_score_prob": 0.12691677663668788,
       "primary_pick": "Sporting CP win",
-      "primary_prob": 0.7951317780007143,
+      "primary_prob": 0.7951170779148297,
       "primary_strength": "strong",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-08T19:30:00+00:00",
-      "analysis": "**Sporting CP are strong favorites to win this one.**\n\nThe model gives Sporting CP an 80% chance of victory, against just 13% for a draw and 7% for Estrela \u2014 a clear one-sided call. Expected goals back this up heavily, 2.65 for Sporting CP versus 0.67 for Estrela, with the most likely scoreline coming in at 0-2 (13%). Sporting arrive in excellent form (3W 2D 0L, W W W D D, scoring 15 and conceding just 5 in their last five), while Estrela are struggling (0W 2D 3L, D D L L L, scoring 5 and conceding 8). Over 2.5 goals is favored at 64%, while BTTS is close to a coin flip at 45%."
+      "analysis": "**Verdict: Sporting CP are strong favorites, with the model giving them an 80% chance to win in Estrela.**\n\nThe projected scoreline of 0-2 (13% probability) reflects the gap in expected goals \u2014 2.65 for Sporting CP against just 0.67 for Estrela. Sporting arrive in excellent form (3W 2D 0L, W W W D D, scoring 15 and conceding only 5 in their last five), while Estrela have struggled badly (0W 2D 3L, D D L L L, scoring 5 and conceding 8). With 64% probability for over 2.5 goals and BTTS sitting at a coin-flip 45%, expect goals to flow mainly one way, with Sporting doing the damage."
     },
     {
       "home": "New England Revolution",
       "away": "Houston Dynamo",
       "xg_home": 1.28,
       "xg_away": 1.34,
-      "prob_home": 0.3478177361363438,
-      "prob_draw": 0.27643375711075224,
-      "prob_away": 0.37574850675290383,
-      "over25": 0.489000003474086,
-      "btts": 0.5420302279440242,
+      "prob_home": 0.3477919747031918,
+      "prob_draw": 0.2764390692426961,
+      "prob_away": 0.3757689560541122,
+      "over25": 0.48896969896937553,
+      "btts": 0.5420049051077221,
       "top_score": "1-1",
-      "top_score_prob": 0.13178498928996307,
+      "top_score_prob": 0.1317877543719234,
       "primary_pick": "BTTS: Yes",
-      "primary_prob": 0.5420302279440242,
+      "primary_prob": 0.5420049051077221,
       "primary_strength": "lean",
       "league": "MLS",
       "league_id": 253,
       "kickoff": "2026-08-08T20:30:00+00:00",
-      "analysis": "**Verdict: A genuine coin flip, with a slight lean toward goals at both ends.**\n\nThe model gives Houston Dynamo 38%, New England Revolution 35%, and a draw 28% \u2014 essentially three-way even. Expected goals sit close together too, 1.34 for Houston versus 1.28 for New England, pointing to a tight, low-scoring edge affair, with the most likely scoreline set at 1-1 (13%). BTTS: Yes is the primary call at 54% (a lean, not a strong conviction), while Over 2.5 sits at 49%, another near coin flip. Form supports the shaky picture: New England are 1W 2D 2L (D L W L D, scored 6/conceded 8), Houston 1W 1D 3L (D L L W L, scored 5/conceded 9)."
+      "analysis": "**Verdict: A genuine coin flip, with Houston holding the slightest edge.**\n\nThe model gives Houston Dynamo 38%, New England Revolution 35%, and the draw 28% \u2014 essentially even odds across the board. Expected goals are tight too, 1.34 for Houston vs 1.28 for New England, pointing to a low-scoring, tit-for-tat affair, with the most likely scoreline pegged at 1-1 (13%). BTTS is favored at 54% (a lean, not a strong call), while Over 2.5 sits at 49%, another near-toss-up. Form supports the shaky picture: New England are 1W 2D 2L (D L W L D, 6 scored/8 conceded) and Houston 1W 1D 3L (D L L W L, 5 scored/9 conceded) \u2014 both leaking goals, which fits the BTTS lean."
     },
     {
       "home": "Botafogo",
       "away": "Fluminense",
       "xg_home": 1.42,
       "xg_away": 0.72,
-      "prob_home": 0.5400005470247109,
-      "prob_draw": 0.268007569051023,
-      "prob_away": 0.19199188392426592,
-      "over25": 0.3632583516963148,
-      "btts": 0.3891420889804396,
+      "prob_home": 0.5399705216261956,
+      "prob_draw": 0.2680285918906189,
+      "prob_away": 0.19200088648318545,
+      "over25": 0.3632166409497878,
+      "btts": 0.38911833654394873,
       "top_score": "1-0",
-      "top_score_prob": 0.1681690683979585,
+      "top_score_prob": 0.1681780312145602,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.6367416483036852,
+      "primary_prob": 0.6367833590502122,
       "primary_strength": "strong",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-09T00:00:00+00:00",
-      "analysis": "Botafogo are favored, but this looks like a low-scoring, tight affair.\n\nThe model gives Botafogo 54% to win, with a draw at 27% and Fluminense at just 19%. Expected goals sit at 1.42 for Botafogo against 0.72 for Fluminense, pointing to a narrow scoreline \u2014 the most likely result is 1-0 at 17%. The headline call is Under 2.5 goals at 64% (strong), backed by a modest 36% chance of Over 2.5 and 39% BTTS. Botafogo come in on a 3W 2D 0L run (W D D W W), while Fluminense are 4W 1D 0L (W W W D W), conceding just 2 in that span \u2014 form that fits a tight, low-scoring model read."
+      "analysis": "Botafogo are favored, but this looks like a low-scoring affair.\n\nThe model gives Botafogo 54% to win, with the draw (27%) well clear of Fluminense's 19% chance \u2014 Fluminense's away odds are the long shot here. Expected goals sit at 1.42 for Botafogo against just 0.72 for Fluminense, and the most likely scoreline is a tight 1-0 (17%). The headline play is Under 2.5 goals at 64% (strong), backed by Over 2.5 sitting at just 36% and BTTS at 39%. Form-wise, Botafogo are 3W 2D 0L (W D D W W) while Fluminense arrive in better shape at 4W 1D 0L (W W W D W), conceding only 2 in their last 5 \u2014 consistent with a tight, low-scoring game."
     },
     {
       "home": "Sparta Rotterdam",
@@ -759,7 +759,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-09T10:15:00+00:00",
-      "analysis": "Feyenoord are clear favorites, and the model backs that up with data.\n\nFeyenoord are priced at 54% to win, against just 21% for Sparta Rotterdam and 26% for the draw. Feyenoord arrive unbeaten in their last five (3W 2D 0L, W D W W D), scoring 9 and conceding 4, while Sparta have lost four of their last five (0W 1D 4L, L L D L L), conceding 15 goals. Expected goals sit at 1.82 for Feyenoord vs 1.07 for Sparta, supporting a BTTS: Yes lean at 57% and a 55% chance of over 2.5 goals. The most likely scoreline is 1-1 at 12%."
+      "analysis": "Feyenoord are clear favorites here, and the model backs it with a 57% BTTS lean.\n\nFeyenoord sit at 54% to win versus just 21% for Sparta Rotterdam, with a 26% draw chance rounding out the picture. Expected goals favor Feyenoord 1.82 to 1.07, and the most likely scoreline is a tight 1-1 at 12%. Form supports the gap: Feyenoord are unbeaten at 3W 2D 0L (W D W W D), scoring 9 and conceding just 4, while Sparta have struggled to 0W 1D 4L (L L D L L), scoring 5 and conceding 15. With Over 2.5 at 55% and BTTS at 57%, this leans toward goals at both ends, but not by a wide margin."
     },
     {
       "home": "Gent",
@@ -779,7 +779,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-09T11:30:00+00:00",
-      "analysis": "**Verdict: A tight, low-conviction affair with Gent holding a slight edge.**\n\nThe model gives Gent 41% to win, with KV Mechelen at 30% and the draw at 28% \u2014 no side is truly favored here, more a lean than a certainty. Expected goals sit close together too (Gent 1.48 vs Mechelen 1.24), pointing to the most likely scoreline of 1-1 at 13%. Gent arrive off a poor run (0W 4D 1L, D L D D D, scoring 2 and conceding 7), while Mechelen aren't much sharper (1W 2D 2L, L D D L W, scoring 5 and conceding 10). With both defenses leaky, BTTS: Yes is the primary call at 56%, and Over 2.5 goals sits at a coin-flip 51%."
+      "analysis": "**Verdict: A tight three-way spread with a lean toward goals at both ends.**\n\nGent sit favorites at 41%, but it's closer to a coin flip against KV Mechelen's 30%, with draw at 28%. The model's expected goals (1.48 vs 1.24) point to a low-scoring affair, backed by the most likely scoreline of 1-1 at 13%. Still, BTTS lands at 56% \u2014 the model's primary call, tagged as a lean rather than a strong conviction. Over 2.5 goals sits at 51%, essentially even money. Form supports the tight numbers: Gent are winless in five (0W 4D 1L, D L D D D, scoring 2 conceded 7), while Mechelen's 1W 2D 2L (L D D L W) shows similarly leaky defending, having conceded 10 in five."
     },
     {
       "home": "PEC Zwolle",
@@ -799,7 +799,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-09T12:30:00+00:00",
-      "analysis": "**Verdict: Ajax are favored but not overwhelmingly so \u2014 a BTTS lean is the model's clearest signal.**\n\nAjax sit at 55% to win versus 20% for PEC Zwolle, with a draw at 25%, and the expected goals split (1.86 to 1.04) backs that edge. The model's top pick is BTTS: Yes at 56% (a lean, not a strong call), supported by 55% odds of over 2.5 goals and a most-likely score of just 1-1 at 12%. PEC's form (1W 1D 3L, scored 6/conceded 13) shows defensive fragility, while Ajax's steadier 1W 3D 1L with 5 scored/4 conceded fits their moderate favorite status without suggesting dominance."
+      "analysis": "Ajax are favored but this one leans BTTS more than blowout.\n\nThe model gives Ajax 55% to win against 20% for PEC Zwolle and 25% for the draw, with expected goals of 1.86 to 1.04 in Ajax's favor. BTTS sits at 56% and over 2.5 goals at 55%, with the single most likely scoreline actually 1-1 at 12%. PEC arrive on 1W 1D 3L (L L W L D), conceding 13 in their last 5, while Ajax are 1W 3D 1L (D W D L D), a steadier but low-scoring run of 5 scored, 4 conceded. The primary call is BTTS: Yes, a lean at 56%."
     },
     {
       "home": "Groningen",
@@ -819,7 +819,7 @@
       "league": "Eredivisie",
       "league_id": 88,
       "kickoff": "2026-08-09T12:30:00+00:00",
-      "analysis": "**Verdict: Essentially a three-way coin flip, with the slightest edge to Utrecht.**\n\nThe model gives Utrecht 36%, Groningen 33%, and the draw 30% \u2014 too tight to call with any conviction. Expected goals are near-identical too (Groningen 1.22, Utrecht 1.29), pointing to a tight, low-scoring affair, and the model's primary lean is Under 2.5 goals at 54%. The most likely scoreline is 1-1 (14%), with BTTS at 53%, another near-even split. Form contrasts sharply: Groningen come in on L W W L L (2W 0D 3L, scoring 7/conceding 10), while Utrecht are D W W W W (4W 1D 0L, scoring 9/conceding 3) \u2014 but the model's numbers still keep this fixture a genuine toss-up."
+      "analysis": "**Verdict: A near coin-flip leaning slightly Utrecht, with goals expected to be scarce.**\n\nThe model gives Utrecht 36%, Groningen 33%, and the draw 30% \u2014 essentially a three-way toss-up. Expected goals sit close together too, 1.29 for Utrecht vs 1.22 for Groningen, supporting the lean toward Under 2.5 (54%) as the primary call, with the most likely scoreline a tight 1-1 (14%) and BTTS at 53%. Utrecht arrive in stronger form (4W 1D 0L, D W W W W, scoring 9/conceding 3) compared to Groningen's 2W 0D 3L (L W W L L, 7 scored/10 conceded), which lines up with their higher win probability, though the model still sees this as a close, low-scoring contest."
     },
     {
       "home": "Kilmarnock",
@@ -839,7 +839,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-09T12:30:00+00:00",
-      "analysis": "Celtic are clear favourites to win this one.\n\nThe model gives Celtic 67% to win, against just 15% for Kilmarnock and 18% for a draw. Expected goals sit at 2.43 for Celtic versus 1.06 for Kilmarnock, and the most likely scoreline is 1-2. With Over 2.5 goals at 68% (the model's strongest call) and BTTS at 60%, this points to an open, attacking match rather than a backs-to-the-wall away performance. Form supports the goals expectation: Kilmarnock are 4W 0D 1L (W W W W L, scored 13/conceded 3), while Celtic are 5W 0D 0L (W W W W W, scored 14/conceded 6)."
+      "analysis": "Celtic are strong favorites to win at Kilmarnock.\n\nThe model gives Celtic 67% to win, against just 15% for Kilmarnock and 18% for the draw. Expected goals sit at 2.43 for Celtic versus 1.06 for Kilmarnock, and the most likely scoreline is 1-2 at 10%. Both sides have goals in them lately \u2014 Kilmarnock scored 13 and conceded 3 in their last five (4W 0D 1L, W W W W L), while Celtic scored 14 and conceded 6 (5W 0D 0L, W W W W W) \u2014 supporting the model's strong Over 2.5 call at 68%, with BTTS also favored at 60%."
     },
     {
       "home": "Zulte Waregem",
@@ -859,7 +859,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-09T14:00:00+00:00",
-      "analysis": "Genk hold a slight edge, but this is essentially a coin flip with goals expected at both ends.\n\nThe model gives Genk 38% to win against Zulte Waregem's 35%, with the draw at 27% \u2014 no real separation between the three outcomes. Expected goals sit close together too (Genk 1.51 vs Zulte Waregem 1.42), supporting a 56% chance of over 2.5 goals and the model's strongest signal: BTTS Yes at 60%. The most likely single scoreline is 1-1 at 13%. Form leans heavily toward Zulte Waregem (5W 0D 0L, scoring 13 and conceding 4 in that run) against Genk's steadier 2W 3D 0L, though Genk have conceded nothing in their last five."
+      "analysis": "Genk edges it, but this one's a genuine coin flip.\n\nThe model gives Genk 38% to win against Zulte Waregem's 35%, with the draw sitting close behind at 27% \u2014 no real favorite here. Expected goals are near-identical too, 1.51 for Genk vs 1.42 for Zulte Waregem, pointing to a tight, low-scoring contest, and the most likely scoreline is 1-1 at 13%. The standout signal is BTTS: Yes at 60%, a strong call backed by Over 2.5 sitting at 56%. Zulte Waregem arrive on a 5W 0D 0L run (scored 13, conceded 4), while Genk are unbeaten in their last 5 (2W 3D 0L) but have conceded 0 in that span \u2014 form that supports goals at both ends without tilting the win market either way."
     },
     {
       "home": "Charleroi",
@@ -879,7 +879,7 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-09T14:00:00+00:00",
-      "analysis": "Charleroi are moderate favorites, but nothing here is a lock.\n\nThe model gives Charleroi 52% to win, against 29% for a draw and just 19% for OH Leuven \u2014 a clear edge but far from dominant. Expected goals sit at 1.52 for Charleroi versus 0.84 for OH Leuven, supporting the lean toward Under 2.5 goals (58%, primary call), while Over 2.5 sits at just 42%. BTTS is essentially a coin flip at 46%, and the most likely single scoreline is a tight 1-1 at 13%. Form backs the home edge: Charleroi are 3W 1D 1L (W D L W W), scoring 6 and conceding 2 in their last five, while OH Leuven are 1W 2D 2L (L D W L D), with a leakier 8-for-8-against record."
+      "analysis": "Verdict: Charleroi are moderate favorites at 52%, with a lean toward a lower-scoring game.\n\nThe model gives Charleroi 52% to win against 29% for a draw and just 19% for OH Leuven, backed by expected goals of 1.52 to 0.84. Charleroi's form (3W 1D 1L, W D L W W, scoring 6 and conceding 2) supports the edge, while OH Leuven's mixed run (1W 2D 2L, L D W L D, 8 scored/8 conceded) explains their underdog status. The primary call is Under 2.5 goals at 58% (a lean), with Over 2.5 at only 42% and BTTS at 46%. The most likely scoreline is 1-1 at 13%."
     },
     {
       "home": "Heart Of Midlothian",
@@ -899,7 +899,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-09T14:00:00+00:00",
-      "analysis": "Hearts are strong favorites to see off Dundee Utd.\n\nThe model gives Hearts a 66% chance of victory, well clear of the draw at 21% and a Dundee Utd win at just 13%. Expected goals sit at 1.94 for Hearts against 0.72 for Dundee Utd, underlining the gap in scoring threat, with the most likely scoreline pegged at 1-0 (13%). Hearts arrive on a 3W 1D 1L run (L W D W W), scoring 9 and conceding 6, while Dundee Utd's 1W 2D 2L form (D D L L W) with just 4 scored in 6 conceded fits the weaker profile. Over 2.5 goals is a coin flip at 50%, and BTTS sits at 44%."
+      "analysis": "Hearts are strong favourites to beat Dundee Utd.\n\nThe model gives Hearts a 66% chance of victory, against 21% for a draw and just 13% for a Dundee Utd win. Expected goals sit at 1.94 for Hearts versus 0.72 for Dundee Utd, reinforcing the gap between the sides. The most likely scoreline is 1-0 at 13%, with Over 2.5 goals a coin flip at 50% and BTTS slightly against at 44%. Hearts arrive on a 3W 1D 1L run (L W D W W), scoring 9 and conceding 6, while Dundee Utd's 1W 2D 2L form (D D L L W), with 4 scored and 6 conceded, supports the model's lean toward a comfortable home win."
     },
     {
       "home": "Motherwell",
@@ -919,27 +919,27 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-09T14:00:00+00:00",
-      "analysis": "Motherwell are the clear model favorites, but this is a lean, not a lock.\n\nThe model gives Motherwell 57% to win, with the draw (23%) more likely than a Falkirk upset (19%). Expected goals sit at 1.85 for Motherwell against 0.98 for Falkirk, supporting the pick, and the most likely scoreline is 1-1 at just 11%. Over 2.5 goals (54%) and BTTS (53%) are essentially coin flips. Form fits the picture: Motherwell are 2W 1D 2L (W L D L W, scoring 7, conceding 7), while Falkirk have struggled at 1W 0D 4L (L L L W L, scoring 5, conceding 14)."
+      "analysis": "Motherwell are moderate favorites in a game that leans, not locks.\n\nThe model gives Motherwell 57% to win, with the draw at 23% and Falkirk at just 19%. Expected goals sit at 1.85 for Motherwell against 0.98 for Falkirk, supporting an Over 2.5 chance of 54% and BTTS at 53%, with 1-1 the single most likely scoreline at 11%. Motherwell's form (2W 1D 2L, W L D L W, 7 scored/7 conceded) is uneven but sturdier than Falkirk's (1W 0D 4L, L L L W L, 5 scored/14 conceded). Overall, it's a lean toward Motherwell (57%), not a strong conviction play."
     },
     {
       "home": "Cruzeiro",
       "away": "Mirassol",
       "xg_home": 1.27,
       "xg_away": 0.98,
-      "prob_home": 0.43067225871821224,
-      "prob_draw": 0.2796416676591485,
-      "prob_away": 0.28968607362263915,
-      "over25": 0.3900942572392993,
-      "btts": 0.44698604379616397,
+      "prob_home": 0.4306757745738494,
+      "prob_draw": 0.27964503780124744,
+      "prob_away": 0.289679187624903,
+      "over25": 0.3900938274457682,
+      "btts": 0.44698661666352246,
       "top_score": "1-0",
-      "top_score_prob": 0.13578879586349998,
+      "top_score_prob": 0.13578813239469364,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.6099057427607006,
+      "primary_prob": 0.6099061725542319,
       "primary_strength": "strong",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-09T14:00:00+00:00",
-      "analysis": "Cruzeiro are favored but this is far from a lock.\n\nThe model gives Cruzeiro 43% to win, with Mirassol at 29% and the draw at 28% \u2014 a modest edge, not a strong one. Expected goals sit at 1.27 for Cruzeiro versus 0.98 for Mirassol, pointing to a tight, low-scoring contest, and the most likely scoreline is 1-0 at just 14%. The primary call is Under 2.5 goals at 61% (strong), reinforced by a 39% chance of Over 2.5 and BTTS at only 45%. Form-wise, Cruzeiro are 1W 3D 1L (L D D W D) having scored and conceded 9 in their last 5, while Mirassol sit at 2W 2D 1L (D W L W D), scoring 9 and conceding just 6."
+      "analysis": "Cruzeiro edge the odds, but this leans low-scoring more than one-sided.\n\nThe model gives Cruzeiro 43% to win, with Mirassol at 29% and the draw at 28% \u2014 a modest home edge rather than a strong favorite. Expected goals sit at 1.27 for Cruzeiro versus 0.98 for Mirassol, pointing to a tight, low-scoring game, and the most likely scoreline is 1-0 at 14%. The primary call is Under 2.5 goals at 61% (strong), backed by Over 2.5 at just 39% and BTTS at 45%. Cruzeiro come in on 1W 3D 1L (L D D W D), scoring and conceding 9 in their last 5, while Mirassol sit at 2W 2D 1L (D W L W D), scoring 9 and conceding just 6."
     },
     {
       "home": "Rangers",
@@ -959,7 +959,7 @@
       "league": "Scottish Premiership",
       "league_id": 179,
       "kickoff": "2026-08-09T15:00:00+00:00",
-      "analysis": "Rangers are favored but this is far from a formality.\n\nThe model gives Rangers 57% to win, with Hibernian at 21% and the draw at 22% \u2014 a clear edge, not a lock. Expected goals sit at 1.99 for Rangers versus 1.14 for Hibernian, supporting the lean toward the home side. The primary call is Over 2.5 goals at 60% (strong), backed by BTTS at 59%, with the most likely scoreline pegged at 1-1 (10%). Form has been shaky on both sides: Rangers are 1W 0D 4L in their last five (W L L L L, scoring 10, conceding 12), while Hibernian are 2W 0D 3L (L W W L L, scoring 7, conceding 7) \u2014 both porous defensively, which fits the goals-heavy projection."
+      "analysis": "Rangers are favored, but this shapes up as a game with goals at both ends.\n\nThe model gives Rangers 57% to win, with Hibernian at 21% and the draw at 22% \u2014 a clear edge, but not an overwhelming one. Expected goals sit at 1.99 for Rangers against 1.14 for Hibernian, feeding a strong 60% Over 2.5 call and a 59% BTTS figure. Despite that, the most likely single scoreline is 1-1 at just 10%, reflecting how spread out the outcomes are. Rangers' recent form reads 1W 0D 4L (W L L L L, scoring 10, conceding 12), while Hibernian sit at 2W 0D 3L (L W W L L, scoring 7, conceding 7) \u2014 both leaky at the back, supporting the goals-heavy projection."
     },
     {
       "home": "Universitatea Craiova",
@@ -979,7 +979,7 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-09T15:30:00+00:00",
-      "analysis": "Craiova are favored but this shapes up as a low-scoring, controlled affair.\n\nThe model gives Craiova 52% to win, with a draw at 30% and Arges just 18% \u2014 a clear edge for the hosts but not an overwhelming one. Expected goals sit at 1.27 for Craiova against 0.62 for Arges, feeding into a strong Under 2.5 call at 71% and a 19% chance for the most likely scoreline, 1-0. BTTS is unlikely at just 34%. Craiova's form backs this up (3W 2D 0L, D W D W W, scoring 8 and conceding just 1), while Arges arrive out of form (0W 2D 3L, D D L L L, scoring 4 and conceding 7)."
+      "analysis": "Craiova are favored, but this points more to a low-scoring grind than a rout.\n\nThe model gives Universitatea Craiova 52% to win, with a draw at 30% and Arges Pitesti at just 18%. Expected goals sit at 1.27 for Craiova against 0.62 for Arges, and the most likely scoreline is a tight 1-0 (19%). The headline call is Under 2.5 goals at 71% (strong), backed by BTTS at just 34%. Craiova's form supports the edge \u2014 3W 2D 0L with an 8-1 goal difference over their last five (D W D W W) \u2014 while Arges arrive out of form at 0W 2D 3L, scoring 4 and conceding 7 (D D L L L)."
     },
     {
       "home": "Anderlecht",
@@ -999,27 +999,27 @@
       "league": "Belgian Pro League",
       "league_id": 144,
       "kickoff": "2026-08-09T16:30:00+00:00",
-      "analysis": "Anderlecht are favored, but only as a lean, not a lock.\n\nThe model gives Anderlecht 58% to win, with the draw (25%) well ahead of a RAAL La Louvi\u00e8re upset (17%). Expected goals sit at 1.83 for Anderlecht against 0.9 for RAAL, supporting the 51% over 2.5 and 51% BTTS marks \u2014 essentially coin flips. The most likely scoreline is a modest 1-1 at 12%. Form has both sides shaky: Anderlecht are 1W 2D 2L (L W D D L), scoring 8 and conceding 12, while RAAL are 1W 0D 4L (W L L L L), scoring 5 and conceding 12. Numbers point to a moderate Anderlecht edge, not a dominant one."
+      "analysis": "**Anderlecht are the clear lean, but not a lock.**\n\nThe model gives Anderlecht 58% to beat RAAL La Louvi\u00e8re, with the draw at 25% and an away upset at just 17% \u2014 enough for a lean, not a strong call. Expected goals sit at 1.83 for Anderlecht against 0.9 for RAAL, and the most likely scoreline is a modest 1-1 at 12%. Over 2.5 goals (51%) and BTTS (51%) are both essentially coin flips. Form supports the numbers loosely: Anderlecht are 1W 2D 2L (L W D D L, scored 8 conceded 12), while RAAL sit at 1W 0D 4L (W L L L L, scored 5 conceded 12)."
     },
     {
       "home": "FC Porto",
       "away": "Alverca",
       "xg_home": 2.28,
       "xg_away": 0.49,
-      "prob_home": 0.7814037700396027,
-      "prob_draw": 0.1537249468333677,
-      "prob_away": 0.06487128312702962,
-      "over25": 0.5254998280713179,
-      "btts": 0.3498317030082709,
+      "prob_home": 0.7813363180860612,
+      "prob_draw": 0.1537539249501405,
+      "prob_away": 0.06490975696379835,
+      "over25": 0.5255028671329939,
+      "btts": 0.3499223809445997,
       "top_score": "2-0",
-      "top_score_prob": 0.1620734258826957,
+      "top_score_prob": 0.1620474904918631,
       "primary_pick": "FC Porto win",
-      "primary_prob": 0.7814037700396027,
+      "primary_prob": 0.7813363180860612,
       "primary_strength": "strong",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-09T17:00:00+00:00",
-      "analysis": "FC Porto are strong favorites, and the model backs it firmly.\n\nThe model gives FC Porto a 78% chance of victory, well clear of the draw at 15% and Alverca at just 6%. Expected goals sit at 2.28 for Porto against only 0.49 for Alverca, with 2-0 the most likely scoreline at 16%. Porto arrive in strong form (4W 0D 1L, W L W W W, scoring 7 and conceding 4), while Alverca have struggled (1W 1D 3L, L D L W L, scoring 3 and conceding 5). BTTS is unlikely at 35%, and over 2.5 goals is close to a coin flip at 53%."
+      "analysis": "FC Porto are strong favorites to beat Alverca.\n\nThe model gives Porto a 78% win chance, against just 15% for a draw and 6% for Alverca \u2014 a strong call. Expected goals sit at 2.28 for Porto versus 0.49 for Alverca, and the most likely scoreline is 2-0 at 16%. Porto's form supports this: 4W 0D 1L in their last five (W L W W W), scoring 7 and conceding 4, while Alverca have managed just 1W 1D 3L (L D L W L), scoring 3 and conceding 5. With BTTS at only 35% and over 2.5 goals near even at 53%, this points to a controlled Porto win rather than an open shootout."
     },
     {
       "home": "Sepsi OSK Sfantu Gheorghe",
@@ -1039,107 +1039,107 @@
       "league": "Liga I",
       "league_id": 283,
       "kickoff": "2026-08-09T18:30:00+00:00",
-      "analysis": "**FCSB are moderate favorites, but this one's far from settled.**\n\nThe model gives FCSB 48% to win against Sepsi's 26%, with the draw a real possibility at 25%. Expected goals sit at 1.62 for FCSB versus 1.14 for Sepsi, and both teams have leaked goals lately \u2014 Sepsi conceding 6 and FCSB conceding 7 in their last five (Sepsi: L W D L D, 1W 2D 2L; FCSB: W W L D L, 2W 1D 2L). That leaky form feeds into BTTS at 55%, the model's lean pick, with Over 2.5 goals close to a coin flip at 52%. Most likely scoreline is 1-1 at 12%."
+      "analysis": "**FCSB edge it, but not comfortably.**\n\nThe model gives FCSB 48% to win versus 26% for Sepsi and 25% for the draw \u2014 a clear lean, not a lock. Expected goals sit at 1.62 for FCSB against 1.14 for Sepsi, supporting the modest favorite tag. Both sides have leaked goals lately (Sepsi conceded 6, FCSB conceded 7 in their last 5), which feeds a 55% BTTS call and a 52% Over 2.5 line \u2014 essentially a coin flip on goals. The most likely single scoreline is 1-1 at just 12%, underlining how open this one is. Form has been shaky for both: Sepsi's L W D L D and FCSB's W W L D L reflect the inconsistency behind these numbers."
     },
     {
       "home": "Bahia",
       "away": "Vasco DA Gama",
       "xg_home": 1.92,
       "xg_away": 1.12,
-      "prob_home": 0.5613187421255923,
-      "prob_draw": 0.2178689956808021,
-      "prob_away": 0.22081226219360564,
-      "over25": 0.5861983353998712,
-      "btts": 0.573869355055544,
+      "prob_home": 0.561322833618667,
+      "prob_draw": 0.21787107048178891,
+      "prob_away": 0.220806095899544,
+      "over25": 0.5861966753868618,
+      "btts": 0.5738672454563714,
       "top_score": "1-1",
-      "top_score_prob": 0.10118911825250188,
+      "top_score_prob": 0.10119037097933112,
       "primary_pick": "Over 2.5",
-      "primary_prob": 0.5861983353998712,
+      "primary_prob": 0.5861966753868618,
       "primary_strength": "lean",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-09T19:00:00+00:00",
-      "analysis": "Bahia are favored to beat Vasco DA Gama, with the model leaning Over 2.5 goals as its primary call.\n\nBahia sit at 56% to win, against 22% for the draw and 22% for Vasco \u2014 a clear edge but not a lock. The expected goals split, 1.92 to 1.12, backs that up, and with BTTS at 57% and Over 2.5 at 59% (a lean, not strong conviction), this projects as an open game. Fittingly, the most likely single scoreline is just 1-1 at 10%. Form supports the model's view: Bahia are 2W 1D 2L (L W D W L, 6 scored/6 conceded) while Vasco are 1W 0D 4L (L L W L L, 5 scored/11 conceded)."
+      "analysis": "Bahia are favored to beat Vasco DA Gama, with the model leaning toward goals.\n\nBahia sit at 56% to win, with the draw and a Vasco win both at 22% \u2014 a real edge for the hosts but not a lock. Expected goals favor Bahia 1.92 to 1.12, and the model gives Over 2.5 goals a 59% lean with BTTS at 57%, pointing to an open game. The most likely single scoreline is 1-1 at just 10%, showing no strong consensus on the exact result. Form supports the split: Bahia are 2W 1D 2L (L W D W L, 6 scored/6 conceded), while Vasco are 1W 0D 4L (L L W L L, 5 scored/11 conceded)."
     },
     {
       "home": "Palmeiras",
       "away": "Internacional",
       "xg_home": 2.15,
       "xg_away": 0.72,
-      "prob_home": 0.7044160830705964,
-      "prob_draw": 0.18190904215458653,
-      "prob_away": 0.11367487477481703,
-      "over25": 0.5492700597651329,
-      "btts": 0.45445704190737773,
+      "prob_home": 0.7044388854245667,
+      "prob_draw": 0.1819001288235576,
+      "prob_away": 0.1136609857518757,
+      "over25": 0.5492877262947427,
+      "btts": 0.45445420885283244,
       "top_score": "2-0",
-      "top_score_prob": 0.13035911052223,
+      "top_score_prob": 0.13036126745146204,
       "primary_pick": "Palmeiras win",
-      "primary_prob": 0.7044160830705964,
+      "primary_prob": 0.7044388854245667,
       "primary_strength": "strong",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-09T19:00:00+00:00",
-      "analysis": "Palmeiras are strong favorites to beat Internacional.\n\nThe model gives Palmeiras a 70% win probability against just 11% for Internacional, with a draw at 18%. Expected goals sit at 2.15 for Palmeiras versus 0.72 for Internacional, pointing to the most likely scoreline of 2-0 (13% probability). Over 2.5 goals sits at 55% and BTTS at 45%, both close calls without strong conviction either way.\n\nForm supports the numbers: Palmeiras are 2W 2D 1L in their last five (W W L D D, scoring 8, conceding 4), while Internacional are 2W 1D 2L (W L L D W), conceding 11 in their last five. The primary call is a strong Palmeiras win at 70%."
+      "analysis": "**Palmeiras are strong favorites to beat Internacional.**\n\nThe model gives Palmeiras a 70% chance to win, against 18% for a draw and just 11% for Internacional \u2014 a strong call favoring the hosts. Expected goals sit at 2.15 for Palmeiras versus 0.72 for Internacional, and the most likely scoreline is 2-0 (13%). Over 2.5 goals is favored at 55%, while BTTS at 45% is close to a coin flip. Palmeiras' form (2W 2D 1L, W W L D D, 8 scored/4 conceded) contrasts with Internacional's shakier run (2W 1D 2L, W L L D W, 7 scored/11 conceded), supporting the model's lean toward a comfortable home win."
     },
     {
       "home": "Moreirense",
       "away": "SC Braga",
       "xg_home": 0.96,
       "xg_away": 1.72,
-      "prob_home": 0.2110702441920345,
-      "prob_draw": 0.2368644551933157,
-      "prob_away": 0.5520653006146499,
-      "over25": 0.500580850394193,
-      "btts": 0.5055694808746815,
+      "prob_home": 0.21109303332144336,
+      "prob_draw": 0.23687251614088808,
+      "prob_away": 0.5520344505376685,
+      "over25": 0.5005499138328162,
+      "btts": 0.5055543570309078,
       "top_score": "0-1",
-      "top_score_prob": 0.11885569043224642,
+      "top_score_prob": 0.11886404969647238,
       "primary_pick": "SC Braga win",
-      "primary_prob": 0.5520653006146499,
+      "primary_prob": 0.5520344505376685,
       "primary_strength": "lean",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-09T19:30:00+00:00",
-      "analysis": "SC Braga are favored to win at 55%, with Moreirense at 21% and the draw at 24%.\n\nThe model gives Braga an edge in expected goals, 1.72 to 0.96, and pegs the most likely scoreline at 0-1 (12%). It's a lean toward Braga, not a strong call. Both the over 2.5 goals market (50%) and BTTS (51%) sit right at a coin flip. Moreirense's form reads 2W 1D 2L (D L W L W, scoring 5, conceding 8), while Braga come in at 1W 3D 1L (D D D L W, scoring 7, conceding 7)."
+      "analysis": "**SC Braga are favored but not dominant, with the model giving them a 55% lean on the road.**\n\nBraga's edge shows in the expected goals split, 1.72 to 0.96, and the most likely scoreline is a tight 0-1 at just 12% probability. Moreirense sit at 21%, with the draw close behind at 24%, so this isn't a one-sided call. Over 2.5 goals is a coin flip at 50%, and BTTS sits at 51%, also essentially even. Form supports the lean somewhat: Braga are 1W 3D 1L (D D D L W) while Moreirense are 2W 1D 2L (D L W L W), having conceded 8 in their last five."
     },
     {
       "home": "GIL Vicente",
       "away": "Rio Ave",
       "xg_home": 1.71,
       "xg_away": 0.89,
-      "prob_home": 0.5662984066321541,
-      "prob_draw": 0.237254050143516,
-      "prob_away": 0.19644754322433,
-      "over25": 0.4813822062649849,
-      "btts": 0.4827421554040073,
+      "prob_home": 0.5662935427347509,
+      "prob_draw": 0.23723629069503302,
+      "prob_away": 0.19647016657021651,
+      "over25": 0.48145596303455007,
+      "btts": 0.48280709989602816,
       "top_score": "1-0",
-      "top_score_prob": 0.1275691018884608,
+      "top_score_prob": 0.1275445396865557,
       "primary_pick": "GIL Vicente win",
-      "primary_prob": 0.5662984066321541,
+      "primary_prob": 0.5662935427347509,
       "primary_strength": "lean",
       "league": "Primeira Liga",
       "league_id": 94,
       "kickoff": "2026-08-09T19:30:00+00:00",
-      "analysis": "Verdict: Gil Vicente are moderate favorites at home, a lean rather than a strong call.\n\nThe model gives Gil Vicente 57% to win against 24% for the draw and just 20% for Rio Ave, with expected goals of 1.71 to 0.89 favoring the hosts. That points to a low-scoring game overall \u2014 over 2.5 goals sits at 48% and BTTS at 48%, both essentially coin flips \u2014 with 1-0 the single most likely scoreline at 13%. Form has been rough for both sides: Gil Vicente are 1W 1D 3L (L L D W L), scoring 3 and conceding 8, while Rio Ave are winless at 0W 3D 2L (D L D L D), scoring 4 and conceding 9. The numbers reflect a tight, low-quality matchup with a mild edge to the hosts."
+      "analysis": "Verdict: GIL Vicente are moderate favorites at home, a lean rather than a strong call.\n\nThe model gives GIL Vicente 57% to win, with the draw at 24% and Rio Ave at 20%, backed by expected goals of 1.71 vs 0.89. The most likely scoreline is a narrow 1-0 (13%), and with over 2.5 goals at just 48% and BTTS also at 48%, both are essentially coin flips. Form for both sides has been poor \u2014 GIL Vicente sit at 1W 1D 3L (L L D W L, scoring 3/conceding 8), while Rio Ave are 0W 3D 2L (D L D L D, scoring 4/conceding 9) \u2014 but the model still leans toward GIL Vicente's home edge."
     },
     {
       "home": "Santos",
       "away": "Atletico Paranaense",
       "xg_home": 1.47,
       "xg_away": 0.84,
-      "prob_home": 0.5213400400768126,
-      "prob_draw": 0.26127453450905297,
-      "prob_away": 0.21738542541413441,
-      "over25": 0.4074769678063511,
-      "btts": 0.4366364252812758,
+      "prob_home": 0.5213237113746176,
+      "prob_draw": 0.26126012664774156,
+      "prob_away": 0.21741616197764085,
+      "over25": 0.407565825974219,
+      "btts": 0.43672199918066723,
       "top_score": "1-0",
-      "top_score_prob": 0.1474513760046994,
+      "top_score_prob": 0.14741431776589123,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.5925230321936489,
+      "primary_prob": 0.592434174025781,
       "primary_strength": "lean",
       "league": "Brazil Serie A",
       "league_id": 71,
       "kickoff": "2026-08-09T21:30:00+00:00",
-      "analysis": "**Verdict: Santos are favored but this leans toward a low-scoring win, not a rout.**\n\nThe model gives Santos 52% to win, with the draw (26%) more likely than an Atletico Paranaense upset (22%). Expected goals sit at 1.47 for Santos against just 0.84 for the visitors, and the most likely scoreline is a tight 1-0 (15%). The primary call is Under 2.5 goals at 59% (a lean), backed by Over 2.5 at only 41% and BTTS at 44% - essentially a coin flip on both goal markets. Santos arrive on a strong run (3W 2D 0L, W W W D D, scoring 11/conceding 2), while Atletico Paranaense are shakier (1W 2D 2L, L L D D W, 5 scored/5 conceded), consistent with the model's lean toward a controlled home win."
+      "analysis": "**Verdict: Santos are moderate favorites at home, with a low-scoring 1-0 the most likely path.**\n\nThe model gives Santos 52% to win, against 26% for the draw and just 22% for Atletico Paranaense \u2014 a clear edge but not a lock. Santos' expected goals (1.47) comfortably outstrip Atletico's (0.84), fitting their 3W 2D 0L form (W W W D D, 11 scored/2 conceded) versus Atletico's shakier 1W 2D 2L run (L L D D W, 5 scored/5 conceded). With BTTS at just 44% and Over 2.5 at only 41%, the model leans Under 2.5 (59%, a lean call), and the single most likely scoreline is 1-0 at 15%."
     }
   ]
 }
