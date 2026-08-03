@@ -34,8 +34,6 @@ LEAGUES = {
     "Serie A":            135,
     "Bundesliga":         78,
     "Ligue 1":            61,
-    "Champions League":   2,
-    "Europa League":      3,
     "Championship":       40,
     "Eredivisie":         88,
     "Primeira Liga":      94,
