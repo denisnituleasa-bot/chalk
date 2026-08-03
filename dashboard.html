@@ -52,6 +52,17 @@
     padding:7px 13px; border-radius:999px; font-size:12.5px;}
   .day:hover{color:var(--text);}
   .day.active{background:var(--text); color:var(--ink); border-color:var(--text); font-weight:600;}
+  .picks{display:flex; align-items:center; gap:12px; margin:-6px 0 20px; flex-wrap:wrap;}
+  .pickbtn{background:var(--panel-2); border:1px solid var(--line-strong); color:var(--muted);
+    padding:8px 15px; border-radius:999px; font-size:12.5px; font-weight:600;}
+  .pickbtn:hover{color:var(--text);}
+  .pickbtn.active{background:rgba(245,177,60,.12); border-color:rgba(245,177,60,.5); color:var(--amber);}
+  .pickcount{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--muted);}
+  .pickcount select{background:var(--panel-2); color:var(--text); border:1px solid var(--line-strong);
+    border-radius:8px; padding:6px 8px; font-family:'Space Mono',monospace; font-size:13px;}
+  .rank{display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px;
+    border-radius:6px; background:rgba(245,177,60,.14); color:var(--amber);
+    font-family:'Space Mono',monospace; font-size:11px; font-weight:700; margin-right:8px; vertical-align:middle;}
   .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:14px;}
   .card{background:var(--panel); border:1px solid var(--line); border-radius:15px; padding:17px;}
   .eyebrow{font-family:'Space Mono',monospace; font-size:10px; letter-spacing:.1em;
@@ -130,6 +141,18 @@
       <div class="fresh" id="fresh"></div>
     </div>
     <div class="days" id="days"></div>
+    <div class="picks">
+      <button class="pickbtn" id="pick-toggle">★ Top picks</button>
+      <span class="pickcount" id="pick-count" style="display:none">
+        Show
+        <select id="topn" aria-label="Number of picks">
+          <option>1</option><option>2</option><option>3</option><option>4</option>
+          <option selected>5</option><option>6</option><option>7</option>
+          <option>8</option><option>9</option><option>10</option>
+        </select>
+        most confident calls
+      </span>
+    </div>
     <div class="grid" id="grid"><div class="empty">Loading predictions…</div></div>
   </main>
 </div>
@@ -151,7 +174,7 @@ const LEAGUE_ORDER = ["Premier League","La Liga","Serie A","Bundesliga","Ligue 1
   "Saudi Pro League","J1 League"];
 
 let DATA = { generated_at:null, predictions:[] };
-const state = { league:'all', day:'all' };
+const state = { league:'all', day:'all', top:false, topN:5 };
 
 const pct = x => Math.round(x*100);
 const sColor = s => ({strong:'var(--strong)',lean:'var(--lean)'}[s]||'var(--toss)');
@@ -187,11 +210,11 @@ function marketsHtml(m){
     g.rows.map(r=>`<div class="mkrow"><span>${r[0]}</span><span class="mono">${Math.round(r[1]*100)}%</span></div>`).join('')
   ).join('');
 }
-function card(p){
+function card(p, rank){
   const c=sColor(p.primary_strength);
   return `<article class="card">
     <div class="eyebrow">${p.league} \u00b7 ${dayLabel(p.kickoff)} ${kickTime(p.kickoff)}</div>
-    <div class="teams">${p.home}<span class="v">v</span><span style="color:var(--muted)">${p.away}</span></div>
+    <div class="teams">${rank?`<span class="rank">${rank}</span>`:''}${p.home}<span class="v">v</span><span style="color:var(--muted)">${p.away}</span></div>
     <div class="call" style="border-color:${c}55;border-left:3px solid ${c}">
       <div class="lbl">The call</div>
       <div class="row"><span class="pick">${p.primary_pick}</span>
@@ -253,21 +276,41 @@ function render(){
   }).join('');
 
   if(state.day!=='all') set=set.filter(p=>dayKey(p.kickoff)===state.day);
-  set.sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+
+  // sync the Top picks control
+  document.getElementById('pick-toggle').classList.toggle('active', state.top);
+  document.getElementById('pick-count').style.display = state.top ? 'inline-flex' : 'none';
 
   const todayK=new Date().toISOString().slice(0,10);
+  if(state.top){
+    set = set.slice().sort((a,b)=> b.primary_prob - a.primary_prob).slice(0, state.topN);
+    document.getElementById('title').textContent = `Top ${state.topN} pick${state.topN>1?'s':''}`;
+    document.getElementById('subtitle').textContent = 'Ranked by the model\u2019s confidence' +
+      (state.league!=='all' ? ` \u00b7 ${state.league}` : '');
+    document.getElementById('fresh').textContent = ago(DATA.generated_at);
+    document.getElementById('grid').innerHTML = set.length
+      ? set.map((p,i)=>card(p,i+1)).join('')
+      : `<div class="empty">No matches to rank here. Try another day or league.</div>`;
+    return;
+  }
+
+  set.sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
   document.getElementById('title').textContent =
     state.league!=='all' ? state.league : (state.day===todayK ? "Today's football" : "All leagues");
   document.getElementById('subtitle').textContent = `${set.length} match${set.length===1?'':'es'} analysed`;
   document.getElementById('fresh').textContent = ago(DATA.generated_at);
   document.getElementById('grid').innerHTML = set.length
-    ? set.map(card).join('')
+    ? set.map(p=>card(p)).join('')
     : `<div class="empty">No matches here. Try another day or league.</div>`;
 }
 
 document.addEventListener('click', e=>{
   const lb=e.target.closest('[data-league]'); if(lb){ state.league=lb.dataset.league; state.day='all'; render(); }
   const db=e.target.closest('[data-day]'); if(db){ state.day=db.dataset.day; render(); }
+  if(e.target.closest('#pick-toggle')){ state.top=!state.top; render(); }
+});
+document.addEventListener('change', e=>{
+  if(e.target.id==='topn'){ state.topN=+e.target.value; if(state.top) render(); }
 });
 
 async function load(){
