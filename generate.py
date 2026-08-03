@@ -129,13 +129,39 @@ def predict(m, home, away):
     btts=float(sum(g[x,y] for x in range(1,MAX_GOALS+1) for y in range(1,MAX_GOALS+1)))
     sx, sy = np.unravel_index(int(g.argmax()), g.shape)
     result_side = max([(f"{home} win",hw),("Draw",dr),(f"{away} win",aw)], key=lambda t:t[1])
+
+    # --- derive every market the goal model can honestly support ---
+    def _c(cond):
+        return float(sum(g[x,y] for x in range(MAX_GOALS+1) for y in range(MAX_GOALS+1) if cond(x,y)))
+    o05=_c(lambda x,y:x+y>=1); o15=_c(lambda x,y:x+y>=2); o35=_c(lambda x,y:x+y>=4)
+    dnb=hw+aw; dnb_h=hw/dnb if dnb>0 else 0.0; dnb_a=aw/dnb if dnb>0 else 0.0
+    h_o15=_c(lambda x,y:x>=2); a_o15=_c(lambda x,y:y>=2)
+    h_by2=_c(lambda x,y:x-y>=2); a_by2=_c(lambda x,y:y-x>=2)
+    odd=_c(lambda x,y:(x+y)%2==1); cs_h=_c(lambda x,y:y==0); cs_a=_c(lambda x,y:x==0)
+    flat=sorted(((x,y,float(g[x,y])) for x in range(MAX_GOALS+1) for y in range(MAX_GOALS+1)),
+                key=lambda t:-t[2])[:3]
+    def R(v): return round(float(v),4)
+    markets=[
+      {"group":"Result","rows":[["Home win",R(hw)],["Draw",R(dr)],["Away win",R(aw)]]},
+      {"group":"Double chance","rows":[["Home or draw (1X)",R(hw+dr)],["Home or away (12)",R(hw+aw)],["Draw or away (X2)",R(dr+aw)]]},
+      {"group":"Draw no bet","rows":[[home,R(dnb_h)],[away,R(dnb_a)]]},
+      {"group":"Asian handicap","rows":[[f"{home} -1.5",R(h_by2)],[f"{away} -1.5",R(a_by2)]]},
+      {"group":"Total goals","rows":[["Over 0.5",R(o05)],["Over 1.5",R(o15)],["Over 2.5",R(over)],["Over 3.5",R(o35)]]},
+      {"group":"Both teams to score","rows":[["Yes",R(btts)],["No",R(1-btts)]]},
+      {"group":"Team goals","rows":[[f"{home} over 1.5",R(h_o15)],[f"{away} over 1.5",R(a_o15)]]},
+      {"group":"Clean sheet","rows":[[home,R(cs_h)],[away,R(cs_a)]]},
+      {"group":"Goals odd / even","rows":[["Odd",R(odd)],["Even",R(1-odd)]]},
+      {"group":"Correct score (top 3)","rows":[[f"{x}-{y}",R(pr)] for x,y,pr in flat]},
+    ]
+
     ou = ("Over 2.5",over) if over>=0.5 else ("Under 2.5",1-over)
     bt = ("BTTS: Yes",btts) if btts>=0.5 else ("BTTS: No",1-btts)
     prim = max([result_side, ou, bt], key=lambda t:t[1])
     return {"home":home,"away":away,"xg_home":round(lam,2),"xg_away":round(mu,2),
             "prob_home":hw,"prob_draw":dr,"prob_away":aw,"over25":over,"btts":btts,
             "top_score":f"{int(sx)}-{int(sy)}","top_score_prob":float(g[sx,sy]),
-            "primary_pick":prim[0],"primary_prob":prim[1],"primary_strength":_strength(prim[1])}
+            "primary_pick":prim[0],"primary_prob":prim[1],"primary_strength":_strength(prim[1]),
+            "markets":markets}
 
 
 # --------------------------------------------------------------------------- #
