@@ -154,7 +154,26 @@ def predict(m, home, away):
 
     ou = ("Over 2.5",over) if over>=0.5 else ("Under 2.5",1-over)
     bt = ("BTTS: Yes",btts) if btts>=0.5 else ("BTTS: No",1-btts)
-    prim = max([result_side, ou, bt], key=lambda t:t[1])
+    # The headline call = the most confident pick across MEANINGFUL markets.
+    # We deliberately exclude near-certain "junk" (e.g. Over 0.5 at ~96%) so the
+    # card always leads with something worth reading, not something obvious.
+    candidates = [
+        result_side,                                   # 1X2 favourite
+        ou, bt,
+        (f"{home} or draw (1X)", hw+dr),
+        (f"{away} or draw (X2)", dr+aw),
+        (f"{home} (draw no bet)", dnb_h),
+        (f"{away} (draw no bet)", dnb_a),
+        (f"{home} -1.5", h_by2),
+        (f"{away} -1.5", a_by2),
+        ("Over 1.5", o15), ("Under 1.5", 1-o15),
+        ("Over 3.5", o35), ("Under 3.5", 1-o35),
+        (f"{home} over 1.5 goals", h_o15),
+        (f"{away} over 1.5 goals", a_o15),
+    ]
+    # keep only picks in a sensible confidence band (not near-certain, not a coin flip)
+    meaningful = [c for c in candidates if 0.50 <= c[1] <= 0.90]
+    prim = max(meaningful or [result_side], key=lambda t:t[1])
     return {"home":home,"away":away,"xg_home":round(lam,2),"xg_away":round(mu,2),
             "prob_home":hw,"prob_draw":dr,"prob_away":aw,"over25":over,"btts":btts,
             "top_score":f"{int(sx)}-{int(sy)}","top_score_prob":float(g[sx,sy]),
