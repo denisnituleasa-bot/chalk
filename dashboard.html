@@ -52,14 +52,22 @@
     padding:7px 13px; border-radius:999px; font-size:12.5px;}
   .day:hover{color:var(--text);}
   .day.active{background:var(--text); color:var(--ink); border-color:var(--text); font-weight:600;}
-  .picks{display:flex; align-items:center; gap:12px; margin:-6px 0 20px; flex-wrap:wrap;}
-  .pickbtn{background:var(--panel-2); border:1px solid var(--line-strong); color:var(--muted);
-    padding:8px 15px; border-radius:999px; font-size:12.5px; font-weight:600;}
-  .pickbtn:hover{color:var(--text);}
-  .pickbtn.active{background:rgba(245,177,60,.12); border-color:rgba(245,177,60,.5); color:var(--amber);}
-  .pickcount{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--muted);}
-  .pickcount select{background:var(--panel-2); color:var(--text); border:1px solid var(--line-strong);
-    border-radius:8px; padding:6px 8px; font-family:'Space Mono',monospace; font-size:13px;}
+  .picks{display:flex; align-items:center; gap:14px; margin:2px 0 22px; flex-wrap:wrap;
+    background:linear-gradient(90deg, rgba(245,177,60,.10), rgba(245,177,60,.02));
+    border:1px solid rgba(245,177,60,.28); border-radius:13px; padding:12px 16px;}
+  .pickbtn{display:inline-flex; align-items:center; gap:8px; background:var(--amber); color:#1a1205;
+    border:1px solid var(--amber); padding:11px 20px; border-radius:999px;
+    font-family:'Space Grotesk',sans-serif; font-size:14.5px; font-weight:700; letter-spacing:.01em;
+    box-shadow:0 6px 18px rgba(245,177,60,.18); transition:transform .12s ease, filter .12s ease;}
+  .pickbtn:hover{filter:brightness(1.06); transform:translateY(-1px);}
+  .pickbtn .star{font-size:15px;}
+  .pickbtn.active{background:var(--panel-2); color:var(--amber); border-color:rgba(245,177,60,.6);
+    box-shadow:none;}
+  .picks .blurb{font-size:12.5px; color:var(--muted); flex:1; min-width:140px;}
+  .picks .blurb b{color:var(--text); font-weight:600;}
+  .pickcount{display:inline-flex; align-items:center; gap:8px; font-size:13px; color:var(--text);}
+  .pickcount select{background:var(--panel); color:var(--text); border:1px solid rgba(245,177,60,.5);
+    border-radius:8px; padding:7px 9px; font-family:'Space Mono',monospace; font-size:14px; font-weight:700;}
   .rank{display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px;
     border-radius:6px; background:rgba(245,177,60,.14); color:var(--amber);
     font-family:'Space Mono',monospace; font-size:11px; font-weight:700; margin-right:8px; vertical-align:middle;}
@@ -142,7 +150,8 @@
     </div>
     <div class="days" id="days"></div>
     <div class="picks">
-      <button class="pickbtn" id="pick-toggle">★ Top picks</button>
+      <button class="pickbtn" id="pick-toggle"><span class="star">★</span> Top picks</button>
+      <span class="blurb" id="pick-blurb">Let the model surface the day's <b>most confident calls</b>, ranked.</span>
       <span class="pickcount" id="pick-count" style="display:none">
         Show
         <select id="topn" aria-label="Number of picks">
@@ -150,7 +159,7 @@
           <option selected>5</option><option>6</option><option>7</option>
           <option>8</option><option>9</option><option>10</option>
         </select>
-        most confident calls
+        best calls
       </span>
     </div>
     <div class="grid" id="grid"><div class="empty">Loading predictions…</div></div>
@@ -280,6 +289,7 @@ function render(){
   // sync the Top picks control
   document.getElementById('pick-toggle').classList.toggle('active', state.top);
   document.getElementById('pick-count').style.display = state.top ? 'inline-flex' : 'none';
+  document.getElementById('pick-blurb').style.display = state.top ? 'none' : 'inline';
 
   const todayK=new Date().toISOString().slice(0,10);
   if(state.top){
