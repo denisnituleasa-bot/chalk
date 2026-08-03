@@ -55,8 +55,8 @@ LEAGUES = {
 
 TRAIN_SEASONS      = [2024, 2025]
 LIVE_SEASON        = 2026
-DAYS_AHEAD         = 10          # how far ahead to show fixtures
-MATCHES_PER_LEAGUE = 8           # cap per league (breadth without flooding)
+DAYS_AHEAD         = 30          # wide enough to catch early-season fixtures weeks out
+MATCHES_PER_LEAGUE = 10          # up to a full matchday per league
 MAX_ANALYSES       = 100         # HARD cap on paid AI write-ups per run (cost control)
 MODEL              = "claude-sonnet-5"   # or "claude-haiku-4-5" to spend less
 
