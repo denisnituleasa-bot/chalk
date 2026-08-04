@@ -9,7 +9,7 @@ Keys come from environment variables (GitHub Secrets), never hard-coded:
     API_FOOTBALL_KEY, ANTHROPIC_API_KEY
 """
 
-import os, json, math, time
+import os, json, math, time, re
 from datetime import datetime, timezone, timedelta
 
 import requests
@@ -309,25 +309,129 @@ def build_league(name, league_id):
     print("  top attacks:", ", ".join(top), " <- should belong to this league")
     return {"model":m, "results":res, "id":league_id}
 
+
+# --------------------------------------------------------------------------- #
+# Track record: remember predictions, grade them once matches are played
+# --------------------------------------------------------------------------- #
+def load_json(path, default):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+def match_id(league, home, away, kickoff):
+    return f"{league}|{home}|{away}|{kickoff[:10]}"
+
+def upcoming_from(fixtures, days_ahead, limit):
+    now = datetime.now(timezone.utc); horizon = now + timedelta(days=days_ahead); ups = []
+    for fx in fixtures:
+        if fx["fixture"]["status"]["short"] == "NS":
+            d = _date(fx["fixture"]["date"])
+            if d and now <= d <= horizon:
+                ups.append((d, fx["teams"]["home"]["name"], fx["teams"]["away"]["name"]))
+    ups.sort(key=lambda t: t[0])
+    return [(d.isoformat(), h, a) for d, h, a in ups[:limit]]
+
+def finished_scores(fixtures):
+    """Final scores from a league's season fixtures, keyed by (home, away)."""
+    out = {}
+    for fx in fixtures:
+        if fx["fixture"]["status"]["short"] in ("FT", "AET", "PEN"):
+            g = fx.get("goals", {})
+            if g.get("home") is None or g.get("away") is None:
+                continue
+            out[(fx["teams"]["home"]["name"], fx["teams"]["away"]["name"])] = (int(g["home"]), int(g["away"]))
+    return out
+
+def grade_pick(pick, home, away, hg, ag):
+    """Return 'win' / 'loss' / 'push' for a call, given the final score."""
+    total = hg + ag
+    home_win, draw, away_win = hg > ag, hg == ag, ag > hg
+    p = pick.strip()
+    m = re.match(r'^(Over|Under) (\d+(?:\.\d+)?)$', p)
+    if m:
+        over = total > float(m.group(2))
+        return 'win' if (over == (m.group(1) == 'Over')) else 'loss'
+    if p.startswith('BTTS'):
+        return 'win' if ((hg >= 1 and ag >= 1) == ('Yes' in p)) else 'loss'
+    if p == 'Draw':
+        return 'win' if draw else 'loss'
+    if p.endswith('(draw no bet)'):
+        team = p[:-len(' (draw no bet)')].strip()
+        if draw: return 'push'
+        return 'win' if ((team == home and home_win) or (team == away and away_win)) else 'loss'
+    if '(1X)' in p:
+        return 'win' if (home_win or draw) else 'loss'
+    if '(X2)' in p:
+        return 'win' if (away_win or draw) else 'loss'
+    m = re.match(r'^(.+) -1\.5$', p)
+    if m:
+        team = m.group(1).strip()
+        margin = (hg - ag) if team == home else (ag - hg)
+        return 'win' if margin >= 2 else 'loss'
+    m = re.match(r'^(.+) over 1\.5 goals$', p)
+    if m:
+        team = m.group(1).strip()
+        tg = hg if team == home else ag
+        return 'win' if tg >= 2 else 'loss'
+    m = re.match(r'^(.+) win$', p)
+    if m:
+        team = m.group(1).strip()
+        return 'win' if ((team == home and home_win) or (team == away and away_win)) else 'loss'
+    return 'unknown'
+
+def write_record(graded):
+    played = [g for g in graded if g["result"] in ("win", "loss", "push")]
+    wins = sum(1 for g in played if g["result"] == "win")
+    losses = sum(1 for g in played if g["result"] == "loss")
+    pushes = sum(1 for g in played if g["result"] == "push")
+    decided = wins + losses
+    hit = wins / decided if decided else 0.0
+    cal = []
+    for lo, hi in [(0.50,0.60),(0.60,0.70),(0.70,0.80),(0.80,0.90),(0.90,1.01)]:
+        grp = [g for g in played if g["result"] != "push" and lo <= g["prob"] < hi]
+        if not grp:
+            continue
+        w = sum(1 for g in grp if g["result"] == "win")
+        cal.append({"bucket": f"{int(lo*100)}\u2013{min(int(hi*100),100)}%",
+                    "stated": round(sum(g["prob"] for g in grp)/len(grp), 4),
+                    "actual": round(w/len(grp), 4), "n": len(grp)})
+    recent = sorted(graded, key=lambda g: g["kickoff"], reverse=True)[:60]
+    rec = {"updated": datetime.now(timezone.utc).isoformat(),
+           "totals": {"graded": len(played), "wins": wins, "losses": losses,
+                      "pushes": pushes, "hit_rate": round(hit, 4)},
+           "calibration": cal, "recent": recent}
+    with open("record.json", "w") as f:
+        json.dump(rec, f, indent=2)
+    print(f"Record: {wins}W {losses}L {pushes}P across {len(played)} graded"
+          + (f" | hit rate {hit*100:.0f}%" if decided else ""))
+
+
 def main():
-    # 1) build each league and collect its upcoming fixtures (cheap, no AI yet)
+    # carry-over state from previous runs (committed back to the repo)
+    pending = load_json("pending.json", {})
+    graded  = load_json("graded.json", [])
+
     leagues_built = {}
+    live_scores = {}          # league -> {(home,away): (hg,ag)}
     all_fixtures = []
     for name, lid in LEAGUES.items():
         lg = build_league(name, lid)
         if not lg:
             continue
         leagues_built[name] = lg
+        season_fixtures = fetch_all_fixtures(lid, LIVE_SEASON)   # one fetch, reused below
+        live_scores[name] = finished_scores(season_fixtures)
         known = set(lg["model"]["teams"])
-        for kickoff, home, away in upcoming_fixtures(lid, LIVE_SEASON, DAYS_AHEAD, MATCHES_PER_LEAGUE):
+        for kickoff, home, away in upcoming_from(season_fixtures, DAYS_AHEAD, MATCHES_PER_LEAGUE):
             if home in known and away in known:
                 all_fixtures.append((kickoff, name, home, away))
 
-    all_fixtures.sort(key=lambda t: t[0])   # soonest first
+    all_fixtures.sort(key=lambda t: t[0])
     print(f"\n{len(all_fixtures)} fixtures across {len(leagues_built)} leagues; "
-          f"full AI analysis on the soonest {MAX_ANALYSES}")
+          f"AI analysis on the soonest {MAX_ANALYSES}")
 
-    # 2) predict every fixture; AI-write the soonest MAX_ANALYSES, template the rest
     preds = []
     for i, (kickoff, name, home, away) in enumerate(all_fixtures):
         lg = leagues_built[name]
@@ -339,11 +443,44 @@ def main():
             fh = build_facts(lg["results"], home); fa = build_facts(lg["results"], away)
             p["analysis"] = _fallback(p, fh, fa)
         preds.append(p)
+        # remember the current call so we can grade it after the match is played
+        mid = match_id(name, home, away, kickoff)
+        pending[mid] = {"id": mid, "league": name, "home": home, "away": away,
+                        "kickoff": kickoff, "pick": p["primary_pick"],
+                        "prob": round(p["primary_prob"], 4), "strength": p["primary_strength"]}
 
-    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "predictions": preds}
     with open("predictions.json", "w") as f:
-        json.dump(payload, f, indent=2)
-    print(f"\nSaved {len(preds)} predictions across {len(leagues_built)} leagues to predictions.json")
+        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "predictions": preds}, f, indent=2)
+    print(f"Saved {len(preds)} predictions to predictions.json")
+
+    # --- grade any pending prediction whose match has now been played ---
+    now = datetime.now(timezone.utc)
+    graded_ids = {g["id"] for g in graded}
+    newly = 0
+    for mid, pr in list(pending.items()):
+        kd = _date(pr["kickoff"])
+        if not kd or kd > now:
+            continue                                   # not played yet
+        sc = live_scores.get(pr["league"], {}).get((pr["home"], pr["away"]))
+        if sc is None:
+            if (now - kd).days > 20:                   # postponed / never resolved
+                pending.pop(mid, None)
+            continue
+        result = grade_pick(pr["pick"], pr["home"], pr["away"], sc[0], sc[1])
+        pending.pop(mid, None)
+        if result == "unknown" or mid in graded_ids:
+            continue
+        graded.append({"id": mid, "league": pr["league"], "home": pr["home"], "away": pr["away"],
+                       "kickoff": pr["kickoff"], "pick": pr["pick"], "prob": pr["prob"],
+                       "score": f"{sc[0]}-{sc[1]}", "result": result,
+                       "graded_at": now.isoformat()})
+        graded_ids.add(mid); newly += 1
+
+    with open("pending.json", "w") as f: json.dump(pending, f, indent=2)
+    with open("graded.json", "w") as f:  json.dump(graded, f, indent=2)
+    print(f"Graded {newly} newly-finished matches ({len(pending)} awaiting results)")
+
+    write_record(graded)
 
 if __name__ == "__main__":
     main()
