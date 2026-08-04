@@ -112,6 +112,15 @@
   .page-head h1{font-size:25px;font-weight:700;letter-spacing:-.025em;margin:0;}
   .page-head .sub{font-size:13px;color:var(--text-2);margin-top:5px;display:flex;align-items:center;gap:8px;}
   .dot-live{width:6px;height:6px;border-radius:50%;background:var(--pos);box-shadow:0 0 0 3px var(--pos-soft);}
+  .rec-strip{display:none;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);
+    border-radius:var(--r);padding:11px 16px;margin-bottom:20px;transition:.16s var(--ease);}
+  .rec-strip:hover{border-color:var(--border-2);box-shadow:var(--shadow);}
+  .rec-strip .rl{font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--text-3);}
+  .rec-strip .rv{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;letter-spacing:-.02em;}
+  .rec-strip .rv .pos{color:var(--pos);}
+  .rec-strip .sep{width:1px;height:22px;background:var(--border-2);}
+  .rec-strip .rmeta{font-size:12px;color:var(--text-2);}
+  .rec-strip .rgo{margin-left:auto;font-size:12px;font-weight:600;color:var(--accent);display:flex;align-items:center;gap:5px;}
 
   /* toolbar */
   .toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:22px;}
@@ -336,7 +345,7 @@
   <aside class="side" id="side">
     <div class="navlabel">Dashboard</div>
     <button class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Overview</button>
-    <button class="nav-item soon">Track record<span class="soon-tag">Soon</span></button>
+    <a class="nav-item" href="record.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l3-4 3 3 4-6"/></svg>Track record</a>
     <div class="navlabel">Leagues</div>
     <div id="leagues"></div>
     <div class="side-foot">Statistical analysis, not betting advice. No outcome is guaranteed. 18+ · gamble responsibly.</div>
@@ -350,6 +359,8 @@
         <div class="sub"><span class="dot-live"></span><span id="fresh">—</span></div>
       </div>
     </div>
+
+    <a class="rec-strip" id="rec-strip" href="record.html"></a>
 
     <div class="toolbar">
       <div class="tabs" id="days"></div>
@@ -665,6 +676,28 @@ async function load(){
   render();
 }
 load();
+
+/* record summary strip (links to the Track record page) */
+(async function(){
+  try{
+    const r=await fetch('record.json',{cache:'no-store'});
+    if(!r.ok)return;
+    const rec=await r.json();const t=rec.totals||{};
+    const strip=document.getElementById('rec-strip');
+    if(t.graded){
+      strip.innerHTML=`<div><div class="rl">Track record</div><div class="rv"><span class="pos">${t.wins}W</span>–${t.losses}L</div></div>
+        <div class="sep"></div>
+        <div class="rmeta"><span class="num" style="color:var(--text)">${Math.round((t.hit_rate||0)*100)}%</span> hit rate · <span class="num" style="color:var(--text)">${t.graded}</span> calls graded</div>
+        <div class="rgo">View track record <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>`;
+    }else{
+      strip.innerHTML=`<div><div class="rl">Track record</div><div class="rv" style="font-size:13px;color:var(--text-2)">Building</div></div>
+        <div class="sep"></div>
+        <div class="rmeta">Grading starts as this week's matches are played.</div>
+        <div class="rgo">See how it works <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>`;
+    }
+    strip.style.display='flex';
+  }catch(e){}
+})();
 </script>
 </body>
 </html>
