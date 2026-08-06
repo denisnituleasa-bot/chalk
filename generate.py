@@ -344,6 +344,31 @@ def finished_scores(fixtures):
             out[(fx["teams"]["home"]["name"], fx["teams"]["away"]["name"])] = (int(g["home"]), int(g["away"]))
     return out
 
+def fetch_h2h(hid, aid, home, away, limit=6):
+    """Recent past meetings between two teams, most recent first, with a summary."""
+    data = _get("/fixtures/headtohead", {"h2h": f"{hid}-{aid}", "last": limit})
+    meetings = []
+    for fx in data.get("response", []):
+        if fx["fixture"]["status"]["short"] not in ("FT", "AET", "PEN"):
+            continue
+        g = fx.get("goals", {})
+        if g.get("home") is None or g.get("away") is None:
+            continue
+        meetings.append({"date": fx["fixture"]["date"][:10],
+                         "home": fx["teams"]["home"]["name"], "away": fx["teams"]["away"]["name"],
+                         "hg": int(g["home"]), "ag": int(g["away"])})
+    hw = aw = dr = 0
+    for m in meetings:
+        if m["hg"] == m["ag"]:
+            dr += 1
+        else:
+            winner = m["home"] if m["hg"] > m["ag"] else m["away"]
+            if winner == home: hw += 1
+            elif winner == away: aw += 1
+    time.sleep(0.4)   # be gentle on the rate limit
+    return {"meetings": meetings[:limit],
+            "summary": ({"n": len(meetings), "home_wins": hw, "draws": dr, "away_wins": aw} if meetings else None)}
+
 def grade_pick(pick, home, away, hg, ag):
     """Return 'win' / 'loss' / 'push' for a call, given the final score."""
     total = hg + ag
@@ -423,6 +448,11 @@ def main():
         leagues_built[name] = lg
         season_fixtures = fetch_all_fixtures(lid, LIVE_SEASON)   # one fetch, reused below
         live_scores[name] = finished_scores(season_fixtures)
+        ids = {}
+        for fx in season_fixtures:
+            ids[fx["teams"]["home"]["name"]] = fx["teams"]["home"]["id"]
+            ids[fx["teams"]["away"]["name"]] = fx["teams"]["away"]["id"]
+        lg["ids"] = ids
         known = set(lg["model"]["teams"])
         for kickoff, home, away in upcoming_from(season_fixtures, DAYS_AHEAD, MATCHES_PER_LEAGUE):
             if home in known and away in known:
@@ -439,6 +469,9 @@ def main():
         p["league"] = name; p["league_id"] = lg["id"]; p["kickoff"] = kickoff
         fh = build_facts(lg["results"], home); fa = build_facts(lg["results"], away)
         p["form_home"] = fh; p["form_away"] = fa
+        ids = lg.get("ids", {})
+        hid, aid = ids.get(home), ids.get(away)
+        p["h2h"] = fetch_h2h(hid, aid, home, away) if (hid and aid) else {"meetings": [], "summary": None}
         if i < MAX_ANALYSES:
             p["analysis"] = write_analysis(p, lg["results"])
         else:
