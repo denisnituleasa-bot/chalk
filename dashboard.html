@@ -222,6 +222,18 @@
   .form-card .fpills{margin-bottom:10px;}
   .form-card .frec{font-size:11.5px;color:var(--text-3);line-height:1.5;}
   .form-card .frec b{color:var(--text-2);font-family:'JetBrains Mono',monospace;font-weight:500;}
+  .h2h-sum{display:flex;gap:18px;flex-wrap:wrap;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:var(--r);padding:12px 15px;font-size:12.5px;color:var(--text-2);margin-bottom:12px;}
+  .h2h-sum .lb{color:var(--text-3);}
+  .h2h-sum b{color:var(--text);font-family:'JetBrains Mono',monospace;}
+  .h2h-list{border:1px solid var(--border);border-radius:var(--r);overflow:hidden;}
+  .h2h-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;
+    border-bottom:1px solid var(--border);font-size:13px;}
+  .h2h-row:last-child{border-bottom:none;}
+  .h2h-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-3);white-space:nowrap;}
+  .h2h-match{color:var(--text-2);text-align:right;}
+  .h2h-match b{color:var(--text);font-family:'JetBrains Mono',monospace;margin:0 7px;}
+  .h2h-empty{font-size:12.5px;color:var(--text-3);}
 
   /* ---------- table view ---------- */
   .tablewrap{border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;background:var(--surface);}
@@ -447,6 +459,16 @@ function formPills(form){
     const c=r==='W'?'w':r==='D'?'d':r==='L'?'l':'x';
     return `<span class="fp fp-${c}">${esc(r)}</span>`;}).join('')+`</span>`;
 }
+function fmtMonthYear(d){try{return new Date(d).toLocaleDateString(undefined,{month:'short',year:'numeric'});}catch(e){return d;}}
+function h2hHtml(p){
+  const h=p.h2h;
+  if(!h||!h.meetings||!h.meetings.length)
+    return `<div class="h2h-empty">No recent meetings between these teams on record.</div>`;
+  const s=h.summary;
+  const sum = s?`<div class="h2h-sum"><span class="lb">Last ${s.n}</span><span><b>${esc(p.home)}</b> ${s.home_wins}W</span><span>Draw ${s.draws}</span><span><b>${esc(p.away)}</b> ${s.away_wins}W</span></div>`:'';
+  const rows = h.meetings.map(m=>`<div class="h2h-row"><span class="h2h-date">${fmtMonthYear(m.date)}</span><span class="h2h-match">${esc(m.home)}<b>${m.hg}-${m.ag}</b>${esc(m.away)}</span></div>`).join('');
+  return sum + `<div class="h2h-list">${rows}</div>`;
+}
 
 /* ---- data selectors ---- */
 function counts(){const c={};DATA.predictions.forEach(p=>c[p.league]=(c[p.league]||0)+1);return c;}
@@ -654,6 +676,7 @@ function openMatch(home,away){
           <div class="form-card"><div class="ftn">${esc(p.away)}</div>${formPills(p.form_away)}<div class="frec">${p.form_away?`<b>${esc(p.form_away.last5_record)}</b> · ${esc(p.form_away.last5_goals)}`:'form data pending'}</div></div>
         </div>
       </div>
+      <div class="dr-sec"><h3>Head-to-head</h3>${h2hHtml(p)}</div>
       <div class="dr-sec"><h3>All betting markets</h3><div class="mtable">${mk}</div></div>
       <div class="dr-sec"><h3>AI explanation</h3><div class="analysis-box">${an}</div></div>
       <div class="dr-sec"><h3>Deeper analysis — on the roadmap</h3>
