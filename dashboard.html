@@ -74,6 +74,16 @@
   html[data-theme="light"] .btn-pro{color:#fff;}
   .btn-pro:hover{filter:brightness(1.06);transform:translateY(-1px);}
   .menu-btn{display:none;}
+  .searchbox{display:flex;align-items:center;gap:8px;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:10px;padding:0 11px;height:36px;flex:1;max-width:380px;margin:0 24px;transition:.15s var(--ease);}
+  .searchbox:focus-within{border-color:var(--accent-line);background:var(--surface);box-shadow:var(--ring);}
+  .searchbox > svg{width:15px;height:15px;color:var(--text-3);flex-shrink:0;}
+  .searchbox input{flex:1;min-width:0;background:none;border:none;outline:none;color:var(--text);font-size:13.5px;font-family:inherit;}
+  .searchbox input::placeholder{color:var(--text-3);}
+  .searchbox .clr{display:none;align-items:center;justify-content:center;color:var(--text-3);width:20px;height:20px;border-radius:5px;flex-shrink:0;}
+  .searchbox .clr:hover{color:var(--text);background:var(--surface-3);}
+  .searchbox .clr.show{display:flex;}
+  .searchbox .clr svg{width:13px;height:13px;}
 
   /* ---------- shell ---------- */
   .shell{display:grid;grid-template-columns:var(--sb) 1fr;min-height:calc(100vh - 56px);}
@@ -358,6 +368,7 @@
     .main{padding:20px 16px 60px;}
     .drawer{width:100vw;}
     thead th{top:0;}
+    .searchbox{margin:0 12px;max-width:none;}
   }
   @media (max-width:560px){
     .metrics{grid-template-columns:1fr 1fr;gap:10px;}
@@ -365,6 +376,8 @@
     .grid{grid-template-columns:1fr;}
     .page-head h1{font-size:21px;}
     .brand .tag{display:none;}
+    .searchbox{margin:0 8px;}
+    .searchbox input::placeholder{font-size:12px;}
     /* hide dense columns on tiny screens */
     .col-lg,.col-spine{display:none;}
   }
@@ -381,6 +394,11 @@
       <span class="mark"><i></i><i></i><i></i></span>
       <b>ModelXI</b><span class="tag">Analytics</span>
     </a>
+  </div>
+  <div class="searchbox">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+    <input id="search" type="text" placeholder="Search team or league…" autocomplete="off" aria-label="Search">
+    <button class="clr" id="search-clear" aria-label="Clear search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   </div>
   <div class="top-actions">
     <button class="icon-btn" id="theme-btn" aria-label="Toggle theme">
@@ -460,7 +478,7 @@ const REGION={"Premier League":"Europe","La Liga":"Europe","Serie A":"Europe","B
 const LEAGUE_ORDER=Object.keys(REGION);
 
 let DATA={generated_at:null,predictions:[]};
-const state={league:'all',day:'all',top:false,topN:5,view:'cards',sort:'kickoff',market:'all',strong:false};
+const state={league:'all',day:'all',top:false,topN:5,view:'cards',sort:'kickoff',market:'all',strong:false,query:''};
 
 /* ---- theme ---- */
 function setTheme(t){document.documentElement.dataset.theme=t;
@@ -530,8 +548,21 @@ function sortSet(set){const s=set.slice();
 ========================================================= */
 function render(){
   renderSidebar();renderDays();syncToolbar();
-  let base=applyFilters(filtered());
   document.getElementById('fresh').textContent=ago(DATA.generated_at);
+
+  const q=state.query.trim().toLowerCase();
+  if(q){
+    let res=applyFilters(DATA.predictions.filter(p=>
+      p.home.toLowerCase().includes(q)||p.away.toLowerCase().includes(q)||p.league.toLowerCase().includes(q)));
+    document.getElementById('title').textContent='Search results';
+    document.getElementById('fcount').textContent='';
+    document.getElementById('overview').innerHTML=
+      `<div class="sec-head" style="margin-bottom:16px"><h2>Results for “${esc(state.query.trim())}”</h2><span class="hint">${res.length} match${res.length===1?'':'es'}</span></div>`;
+    renderBoard(sortSet(res),false);
+    return;
+  }
+
+  let base=applyFilters(filtered());
   const nActive=(state.market!=='all'||state.strong);
   document.getElementById('fcount').textContent=nActive?`${base.length} match${base.length===1?'':'es'} match your filters`:'';
 
@@ -796,6 +827,13 @@ async function load(){
   render();
 }
 load();
+
+/* search */
+(function(){
+  const inp=document.getElementById('search'),clr=document.getElementById('search-clear');
+  inp.addEventListener('input',()=>{state.query=inp.value;clr.classList.toggle('show',!!inp.value);render();});
+  clr.addEventListener('click',()=>{inp.value='';state.query='';clr.classList.remove('show');render();inp.focus();});
+})();
 
 /* record summary strip (links to the Track record page) */
 (async function(){
