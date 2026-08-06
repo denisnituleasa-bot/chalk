@@ -147,6 +147,10 @@
   .cal-track i{position:absolute;left:0;top:0;height:100%;border-radius:5px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform 1s var(--ease);}
   .calbox.in .cal-track i{transform:scaleX(1);}
   .cal-foot{font-size:11.5px;color:var(--text-3);margin-top:16px;line-height:1.55;}
+  .live-wrap{text-align:center;margin-top:18px;}
+  .live-badge{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border-radius:99px;
+    background:var(--pos-soft);border:1px solid rgba(79,190,139,.32);color:var(--pos);font-size:13.5px;font-weight:600;}
+  .live-dot{width:7px;height:7px;border-radius:50%;background:var(--pos);box-shadow:0 0 0 3px rgba(79,190,139,.2);}
 
   /* wont do */
   .wont{background:var(--surface);border:1px solid var(--border-2);border-radius:var(--r-xl);padding:36px;margin-top:48px;}
@@ -343,6 +347,7 @@
     <div class="sec-eyebrow eyebrow reveal">How accurate is it?</div>
     <h2 class="sec-title reveal">We don't ask you to trust a number.</h2>
     <p class="sec-sub reveal">We publish every result instead. This is the honest answer to "how good is it?"</p>
+    <div class="live-wrap" id="live-wrap" style="display:none"></div>
     <div class="prec">
       <div class="reveal">
         <h3>Calibration, not bravado.</h3>
@@ -351,7 +356,7 @@
         <p>That's why every single call the model makes is graded against the real final score and shown publicly. No cherry-picking, no hidden misses. You judge us on the record.</p>
         <a class="btn btn-primary" href="record.html" style="margin-top:6px">See the live track record <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
-      <div class="calbox reveal d1">
+      <div class="calbox reveal d1" id="calbox">
         <div class="ch">Stated vs actual — the calibration test</div>
         <div class="cal-row"><div class="lab"><span>50–60% calls</span><span class="mono">land ~55%</span></div><div class="cal-track"><i style="width:55%"></i></div></div>
         <div class="cal-row"><div class="lab"><span>60–70% calls</span><span class="mono">land ~64%</span></div><div class="cal-track"><i style="width:64%"></i></div></div>
@@ -467,6 +472,26 @@ if(reduce){
   const io2=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){countUp(e.target);io2.unobserve(e.target);}})},{threshold:.6});
   document.querySelectorAll('[data-count]').forEach(el=>io2.observe(el));
 }
+
+/* Live calibration: replace the illustration with real figures once the
+   track record has a meaningful sample. Until then, the illustration stays. */
+(async function(){
+  try{
+    const r=await fetch('record.json',{cache:'no-store'});
+    if(!r.ok)return;
+    const rec=await r.json();
+    const t=rec.totals||{}, cal=rec.calibration||[];
+    if(!(t.graded>=20 && cal.length))return;   // not enough data yet — keep the illustration
+    const lw=document.getElementById('live-wrap');
+    lw.innerHTML=`<span class="live-badge"><span class="live-dot"></span>Live · ${Math.round((t.hit_rate||0)*100)}% hit rate across ${t.graded} graded calls</span>`;
+    lw.style.display='block';
+    const box=document.getElementById('calbox');
+    box.innerHTML=`<div class="ch">Stated vs actual — live results</div>`+
+      cal.map(c=>`<div class="cal-row"><div class="lab"><span>${c.bucket} calls</span><span class="mono">land ~${Math.round(c.actual*100)}%</span></div><div class="cal-track"><i style="width:${Math.round(c.actual*100)}%"></i></div></div>`).join('')+
+      `<div class="cal-foot">Live figures from the public track record, updated as matches are graded. A well-calibrated model's “actual” tracks close to its “stated”.</div>`;
+    box.classList.add('in');
+  }catch(e){}
+})();
 </script>
 </body>
 </html>
