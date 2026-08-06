@@ -437,10 +437,11 @@ def main():
         lg = leagues_built[name]
         p = predict(lg["model"], home, away)
         p["league"] = name; p["league_id"] = lg["id"]; p["kickoff"] = kickoff
+        fh = build_facts(lg["results"], home); fa = build_facts(lg["results"], away)
+        p["form_home"] = fh; p["form_away"] = fa
         if i < MAX_ANALYSES:
             p["analysis"] = write_analysis(p, lg["results"])
         else:
-            fh = build_facts(lg["results"], home); fa = build_facts(lg["results"], away)
             p["analysis"] = _fallback(p, fh, fa)
         preds.append(p)
         # remember the current call so we can grade it after the match is played
