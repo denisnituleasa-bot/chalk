@@ -144,6 +144,19 @@
     border-radius:8px;padding:6px 8px;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500;}
 
   /* ---------- metric row ---------- */
+  .filterbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 22px;padding:11px 14px;
+    background:var(--surface);border:1px solid var(--border);border-radius:var(--r);}
+  .fgroup{display:flex;align-items:center;gap:8px;}
+  .fgroup label{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-3);}
+  .fgroup select{background:var(--surface-2);color:var(--text);border:1px solid var(--border-2);border-radius:8px;
+    padding:6px 9px;font-size:12.5px;font-family:inherit;cursor:pointer;transition:.14s var(--ease);}
+  .fgroup select:hover{border-color:var(--border-3);}
+  .fgroup select:disabled{opacity:.45;cursor:not-allowed;}
+  .fchip{font-size:12.5px;font-weight:500;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border-2);
+    border-radius:99px;padding:7px 14px;transition:.14s var(--ease);}
+  .fchip:hover{color:var(--text);border-color:var(--border-3);}
+  .fchip.active{background:var(--accent-soft);border-color:var(--accent-line);color:var(--accent);}
+  .fcount{margin-left:auto;font-size:12px;color:var(--text-3);}
   .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:26px;}
   .metric{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:16px 18px;
     position:relative;overflow:hidden;transition:.18s var(--ease);}
@@ -419,6 +432,19 @@
       </div>
     </div>
 
+    <div class="filterbar">
+      <div class="fgroup"><label>Sort</label>
+        <select id="sortsel"><option value="kickoff">Kickoff time</option><option value="confidence">Confidence</option></select></div>
+      <div class="fgroup"><label>Market</label>
+        <select id="marketsel">
+          <option value="all">All markets</option><option value="result">Match result</option>
+          <option value="dc">Double chance</option><option value="ou">Over / Under</option>
+          <option value="btts">Both teams score</option><option value="handicap">Asian handicap</option>
+        </select></div>
+      <button class="fchip" id="strongbtn">Strong calls only</button>
+      <span class="fcount" id="fcount"></span>
+    </div>
+
     <div id="overview"></div>
     <div id="board"></div>
   </main>
@@ -434,7 +460,7 @@ const REGION={"Premier League":"Europe","La Liga":"Europe","Serie A":"Europe","B
 const LEAGUE_ORDER=Object.keys(REGION);
 
 let DATA={generated_at:null,predictions:[]};
-const state={league:'all',day:'all',top:false,topN:5,view:'cards'};
+const state={league:'all',day:'all',top:false,topN:5,view:'cards',sort:'kickoff',market:'all',strong:false};
 
 /* ---- theme ---- */
 function setTheme(t){document.documentElement.dataset.theme=t;
@@ -483,25 +509,41 @@ function h2hHtml(p){
 function counts(){const c={};DATA.predictions.forEach(p=>c[p.league]=(c[p.league]||0)+1);return c;}
 function filtered(){let s=DATA.predictions.filter(p=>state.league==='all'||p.league===state.league);
   if(state.day!=='all')s=s.filter(p=>dayKey(p.kickoff)===state.day);return s;}
+function marketType(pick){const p=String(pick);
+  if(/(Over|Under) \d/.test(p))return 'ou';
+  if(p.indexOf('BTTS')===0)return 'btts';
+  if(/-1\.5$/.test(p))return 'handicap';
+  if(p.indexOf('(1X)')>=0||p.indexOf('(X2)')>=0)return 'dc';
+  if(p.indexOf('(draw no bet)')>=0||/ win$/.test(p)||p==='Draw')return 'result';
+  return 'other';}
+function applyFilters(set){return set.filter(p=>{
+  if(state.strong && p.primary_strength!=='strong')return false;
+  if(state.market!=='all' && marketType(p.primary_pick)!==state.market)return false;
+  return true;});}
+function sortSet(set){const s=set.slice();
+  if(state.sort==='confidence')s.sort((a,b)=>b.primary_prob-a.primary_prob);
+  else s.sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+  return s;}
 
 /* =========================================================
    RENDER
 ========================================================= */
 function render(){
   renderSidebar();renderDays();syncToolbar();
-  let set=filtered();
+  let base=applyFilters(filtered());
   document.getElementById('fresh').textContent=ago(DATA.generated_at);
+  const nActive=(state.market!=='all'||state.strong);
+  document.getElementById('fcount').textContent=nActive?`${base.length} match${base.length===1?'':'es'} match your filters`:'';
 
   if(state.top){
-    set=set.slice().sort((a,b)=>b.primary_prob-a.primary_prob).slice(0,state.topN);
+    let set=base.slice().sort((a,b)=>b.primary_prob-a.primary_prob).slice(0,state.topN);
     document.getElementById('title').textContent=`Top ${state.topN} pick${state.topN>1?'s':''}`;
     document.getElementById('overview').innerHTML='';
     renderBoard(set,true);return;
   }
   document.getElementById('title').textContent = state.league==='all'?'Overview':state.league;
-  set.sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
-  renderOverview(set);
-  renderBoard(set,false);
+  renderOverview(base);
+  renderBoard(sortSet(base),false);
 }
 
 function renderSidebar(){
@@ -531,6 +573,10 @@ function syncToolbar(){
   document.getElementById('pick-toggle').classList.toggle('active',state.top);
   document.getElementById('pick-count').style.display=state.top?'inline-flex':'none';
   document.querySelectorAll('#view-seg button').forEach(b=>b.classList.toggle('active',b.dataset.view===state.view));
+  const ss=document.getElementById('sortsel'),ms=document.getElementById('marketsel'),sb=document.getElementById('strongbtn');
+  if(ss){ss.value=state.sort;ss.disabled=state.top;}
+  if(ms)ms.value=state.market;
+  if(sb)sb.classList.toggle('active',state.strong);
 }
 
 function renderOverview(set){
@@ -710,9 +756,14 @@ document.addEventListener('click',e=>{
   const dy=e.target.closest('[data-day]');if(dy){state.day=dy.dataset.day;render();return;}
   const vw=e.target.closest('[data-view]');if(vw){state.view=vw.dataset.view;render();return;}
   if(e.target.closest('#pick-toggle')){state.top=!state.top;render();return;}
+  if(e.target.closest('#strongbtn')){state.strong=!state.strong;render();return;}
   if(e.target.closest('.retry')){load();return;}
 });
-document.addEventListener('change',e=>{if(e.target.id==='topn'){state.topN=+e.target.value;if(state.top)render();}});
+document.addEventListener('change',e=>{
+  if(e.target.id==='topn'){state.topN=+e.target.value;if(state.top)render();}
+  if(e.target.id==='sortsel'){state.sort=e.target.value;render();}
+  if(e.target.id==='marketsel'){state.market=e.target.value;render();}
+});
 document.getElementById('overlay').onclick=closeMatch;
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMatch();closeMenu();}});
 const menuBtn=document.getElementById('menu-btn'),side=document.getElementById('side'),scrim=document.getElementById('scrim');
