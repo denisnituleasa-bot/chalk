@@ -206,6 +206,22 @@
   .risk::before{content:'';width:5px;height:5px;border-radius:50%;background:currentColor;}
   .view-link{font-size:11.5px;color:var(--text-3);display:flex;align-items:center;gap:4px;transition:.14s var(--ease);}
   .card:hover .view-link{color:var(--accent);}
+  .cform{margin-top:12px;display:flex;flex-direction:column;gap:6px;}
+  .formteam{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .formteam .nm{font-size:11.5px;color:var(--text-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .fpills{display:flex;gap:3px;flex-shrink:0;}
+  .fp{width:16px;height:16px;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;}
+  .fp-w{background:var(--pos-soft);color:var(--pos);}
+  .fp-d{background:var(--neutral-soft);color:var(--neutral);}
+  .fp-l{background:var(--neg-soft);color:var(--neg);}
+  .fp-x{background:var(--surface-3);color:var(--text-3);}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .form-card{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--r);padding:14px;}
+  .form-card .ftn{font-size:13px;font-weight:600;letter-spacing:-.01em;margin-bottom:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .form-card .fpills{margin-bottom:10px;}
+  .form-card .frec{font-size:11.5px;color:var(--text-3);line-height:1.5;}
+  .form-card .frec b{color:var(--text-2);font-family:'JetBrains Mono',monospace;font-weight:500;}
 
   /* ---------- table view ---------- */
   .tablewrap{border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;background:var(--surface);}
@@ -423,6 +439,14 @@ function ago(iso){if(!iso)return'—';const s=Math.floor((Date.now()-new Date(is
 function riskOf(p){const v=p.primary_prob;if(v>=0.68)return{label:'Low',tone:'pos'};if(v>=0.57)return{label:'Medium',tone:'neutral'};return{label:'Elevated',tone:'neg'};}
 function spineHtml(p,h){return`<div class="spine" style="height:${h||7}px"><i style="width:${pct(p.prob_home)}%;background:var(--home)"></i><i style="width:${pct(p.prob_draw)}%;background:var(--draw)"></i><i style="width:${pct(p.prob_away)}%;background:var(--away)"></i></div>`;}
 const mdBold=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+function formPills(form){
+  if(!form||!form.last5_sequence||form.last5_sequence==='n/a')
+    return `<span class="fpills"><span class="fp fp-x">–</span></span>`;
+  const seq=form.last5_sequence.split(' ').reverse(); // oldest → newest (newest on the right)
+  return `<span class="fpills">`+seq.map(r=>{
+    const c=r==='W'?'w':r==='D'?'d':r==='L'?'l':'x';
+    return `<span class="fp fp-${c}">${esc(r)}</span>`;}).join('')+`</span>`;
+}
 
 /* ---- data selectors ---- */
 function counts(){const c={};DATA.predictions.forEach(p=>c[p.league]=(c[p.league]||0)+1);return c;}
@@ -547,6 +571,10 @@ function cardHtml(p,rank,idx){
       <span><span class="dot" style="background:var(--draw)"></span>Draw <b>${pct(p.prob_draw)}%</b></span>
       <span><span class="dot" style="background:var(--away)"></span>${esc(p.away)} <b>${pct(p.prob_away)}%</b></span>
     </div>
+    <div class="cform">
+      <div class="formteam"><span class="nm">${esc(p.home)}</span>${formPills(p.form_home)}</div>
+      <div class="formteam"><span class="nm">${esc(p.away)}</span>${formPills(p.form_away)}</div>
+    </div>
     <div class="cfoot">
       <div class="cstats">
         <span>xG <span class="mono">${p.xg_home}–${p.xg_away}</span></span>
@@ -618,6 +646,12 @@ function openMatch(home,away){
           <div class="stat"><div class="k">Most likely score</div><div class="v">${esc(p.top_score)}</div><div class="vs">~${pct(p.top_score_prob)}% · one of many</div></div>
           <div class="stat"><div class="k">Over 2.5 goals</div><div class="v">${pct(p.over25)}%</div><div class="vs">under ${100-pct(p.over25)}%</div></div>
           <div class="stat"><div class="k">Both teams score</div><div class="v">${pct(p.btts)}%</div><div class="vs">no ${100-pct(p.btts)}%</div></div>
+        </div>
+      </div>
+      <div class="dr-sec"><h3>Recent form</h3>
+        <div class="form-grid">
+          <div class="form-card"><div class="ftn">${esc(p.home)}</div>${formPills(p.form_home)}<div class="frec">${p.form_home?`<b>${esc(p.form_home.last5_record)}</b> · ${esc(p.form_home.last5_goals)}`:'form data pending'}</div></div>
+          <div class="form-card"><div class="ftn">${esc(p.away)}</div>${formPills(p.form_away)}<div class="frec">${p.form_away?`<b>${esc(p.form_away.last5_record)}</b> · ${esc(p.form_away.last5_goals)}`:'form data pending'}</div></div>
         </div>
       </div>
       <div class="dr-sec"><h3>All betting markets</h3><div class="mtable">${mk}</div></div>
