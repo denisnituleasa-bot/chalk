@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-05T12:36:33.861491+00:00",
+  "updated": "2026-08-06T12:42:51.391475+00:00",
   "totals": {
-    "graded": 0,
-    "wins": 0,
+    "graded": 2,
+    "wins": 2,
     "losses": 0,
     "pushes": 0,
-    "hit_rate": 0.0
+    "hit_rate": 1.0
   },
-  "calibration": [],
-  "recent": []
+  "calibration": [
+    {
+      "bucket": "80\u201390%",
+      "stated": 0.8723,
+      "actual": 1.0,
+      "n": 2
+    }
+  ],
+  "recent": [
+    {
+      "id": "Argentina Primera|Tigre|Belgrano Cordoba|2026-08-06",
+      "league": "Argentina Primera",
+      "home": "Tigre",
+      "away": "Belgrano Cordoba",
+      "kickoff": "2026-08-06T00:15:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8904,
+      "score": "0-0",
+      "result": "win",
+      "graded_at": "2026-08-06T12:42:51.389846+00:00"
+    },
+    {
+      "id": "Argentina Primera|Boca Juniors|Estudiantes L.P.|2026-08-05",
+      "league": "Argentina Primera",
+      "home": "Boca Juniors",
+      "away": "Estudiantes L.P.",
+      "kickoff": "2026-08-05T22:00:00+00:00",
+      "pick": "Boca Juniors or draw (1X)",
+      "prob": 0.8542,
+      "score": "1-0",
+      "result": "win",
+      "graded_at": "2026-08-06T12:42:51.389846+00:00"
+    }
+  ]
 }
