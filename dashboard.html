@@ -275,6 +275,15 @@
   .dr-body{padding:22px 24px 60px;}
   .dr-sec{margin-bottom:26px;}
   .dr-sec > h3{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin:0 0 12px;}
+  .matchup-card{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px;margin-bottom:24px;}
+  .matchup{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin-bottom:14px;}
+  .mu-team{min-width:0;}
+  .mu-team.ar{text-align:right;}
+  .mu-nm{font-size:14px;font-weight:600;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .mu-pct{font-family:'JetBrains Mono',monospace;font-size:28px;font-weight:700;letter-spacing:-.03em;margin-top:4px;}
+  .mu-mid{text-align:center;padding:0 2px;}
+  .mu-draw{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:var(--text-2);letter-spacing:-.02em;}
+  .mu-draw-l{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin-top:2px;}
   .predict{display:flex;align-items:center;gap:18px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px;}
   .ring{width:74px;height:74px;flex-shrink:0;position:relative;}
   .ring svg{transform:rotate(-90deg);}
@@ -646,20 +655,20 @@ function openMatch(home,away){
       <div class="dr-teams">${esc(p.home)}<span class="v">v</span>${esc(p.away)}</div>
     </div><button class="icon-btn" id="dr-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div>
     <div class="dr-body">
-      <div class="dr-sec"><h3>AI prediction</h3>
+      <div class="matchup-card">
+        <div class="matchup">
+          <div class="mu-team"><div class="mu-nm">${esc(p.home)}</div><div class="mu-pct" style="color:var(--home)">${pct(p.prob_home)}%</div></div>
+          <div class="mu-mid"><div class="mu-draw">${pct(p.prob_draw)}%</div><div class="mu-draw-l">Draw</div></div>
+          <div class="mu-team ar"><div class="mu-nm">${esc(p.away)}</div><div class="mu-pct" style="color:var(--away)">${pct(p.prob_away)}%</div></div>
+        </div>
+        ${spineHtml(p,9)}
+      </div>
+      <div class="dr-sec"><h3>The verdict</h3>
         <div class="predict">
           <div class="ring"><svg viewBox="0 0 74 74" width="74" height="74"><circle cx="37" cy="37" r="30" fill="none" stroke="var(--surface-3)" stroke-width="6"/><circle cx="37" cy="37" r="30" fill="none" stroke="${cf}" stroke-width="6" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}"/></svg><div class="rt"><b>${pct(p.primary_prob)}%</b><span>Conf</span></div></div>
           <div class="pd"><div class="k">The call</div><div class="big">${esc(p.primary_pick)}</div>
             <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="chip" style="color:${cf};background:${cs}">${strengthWord(p.primary_strength)} confidence</span><span class="chip" style="color:${rkf};background:${rks}">${rk.label} risk</span></div>
           </div>
-        </div>
-      </div>
-      <div class="dr-sec"><h3>Win probability</h3>
-        ${spineHtml(p,9)}
-        <div class="legend" style="margin-top:11px;font-size:12px">
-          <span><span class="dot" style="background:var(--home)"></span>${esc(p.home)} <b>${pct(p.prob_home)}%</b></span>
-          <span><span class="dot" style="background:var(--draw)"></span>Draw <b>${pct(p.prob_draw)}%</b></span>
-          <span><span class="dot" style="background:var(--away)"></span>${esc(p.away)} <b>${pct(p.prob_away)}%</b></span>
         </div>
       </div>
       <div class="dr-sec"><h3>Key statistics</h3>
@@ -679,9 +688,9 @@ function openMatch(home,away){
       <div class="dr-sec"><h3>Head-to-head</h3>${h2hHtml(p)}</div>
       <div class="dr-sec"><h3>All betting markets</h3><div class="mtable">${mk}</div></div>
       <div class="dr-sec"><h3>AI explanation</h3><div class="analysis-box">${an}</div></div>
-      <div class="dr-sec"><h3>Deeper analysis — on the roadmap</h3>
-        <div class="coming-note">These need richer data than the model currently ingests. They're coming as ModelXI grows — and we won't fake them until they're real.</div>
-        <div class="coming"><span>Team form</span><span>Head-to-head</span><span>Lineups</span><span>Injuries</span><span>Tactical overview</span></div>
+      <div class="dr-sec"><h3>More to come</h3>
+        <div class="coming-note">Lineups, injuries and tactical detail need richer data than the model currently ingests. They're on the roadmap as ModelXI grows — and we won't fake them until they're real.</div>
+        <div class="coming"><span>Lineups</span><span>Injuries</span><span>Tactical overview</span></div>
       </div>
     </div>`;
   document.getElementById('overlay').classList.add('open');
