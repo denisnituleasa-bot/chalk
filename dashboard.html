@@ -411,9 +411,10 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const strengthTone=s=>({strong:'pos',lean:'accent'}[s]||'neutral');
 const strengthWord=s=>({strong:'High',lean:'Moderate'}[s]||'Low');
 function toneVars(t){return {pos:['var(--pos)','var(--pos-soft)'],accent:['var(--accent)','var(--accent-soft)'],neg:['var(--neg)','var(--neg-soft)'],neutral:['var(--neutral)','var(--neutral-soft)']}[t];}
-function dayKey(iso){return new Date(iso).toISOString().slice(0,10);}
-function dayLabel(iso){const d=new Date(iso),t=new Date(),k=dayKey(iso),tk=t.toISOString().slice(0,10);const tm=new Date(t);tm.setDate(t.getDate()+1);
-  if(k===tk)return"Today";if(k===tm.toISOString().slice(0,10))return"Tomorrow";return d.toLocaleDateString(undefined,{weekday:'short',day:'2-digit',month:'short'});}
+function localKey(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+function dayKey(iso){return localKey(new Date(iso));}
+function dayLabel(iso){const d=new Date(iso),t=new Date(),k=dayKey(iso),tk=localKey(t);const tm=new Date(t);tm.setDate(t.getDate()+1);
+  if(k===tk)return"Today";if(k===localKey(tm))return"Tomorrow";return d.toLocaleDateString(undefined,{weekday:'short',day:'2-digit',month:'short'});}
 function kTime(iso){return new Date(iso).toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});}
 function ago(iso){if(!iso)return'—';const s=Math.floor((Date.now()-new Date(iso))/1000);
   if(s<90)return'Updated just now';const m=Math.floor(s/60);if(m<90)return`Updated ${m} min ago`;const h=Math.floor(m/60);if(h<36)return`Updated ${h}h ago`;return`Updated ${Math.floor(h/24)}d ago`;}
@@ -671,7 +672,7 @@ async function load(){
     document.getElementById('board').innerHTML=`<div class="empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="17" rx="2.5"/><path d="M3 9h18"/></svg><b>No upcoming matches in range</b>Check back soon — new fixtures load as they're scheduled.</div>`;
     return;
   }
-  const todayK=new Date().toISOString().slice(0,10);
+  const todayK=localKey(new Date());
   if(DATA.predictions.some(p=>dayKey(p.kickoff)===todayK))state.day=todayK;
   render();
 }
