@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-06T13:56:41.815510+00:00",
+  "updated": "2026-08-07T09:39:34.872391+00:00",
   "totals": {
-    "graded": 2,
-    "wins": 2,
+    "graded": 3,
+    "wins": 3,
     "losses": 0,
     "pushes": 0,
     "hit_rate": 1.0
@@ -10,12 +10,24 @@
   "calibration": [
     {
       "bucket": "80\u201390%",
-      "stated": 0.8723,
+      "stated": 0.8743,
       "actual": 1.0,
-      "n": 2
+      "n": 3
     }
   ],
   "recent": [
+    {
+      "id": "Argentina Primera|Union Santa Fe|Lanus|2026-08-06",
+      "league": "Argentina Primera",
+      "home": "Union Santa Fe",
+      "away": "Lanus",
+      "kickoff": "2026-08-06T22:00:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8782,
+      "score": "2-1",
+      "result": "win",
+      "graded_at": "2026-08-07T09:39:34.870621+00:00"
+    },
     {
       "id": "Argentina Primera|Tigre|Belgrano Cordoba|2026-08-06",
       "league": "Argentina Primera",

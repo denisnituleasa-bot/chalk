@@ -22,5 +22,17 @@
     "score": "0-0",
     "result": "win",
     "graded_at": "2026-08-06T12:42:51.389846+00:00"
+  },
+  {
+    "id": "Argentina Primera|Union Santa Fe|Lanus|2026-08-06",
+    "league": "Argentina Primera",
+    "home": "Union Santa Fe",
+    "away": "Lanus",
+    "kickoff": "2026-08-06T22:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8782,
+    "score": "2-1",
+    "result": "win",
+    "graded_at": "2026-08-07T09:39:34.870621+00:00"
   }
 ]
