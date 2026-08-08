@@ -34,5 +34,65 @@
     "score": "2-1",
     "result": "win",
     "graded_at": "2026-08-07T09:39:34.870621+00:00"
+  },
+  {
+    "id": "Eredivisie|Cambuur|Excelsior|2026-08-07",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "Excelsior",
+    "kickoff": "2026-08-07T18:00:00+00:00",
+    "pick": "Excelsior or draw (X2)",
+    "prob": 0.8917,
+    "score": "0-4",
+    "result": "win",
+    "graded_at": "2026-08-08T08:09:13.207960+00:00"
+  },
+  {
+    "id": "Liga I|Uta Arad|Rapid|2026-08-07",
+    "league": "Liga I",
+    "home": "Uta Arad",
+    "away": "Rapid",
+    "kickoff": "2026-08-07T18:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7808,
+    "score": "0-0",
+    "result": "win",
+    "graded_at": "2026-08-08T08:09:13.207960+00:00"
+  },
+  {
+    "id": "Belgian Pro League|Club Brugge KV|Kortrijk|2026-08-07",
+    "league": "Belgian Pro League",
+    "home": "Club Brugge KV",
+    "away": "Kortrijk",
+    "kickoff": "2026-08-07T18:45:00+00:00",
+    "pick": "Club Brugge KV over 1.5 goals",
+    "prob": 0.8392,
+    "score": "3-0",
+    "result": "win",
+    "graded_at": "2026-08-08T08:09:13.207960+00:00"
+  },
+  {
+    "id": "Primeira Liga|Estoril|Famalicao|2026-08-07",
+    "league": "Primeira Liga",
+    "home": "Estoril",
+    "away": "Famalicao",
+    "kickoff": "2026-08-07T19:15:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7412,
+    "score": "1-1",
+    "result": "win",
+    "graded_at": "2026-08-08T08:09:13.207960+00:00"
+  },
+  {
+    "id": "Argentina Primera|Rosario Central|Aldosivi|2026-08-07",
+    "league": "Argentina Primera",
+    "home": "Rosario Central",
+    "away": "Aldosivi",
+    "kickoff": "2026-08-07T22:30:00+00:00",
+    "pick": "Rosario Central or draw (1X)",
+    "prob": 0.8851,
+    "score": "2-1",
+    "result": "win",
+    "graded_at": "2026-08-08T08:09:13.207960+00:00"
   }
 ]
