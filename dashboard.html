@@ -518,7 +518,8 @@ function h2hHtml(p){
   if(!h||!h.meetings||!h.meetings.length)
     return `<div class="h2h-empty">No recent meetings between these teams on record.</div>`;
   const s=h.summary;
-  const sum = s?`<div class="h2h-sum"><span class="lb">Last ${s.n}</span><span><b>${esc(p.home)}</b> ${s.home_wins}W</span><span>Draw ${s.draws}</span><span><b>${esc(p.away)}</b> ${s.away_wins}W</span></div>`:'';
+  const avgTxt=(s&&s.avg_goals!=null)?`<span class="lb">Avg</span><span><b>${s.avg_goals}</b> goals</span>`:'';
+  const sum = s?`<div class="h2h-sum"><span class="lb">Last ${s.n}</span><span><b>${esc(p.home)}</b> ${s.home_wins}W</span><span>Draw ${s.draws}</span><span><b>${esc(p.away)}</b> ${s.away_wins}W</span>${avgTxt}</div>`:'';
   const rows = h.meetings.map(m=>`<div class="h2h-row"><span class="h2h-date">${fmtMonthYear(m.date)}</span><span class="h2h-match">${esc(m.home)}<b>${m.hg}-${m.ag}</b>${esc(m.away)}</span></div>`).join('');
   return sum + `<div class="h2h-list">${rows}</div>`;
 }
