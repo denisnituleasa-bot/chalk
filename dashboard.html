@@ -245,6 +245,9 @@
   .form-card .fpills{margin-bottom:10px;}
   .form-card .frec{font-size:11.5px;color:var(--text-3);line-height:1.5;}
   .form-card .frec b{color:var(--text-2);font-family:'JetBrains Mono',monospace;font-weight:500;}
+  .form-card .fxg{margin-top:9px;padding-top:9px;border-top:1px solid var(--border);font-size:11.5px;color:var(--text-3);}
+  .form-card .fxg b{color:var(--accent);font-family:'JetBrains Mono',monospace;font-weight:700;}
+  .form-card .fxg .n{color:var(--text-3);}
   .h2h-sum{display:flex;gap:18px;flex-wrap:wrap;background:var(--surface-2);border:1px solid var(--border);
     border-radius:var(--r);padding:12px 15px;font-size:12.5px;color:var(--text-2);margin-bottom:12px;}
   .h2h-sum .lb{color:var(--text-3);}
@@ -759,8 +762,8 @@ function openMatch(home,away){
       </div>
       <div class="dr-sec"><h3>Recent form</h3>
         <div class="form-grid">
-          <div class="form-card"><div class="ftn">${esc(p.home)}</div>${formPills(p.form_home)}<div class="frec">${p.form_home?`<b>${esc(p.form_home.last5_record)}</b> · ${esc(p.form_home.last5_goals)}`:'form data pending'}</div></div>
-          <div class="form-card"><div class="ftn">${esc(p.away)}</div>${formPills(p.form_away)}<div class="frec">${p.form_away?`<b>${esc(p.form_away.last5_record)}</b> · ${esc(p.form_away.last5_goals)}`:'form data pending'}</div></div>
+          <div class="form-card"><div class="ftn">${esc(p.home)}</div>${formPills(p.form_home)}<div class="frec">${p.form_home?`<b>${esc(p.form_home.last5_record)}</b> · ${esc(p.form_home.last5_goals)}`:'form data pending'}</div>${p.xg_form_home?`<div class="fxg">Recent xG <b>${p.xg_form_home.for}</b> created · <b>${p.xg_form_home.against}</b> conceded <span class="n">(last ${p.xg_form_home.n})</span></div>`:''}</div>
+          <div class="form-card"><div class="ftn">${esc(p.away)}</div>${formPills(p.form_away)}<div class="frec">${p.form_away?`<b>${esc(p.form_away.last5_record)}</b> · ${esc(p.form_away.last5_goals)}`:'form data pending'}</div>${p.xg_form_away?`<div class="fxg">Recent xG <b>${p.xg_form_away.for}</b> created · <b>${p.xg_form_away.against}</b> conceded <span class="n">(last ${p.xg_form_away.n})</span></div>`:''}</div>
         </div>
       </div>
       <div class="dr-sec"><h3>Head-to-head</h3>${h2hHtml(p)}</div>
