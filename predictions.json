@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:46:01.180541+00:00",
+  "generated_at": "2026-08-09T11:22:35.956130+00:00",
   "predictions": [
     {
       "home": "Gent",
@@ -234,6 +234,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (77%, strong). Model: Gent 41% / draw 28% / KV Mechelen 30%, expected goals 1.48 to 1.24. Form Gent 0W 4D 1L (D L D D D), KV Mechelen 1W 2D 2L (L D D L W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -241,15 +243,15 @@
       "away": "Ajax",
       "xg_home": 1.04,
       "xg_away": 1.86,
-      "prob_home": 0.195364981856918,
-      "prob_draw": 0.2520126982349028,
-      "prob_away": 0.552622319908179,
-      "over25": 0.55488960317647,
-      "btts": 0.5598248451987758,
+      "prob_home": 0.19535656073819993,
+      "prob_draw": 0.25203197823038426,
+      "prob_away": 0.5526114610314157,
+      "over25": 0.5548467664666735,
+      "btts": 0.5597960645445618,
       "top_score": "1-1",
-      "top_score_prob": 0.11970399172552998,
+      "top_score_prob": 0.11971484679194284,
       "primary_pick": "Ajax or draw (X2)",
-      "primary_prob": 0.8046350181430818,
+      "primary_prob": 0.8046434392617999,
       "primary_strength": "strong",
       "markets": [
         {
@@ -317,7 +319,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9318
+              0.9317
             ],
             [
               "Over 1.5",
@@ -325,7 +327,7 @@
             ],
             [
               "Over 2.5",
-              0.5549
+              0.5548
             ],
             [
               "Over 3.5",
@@ -469,6 +471,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Ajax or draw (X2) (80%, strong). Model: PEC Zwolle 20% / draw 25% / Ajax 55%, expected goals 1.04 to 1.86. Form PEC Zwolle 1W 1D 3L (L L W L D), Ajax 1W 3D 1L (D W D L D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -476,15 +480,15 @@
       "away": "Utrecht",
       "xg_home": 1.22,
       "xg_away": 1.29,
-      "prob_home": 0.3337064381075029,
-      "prob_draw": 0.3014324903895638,
-      "prob_away": 0.36486107150293334,
-      "over25": 0.4591069713208854,
-      "btts": 0.5272369002243067,
+      "prob_home": 0.333677429564908,
+      "prob_draw": 0.3014455881272389,
+      "prob_away": 0.364876982307853,
+      "over25": 0.4590967643276427,
+      "btts": 0.5272334392276382,
       "top_score": "1-1",
-      "top_score_prob": 0.14401744137065392,
+      "top_score_prob": 0.14402377519128634,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7551372433481092,
+      "primary_prob": 0.7551457878803776,
       "primary_strength": "strong",
       "markets": [
         {
@@ -539,11 +543,11 @@
           "rows": [
             [
               "Groningen -1.5",
-              0.149
+              0.1489
             ],
             [
               "Utrecht -1.5",
-              0.1693
+              0.1694
             ]
           ]
         },
@@ -697,6 +701,8 @@
           "avg_goals": 2.4
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Groningen 33% / draw 30% / Utrecht 36%, expected goals 1.22 to 1.29. Form Groningen 2W 0D 3L (L W W L L), Utrecht 4W 1D 0L (D W W W W). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -704,15 +710,15 @@
       "away": "Celtic",
       "xg_home": 1.06,
       "xg_away": 2.43,
-      "prob_home": 0.14631232943615788,
-      "prob_draw": 0.18196811108774547,
-      "prob_away": 0.6717195594760967,
-      "over25": 0.6768591697021171,
-      "btts": 0.598709734912688,
+      "prob_home": 0.14629007782554923,
+      "prob_draw": 0.18194521617879186,
+      "prob_away": 0.671764705995659,
+      "over25": 0.6769160545616527,
+      "btts": 0.598733046356687,
       "top_score": "1-2",
-      "top_score_prob": 0.09551646177276586,
+      "top_score_prob": 0.09551160430948931,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.865227914895377,
+      "primary_prob": 0.8652598966139752,
       "primary_strength": "strong",
       "markets": [
         {
@@ -724,11 +730,11 @@
             ],
             [
               "Draw",
-              0.182
+              0.1819
             ],
             [
               "Away win",
-              0.6717
+              0.6718
             ]
           ]
         },
@@ -737,11 +743,11 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.3283
+              0.3282
             ],
             [
               "Home or away (12)",
-              0.818
+              0.8181
             ],
             [
               "Draw or away (X2)",
@@ -754,11 +760,11 @@
           "rows": [
             [
               "Kilmarnock",
-              0.1789
+              0.1788
             ],
             [
               "Celtic",
-              0.8211
+              0.8212
             ]
           ]
         },
@@ -767,11 +773,11 @@
           "rows": [
             [
               "Kilmarnock -1.5",
-              0.0522
+              0.0521
             ],
             [
               "Celtic -1.5",
-              0.4534
+              0.4535
             ]
           ]
         },
@@ -784,7 +790,7 @@
             ],
             [
               "Over 1.5",
-              0.8652
+              0.8653
             ],
             [
               "Over 2.5",
@@ -792,7 +798,7 @@
             ],
             [
               "Over 3.5",
-              0.4607
+              0.4608
             ]
           ]
         },
@@ -818,7 +824,7 @@
             ],
             [
               "Celtic over 1.5",
-              0.6972
+              0.6973
             ]
           ]
         },
@@ -931,6 +937,16 @@
           "away_wins": 6,
           "avg_goals": 3.8
         }
+      },
+      "xg_form_home": {
+        "for": 0.92,
+        "against": 2.03,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 2.55,
+        "against": 0.47,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: Kilmarnock 15% / draw 18% / Celtic 67%, expected goals 1.06 to 2.43. Form Kilmarnock 4W 0D 1L (W W W W L), Celtic 5W 0D 0L (W W W W W). Most likely score 1-2 (~10%), most probable of many."
     },
@@ -1167,6 +1183,8 @@
           "avg_goals": 4.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Zulte Waregem 35% / draw 27% / Genk 38%, expected goals 1.42 to 1.51. Form Zulte Waregem 5W 0D 0L (W W W W W), Genk 2W 3D 0L (D W D D W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -1402,6 +1420,8 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Charleroi or draw (1X) (81%, strong). Model: Charleroi 52% / draw 29% / OH Leuven 19%, expected goals 1.52 to 0.84. Form Charleroi 3W 1D 1L (W D L W W), OH Leuven 1W 2D 2L (L D W L D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -1409,15 +1429,15 @@
       "away": "Dundee Utd",
       "xg_home": 1.94,
       "xg_away": 0.72,
-      "prob_home": 0.6588563222722577,
-      "prob_draw": 0.21338106075088303,
-      "prob_away": 0.1277626169768592,
-      "over25": 0.49844818643088046,
-      "btts": 0.44452915622419814,
+      "prob_home": 0.6588807655247624,
+      "prob_draw": 0.21337019961675252,
+      "prob_away": 0.1277490348584852,
+      "over25": 0.4984583994444147,
+      "btts": 0.444520369656275,
       "top_score": "1-0",
-      "top_score_prob": 0.1318828472657146,
+      "top_score_prob": 0.13188289410397785,
       "primary_pick": "Heart Of Midlothian or draw (1X)",
-      "primary_prob": 0.8722373830231407,
+      "primary_prob": 0.8722509651415149,
       "primary_strength": "strong",
       "markets": [
         {
@@ -1433,7 +1453,7 @@
             ],
             [
               "Away win",
-              0.1278
+              0.1277
             ]
           ]
         },
@@ -1442,7 +1462,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.8722
+              0.8723
             ],
             [
               "Home or away (12)",
@@ -1489,11 +1509,11 @@
             ],
             [
               "Over 1.5",
-              0.7484
+              0.7485
             ],
             [
               "Over 2.5",
-              0.4984
+              0.4985
             ],
             [
               "Over 3.5",
@@ -1637,6 +1657,16 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": {
+        "for": 1.34,
+        "against": 2.66,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.59,
+        "against": 1.43,
+        "n": 1
+      },
       "analysis": "THE CALL - Heart Of Midlothian or draw (1X) (87%, strong). Model: Heart Of Midlothian 66% / draw 21% / Dundee Utd 13%, expected goals 1.94 to 0.72. Form Heart Of Midlothian 3W 1D 1L (L W D W W), Dundee Utd 1W 2D 2L (D D L L W). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -1644,15 +1674,15 @@
       "away": "Falkirk",
       "xg_home": 1.85,
       "xg_away": 0.98,
-      "prob_home": 0.5738782158660967,
-      "prob_draw": 0.23239300409332928,
-      "prob_away": 0.19372878004057403,
-      "over25": 0.5365717090325143,
-      "btts": 0.5290874552063226,
+      "prob_home": 0.5738400296262426,
+      "prob_draw": 0.23241708457509655,
+      "prob_away": 0.1937428857986608,
+      "over25": 0.5364889307415766,
+      "btts": 0.5290340724213624,
       "top_score": "1-1",
-      "top_score_prob": 0.11046780836406511,
+      "top_score_prob": 0.11048058184337708,
       "primary_pick": "Motherwell or draw (1X)",
-      "primary_prob": 0.806271219959426,
+      "primary_prob": 0.8062571142013392,
       "primary_strength": "strong",
       "markets": [
         {
@@ -1660,7 +1690,7 @@
           "rows": [
             [
               "Home win",
-              0.5739
+              0.5738
             ],
             [
               "Draw",
@@ -1685,7 +1715,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4261
+              0.4262
             ]
           ]
         },
@@ -1707,7 +1737,7 @@
           "rows": [
             [
               "Motherwell -1.5",
-              0.3341
+              0.334
             ],
             [
               "Falkirk -1.5",
@@ -1728,11 +1758,11 @@
             ],
             [
               "Over 2.5",
-              0.5366
+              0.5365
             ],
             [
               "Over 3.5",
-              0.3137
+              0.3136
             ]
           ]
         },
@@ -1741,11 +1771,11 @@
           "rows": [
             [
               "Yes",
-              0.5291
+              0.529
             ],
             [
               "No",
-              0.4709
+              0.471
             ]
           ]
         },
@@ -1857,6 +1887,16 @@
           "away_wins": 3,
           "avg_goals": 2.2
         }
+      },
+      "xg_form_home": {
+        "for": 2.19,
+        "against": 1.94,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 0.71,
+        "against": 1.64,
+        "n": 1
       },
       "analysis": "THE CALL - Motherwell or draw (1X) (81%, strong). Model: Motherwell 57% / draw 23% / Falkirk 19%, expected goals 1.85 to 0.98. Form Motherwell 2W 1D 2L (W L D L W), Falkirk 1W 0D 4L (L L L W L). Most likely score 1-1 (~11%), most probable of many."
     },
@@ -2072,6 +2112,16 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": {
+        "for": 1.24,
+        "against": 0.94,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.15,
+        "against": 1.25,
+        "n": 6
+      },
       "analysis": "THE CALL - Under 3.5 (81%, strong). Model: Cruzeiro 43% / draw 28% / Mirassol 29%, expected goals 1.27 to 0.98. Form Cruzeiro 1W 3D 1L (L D D W D), Mirassol 2W 2D 1L (D W L W D). Most likely score 1-0 (~14%), most probable of many."
     },
     {
@@ -2079,15 +2129,15 @@
       "away": "Twente",
       "xg_home": 1.5,
       "xg_away": 1.6,
-      "prob_home": 0.34464582614869177,
-      "prob_draw": 0.2657316568774775,
-      "prob_away": 0.38962251697383077,
-      "over25": 0.5977600941558692,
-      "btts": 0.6328193861541457,
+      "prob_home": 0.34458537366599573,
+      "prob_draw": 0.26576122025983057,
+      "prob_away": 0.38965340607417376,
+      "over25": 0.5976713575291638,
+      "btts": 0.6327549900445997,
       "top_score": "1-1",
-      "top_score_prob": 0.12196998706889416,
+      "top_score_prob": 0.1219916812033658,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8282734250301564,
+      "primary_prob": 0.8282226094477018,
       "primary_strength": "strong",
       "markets": [
         {
@@ -2099,11 +2149,11 @@
             ],
             [
               "Draw",
-              0.2657
+              0.2658
             ],
             [
               "Away win",
-              0.3896
+              0.3897
             ]
           ]
         },
@@ -2112,11 +2162,11 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6104
+              0.6103
             ],
             [
               "Home or away (12)",
-              0.7343
+              0.7342
             ],
             [
               "Draw or away (X2)",
@@ -2129,11 +2179,11 @@
           "rows": [
             [
               "Heerenveen",
-              0.4694
+              0.4693
             ],
             [
               "Twente",
-              0.5306
+              0.5307
             ]
           ]
         },
@@ -2142,7 +2192,7 @@
           "rows": [
             [
               "Heerenveen -1.5",
-              0.1701
+              0.17
             ],
             [
               "Twente -1.5",
@@ -2155,15 +2205,15 @@
           "rows": [
             [
               "Over 0.5",
-              0.9411
+              0.941
             ],
             [
               "Over 1.5",
-              0.8283
+              0.8282
             ],
             [
               "Over 2.5",
-              0.5978
+              0.5977
             ],
             [
               "Over 3.5",
@@ -2189,11 +2239,11 @@
           "rows": [
             [
               "Heerenveen over 1.5",
-              0.4407
+              0.4406
             ],
             [
               "Twente over 1.5",
-              0.4749
+              0.4748
             ]
           ]
         },
@@ -2206,7 +2256,7 @@
             ],
             [
               "Twente",
-              0.2241
+              0.2242
             ]
           ]
         },
@@ -2307,6 +2357,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (83%, strong). Model: Heerenveen 34% / draw 27% / Twente 39%, expected goals 1.5 to 1.6. Form Heerenveen 2W 1D 2L (L D L W W), Twente 2W 2D 1L (L W D D W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -2314,15 +2366,15 @@
       "away": "Hibernian",
       "xg_home": 1.99,
       "xg_away": 1.14,
-      "prob_home": 0.5690622304591717,
-      "prob_draw": 0.2214088564444402,
-      "prob_away": 0.2095289130963881,
-      "over25": 0.6047945410977322,
-      "btts": 0.5892509666964801,
+      "prob_home": 0.569040101178558,
+      "prob_draw": 0.22140761522188526,
+      "prob_away": 0.20955228359955685,
+      "over25": 0.6048275354947475,
+      "btts": 0.5892878728740512,
       "top_score": "1-1",
-      "top_score_prob": 0.1021885589526257,
+      "top_score_prob": 0.10218525178443359,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8221808723622095,
+      "primary_prob": 0.8222015853703549,
       "primary_strength": "strong",
       "markets": [
         {
@@ -2330,7 +2382,7 @@
           "rows": [
             [
               "Home win",
-              0.5691
+              0.569
             ],
             [
               "Draw",
@@ -2338,7 +2390,7 @@
             ],
             [
               "Away win",
-              0.2095
+              0.2096
             ]
           ]
         },
@@ -2347,7 +2399,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7905
+              0.7904
             ],
             [
               "Home or away (12)",
@@ -2355,7 +2407,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4309
+              0.431
             ]
           ]
         },
@@ -2402,7 +2454,7 @@
             ],
             [
               "Over 3.5",
-              0.3813
+              0.3814
             ]
           ]
         },
@@ -2428,7 +2480,7 @@
             ],
             [
               "Hibernian over 1.5",
-              0.314
+              0.3141
             ]
           ]
         },
@@ -2542,6 +2594,16 @@
           "avg_goals": 1.8
         }
       },
+      "xg_form_home": {
+        "for": 1.43,
+        "against": 1.59,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.94,
+        "against": 2.19,
+        "n": 1
+      },
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Rangers 57% / draw 22% / Hibernian 21%, expected goals 1.99 to 1.14. Form Rangers 1W 0D 4L (W L L L L), Hibernian 2W 0D 3L (L W W L L). Most likely score 1-1 (~10%), most probable of many."
     },
     {
@@ -2549,15 +2611,15 @@
       "away": "O\u0163elul",
       "xg_home": 0.96,
       "xg_away": 1.03,
-      "prob_home": 0.3230904198093992,
-      "prob_draw": 0.3180909424976407,
-      "prob_away": 0.35881863769295996,
-      "over25": 0.32233123819012305,
-      "btts": 0.4030406352631969,
+      "prob_home": 0.32310909270300214,
+      "prob_draw": 0.3180879137087717,
+      "prob_away": 0.3588029935882261,
+      "over25": 0.3223126400368787,
+      "btts": 0.40302049763476155,
       "top_score": "0-0",
-      "top_score_prob": 0.14057779003755264,
+      "top_score_prob": 0.14058215658034198,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8577844263380014,
+      "primary_prob": 0.857796802161918,
       "primary_strength": "strong",
       "markets": [
         {
@@ -2776,6 +2838,16 @@
           "away_wins": 2,
           "avg_goals": 1.7
         }
+      },
+      "xg_form_home": {
+        "for": 1.0,
+        "against": 1.33,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 1.67,
+        "against": 1.5,
+        "n": 2
       },
       "analysis": "THE CALL - Under 3.5 (86%, strong). Model: Petrolul Ploiesti 32% / draw 32% / O\u0163elul 36%, expected goals 0.96 to 1.03. Form Petrolul Ploiesti 0W 3D 2L (L D D L D), O\u0163elul 3W 2D 0L (W W D D W). Most likely score 0-0 (~14%), most probable of many."
     },
@@ -2998,6 +3070,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Anderlecht or draw (1X) (83%, strong). Model: Anderlecht 58% / draw 25% / RAAL La Louvi\u00e8re 17%, expected goals 1.83 to 0.9. Form Anderlecht 1W 2D 2L (L W D D L), RAAL La Louvi\u00e8re 1W 0D 4L (W L L L L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -3205,6 +3279,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - FC Porto win (78%, strong). Model: FC Porto 78% / draw 15% / Alverca 6%, expected goals 2.28 to 0.49. Form FC Porto 4W 0D 1L (W L W W W), Alverca 1W 1D 3L (L D L W L). Most likely score 2-0 (~16%), most probable of many."
     },
     {
@@ -3440,6 +3516,8 @@
           "avg_goals": 1.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 2.5 (83%, strong). Model: San Lorenzo 33% / draw 41% / Huracan 26%, expected goals 0.75 to 0.64. Form San Lorenzo 2W 2D 1L (L D D W W), Huracan 1W 1D 3L (D L W L L). Most likely score 0-0 (~26%), most probable of many."
     },
     {
@@ -3447,15 +3525,15 @@
       "away": "Arges Pitesti",
       "xg_home": 1.27,
       "xg_away": 0.62,
-      "prob_home": 0.5183935345078186,
-      "prob_draw": 0.3036408348136329,
-      "prob_away": 0.17796563067854865,
-      "over25": 0.29468865746433065,
-      "btts": 0.3376250475245324,
+      "prob_home": 0.518477902104392,
+      "prob_draw": 0.3035906118651069,
+      "prob_away": 0.17793148603050124,
+      "over25": 0.2947549747111571,
+      "btts": 0.33764910860368175,
       "top_score": "1-0",
-      "top_score_prob": 0.1871514446020778,
+      "top_score_prob": 0.18714792492390722,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8757083244682877,
+      "primary_prob": 0.8756664512117542,
       "primary_strength": "strong",
       "markets": [
         {
@@ -3463,7 +3541,7 @@
           "rows": [
             [
               "Home win",
-              0.5184
+              0.5185
             ],
             [
               "Draw",
@@ -3471,7 +3549,7 @@
             ],
             [
               "Away win",
-              0.178
+              0.1779
             ]
           ]
         },
@@ -3480,7 +3558,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.822
+              0.8221
             ],
             [
               "Home or away (12)",
@@ -3488,7 +3566,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4816
+              0.4815
             ]
           ]
         },
@@ -3497,11 +3575,11 @@
           "rows": [
             [
               "Universitatea Craiova",
-              0.7444
+              0.7445
             ],
             [
               "Arges Pitesti",
-              0.2556
+              0.2555
             ]
           ]
         },
@@ -3510,7 +3588,7 @@
           "rows": [
             [
               "Universitatea Craiova -1.5",
-              0.2448
+              0.2449
             ],
             [
               "Arges Pitesti -1.5",
@@ -3531,7 +3609,7 @@
             ],
             [
               "Over 2.5",
-              0.2947
+              0.2948
             ],
             [
               "Over 3.5",
@@ -3557,7 +3635,7 @@
           "rows": [
             [
               "Universitatea Craiova over 1.5",
-              0.3631
+              0.3632
             ],
             [
               "Arges Pitesti over 1.5",
@@ -3574,7 +3652,7 @@
             ],
             [
               "Arges Pitesti",
-              0.2804
+              0.2803
             ]
           ]
         },
@@ -3596,7 +3674,7 @@
           "rows": [
             [
               "1-0",
-              0.1872
+              0.1871
             ],
             [
               "0-0",
@@ -3674,6 +3752,16 @@
           "away_wins": 1,
           "avg_goals": 2.8
         }
+      },
+      "xg_form_home": {
+        "for": 0.81,
+        "against": 0.52,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 0.97,
+        "against": 1.26,
+        "n": 2
       },
       "analysis": "THE CALL - Under 3.5 (88%, strong). Model: Universitatea Craiova 52% / draw 30% / Arges Pitesti 18%, expected goals 1.27 to 0.62. Form Universitatea Craiova 3W 2D 0L (D W D W W), Arges Pitesti 0W 2D 3L (D D L L L). Most likely score 1-0 (~19%), most probable of many."
     },
@@ -3910,6 +3998,16 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": {
+        "for": 1.32,
+        "against": 1.52,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.45,
+        "against": 1.26,
+        "n": 6
+      },
       "analysis": "THE CALL - Over 1.5 (81%, strong). Model: Bahia 56% / draw 22% / Vasco DA Gama 22%, expected goals 1.92 to 1.12. Form Bahia 2W 1D 2L (L W D W L), Vasco DA Gama 1W 0D 4L (L L W L L). Most likely score 1-1 (~10%), most probable of many."
     },
     {
@@ -4144,6 +4242,16 @@
           "away_wins": 1,
           "avg_goals": 2.7
         }
+      },
+      "xg_form_home": {
+        "for": 0.99,
+        "against": 0.74,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.41,
+        "against": 0.82,
+        "n": 6
       },
       "analysis": "THE CALL - Palmeiras or draw (1X) (89%, strong). Model: Palmeiras 70% / draw 18% / Internacional 11%, expected goals 2.15 to 0.72. Form Palmeiras 2W 2D 1L (W W L D D), Internacional 2W 1D 2L (W L L D W). Most likely score 2-0 (~13%), most probable of many."
     },
@@ -4380,6 +4488,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - SC Braga or draw (X2) (79%, strong). Model: Moreirense 21% / draw 24% / SC Braga 55%, expected goals 0.96 to 1.72. Form Moreirense 2W 1D 2L (D L W L W), SC Braga 1W 3D 1L (D D D L W). Most likely score 0-1 (~12%), most probable of many."
     },
     {
@@ -4615,6 +4725,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - GIL Vicente or draw (1X) (80%, strong). Model: GIL Vicente 57% / draw 24% / Rio Ave 20%, expected goals 1.71 to 0.89. Form GIL Vicente 1W 1D 3L (L L D W L), Rio Ave 0W 3D 2L (D L D L D). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -4850,6 +4962,8 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (89%, strong). Model: Gimnasia L.P. 39% / draw 35% / Barracas Central 26%, expected goals 1.02 to 0.78. Form Gimnasia L.P. 4W 0D 1L (L W W W W), Barracas Central 2W 2D 1L (L W D D W). Most likely score 0-0 (~18%), most probable of many."
     },
     {
@@ -5085,6 +5199,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (81%, strong). Model: Defensa Y Justicia 48% / draw 30% / Newells Old Boys 22%, expected goals 1.38 to 0.87. Form Defensa Y Justicia 1W 0D 4L (L L L L W), Newells Old Boys 1W 1D 3L (L W L L D). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -5319,6 +5435,16 @@
           "away_wins": 2,
           "avg_goals": 2.5
         }
+      },
+      "xg_form_home": {
+        "for": 1.47,
+        "against": 1.27,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.21,
+        "against": 0.94,
+        "n": 6
       },
       "analysis": "THE CALL - Under 3.5 (80%, strong). Model: Santos 52% / draw 26% / Atletico Paranaense 22%, expected goals 1.47 to 0.84. Form Santos 3W 2D 0L (W W W D D), Atletico Paranaense 1W 2D 2L (L L D D W). Most likely score 1-0 (~15%), most probable of many."
     },
@@ -5555,6 +5681,16 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": {
+        "for": 1.03,
+        "against": 1.04,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 0.73,
+        "against": 0.8,
+        "n": 6
+      },
       "analysis": "THE CALL - Under 3.5 (75%, strong). Model: RB Bragantino 42% / draw 26% / Corinthians 32%, expected goals 1.37 to 1.16. Form RB Bragantino 2W 0D 3L (L W L L W), Corinthians 1W 2D 2L (D L D L W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -5789,6 +5925,16 @@
           "away_wins": 1,
           "avg_goals": 3.8
         }
+      },
+      "xg_form_home": {
+        "for": 2.27,
+        "against": 0.86,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.21,
+        "against": 1.39,
+        "n": 6
       },
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Flamengo 77% / draw 15% / Vitoria 7%, expected goals 2.38 to 0.59. Form Flamengo 2W 2D 1L (D W D W L), Vitoria 3W 1D 1L (W L W W D). Most likely score 2-0 (~15%), most probable of many."
     },
@@ -6025,22 +6171,24 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (84%, strong). Model: Argentinos JRS 41% / draw 32% / Racing Club 27%, expected goals 1.18 to 0.91. Form Argentinos JRS 3W 0D 2L (L W W W L), Racing Club 3W 2D 0L (D W D W W). Most likely score 1-1 (~15%), most probable of many."
     },
     {
       "home": "CFR 1907 Cluj",
       "away": "Universitatea Cluj",
-      "xg_home": 1.44,
+      "xg_home": 1.45,
       "xg_away": 1.15,
-      "prob_home": 0.4341496699147118,
-      "prob_draw": 0.2695171459726319,
-      "prob_away": 0.2963331841126563,
-      "over25": 0.4802538803197291,
-      "btts": 0.5265711112460528,
+      "prob_home": 0.43419556978136087,
+      "prob_draw": 0.2694770593937188,
+      "prob_away": 0.29632737082492033,
+      "over25": 0.48037061664096026,
+      "btts": 0.5266542158769509,
       "top_score": "1-1",
-      "top_score_prob": 0.12840465357480763,
+      "top_score_prob": 0.12838548078176792,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.73714162092295,
+      "primary_prob": 0.7370406445547661,
       "primary_strength": "strong",
       "markets": [
         {
@@ -6048,7 +6196,7 @@
           "rows": [
             [
               "Home win",
-              0.4341
+              0.4342
             ],
             [
               "Draw",
@@ -6073,7 +6221,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.5659
+              0.5658
             ]
           ]
         },
@@ -6082,11 +6230,11 @@
           "rows": [
             [
               "CFR 1907 Cluj",
-              0.5943
+              0.5944
             ],
             [
               "Universitatea Cluj",
-              0.4057
+              0.4056
             ]
           ]
         },
@@ -6116,11 +6264,11 @@
             ],
             [
               "Over 2.5",
-              0.4803
+              0.4804
             ],
             [
               "Over 3.5",
-              0.2629
+              0.263
             ]
           ]
         },
@@ -6129,11 +6277,11 @@
           "rows": [
             [
               "Yes",
-              0.5266
+              0.5267
             ],
             [
               "No",
-              0.4734
+              0.4733
             ]
           ]
         },
@@ -6142,11 +6290,11 @@
           "rows": [
             [
               "CFR 1907 Cluj over 1.5",
-              0.4236
+              0.4237
             ],
             [
               "Universitatea Cluj over 1.5",
-              0.3192
+              0.3193
             ]
           ]
         },
@@ -6155,11 +6303,11 @@
           "rows": [
             [
               "CFR 1907 Cluj",
-              0.3167
+              0.3166
             ],
             [
               "Universitatea Cluj",
-              0.2358
+              0.2357
             ]
           ]
         },
@@ -6260,22 +6408,32 @@
           "avg_goals": 2.5
         }
       },
-      "analysis": "THE CALL - Under 3.5 (74%, strong). Model: CFR 1907 Cluj 43% / draw 27% / Universitatea Cluj 30%, expected goals 1.44 to 1.15. Form CFR 1907 Cluj 2W 3D 0L (D D D W W), Universitatea Cluj 2W 1D 2L (D L W W L). Most likely score 1-1 (~13%), most probable of many."
+      "xg_form_home": {
+        "for": 1.92,
+        "against": 2.06,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 1.09,
+        "against": 1.75,
+        "n": 2
+      },
+      "analysis": "THE CALL - Under 3.5 (74%, strong). Model: CFR 1907 Cluj 43% / draw 27% / Universitatea Cluj 30%, expected goals 1.45 to 1.15. Form CFR 1907 Cluj 2W 3D 0L (D D D W W), Universitatea Cluj 2W 1D 2L (D L W W L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
       "home": "Sepsi OSK Sfantu Gheorghe",
       "away": "FCSB",
       "xg_home": 1.14,
       "xg_away": 1.62,
-      "prob_home": 0.2639435689382744,
-      "prob_draw": 0.2549804644704095,
-      "prob_away": 0.48107596659131613,
-      "over25": 0.5201406305130344,
-      "btts": 0.5490203409623425,
+      "prob_home": 0.2637444870487553,
+      "prob_draw": 0.2549512240514707,
+      "prob_away": 0.48130428889977395,
+      "over25": 0.5200809285621754,
+      "btts": 0.5489096445262661,
       "top_score": "1-1",
-      "top_score_prob": 0.12109449982894226,
+      "top_score_prob": 0.1210828279414108,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7655378374903858,
+      "primary_prob": 0.7654899637116525,
       "primary_strength": "strong",
       "markets": [
         {
@@ -6283,7 +6441,7 @@
           "rows": [
             [
               "Home win",
-              0.2639
+              0.2637
             ],
             [
               "Draw",
@@ -6291,7 +6449,7 @@
             ],
             [
               "Away win",
-              0.4811
+              0.4813
             ]
           ]
         },
@@ -6300,7 +6458,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.5189
+              0.5187
             ],
             [
               "Home or away (12)",
@@ -6308,7 +6466,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.7361
+              0.7363
             ]
           ]
         },
@@ -6317,11 +6475,11 @@
           "rows": [
             [
               "Sepsi OSK Sfantu Gheorghe",
-              0.3543
+              0.354
             ],
             [
               "FCSB",
-              0.6457
+              0.646
             ]
           ]
         },
@@ -6330,11 +6488,11 @@
           "rows": [
             [
               "Sepsi OSK Sfantu Gheorghe -1.5",
-              0.1053
+              0.1052
             ],
             [
               "FCSB -1.5",
-              0.2538
+              0.254
             ]
           ]
         },
@@ -6364,11 +6522,11 @@
           "rows": [
             [
               "Yes",
-              0.549
+              0.5489
             ],
             [
               "No",
-              0.451
+              0.4511
             ]
           ]
         },
@@ -6377,11 +6535,11 @@
           "rows": [
             [
               "Sepsi OSK Sfantu Gheorghe over 1.5",
-              0.315
+              0.3148
             ],
             [
               "FCSB over 1.5",
-              0.481
+              0.4811
             ]
           ]
         },
@@ -6394,7 +6552,7 @@
             ],
             [
               "FCSB",
-              0.3204
+              0.3205
             ]
           ]
         },
@@ -6494,6 +6652,16 @@
           "away_wins": 5,
           "avg_goals": 3.2
         }
+      },
+      "xg_form_home": {
+        "for": 0.96,
+        "against": 1.73,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 1.82,
+        "against": 0.85,
+        "n": 2
       },
       "analysis": "THE CALL - Over 1.5 (77%, strong). Model: Sepsi OSK Sfantu Gheorghe 26% / draw 25% / FCSB 48%, expected goals 1.14 to 1.62. Form Sepsi OSK Sfantu Gheorghe 1W 2D 2L (L W D L D), FCSB 2W 1D 2L (W W L D L). Most likely score 1-1 (~12%), most probable of many."
     },
@@ -6730,6 +6898,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (87%, strong). Model: Santa Clara 44% / draw 31% / Nacional 25%, expected goals 1.13 to 0.77. Form Santa Clara 2W 2D 1L (L W D W D), Nacional 3W 0D 2L (W L L W W). Most likely score 1-0 (~17%), most probable of many."
     },
     {
@@ -6965,6 +7135,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (84%, strong). Model: Banfield 35% / draw 33% / Belgrano Cordoba 32%, expected goals 1.07 to 1.01. Form Banfield 2W 1D 2L (D L W W L), Belgrano Cordoba 1W 3D 1L (D L D W D). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -7200,6 +7372,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (84%, strong). Model: Union Santa Fe 41% / draw 32% / Central Cordoba de Santiago 27%, expected goals 1.19 to 0.93. Form Union Santa Fe 2W 2D 1L (L D D W W), Central Cordoba de Santiago 1W 3D 1L (L W D D D). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -7435,6 +7609,8 @@
           "avg_goals": 1.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 2.5 (76%, strong). Model: Talleres Cordoba 33% / draw 37% / Lanus 30%, expected goals 0.86 to 0.82. Form Talleres Cordoba 2W 1D 2L (L D W W L), Lanus 2W 1D 2L (L W D L W). Most likely score 0-0 (~20%), most probable of many."
     },
     {
@@ -7670,6 +7846,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (84%, strong). Model: Al Shabab 19% / draw 21% / Al-Qadisiyah FC 60%, expected goals 1.11 to 2.12. Form Al Shabab 1W 0D 4L (L W L L L), Al-Qadisiyah FC 5W 0D 0L (W W W W W). Most likely score 1-2 (~10%), most probable of many."
     },
     {
@@ -7677,15 +7855,15 @@
       "away": "Petrolul Ploiesti",
       "xg_home": 1.78,
       "xg_away": 0.95,
-      "prob_home": 0.5643142640856047,
-      "prob_draw": 0.2397935452101589,
-      "prob_away": 0.19589219070423625,
-      "over25": 0.5139531019251552,
-      "btts": 0.5143397342579207,
+      "prob_home": 0.5647158511370809,
+      "prob_draw": 0.23974390351207278,
+      "prob_away": 0.19554024535084627,
+      "over25": 0.5136566722389383,
+      "btts": 0.5138996210257698,
       "top_score": "1-1",
-      "top_score_prob": 0.11423683967877182,
+      "top_score_prob": 0.11421440330316583,
       "primary_pick": "FC Voluntari or draw (1X)",
-      "primary_prob": 0.8041078092957636,
+      "primary_prob": 0.8044597546491536,
       "primary_strength": "strong",
       "markets": [
         {
@@ -7693,15 +7871,15 @@
           "rows": [
             [
               "Home win",
-              0.5643
+              0.5647
             ],
             [
               "Draw",
-              0.2398
+              0.2397
             ],
             [
               "Away win",
-              0.1959
+              0.1955
             ]
           ]
         },
@@ -7710,15 +7888,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.8041
+              0.8045
             ],
             [
               "Home or away (12)",
-              0.7602
+              0.7603
             ],
             [
               "Draw or away (X2)",
-              0.4357
+              0.4353
             ]
           ]
         },
@@ -7727,11 +7905,11 @@
           "rows": [
             [
               "FC Voluntari",
-              0.7423
+              0.7428
             ],
             [
               "Petrolul Ploiesti",
-              0.2577
+              0.2572
             ]
           ]
         },
@@ -7740,11 +7918,11 @@
           "rows": [
             [
               "FC Voluntari -1.5",
-              0.3222
+              0.3225
             ],
             [
               "Petrolul Ploiesti -1.5",
-              0.068
+              0.0678
             ]
           ]
         },
@@ -7753,19 +7931,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.931
+              0.9309
             ],
             [
               "Over 1.5",
-              0.7608
+              0.7606
             ],
             [
               "Over 2.5",
-              0.514
+              0.5137
             ],
             [
               "Over 3.5",
-              0.2928
+              0.2925
             ]
           ]
         },
@@ -7774,11 +7952,11 @@
           "rows": [
             [
               "Yes",
-              0.5143
+              0.5139
             ],
             [
               "No",
-              0.4857
+              0.4861
             ]
           ]
         },
@@ -7787,11 +7965,11 @@
           "rows": [
             [
               "FC Voluntari over 1.5",
-              0.5308
+              0.5309
             ],
             [
               "Petrolul Ploiesti over 1.5",
-              0.2467
+              0.2462
             ]
           ]
         },
@@ -7800,11 +7978,11 @@
           "rows": [
             [
               "FC Voluntari",
-              0.3858
+              0.3864
             ],
             [
               "Petrolul Ploiesti",
-              0.1689
+              0.1688
             ]
           ]
         },
@@ -7830,11 +8008,11 @@
             ],
             [
               "1-0",
-              0.112
+              0.1122
             ],
             [
               "2-0",
-              0.1031
+              0.1032
             ]
           ]
         }
@@ -7904,6 +8082,16 @@
           "away_wins": 0,
           "avg_goals": 1.7
         }
+      },
+      "xg_form_home": {
+        "for": 2.03,
+        "against": 2.71,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 1.0,
+        "against": 1.33,
+        "n": 2
       },
       "analysis": "THE CALL - FC Voluntari or draw (1X) (80%, strong). Model: FC Voluntari 56% / draw 24% / Petrolul Ploiesti 20%, expected goals 1.78 to 0.95. Form FC Voluntari 2W 0D 2L (W L L W), Petrolul Ploiesti 0W 3D 2L (L D D L D). Most likely score 1-1 (~11%), most probable of many."
     },
@@ -8112,6 +8300,8 @@
           "avg_goals": 1.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (80%, strong). Model: NEOM 46% / draw 28% / Al-Fayha 26%, expected goals 1.36 to 0.95. Form NEOM 1W 3D 1L (D L W D D), Al-Fayha 1W 1D 3L (L L L W D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -8119,15 +8309,15 @@
       "away": "Sparta Rotterdam",
       "xg_home": 1.8,
       "xg_away": 1.04,
-      "prob_home": 0.5395945374152816,
-      "prob_draw": 0.2580994381827233,
-      "prob_away": 0.20230602440199502,
-      "over25": 0.5406067878519826,
-      "btts": 0.553329587615779,
+      "prob_home": 0.5396296083209178,
+      "prob_draw": 0.25807363292586416,
+      "prob_away": 0.202296758753218,
+      "over25": 0.5407308642281305,
+      "btts": 0.5534218851155828,
       "top_score": "1-1",
-      "top_score_prob": 0.12294152056581391,
+      "top_score_prob": 0.12292627086759715,
       "primary_pick": "Telstar or draw (1X)",
-      "primary_prob": 0.7976939755980049,
+      "primary_prob": 0.7977032412467819,
       "primary_strength": "strong",
       "markets": [
         {
@@ -8195,19 +8385,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.9279
+              0.928
             ],
             [
               "Over 1.5",
-              0.7898
+              0.7899
             ],
             [
               "Over 2.5",
-              0.5406
+              0.5407
             ],
             [
               "Over 3.5",
-              0.3175
+              0.3176
             ]
           ]
         },
@@ -8216,11 +8406,11 @@
           "rows": [
             [
               "Yes",
-              0.5533
+              0.5534
             ],
             [
               "No",
-              0.4467
+              0.4466
             ]
           ]
         },
@@ -8229,11 +8419,11 @@
           "rows": [
             [
               "Telstar over 1.5",
-              0.5385
+              0.5386
             ],
             [
               "Sparta Rotterdam over 1.5",
-              0.2782
+              0.2783
             ]
           ]
         },
@@ -8242,11 +8432,11 @@
           "rows": [
             [
               "Telstar",
-              0.3542
+              0.3541
             ],
             [
               "Sparta Rotterdam",
-              0.1646
+              0.1645
             ]
           ]
         },
@@ -8347,6 +8537,12 @@
           "avg_goals": 1.5
         }
       },
+      "xg_form_home": {
+        "for": 1.46,
+        "against": 1.89,
+        "n": 1
+      },
+      "xg_form_away": null,
       "analysis": "THE CALL - Telstar or draw (1X) (80%, strong). Model: Telstar 54% / draw 26% / Sparta Rotterdam 20%, expected goals 1.8 to 1.04. Form Telstar 3W 1D 1L (W W D W L), Sparta Rotterdam 0W 1D 4L (L L D L L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -8582,6 +8778,8 @@
           "avg_goals": 1.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Al-Ettifaq or draw (1X) (79%, strong). Model: Al-Ettifaq 55% / draw 24% / Al Riyadh 21%, expected goals 1.76 to 0.99. Form Al-Ettifaq 2W 2D 1L (D L W D W), Al Riyadh 2W 1D 2L (W D W L L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -8589,15 +8787,15 @@
       "away": "Farul Constanta",
       "xg_home": 1.23,
       "xg_away": 0.67,
-      "prob_home": 0.4922144042467701,
-      "prob_draw": 0.30879231317426903,
-      "prob_away": 0.19899328257896093,
-      "over25": 0.2983197550445753,
-      "btts": 0.35205481928849064,
+      "prob_home": 0.49218584935240395,
+      "prob_draw": 0.3087857404542617,
+      "prob_away": 0.1990284101933343,
+      "over25": 0.29833499082164544,
+      "btts": 0.3520775604453402,
       "top_score": "1-0",
-      "top_score_prob": 0.1786425665842074,
+      "top_score_prob": 0.17863199431685675,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8734076102633017,
+      "primary_prob": 0.8733979224147402,
       "primary_strength": "strong",
       "markets": [
         {
@@ -8703,7 +8901,7 @@
             ],
             [
               "Farul Constanta over 1.5",
-              0.1471
+              0.1472
             ]
           ]
         },
@@ -8816,6 +9014,16 @@
           "away_wins": 3,
           "avg_goals": 1.7
         }
+      },
+      "xg_form_home": {
+        "for": 0.97,
+        "against": 1.26,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 1.73,
+        "against": 0.97,
+        "n": 1
       },
       "analysis": "THE CALL - Under 3.5 (87%, strong). Model: Arges Pitesti 49% / draw 31% / Farul Constanta 20%, expected goals 1.23 to 0.67. Form Arges Pitesti 0W 2D 3L (D D L L L), Farul Constanta 0W 3D 2L (D D L L D). Most likely score 1-0 (~18%), most probable of many."
     },
@@ -9052,6 +9260,16 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": {
+        "for": 1.45,
+        "against": 2.61,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.91,
+        "against": 1.49,
+        "n": 1
+      },
       "analysis": "THE CALL - Over 1.5 (83%, strong). Model: Cercle Brugge 33% / draw 26% / St. Truiden 41%, expected goals 1.45 to 1.66. Form Cercle Brugge 3W 0D 2L (L L W W W), St. Truiden 2W 1D 2L (W L D L W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -9286,6 +9504,16 @@
           "away_wins": 1,
           "avg_goals": 4.5
         }
+      },
+      "xg_form_home": {
+        "for": 2.63,
+        "against": 1.01,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 2.22,
+        "against": 0.49,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: Sporting CP 83% / draw 11% / Guimaraes 6%, expected goals 2.92 to 0.67. Form Sporting CP 3W 2D 0L (W W W D D), Guimaraes 2W 0D 3L (L L L W W). Most likely score 2-0 (~12%), most probable of many."
     },
@@ -9522,6 +9750,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Racing Club or draw (1X) (88%, strong). Model: Racing Club 64% / draw 24% / Banfield 12%, expected goals 1.87 to 0.7. Form Racing Club 3W 2D 0L (D W D W W), Banfield 2W 1D 2L (D L W W L). Most likely score 2-0 (~13%), most probable of many."
     },
     {
@@ -9529,15 +9759,15 @@
       "away": "Millwall",
       "xg_home": 1.13,
       "xg_away": 1.13,
-      "prob_home": 0.34768983183732305,
-      "prob_draw": 0.303760916025919,
-      "prob_away": 0.3485492521367581,
-      "over25": 0.3916283710305091,
-      "btts": 0.46519167656038457,
+      "prob_home": 0.3476999217844883,
+      "prob_draw": 0.3037605327479704,
+      "prob_away": 0.3485395454675414,
+      "over25": 0.39167905648042206,
+      "btts": 0.4652403458745944,
       "top_score": "1-1",
-      "top_score_prob": 0.14164432240218128,
+      "top_score_prob": 0.1416485001723304,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8087068172662986,
+      "primary_prob": 0.8086687403003177,
       "primary_strength": "strong",
       "markets": [
         {
@@ -9609,11 +9839,11 @@
             ],
             [
               "Over 1.5",
-              0.6666
+              0.6667
             ],
             [
               "Over 2.5",
-              0.3916
+              0.3917
             ],
             [
               "Over 3.5",
@@ -9757,6 +9987,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (81%, strong). Model: Bristol City 35% / draw 30% / Millwall 35%, expected goals 1.13 to 1.13. Form Bristol City 1W 2D 2L (W L D L D), Millwall 2W 2D 1L (L D W D W). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -9764,15 +9996,15 @@
       "away": "West Brom",
       "xg_home": 1.47,
       "xg_away": 1.01,
-      "prob_home": 0.47022003518583855,
-      "prob_draw": 0.27792801375734844,
-      "prob_away": 0.251851951056813,
-      "over25": 0.45148670103565697,
-      "btts": 0.497637943755391,
+      "prob_home": 0.47021181636320697,
+      "prob_draw": 0.27793318819428153,
+      "prob_away": 0.25185499544251144,
+      "over25": 0.45152282337082084,
+      "btts": 0.49767528174133313,
       "top_score": "1-1",
-      "top_score_prob": 0.1320185315323562,
+      "top_score_prob": 0.1320224474786539,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7614787603870979,
+      "primary_prob": 0.7614488778720443,
       "primary_strength": "strong",
       "markets": [
         {
@@ -9827,7 +10059,7 @@
           "rows": [
             [
               "Norwich -1.5",
-              0.2378
+              0.2379
             ],
             [
               "West Brom -1.5",
@@ -9852,7 +10084,7 @@
             ],
             [
               "Over 3.5",
-              0.2385
+              0.2386
             ]
           ]
         },
@@ -9861,11 +10093,11 @@
           "rows": [
             [
               "Yes",
-              0.4976
+              0.4977
             ],
             [
               "No",
-              0.5024
+              0.5023
             ]
           ]
         },
@@ -9874,7 +10106,7 @@
           "rows": [
             [
               "Norwich over 1.5",
-              0.4325
+              0.4326
             ],
             [
               "West Brom over 1.5",
@@ -9917,7 +10149,7 @@
             ],
             [
               "1-0",
-              0.1153
+              0.1152
             ],
             [
               "2-1",
@@ -9992,6 +10224,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Norwich 47% / draw 28% / West Brom 25%, expected goals 1.47 to 1.01. Form Norwich 2W 1D 2L (L D W W L), West Brom 2W 2D 1L (L D W W D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -9999,15 +10233,15 @@
       "away": "Swansea",
       "xg_home": 1.15,
       "xg_away": 1.11,
-      "prob_home": 0.35654598334870036,
-      "prob_draw": 0.3033404855271703,
-      "prob_away": 0.3401135311241294,
-      "over25": 0.3928838499306273,
-      "btts": 0.4661285132392258,
+      "prob_home": 0.3565494144580319,
+      "prob_draw": 0.3033402095726494,
+      "prob_away": 0.34011037596931865,
+      "over25": 0.39293409525313844,
+      "btts": 0.4661767047607952,
       "top_score": "1-1",
-      "top_score_prob": 0.1415385002403646,
+      "top_score_prob": 0.14154262509710752,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8077627053331139,
+      "primary_prob": 0.8077248801538488,
       "primary_strength": "strong",
       "markets": [
         {
@@ -10066,7 +10300,7 @@
             ],
             [
               "Swansea -1.5",
-              0.1404
+              0.1405
             ]
           ]
         },
@@ -10079,7 +10313,7 @@
             ],
             [
               "Over 1.5",
-              0.6677
+              0.6678
             ],
             [
               "Over 2.5",
@@ -10087,7 +10321,7 @@
             ],
             [
               "Over 3.5",
-              0.1922
+              0.1923
             ]
           ]
         },
@@ -10096,11 +10330,11 @@
           "rows": [
             [
               "Yes",
-              0.4661
+              0.4662
             ],
             [
               "No",
-              0.5339
+              0.5338
             ]
           ]
         },
@@ -10156,7 +10390,7 @@
             ],
             [
               "1-0",
-              0.1115
+              0.1114
             ]
           ]
         }
@@ -10227,6 +10461,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (81%, strong). Model: Stoke City 36% / draw 30% / Swansea 34%, expected goals 1.15 to 1.11. Form Stoke City 0W 1D 4L (L L L L D), Swansea 3W 1D 1L (W D W L W). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -10234,15 +10470,15 @@
       "away": "Derby",
       "xg_home": 1.01,
       "xg_away": 1.16,
-      "prob_home": 0.3091674167758771,
-      "prob_draw": 0.30926564850662064,
-      "prob_away": 0.3815669347175024,
-      "over25": 0.3696244374205945,
-      "btts": 0.4453019969955096,
+      "prob_home": 0.30918692761335204,
+      "prob_draw": 0.30926558640239754,
+      "prob_away": 0.3815474859842506,
+      "over25": 0.3696757435849935,
+      "btts": 0.4453537360105663,
       "top_score": "1-1",
-      "top_score_prob": 0.14214501139387375,
+      "top_score_prob": 0.14215083037393994,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8249346475551793,
+      "primary_prob": 0.824897509474158,
       "primary_strength": "strong",
       "markets": [
         {
@@ -10258,7 +10494,7 @@
             ],
             [
               "Away win",
-              0.3816
+              0.3815
             ]
           ]
         },
@@ -10267,7 +10503,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6184
+              0.6185
             ],
             [
               "Home or away (12)",
@@ -10318,7 +10554,7 @@
             ],
             [
               "Over 2.5",
-              0.3696
+              0.3697
             ],
             [
               "Over 3.5",
@@ -10331,11 +10567,11 @@
           "rows": [
             [
               "Yes",
-              0.4453
+              0.4454
             ],
             [
               "No",
-              0.5547
+              0.5546
             ]
           ]
         },
@@ -10344,7 +10580,7 @@
           "rows": [
             [
               "Charlton over 1.5",
-              0.2694
+              0.2695
             ],
             [
               "Derby over 1.5",
@@ -10383,7 +10619,7 @@
           "rows": [
             [
               "1-1",
-              0.1421
+              0.1422
             ],
             [
               "0-1",
@@ -10462,6 +10698,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (82%, strong). Model: Charlton 31% / draw 31% / Derby 38%, expected goals 1.01 to 1.16. Form Charlton 1W 1D 3L (L W L D L), Derby 2W 0D 3L (L W L W L). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -10469,15 +10707,15 @@
       "away": "QPR",
       "xg_home": 1.54,
       "xg_away": 1.29,
-      "prob_home": 0.4221917774552747,
-      "prob_draw": 0.26382732564264044,
-      "prob_away": 0.3139808969020849,
-      "over25": 0.5376796533073158,
-      "btts": 0.5769653087469747,
+      "prob_home": 0.4221791908168871,
+      "prob_draw": 0.2638311621711821,
+      "prob_away": 0.31398964701193094,
+      "over25": 0.5377212170023467,
+      "btts": 0.5770051486609905,
       "top_score": "1-1",
-      "top_score_prob": 0.12460738987518283,
+      "top_score_prob": 0.1246077200991867,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7812939428127686,
+      "primary_prob": 0.7813293007915578,
       "primary_strength": "strong",
       "markets": [
         {
@@ -10605,11 +10843,11 @@
           "rows": [
             [
               "Odd",
-              0.4837
+              0.4836
             ],
             [
               "Even",
-              0.5163
+              0.5164
             ]
           ]
         },
@@ -10697,6 +10935,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (78%, strong). Model: Portsmouth 42% / draw 26% / QPR 31%, expected goals 1.54 to 1.29. Form Portsmouth 3W 1D 1L (D W L W W), QPR 0W 1D 4L (L L L L D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -10932,6 +11172,12 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": {
+        "for": 1.79,
+        "against": 0.76,
+        "n": 1
+      },
+      "xg_form_away": null,
       "analysis": "THE CALL - Union St. Gilloise (draw no bet) (88%, strong). Model: Union St. Gilloise 69% / draw 21% / Zulte Waregem 10%, expected goals 2.04 to 0.65. Form Union St. Gilloise 2W 1D 2L (W D L W L), Zulte Waregem 5W 0D 0L (W W W W W). Most likely score 2-0 (~14%), most probable of many."
     },
     {
@@ -10939,15 +11185,15 @@
       "away": "NEC Nijmegen",
       "xg_home": 1.09,
       "xg_away": 1.92,
-      "prob_home": 0.19868673702482073,
-      "prob_draw": 0.24665514487796952,
-      "prob_away": 0.5546581180972097,
-      "over25": 0.5790499310066121,
-      "btts": 0.5792385357755099,
+      "prob_home": 0.19876497753348776,
+      "prob_draw": 0.24672567434012962,
+      "prob_away": 0.5545093481263828,
+      "over25": 0.578917148100136,
+      "btts": 0.5791928849104928,
       "top_score": "1-1",
-      "top_score_prob": 0.11611828431155011,
+      "top_score_prob": 0.11615673539051612,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.815357480896045,
+      "primary_prob": 0.8152774554277333,
       "primary_strength": "strong",
       "markets": [
         {
@@ -10955,7 +11201,7 @@
           "rows": [
             [
               "Home win",
-              0.1987
+              0.1988
             ],
             [
               "Draw",
@@ -10963,7 +11209,7 @@
             ],
             [
               "Away win",
-              0.5547
+              0.5545
             ]
           ]
         },
@@ -10972,7 +11218,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.4453
+              0.4455
             ],
             [
               "Home or away (12)",
@@ -10980,7 +11226,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.8013
+              0.8012
             ]
           ]
         },
@@ -10989,11 +11235,11 @@
           "rows": [
             [
               "Willem II",
-              0.2637
+              0.2639
             ],
             [
               "NEC Nijmegen",
-              0.7363
+              0.7361
             ]
           ]
         },
@@ -11006,7 +11252,7 @@
             ],
             [
               "NEC Nijmegen -1.5",
-              0.3327
+              0.3325
             ]
           ]
         },
@@ -11019,15 +11265,15 @@
             ],
             [
               "Over 1.5",
-              0.8154
+              0.8153
             ],
             [
               "Over 2.5",
-              0.579
+              0.5789
             ],
             [
               "Over 3.5",
-              0.355
+              0.3549
             ]
           ]
         },
@@ -11053,7 +11299,7 @@
             ],
             [
               "NEC Nijmegen over 1.5",
-              0.5723
+              0.5721
             ]
           ]
         },
@@ -11062,11 +11308,11 @@
           "rows": [
             [
               "Willem II",
-              0.1464
+              0.1465
             ],
             [
               "NEC Nijmegen",
-              0.3367
+              0.3366
             ]
           ]
         },
@@ -11075,11 +11321,11 @@
           "rows": [
             [
               "Odd",
-              0.4728
+              0.4727
             ],
             [
               "Even",
-              0.5272
+              0.5273
             ]
           ]
         },
@@ -11088,7 +11334,7 @@
           "rows": [
             [
               "1-1",
-              0.1161
+              0.1162
             ],
             [
               "1-2",
@@ -11166,6 +11412,16 @@
           "away_wins": 2,
           "avg_goals": 1.5
         }
+      },
+      "xg_form_home": {
+        "for": 1.46,
+        "against": 2.35,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.89,
+        "against": 1.46,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Willem II 20% / draw 25% / NEC Nijmegen 55%, expected goals 1.09 to 1.92. Form Willem II 1W 2D 2L (L D W L D), NEC Nijmegen 1W 3D 1L (W L D D D). Most likely score 1-1 (~12%), most probable of many."
     },
@@ -11374,6 +11630,12 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 1.01,
+        "against": 2.63,
+        "n": 1
+      },
       "analysis": "THE CALL - Under 3.5 (79%, strong). Model: Alverca 46% / draw 27% / Estrela 27%, expected goals 1.37 to 0.97. Form Alverca 1W 1D 3L (L D L W L), Estrela 0W 2D 3L (D D L L L). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -11381,15 +11643,15 @@
       "away": "Sepsi OSK Sfantu Gheorghe",
       "xg_home": 1.35,
       "xg_away": 1.24,
-      "prob_home": 0.38923981071640645,
-      "prob_draw": 0.2729036532367048,
-      "prob_away": 0.3378565360468887,
-      "over25": 0.4788457940164774,
-      "btts": 0.5306450844769736,
+      "prob_home": 0.38941406580101645,
+      "prob_draw": 0.2729257204371626,
+      "prob_away": 0.33766021376182087,
+      "over25": 0.47868893682430363,
+      "btts": 0.5305049811776168,
       "top_score": "1-1",
-      "top_score_prob": 0.13001897341150417,
+      "top_score_prob": 0.13002933888675774,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7383581478274824,
+      "primary_prob": 0.7384935075991751,
       "primary_strength": "strong",
       "markets": [
         {
@@ -11397,7 +11659,7 @@
           "rows": [
             [
               "Home win",
-              0.3892
+              0.3894
             ],
             [
               "Draw",
@@ -11405,7 +11667,7 @@
             ],
             [
               "Away win",
-              0.3379
+              0.3377
             ]
           ]
         },
@@ -11414,7 +11676,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6621
+              0.6623
             ],
             [
               "Home or away (12)",
@@ -11422,7 +11684,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.6108
+              0.6106
             ]
           ]
         },
@@ -11431,11 +11693,11 @@
           "rows": [
             [
               "Csikszereda",
-              0.5353
+              0.5356
             ],
             [
               "Sepsi OSK Sfantu Gheorghe",
-              0.4647
+              0.4644
             ]
           ]
         },
@@ -11444,11 +11706,11 @@
           "rows": [
             [
               "Csikszereda -1.5",
-              0.1804
+              0.1805
             ],
             [
               "Sepsi OSK Sfantu Gheorghe -1.5",
-              0.1463
+              0.1462
             ]
           ]
         },
@@ -11461,15 +11723,15 @@
             ],
             [
               "Over 1.5",
-              0.7349
+              0.7348
             ],
             [
               "Over 2.5",
-              0.4788
+              0.4787
             ],
             [
               "Over 3.5",
-              0.2616
+              0.2615
             ]
           ]
         },
@@ -11478,11 +11740,11 @@
           "rows": [
             [
               "Yes",
-              0.5306
+              0.5305
             ],
             [
               "No",
-              0.4694
+              0.4695
             ]
           ]
         },
@@ -11495,7 +11757,7 @@
             ],
             [
               "Sepsi OSK Sfantu Gheorghe over 1.5",
-              0.3517
+              0.3515
             ]
           ]
         },
@@ -11504,7 +11766,7 @@
           "rows": [
             [
               "Csikszereda",
-              0.2894
+              0.2896
             ],
             [
               "Sepsi OSK Sfantu Gheorghe",
@@ -11534,7 +11796,7 @@
             ],
             [
               "1-0",
-              0.0969
+              0.097
             ],
             [
               "0-1",
@@ -11594,6 +11856,16 @@
           "away_wins": 2,
           "avg_goals": 1.8
         }
+      },
+      "xg_form_home": {
+        "for": 0.26,
+        "against": 1.76,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 0.96,
+        "against": 1.73,
+        "n": 2
       },
       "analysis": "THE CALL - Under 3.5 (74%, strong). Model: Csikszereda 39% / draw 27% / Sepsi OSK Sfantu Gheorghe 34%, expected goals 1.35 to 1.24. Form Csikszereda 3W 1D 1L (W L W D W), Sepsi OSK Sfantu Gheorghe 1W 2D 2L (L W D L D). Most likely score 1-1 (~13%), most probable of many."
     },
@@ -11830,6 +12102,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Konyaspor 43% / draw 28% / Rizespor 29%, expected goals 1.59 to 1.28. Form Konyaspor 2W 0D 3L (L L L W W), Rizespor 1W 2D 2L (D L W L D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -12065,6 +12339,8 @@
           "avg_goals": 3.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (81%, strong). Model: Kas\u0131mpa\u015fa 27% / draw 28% / Trabzonspor 46%, expected goals 1.25 to 1.69. Form Kas\u0131mpa\u015fa 2W 1D 2L (W L D L W), Trabzonspor 1W 2D 2L (L W D L D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -12300,6 +12576,12 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": {
+        "for": 1.02,
+        "against": 3.49,
+        "n": 1
+      },
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Kortrijk 29% / draw 30% / Antwerp 41%, expected goals 1.11 to 1.35. Form Kortrijk 3W 1D 1L (D W L W W), Antwerp 1W 1D 3L (W D L L L). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -12535,6 +12817,8 @@
           "avg_goals": 1.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Al Taawon 56% / draw 23% / Al Khaleej Saihat 22%, expected goals 1.96 to 1.16. Form Al Taawon 1W 1D 3L (L D L W L), Al Khaleej Saihat 1W 0D 4L (L L L L W). Most likely score 1-1 (~10%), most probable of many."
     },
     {
@@ -12542,15 +12826,15 @@
       "away": "Birmingham",
       "xg_home": 1.51,
       "xg_away": 1.03,
-      "prob_home": 0.4758684221926982,
-      "prob_draw": 0.27339392263202095,
-      "prob_away": 0.25073765517528096,
-      "over25": 0.467140755798871,
-      "btts": 0.5091488009968472,
+      "prob_home": 0.4758562101606322,
+      "prob_draw": 0.27340256955227693,
+      "prob_away": 0.250741220287091,
+      "over25": 0.4671648110784049,
+      "btts": 0.5091769889947563,
       "top_score": "1-1",
-      "top_score_prob": 0.1302173029586038,
+      "top_score_prob": 0.13022218751418949,
       "primary_pick": "Sheffield Utd or draw (1X)",
-      "primary_prob": 0.7492623448247191,
+      "primary_prob": 0.7492587797129091,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12626,11 +12910,11 @@
             ],
             [
               "Over 2.5",
-              0.4671
+              0.4672
             ],
             [
               "Over 3.5",
-              0.2516
+              0.2517
             ]
           ]
         },
@@ -12639,11 +12923,11 @@
           "rows": [
             [
               "Yes",
-              0.5091
+              0.5092
             ],
             [
               "No",
-              0.4909
+              0.4908
             ]
           ]
         },
@@ -12770,6 +13054,8 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Sheffield Utd or draw (1X) (75%, strong). Model: Sheffield Utd 48% / draw 27% / Birmingham 25%, expected goals 1.51 to 1.03. Form Sheffield Utd 3W 0D 2L (W L L W W), Birmingham 3W 2D 0L (D W W D W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -12777,15 +13063,15 @@
       "away": "AZ Alkmaar",
       "xg_home": 1.66,
       "xg_away": 1.17,
-      "prob_home": 0.47260464932693314,
-      "prob_draw": 0.27205752513457476,
-      "prob_away": 0.25533782553849194,
-      "over25": 0.5372420984088927,
-      "btts": 0.5728981608230167,
+      "prob_home": 0.47261816945441415,
+      "prob_draw": 0.27207058938826967,
+      "prob_away": 0.2553112411573162,
+      "over25": 0.5372149031390467,
+      "btts": 0.5728764294194011,
       "top_score": "1-1",
-      "top_score_prob": 0.12921360281341818,
+      "top_score_prob": 0.12922118823869808,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.788162855139682,
+      "primary_prob": 0.7881488144960865,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12827,11 +13113,11 @@
           "rows": [
             [
               "Utrecht",
-              0.6492
+              0.6493
             ],
             [
               "AZ Alkmaar",
-              0.3508
+              0.3507
             ]
           ]
         },
@@ -12840,7 +13126,7 @@
           "rows": [
             [
               "Utrecht -1.5",
-              0.2578
+              0.2579
             ],
             [
               "AZ Alkmaar -1.5",
@@ -12857,7 +13143,7 @@
             ],
             [
               "Over 1.5",
-              0.7882
+              0.7881
             ],
             [
               "Over 2.5",
@@ -13004,6 +13290,12 @@
           "away_wins": 1,
           "avg_goals": 3.0
         }
+      },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 2.67,
+        "against": 0.95,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Utrecht 47% / draw 27% / AZ Alkmaar 26%, expected goals 1.66 to 1.17. Form Utrecht 4W 1D 0L (D W W W W), AZ Alkmaar 1W 4D 0L (D D D D W). Most likely score 1-1 (~13%), most probable of many."
     },
@@ -13240,6 +13532,8 @@
           "avg_goals": 1.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 2.5 (75%, strong). Model: Alaves 39% / draw 33% / Getafe 28%, expected goals 0.96 to 0.76. Form Alaves 2W 1D 2L (L W W D L), Getafe 2W 1D 2L (W L W D L). Most likely score 0-0 (~18%), most probable of many."
     },
     {
@@ -13475,6 +13769,8 @@
           "avg_goals": 1.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 2.5 (78%, strong). Model: San Lorenzo 38% / draw 37% / Union Santa Fe 25%, expected goals 0.93 to 0.69. Form San Lorenzo 2W 2D 1L (L D D W W), Union Santa Fe 2W 2D 1L (L D D W W). Most likely score 0-0 (~21%), most probable of many."
     },
     {
@@ -13710,6 +14006,8 @@
           "avg_goals": 1.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (85%, strong). Model: Aldosivi 28% / draw 33% / Tigre 39%, expected goals 0.92 to 1.13. Form Aldosivi 4W 0D 1L (W W W L W), Tigre 2W 2D 1L (D W L W D). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -13717,15 +14015,15 @@
       "away": "PSV Eindhoven",
       "xg_home": 1.33,
       "xg_away": 2.6,
-      "prob_home": 0.16958163951913402,
-      "prob_draw": 0.19133128498002253,
-      "prob_away": 0.6390870755008435,
-      "over25": 0.7524775228969234,
-      "btts": 0.6902092343779853,
+      "prob_home": 0.16960850867852506,
+      "prob_draw": 0.19134285430299267,
+      "prob_away": 0.6390486370184822,
+      "over25": 0.7524996086640927,
+      "btts": 0.6902502856168538,
       "top_score": "1-2",
-      "top_score_prob": 0.08817048492661113,
+      "top_score_prob": 0.08816725135076339,
       "primary_pick": "PSV Eindhoven or draw (X2)",
-      "primary_prob": 0.830418360480866,
+      "primary_prob": 0.8303914913214749,
       "primary_strength": "strong",
       "markets": [
         {
@@ -13741,7 +14039,7 @@
             ],
             [
               "Away win",
-              0.6391
+              0.639
             ]
           ]
         },
@@ -13750,7 +14048,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.3609
+              0.361
             ],
             [
               "Home or away (12)",
@@ -13814,11 +14112,11 @@
           "rows": [
             [
               "Yes",
-              0.6902
+              0.6903
             ],
             [
               "No",
-              0.3098
+              0.3097
             ]
           ]
         },
@@ -13827,7 +14125,7 @@
           "rows": [
             [
               "Excelsior over 1.5",
-              0.3845
+              0.3846
             ],
             [
               "PSV Eindhoven over 1.5",
@@ -13944,6 +14242,16 @@
           "away_wins": 6,
           "avg_goals": 4.7
         }
+      },
+      "xg_form_home": {
+        "for": 3.35,
+        "against": 0.7,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 2.3,
+        "against": 1.01,
+        "n": 1
       },
       "analysis": "THE CALL - PSV Eindhoven or draw (X2) (83%, strong). Model: Excelsior 17% / draw 19% / PSV Eindhoven 64%, expected goals 1.33 to 2.6. Form Excelsior 3W 2D 0L (W D W W D), PSV Eindhoven 4W 1D 0L (W W D W W). Most likely score 1-2 (~9%), most probable of many."
     },
@@ -14180,6 +14488,8 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Al-Ittihad FC or draw (1X) (86%, strong). Model: Al-Ittihad FC 67% / draw 19% / Al Kholood 14%, expected goals 2.32 to 0.97. Form Al-Ittihad FC 2W 1D 2L (L L W W D), Al Kholood 0W 4D 1L (D L D D D). Most likely score 2-0 (~10%), most probable of many."
     },
     {
@@ -14415,6 +14725,8 @@
           "avg_goals": 4.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (89%, strong). Model: Al-Nassr 80% / draw 13% / Al-Fateh 7%, expected goals 2.89 to 0.81. Form Al-Nassr 3W 1D 1L (W D W L W), Al-Fateh 1W 2D 2L (D W L L D). Most likely score 2-0 (~10%), most probable of many."
     },
     {
@@ -14650,6 +14962,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Fenerbah\u00e7e or draw (X2) (83%, strong). Model: Gen\u00e7lerbirli\u011fi S.K. 17% / draw 24% / Fenerbah\u00e7e 59%, expected goals 1.02 to 2.03. Form Gen\u00e7lerbirli\u011fi S.K. 3W 0D 2L (W W L W L), Fenerbah\u00e7e 2W 2D 1L (D W W L D). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -14885,6 +15199,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (75%, strong). Model: Gaziantep FK 36% / draw 31% / Alanyaspor 33%, expected goals 1.31 to 1.25. Form Gaziantep FK 1W 0D 4L (L L L L W), Alanyaspor 1W 1D 3L (L W D L L). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -14892,15 +15208,15 @@
       "away": "Dinamo Bucuresti",
       "xg_home": 1.27,
       "xg_away": 1.05,
-      "prob_home": 0.40843210246660655,
-      "prob_draw": 0.2897162054231324,
-      "prob_away": 0.3018516921102609,
-      "over25": 0.4078070596156631,
-      "btts": 0.47102837885645626,
+      "prob_home": 0.40844905881538035,
+      "prob_draw": 0.28969969447211164,
+      "prob_away": 0.3018512467125081,
+      "over25": 0.407829142053487,
+      "btts": 0.4710402946442431,
       "top_score": "1-1",
-      "top_score_prob": 0.13578025061798296,
+      "top_score_prob": 0.1357735371017931,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7963892783555998,
+      "primary_prob": 0.7963722413417794,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15019,7 +15335,7 @@
             ],
             [
               "Dinamo Bucuresti",
-              0.2821
+              0.282
             ]
           ]
         },
@@ -15119,6 +15435,16 @@
           "away_wins": 1,
           "avg_goals": 2.5
         }
+      },
+      "xg_form_home": {
+        "for": 1.92,
+        "against": 0.96,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 2.16,
+        "against": 1.35,
+        "n": 1
       },
       "analysis": "THE CALL - Under 3.5 (80%, strong). Model: Rapid 41% / draw 29% / Dinamo Bucuresti 30%, expected goals 1.27 to 1.05. Form Rapid 0W 2D 3L (D D L L L), Dinamo Bucuresti 1W 2D 2L (L D D W L). Most likely score 1-1 (~14%), most probable of many."
     },
@@ -15355,6 +15681,12 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 3.49,
+        "against": 1.02,
+        "n": 1
+      },
       "analysis": "THE CALL - Club Brugge KV or draw (X2) (88%, strong). Model: OH Leuven 12% / draw 20% / Club Brugge KV 67%, expected goals 0.9 to 2.27. Form OH Leuven 1W 2D 2L (L D W L D), Club Brugge KV 4W 1D 0L (W D W W W). Most likely score 0-2 (~11%), most probable of many."
     },
     {
@@ -15590,22 +15922,28 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 0.76,
+        "against": 1.79,
+        "n": 1
+      },
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Genk 53% / draw 25% / KVC Westerlo 22%, expected goals 1.87 to 1.15. Form Genk 2W 3D 0L (D W D D W), KVC Westerlo 1W 1D 3L (L L W L D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
       "home": "Fortuna Sittard",
       "away": "Cambuur",
-      "xg_home": 2.92,
+      "xg_home": 2.94,
       "xg_away": 0.67,
-      "prob_home": 0.8213772155490376,
-      "prob_draw": 0.12813434404253857,
-      "prob_away": 0.05048844040842382,
-      "over25": 0.6945043549723936,
-      "btts": 0.46741221721648013,
+      "prob_home": 0.8228893291621944,
+      "prob_draw": 0.12687570559598135,
+      "prob_away": 0.050234965241824275,
+      "over25": 0.6991754638879537,
+      "btts": 0.4703933887060894,
       "top_score": "2-0",
-      "top_score_prob": 0.11808827383245452,
+      "top_score_prob": 0.11669418379244897,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8796092289666836,
+      "primary_prob": 0.8821312294778908,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15613,15 +15951,15 @@
           "rows": [
             [
               "Home win",
-              0.8214
+              0.8229
             ],
             [
               "Draw",
-              0.1281
+              0.1269
             ],
             [
               "Away win",
-              0.0505
+              0.0502
             ]
           ]
         },
@@ -15630,15 +15968,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.9495
+              0.9498
             ],
             [
               "Home or away (12)",
-              0.8719
+              0.8731
             ],
             [
               "Draw or away (X2)",
-              0.1786
+              0.1771
             ]
           ]
         },
@@ -15647,11 +15985,11 @@
           "rows": [
             [
               "Fortuna Sittard",
-              0.9421
+              0.9425
             ],
             [
               "Cambuur",
-              0.0579
+              0.0575
             ]
           ]
         },
@@ -15660,7 +15998,7 @@
           "rows": [
             [
               "Fortuna Sittard -1.5",
-              0.6383
+              0.6412
             ],
             [
               "Cambuur -1.5",
@@ -15673,19 +16011,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.9654
+              0.9662
             ],
             [
               "Over 1.5",
-              0.8796
+              0.8821
             ],
             [
               "Over 2.5",
-              0.6945
+              0.6992
             ],
             [
               "Over 3.5",
-              0.4815
+              0.4871
             ]
           ]
         },
@@ -15694,11 +16032,11 @@
           "rows": [
             [
               "Yes",
-              0.4674
+              0.4704
             ],
             [
               "No",
-              0.5326
+              0.5296
             ]
           ]
         },
@@ -15707,11 +16045,11 @@
           "rows": [
             [
               "Fortuna Sittard over 1.5",
-              0.7882
+              0.7915
             ],
             [
               "Cambuur over 1.5",
-              0.1445
+              0.1463
             ]
           ]
         },
@@ -15720,11 +16058,11 @@
           "rows": [
             [
               "Fortuna Sittard",
-              0.5131
+              0.5104
             ],
             [
               "Cambuur",
-              0.0541
+              0.0529
             ]
           ]
         },
@@ -15733,11 +16071,11 @@
           "rows": [
             [
               "Odd",
-              0.486
+              0.4861
             ],
             [
               "Even",
-              0.514
+              0.5139
             ]
           ]
         },
@@ -15746,15 +16084,15 @@
           "rows": [
             [
               "2-0",
-              0.1181
+              0.1167
             ],
             [
               "3-0",
-              0.1148
+              0.1143
             ],
             [
               "4-0",
-              0.0838
+              0.084
             ]
           ]
         }
@@ -15825,7 +16163,17 @@
           "avg_goals": 3.3
         }
       },
-      "analysis": "THE CALL - Over 1.5 (88%, strong). Model: Fortuna Sittard 82% / draw 13% / Cambuur 5%, expected goals 2.92 to 0.67. Form Fortuna Sittard 1W 1D 3L (L W L L D), Cambuur 0W 1D 1L (D L). Most likely score 2-0 (~12%), most probable of many."
+      "xg_form_home": {
+        "for": 1.01,
+        "against": 2.3,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 0.7,
+        "against": 3.35,
+        "n": 1
+      },
+      "analysis": "THE CALL - Over 1.5 (88%, strong). Model: Fortuna Sittard 82% / draw 13% / Cambuur 5%, expected goals 2.94 to 0.67. Form Fortuna Sittard 1W 1D 3L (L W L L D), Cambuur 0W 1D 1L (D L). Most likely score 2-0 (~12%), most probable of many."
     },
     {
       "home": "Sevilla",
@@ -16060,6 +16408,8 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (82%, strong). Model: Sevilla 38% / draw 28% / Rayo Vallecano 33%, expected goals 1.16 to 1.05. Form Sevilla 3W 0D 2L (L L W W W), Rayo Vallecano 3W 2D 0L (W W D D W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -16295,6 +16645,8 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - FC Porto or draw (X2) (89%, strong). Model: Rio Ave 11% / draw 19% / FC Porto 70%, expected goals 0.65 to 2.02. Form Rio Ave 0W 3D 2L (D L D L D), FC Porto 4W 0D 1L (W L W W W). Most likely score 0-2 (~14%), most probable of many."
     },
     {
@@ -16529,6 +16881,16 @@
           "away_wins": 3,
           "avg_goals": 1.5
         }
+      },
+      "xg_form_home": {
+        "for": 1.28,
+        "against": 1.36,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 0.99,
+        "against": 0.74,
+        "n": 6
       },
       "analysis": "THE CALL - Under 3.5 (84%, strong). Model: Fluminense 33% / draw 30% / Palmeiras 37%, expected goals 1.0 to 1.07. Form Fluminense 4W 1D 0L (W W W D W), Palmeiras 2W 2D 1L (W W L D D). Most likely score 0-1 (~14%), most probable of many."
     },
@@ -16765,6 +17127,16 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": {
+        "for": 1.21,
+        "against": 0.94,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.03,
+        "against": 1.04,
+        "n": 6
+      },
       "analysis": "THE CALL - Under 3.5 (79%, strong). Model: Atletico Paranaense 48% / draw 27% / RB Bragantino 26%, expected goals 1.4 to 0.95. Form Atletico Paranaense 1W 2D 2L (L L D D W), RB Bragantino 2W 0D 3L (L W L L W). Most likely score 1-0 (~14%), most probable of many."
     },
     {
@@ -17000,6 +17372,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Orlando City SC 45% / draw 25% / FC Cincinnati 30%, expected goals 1.64 to 1.3. Form Orlando City SC 0W 2D 3L (L L L D D), FC Cincinnati 3W 0D 2L (L W L W W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -17235,6 +17609,8 @@
           "avg_goals": 1.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Toronto FC 45% / draw 28% / New England Revolution 27%, expected goals 1.43 to 1.04. Form Toronto FC 1W 3D 1L (W L D D D), New England Revolution 1W 2D 2L (D L W L D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -17470,6 +17846,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (75%, strong). Model: Atlanta United FC 32% / draw 27% / New York Red Bulls 41%, expected goals 1.24 to 1.43. Form Atlanta United FC 0W 2D 3L (D L L L D), New York Red Bulls 1W 0D 4L (L L L W L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -17705,6 +18083,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: CF Montreal 49% / draw 25% / DC United 26%, expected goals 1.71 to 1.18. Form CF Montreal 1W 1D 3L (L D W L L), DC United 0W 2D 3L (D L L L D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -17940,6 +18320,8 @@
           "avg_goals": 3.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (77%, strong). Model: Charlotte 39% / draw 27% / Columbus Crew 34%, expected goals 1.44 to 1.34. Form Charlotte 2W 1D 2L (L D L W W), Columbus Crew 2W 1D 2L (L W L W D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -18175,6 +18557,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (81%, strong). Model: Houston Dynamo 40% / draw 25% / Los Angeles Galaxy 35%, expected goals 1.58 to 1.47. Form Houston Dynamo 1W 1D 3L (D L L W L), Los Angeles Galaxy 3W 0D 2L (W W L W L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -18410,6 +18794,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (90%, strong). Model: Nashville SC 29% / draw 22% / Inter Miami 49%, expected goals 1.66 to 2.16. Form Nashville SC 1W 1D 3L (L W L L D), Inter Miami 4W 0D 1L (W W W W L). Most likely score 1-2 (~8%), most probable of many."
     },
     {
@@ -18645,6 +19031,8 @@
           "avg_goals": 4.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: Monterrey 63% / draw 20% / FC Juarez 17%, expected goals 2.34 to 1.17. Form Monterrey 1W 1D 3L (L W L D L), FC Juarez 1W 1D 3L (W L L L D). Most likely score 2-1 (~10%), most probable of many."
     },
     {
@@ -18873,6 +19261,8 @@
           "avg_goals": 2.4
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (76%, strong). Model: Real Salt Lake 34% / draw 27% / Minnesota United FC 39%, expected goals 1.29 to 1.39. Form Real Salt Lake 2W 1D 2L (L D L W W), Minnesota United FC 0W 2D 3L (L D L D L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -19108,6 +19498,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (88%, strong). Model: Colorado Rapids 51% / draw 22% / Sporting Kansas City 26%, expected goals 2.1 to 1.47. Form Colorado Rapids 1W 2D 2L (D L D L W), Sporting Kansas City 0W 1D 4L (D L L L L). Most likely score 1-1 (~9%), most probable of many."
     },
     {
@@ -19343,6 +19735,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (88%, strong). Model: San Jose Earthquakes 46% / draw 23% / St. Louis City 31%, expected goals 1.99 to 1.62. Form San Jose Earthquakes 2W 0D 3L (W L W L L), St. Louis City 3W 1D 1L (D W L W W). Most likely score 1-1 (~9%), most probable of many."
     },
     {
@@ -19578,22 +19972,24 @@
           "avg_goals": 1.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (77%, strong). Model: Atlas 25% / draw 28% / Tigres UANL 47%, expected goals 0.98 to 1.44. Form Atlas 2W 1D 2L (L L W D W), Tigres UANL 2W 2D 1L (L W W D D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
       "home": "ADO Den Haag",
       "away": "Groningen",
       "xg_home": 0.05,
-      "xg_away": 1.12,
-      "prob_home": 0.015047891367706779,
-      "prob_draw": 0.3312355705051589,
-      "prob_away": 0.6537165381271342,
-      "over25": 0.11583384228579281,
-      "btts": 0.03742753255127315,
+      "xg_away": 1.13,
+      "prob_home": 0.015041846283090755,
+      "prob_draw": 0.3311103263701029,
+      "prob_away": 0.6538478273468062,
+      "over25": 0.11592286329458605,
+      "btts": 0.03743895030940171,
       "top_score": "0-1",
-      "top_score_prob": 0.34392483410398056,
+      "top_score_prob": 0.34390616742530766,
       "primary_pick": "Under 2.5",
-      "primary_prob": 0.8841661577142071,
+      "primary_prob": 0.884077136705414,
       "primary_strength": "strong",
       "markets": [
         {
@@ -19605,11 +20001,11 @@
             ],
             [
               "Draw",
-              0.3312
+              0.3311
             ],
             [
               "Away win",
-              0.6537
+              0.6538
             ]
           ]
         },
@@ -19618,11 +20014,11 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.3463
+              0.3462
             ],
             [
               "Home or away (12)",
-              0.6688
+              0.6689
             ],
             [
               "Draw or away (X2)",
@@ -19652,7 +20048,7 @@
             ],
             [
               "Groningen -1.5",
-              0.2993
+              0.2994
             ]
           ]
         },
@@ -19661,15 +20057,15 @@
           "rows": [
             [
               "Over 0.5",
-              0.6899
+              0.69
             ],
             [
               "Over 1.5",
-              0.3318
+              0.332
             ],
             [
               "Over 2.5",
-              0.1158
+              0.1159
             ],
             [
               "Over 3.5",
@@ -19699,7 +20095,7 @@
             ],
             [
               "Groningen over 1.5",
-              0.3101
+              0.3102
             ]
           ]
         },
@@ -19708,7 +20104,7 @@
           "rows": [
             [
               "ADO Den Haag",
-              0.3247
+              0.3246
             ],
             [
               "Groningen",
@@ -19738,7 +20134,7 @@
             ],
             [
               "0-0",
-              0.3101
+              0.31
             ],
             [
               "0-2",
@@ -19806,22 +20202,28 @@
           "avg_goals": 1.8
         }
       },
-      "analysis": "THE CALL - Under 2.5 (88%, strong). Model: ADO Den Haag 2% / draw 33% / Groningen 65%, expected goals 0.05 to 1.12. Form ADO Den Haag 0W 0D 2L (L L), Groningen 2W 0D 3L (L W W L L). Most likely score 0-1 (~34%), most probable of many."
+      "xg_form_home": {
+        "for": 0.95,
+        "against": 2.67,
+        "n": 1
+      },
+      "xg_form_away": null,
+      "analysis": "THE CALL - Under 2.5 (88%, strong). Model: ADO Den Haag 2% / draw 33% / Groningen 65%, expected goals 0.05 to 1.13. Form ADO Den Haag 0W 0D 2L (L L), Groningen 2W 0D 3L (L W W L L). Most likely score 0-1 (~34%), most probable of many."
     },
     {
       "home": "Watford",
       "away": "Southampton",
       "xg_home": 1.13,
       "xg_away": 1.78,
-      "prob_home": 0.23435769413973292,
-      "prob_draw": 0.24638707046613645,
-      "prob_away": 0.5192552353941307,
-      "over25": 0.5582048136402302,
-      "btts": 0.5711068224302167,
+      "prob_home": 0.23437340380341776,
+      "prob_draw": 0.24639653111875054,
+      "prob_away": 0.5192300650778318,
+      "over25": 0.5582351538527226,
+      "btts": 0.5711441490899374,
       "top_score": "1-1",
-      "top_score_prob": 0.11612364938871961,
+      "top_score_prob": 0.1161268428622334,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7950819785864441,
+      "primary_prob": 0.7951085204111542,
       "primary_strength": "strong",
       "markets": [
         {
@@ -19837,7 +20239,7 @@
             ],
             [
               "Away win",
-              0.5193
+              0.5192
             ]
           ]
         },
@@ -19846,7 +20248,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.4807
+              0.4808
             ],
             [
               "Home or away (12)",
@@ -20041,6 +20443,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Watford 23% / draw 25% / Southampton 52%, expected goals 1.13 to 1.78. Form Watford 0W 0D 5L (L L L L L), Southampton 2W 3D 0L (W D W D D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -20048,15 +20452,15 @@
       "away": "GO Ahead Eagles",
       "xg_home": 2.38,
       "xg_away": 1.12,
-      "prob_home": 0.6443840219232868,
-      "prob_draw": 0.2029546213525797,
-      "prob_away": 0.15266135672413356,
-      "over25": 0.6793975399437382,
-      "btts": 0.6208133908436239,
+      "prob_home": 0.6443698507723167,
+      "prob_draw": 0.20296155739178198,
+      "prob_away": 0.1526685918359013,
+      "over25": 0.6794161722762212,
+      "btts": 0.6208399524299998,
       "top_score": "2-1",
-      "top_score_prob": 0.09575320789088126,
+      "top_score_prob": 0.09575204731039876,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8743903109798532,
+      "primary_prob": 0.8744041340517785,
       "primary_strength": "strong",
       "markets": [
         {
@@ -20136,7 +20540,7 @@
             ],
             [
               "Over 3.5",
-              0.4636
+              0.4637
             ]
           ]
         },
@@ -20171,7 +20575,7 @@
           "rows": [
             [
               "Feyenoord",
-              0.3274
+              0.3273
             ],
             [
               "GO Ahead Eagles",
@@ -20275,6 +20679,12 @@
           "away_wins": 1,
           "avg_goals": 3.8
         }
+      },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 2.35,
+        "against": 1.46,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: Feyenoord 64% / draw 20% / GO Ahead Eagles 15%, expected goals 2.38 to 1.12. Form Feyenoord 3W 2D 0L (W D W W D), GO Ahead Eagles 0W 3D 2L (L L D D D). Most likely score 2-1 (~10%), most probable of many."
     },
@@ -20504,6 +20914,12 @@
           "avg_goals": 2.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": {
+        "for": 1.06,
+        "against": 1.47,
+        "n": 1
+      },
       "analysis": "THE CALL - Over 1.5 (78%, strong). Model: Nacional 38% / draw 25% / Estoril 37%, expected goals 1.45 to 1.42. Form Nacional 3W 0D 2L (W L L W W), Estoril 0W 2D 3L (L D D L L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -20725,6 +21141,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Ba\u015fak\u015fehir or draw (1X) (87%, strong). Model: Ba\u015fak\u015fehir 58% / draw 29% / Kocaelispor 13%, expected goals 1.51 to 0.59. Form Ba\u015fak\u015fehir 3W 1D 1L (W W L W D), Kocaelispor 0W 2D 3L (L L D L D). Most likely score 1-0 (~17%), most probable of many."
     },
     {
@@ -20960,6 +21378,8 @@
           "avg_goals": 3.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (73%, strong). Model: Espanyol 45% / draw 25% / Levante 29%, expected goals 1.48 to 1.13. Form Espanyol 2W 1D 2L (D W W L L), Levante 3W 0D 2L (L W W W L). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -21195,6 +21615,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - U.N.A.M. - Pumas or draw (1X) (87%, strong). Model: U.N.A.M. - Pumas 64% / draw 23% / Club Queretaro 13%, expected goals 1.89 to 0.75. Form U.N.A.M. - Pumas 1W 2D 2L (L D W L D), Club Queretaro 2W 3D 0L (W D D W D). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -21430,6 +21852,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Be\u015fikta\u015f or draw (1X) (86%, strong). Model: Be\u015fikta\u015f 60% / draw 25% / Ey\u00fcpspor 14%, expected goals 1.86 to 0.81. Form Be\u015fikta\u015f 1W 2D 2L (D L W D L), Ey\u00fcpspor 3W 2D 0L (D W D W W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -21665,6 +22089,8 @@
           "avg_goals": 3.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Celta Vigo or draw (1X) (77%, strong). Model: Celta Vigo 53% / draw 24% / Osasuna 23%, expected goals 1.69 to 1.04. Form Celta Vigo 3W 1D 1L (W D L W W), Osasuna 0W 0D 5L (L L L L L). Most likely score 1-0 (~11%), most probable of many."
     },
     {
@@ -21900,6 +22326,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Club America or draw (1X) (87%, strong). Model: Club America 66% / draw 21% / Atletico San Luis 13%, expected goals 2.12 to 0.86. Form Club America 2W 2D 1L (D D L W W), Atletico San Luis 2W 1D 2L (L W L D W). Most likely score 2-0 (~11%), most probable of many."
     },
     {
@@ -22135,6 +22563,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Guadalajara Chivas or draw (X2) (79%, strong). Model: Santos Laguna 21% / draw 24% / Guadalajara Chivas 56%, expected goals 1.05 to 1.86. Form Santos Laguna 1W 1D 3L (W L L L D), Guadalajara Chivas 1W 2D 2L (L D W L D). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -22370,6 +22800,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (77%, strong). Model: Club Tijuana 32% / draw 27% / Cruz Azul 41%, expected goals 1.28 to 1.49. Form Club Tijuana 3W 2D 0L (D W D W W), Cruz Azul 3W 2D 0L (W D W D W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -22605,6 +23037,8 @@
           "avg_goals": 3.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Samsunspor 40% / draw 31% / G\u00f6ztepe 29%, expected goals 1.37 to 1.12. Form Samsunspor 4W 0D 1L (W L W W W), G\u00f6ztepe 2W 2D 1L (L W D W D). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -22833,6 +23267,8 @@
           "avg_goals": 2.4
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Necaxa 55% / draw 23% / Leon 22%, expected goals 1.94 to 1.16. Form Necaxa 1W 2D 2L (L D D L W), Leon 3W 0D 2L (L L W W W). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -23068,6 +23504,8 @@
           "avg_goals": 4.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - CF Pachuca (draw no bet) (88%, strong). Model: CF Pachuca 70% / draw 20% / Puebla 10%, expected goals 2.05 to 0.64. Form CF Pachuca 3W 0D 2L (L W W W L), Puebla 0W 1D 4L (L L L L D). Most likely score 2-0 (~14%), most probable of many."
     },
     {
@@ -23303,6 +23741,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Al-Hilal Saudi FC (draw no bet) (89%, strong). Model: Al-Fayha 9% / draw 17% / Al-Hilal Saudi FC 74%, expected goals 0.74 to 2.41. Form Al-Fayha 1W 1D 3L (L L L W D), Al-Hilal Saudi FC 4W 1D 0L (W W D W W). Most likely score 0-2 (~12%), most probable of many."
     },
     {
@@ -23538,6 +23978,8 @@
           "avg_goals": 1.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (83%, strong). Model: Rayo Vallecano 48% / draw 28% / Alaves 24%, expected goals 1.31 to 0.83. Form Rayo Vallecano 3W 2D 0L (W W D D W), Alaves 2W 1D 2L (L W W D L). Most likely score 1-0 (~16%), most probable of many."
     },
     {
@@ -23773,6 +24215,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: Marseille 50% / draw 23% / Strasbourg 28%, expected goals 2.02 to 1.48. Form Marseille 2W 1D 2L (W W L D L), Strasbourg 3W 1D 1L (W W D L W). Most likely score 1-1 (~10%), most probable of many."
     },
     {
@@ -24008,6 +24452,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: Real Betis 58% / draw 21% / Real Sociedad 21%, expected goals 2.02 to 1.15. Form Real Betis 3W 1D 1L (W L W D W), Real Sociedad 0W 3D 2L (D L D D L). Most likely score 2-1 (~10%), most probable of many."
     },
     {
@@ -24015,15 +24461,15 @@
       "away": "Crystal Palace",
       "xg_home": 1.28,
       "xg_away": 0.98,
-      "prob_home": 0.41804463918888457,
-      "prob_draw": 0.31172157067726486,
-      "prob_away": 0.2702337901338505,
-      "over25": 0.3922255375472457,
-      "btts": 0.46461697906434263,
+      "prob_home": 0.4180417047143814,
+      "prob_draw": 0.31172013708675034,
+      "prob_away": 0.27023815819886826,
+      "over25": 0.3922321807152286,
+      "btts": 0.46462318977516615,
       "top_score": "1-1",
-      "top_score_prob": 0.14541774782484765,
+      "top_score_prob": 0.14541765449579966,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8082580171877091,
+      "primary_prob": 0.8082530217936185,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24243,6 +24689,8 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (81%, strong). Model: Everton 42% / draw 31% / Crystal Palace 27%, expected goals 1.28 to 0.98. Form Everton 0W 2D 3L (L L D D L), Crystal Palace 0W 2D 3L (L D L D L). Most likely score 1-1 (~15%), most probable of many."
     },
     {
@@ -24250,15 +24698,15 @@
       "away": "Sunderland",
       "xg_home": 0.9,
       "xg_away": 1.66,
-      "prob_home": 0.18994176076510344,
-      "prob_draw": 0.2693724933514777,
-      "prob_away": 0.5406857458834189,
-      "over25": 0.4704540002196125,
-      "btts": 0.49224514205914177,
+      "prob_home": 0.18995186496925281,
+      "prob_draw": 0.26938059451319174,
+      "prob_away": 0.5406675405175553,
+      "over25": 0.47043812541287416,
+      "btts": 0.49223957955903463,
       "top_score": "1-1",
-      "top_score_prob": 0.12824054198699772,
+      "top_score_prob": 0.12824409426923578,
       "primary_pick": "Sunderland or draw (X2)",
-      "primary_prob": 0.8100582392348966,
+      "primary_prob": 0.810048135030747,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24266,7 +24714,7 @@
           "rows": [
             [
               "Home win",
-              0.1899
+              0.19
             ],
             [
               "Draw",
@@ -24291,7 +24739,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.8101
+              0.81
             ]
           ]
         },
@@ -24326,7 +24774,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9097
+              0.9096
             ],
             [
               "Over 1.5",
@@ -24334,7 +24782,7 @@
             ],
             [
               "Over 2.5",
-              0.4705
+              0.4704
             ],
             [
               "Over 3.5",
@@ -24364,7 +24812,7 @@
             ],
             [
               "Sunderland over 1.5",
-              0.4939
+              0.4938
             ]
           ]
         },
@@ -24478,6 +24926,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Sunderland or draw (X2) (81%, strong). Model: Ipswich 19% / draw 27% / Sunderland 54%, expected goals 0.9 to 1.66. Form Ipswich 0W 1D 4L (L L L D L), Sunderland 2W 2D 1L (W W D D L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -24485,15 +24935,15 @@
       "away": "Leeds",
       "xg_home": 1.51,
       "xg_away": 1.12,
-      "prob_home": 0.4496505327101921,
-      "prob_draw": 0.2829826377049072,
-      "prob_away": 0.2673668295849007,
-      "over25": 0.4893370455568538,
-      "btts": 0.5383346268067506,
+      "prob_home": 0.4496502291506387,
+      "prob_draw": 0.2829837300687104,
+      "prob_away": 0.267366040780651,
+      "over25": 0.48933281327620076,
+      "btts": 0.5383312835525286,
       "top_score": "1-1",
-      "top_score_prob": 0.13524527961126911,
+      "top_score_prob": 0.13524581707998146,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7519798143108501,
+      "primary_prob": 0.7519766736228433,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24713,6 +25163,8 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (75%, strong). Model: Nottingham Forest 45% / draw 28% / Leeds 27%, expected goals 1.51 to 1.12. Form Nottingham Forest 2W 2D 1L (D L D W W), Leeds 2W 2D 1L (L W D W D). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -24720,15 +25172,15 @@
       "away": "Kilmarnock",
       "xg_home": 2.23,
       "xg_away": 0.92,
-      "prob_home": 0.6660117945218691,
-      "prob_draw": 0.19358168423557262,
-      "prob_away": 0.14040652124255842,
-      "over25": 0.6096948608932461,
-      "btts": 0.5409041656838676,
+      "prob_home": 0.6660362037953447,
+      "prob_draw": 0.1935706685594099,
+      "prob_away": 0.14039312764524545,
+      "over25": 0.6097118132872299,
+      "btts": 0.5409027896994257,
       "top_score": "2-0",
-      "top_score_prob": 0.10610310030465281,
+      "top_score_prob": 0.10610427310043728,
       "primary_pick": "Hibernian or draw (1X)",
-      "primary_prob": 0.8595934787574417,
+      "primary_prob": 0.8596068723547545,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24783,7 +25235,7 @@
           "rows": [
             [
               "Hibernian -1.5",
-              0.4352
+              0.4353
             ],
             [
               "Kilmarnock -1.5",
@@ -24847,7 +25299,7 @@
             ],
             [
               "Kilmarnock",
-              0.108
+              0.1079
             ]
           ]
         },
@@ -24948,6 +25400,16 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": {
+        "for": 1.94,
+        "against": 2.19,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 0.92,
+        "against": 2.03,
+        "n": 1
+      },
       "analysis": "THE CALL - Hibernian or draw (1X) (86%, strong). Model: Hibernian 67% / draw 19% / Kilmarnock 14%, expected goals 2.23 to 0.92. Form Hibernian 2W 0D 3L (L W W L L), Kilmarnock 4W 0D 1L (W W W W L). Most likely score 2-0 (~11%), most probable of many."
     },
     {
@@ -24955,15 +25417,15 @@
       "away": "Aberdeen",
       "xg_home": 1.74,
       "xg_away": 0.79,
-      "prob_home": 0.5988449920027089,
-      "prob_draw": 0.2392058743798879,
-      "prob_away": 0.1619491336174031,
-      "over25": 0.4637578580196163,
-      "btts": 0.45238246935770804,
+      "prob_home": 0.5988530089749664,
+      "prob_draw": 0.2392089762545782,
+      "prob_away": 0.1619380147704552,
+      "over25": 0.4637265985833173,
+      "btts": 0.4523497682634618,
       "top_score": "1-0",
-      "top_score_prob": 0.13561801318087527,
+      "top_score_prob": 0.1356314792730219,
       "primary_pick": "Motherwell or draw (1X)",
-      "primary_prob": 0.8380508663825968,
+      "primary_prob": 0.8380619852295446,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24971,7 +25433,7 @@
           "rows": [
             [
               "Home win",
-              0.5988
+              0.5989
             ],
             [
               "Draw",
@@ -24996,7 +25458,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4012
+              0.4011
             ]
           ]
         },
@@ -25039,11 +25501,11 @@
             ],
             [
               "Over 2.5",
-              0.4638
+              0.4637
             ],
             [
               "Over 3.5",
-              0.2488
+              0.2487
             ]
           ]
         },
@@ -25052,11 +25514,11 @@
           "rows": [
             [
               "Yes",
-              0.4524
+              0.4523
             ],
             [
               "No",
-              0.5476
+              0.5477
             ]
           ]
         },
@@ -25183,6 +25645,16 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": {
+        "for": 2.19,
+        "against": 1.94,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.66,
+        "against": 1.78,
+        "n": 2
+      },
       "analysis": "THE CALL - Motherwell or draw (1X) (84%, strong). Model: Motherwell 60% / draw 24% / Aberdeen 16%, expected goals 1.74 to 0.79. Form Motherwell 2W 1D 2L (W L D L W), Aberdeen 2W 1D 2L (L L W D W). Most likely score 1-0 (~14%), most probable of many."
     },
     {
@@ -25190,15 +25662,15 @@
       "away": "ST Mirren",
       "xg_home": 2.48,
       "xg_away": 0.69,
-      "prob_home": 0.7629534874175743,
-      "prob_draw": 0.15561825826290626,
-      "prob_away": 0.08142825431951954,
-      "over25": 0.6155277464626056,
-      "btts": 0.46125128756122513,
+      "prob_home": 0.7629439007402752,
+      "prob_draw": 0.15561684308184381,
+      "prob_away": 0.08143925617788109,
+      "over25": 0.6155726672589074,
+      "btts": 0.4613068205017509,
       "top_score": "2-0",
-      "top_score_prob": 0.1284693633574373,
+      "top_score_prob": 0.12845236688389325,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8281531372677465,
+      "primary_prob": 0.8281811672775468,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25206,7 +25678,7 @@
           "rows": [
             [
               "Home win",
-              0.763
+              0.7629
             ],
             [
               "Draw",
@@ -25231,7 +25703,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.237
+              0.2371
             ]
           ]
         },
@@ -25274,11 +25746,11 @@
             ],
             [
               "Over 2.5",
-              0.6155
+              0.6156
             ],
             [
               "Over 3.5",
-              0.3926
+              0.3927
             ]
           ]
         },
@@ -25313,11 +25785,11 @@
           "rows": [
             [
               "Rangers",
-              0.4992
+              0.4991
             ],
             [
               "ST Mirren",
-              0.0835
+              0.0834
             ]
           ]
         },
@@ -25343,7 +25815,7 @@
             ],
             [
               "3-0",
-              0.1064
+              0.1063
             ],
             [
               "1-0",
@@ -25418,6 +25890,16 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": {
+        "for": 1.43,
+        "against": 1.59,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.5,
+        "against": 1.0,
+        "n": 2
+      },
       "analysis": "THE CALL - Over 1.5 (83%, strong). Model: Rangers 76% / draw 16% / ST Mirren 8%, expected goals 2.48 to 0.69. Form Rangers 1W 0D 4L (W L L L L), ST Mirren 2W 2D 1L (W D D W L). Most likely score 2-0 (~13%), most probable of many."
     },
     {
@@ -25425,15 +25907,15 @@
       "away": "Celtic",
       "xg_home": 0.79,
       "xg_away": 2.42,
-      "prob_home": 0.10075824849103604,
-      "prob_draw": 0.16806669250837128,
-      "prob_away": 0.7311750590005927,
-      "over25": 0.6224728833183851,
-      "btts": 0.5005301886234872,
+      "prob_home": 0.10074996035307382,
+      "prob_draw": 0.16803131192292875,
+      "prob_away": 0.7312187277239974,
+      "over25": 0.6226108642243529,
+      "btts": 0.5006230349266453,
       "top_score": "0-2",
-      "top_score_prob": 0.11801565670390145,
+      "top_score_prob": 0.11798562473146565,
       "primary_pick": "Celtic or draw (X2)",
-      "primary_prob": 0.8992417515089639,
+      "primary_prob": 0.8992500396469262,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25441,11 +25923,11 @@
           "rows": [
             [
               "Home win",
-              0.1008
+              0.1007
             ],
             [
               "Draw",
-              0.1681
+              0.168
             ],
             [
               "Away win",
@@ -25462,11 +25944,11 @@
             ],
             [
               "Home or away (12)",
-              0.8319
+              0.832
             ],
             [
               "Draw or away (X2)",
-              0.8992
+              0.8993
             ]
           ]
         },
@@ -25492,7 +25974,7 @@
             ],
             [
               "Celtic -1.5",
-              0.5076
+              0.5077
             ]
           ]
         },
@@ -25501,7 +25983,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9573
+              0.9574
             ],
             [
               "Over 1.5",
@@ -25509,11 +25991,11 @@
             ],
             [
               "Over 2.5",
-              0.6225
+              0.6226
             ],
             [
               "Over 3.5",
-              0.4
+              0.4002
             ]
           ]
         },
@@ -25522,11 +26004,11 @@
           "rows": [
             [
               "Yes",
-              0.5005
+              0.5006
             ],
             [
               "No",
-              0.4995
+              0.4994
             ]
           ]
         },
@@ -25535,11 +26017,11 @@
           "rows": [
             [
               "ST Johnstone over 1.5",
-              0.1881
+              0.1882
             ],
             [
               "Celtic over 1.5",
-              0.6959
+              0.696
             ]
           ]
         },
@@ -25653,6 +26135,16 @@
           "avg_goals": 4.0
         }
       },
+      "xg_form_home": {
+        "for": 1.66,
+        "against": 1.14,
+        "n": 2
+      },
+      "xg_form_away": {
+        "for": 2.55,
+        "against": 0.47,
+        "n": 1
+      },
       "analysis": "THE CALL - Celtic or draw (X2) (90%, strong). Model: ST Johnstone 10% / draw 17% / Celtic 73%, expected goals 0.79 to 2.42. Form ST Johnstone 1W 0D 4L (L L W L L), Celtic 5W 0D 0L (W W W W W). Most likely score 0-2 (~12%), most probable of many."
     },
     {
@@ -25660,15 +26152,15 @@
       "away": "Heart Of Midlothian",
       "xg_home": 1.09,
       "xg_away": 1.53,
-      "prob_home": 0.2673772932785219,
-      "prob_draw": 0.2627569104243908,
-      "prob_away": 0.46986579629708725,
-      "over25": 0.4869572744542716,
-      "btts": 0.5242659921332354,
+      "prob_home": 0.26737709064709647,
+      "prob_draw": 0.26277989104190674,
+      "prob_away": 0.46984301831099695,
+      "over25": 0.486864210803122,
+      "btts": 0.5241947559220207,
       "top_score": "1-1",
-      "top_score_prob": 0.12516039725407696,
+      "top_score_prob": 0.12517133041934317,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7404841196286784,
+      "primary_prob": 0.7404130910239308,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25684,7 +26176,7 @@
             ],
             [
               "Away win",
-              0.4699
+              0.4698
             ]
           ]
         },
@@ -25693,7 +26185,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.5301
+              0.5302
             ],
             [
               "Home or away (12)",
@@ -25736,19 +26228,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.9236
+              0.9235
             ],
             [
               "Over 1.5",
-              0.7405
+              0.7404
             ],
             [
               "Over 2.5",
-              0.487
+              0.4869
             ],
             [
               "Over 3.5",
-              0.2687
+              0.2686
             ]
           ]
         },
@@ -25757,11 +26249,11 @@
           "rows": [
             [
               "Yes",
-              0.5243
+              0.5242
             ],
             [
               "No",
-              0.4757
+              0.4758
             ]
           ]
         },
@@ -25770,11 +26262,11 @@
           "rows": [
             [
               "Falkirk over 1.5",
-              0.2981
+              0.298
             ],
             [
               "Heart Of Midlothian over 1.5",
-              0.452
+              0.4519
             ]
           ]
         },
@@ -25813,7 +26305,7 @@
             ],
             [
               "0-1",
-              0.1074
+              0.1075
             ],
             [
               "1-2",
@@ -25887,6 +26379,16 @@
           "away_wins": 4,
           "avg_goals": 2.2
         }
+      },
+      "xg_form_home": {
+        "for": 0.71,
+        "against": 1.64,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.34,
+        "against": 2.66,
+        "n": 1
       },
       "analysis": "THE CALL - Over 1.5 (74%, strong). Model: Falkirk 27% / draw 26% / Heart Of Midlothian 47%, expected goals 1.09 to 1.53. Form Falkirk 1W 0D 4L (L L L W L), Heart Of Midlothian 3W 1D 1L (L W D W W). Most likely score 1-1 (~13%), most probable of many."
     },
@@ -26123,6 +26625,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Athletic Club or draw (1X) (77%, strong). Model: Athletic Club 53% / draw 24% / Sevilla 23%, expected goals 1.6 to 0.95. Form Athletic Club 1W 1D 3L (L D L L W), Sevilla 3W 0D 2L (L L W W W). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -26358,6 +26862,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Lens or draw (1X) (83%, strong). Model: Lens 59% / draw 25% / Auxerre 17%, expected goals 1.73 to 0.82. Form Lens 2W 2D 1L (W L W D D), Auxerre 3W 1D 1L (W W W L D). Most likely score 1-0 (~13%), most probable of many."
     },
     {
@@ -26365,15 +26871,15 @@
       "away": "Tottenham",
       "xg_home": 1.91,
       "xg_away": 1.25,
-      "prob_home": 0.5174470495679548,
-      "prob_draw": 0.2447872495052567,
-      "prob_away": 0.23776570092678845,
-      "over25": 0.6130864763292179,
-      "btts": 0.6199704915684024,
+      "prob_home": 0.5174501729899611,
+      "prob_draw": 0.24478647218758615,
+      "prob_away": 0.2377633548224527,
+      "over25": 0.6130876078804608,
+      "btts": 0.6199704432007943,
       "top_score": "1-1",
-      "top_score_prob": 0.11216651633762625,
+      "top_score_prob": 0.11216611829687262,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.835529598952264,
+      "primary_prob": 0.8355302933289488,
       "primary_strength": "strong",
       "markets": [
         {
@@ -26381,7 +26887,7 @@
           "rows": [
             [
               "Home win",
-              0.5174
+              0.5175
             ],
             [
               "Draw",
@@ -26406,7 +26912,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4826
+              0.4825
             ]
           ]
         },
@@ -26593,6 +27099,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (84%, strong). Model: Brentford 52% / draw 24% / Tottenham 24%, expected goals 1.91 to 1.25. Form Brentford 1W 2D 2L (D D L W L), Tottenham 3W 1D 1L (W L D W W). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -26814,6 +27322,8 @@
           "avg_goals": 1.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Como or draw (X2) (78%, strong). Model: Udinese 22% / draw 26% / Como 52%, expected goals 0.94 to 1.59. Form Udinese 2W 1D 2L (L L W W D), Como 4W 1D 0L (W W W D W). Most likely score 0-1 (~12%), most probable of many."
     },
     {
@@ -27049,6 +27559,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Inter over 1.5 goals (86%, strong). Model: Inter 90% / draw 7% / Monza 3%, expected goals 3.49 to 0.54. Form Inter 2W 3D 0L (D D W W D), Monza 1W 0D 4L (L L W L L). Most likely score 3-0 (~13%), most probable of many."
     },
     {
@@ -27056,15 +27568,15 @@
       "away": "Dundee",
       "xg_home": 1.72,
       "xg_away": 1.17,
-      "prob_home": 0.500037247599054,
-      "prob_draw": 0.24481437174855653,
-      "prob_away": 0.2551483806523894,
-      "over25": 0.5512547849425232,
-      "btts": 0.5689377588291105,
+      "prob_home": 0.5000565394329927,
+      "prob_draw": 0.24479871428750472,
+      "prob_away": 0.2551447462795026,
+      "over25": 0.5513151185659673,
+      "btts": 0.5689813461816493,
       "top_score": "1-1",
-      "top_score_prob": 0.11528790387510265,
+      "top_score_prob": 0.11527795263609811,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7869340579682449,
+      "primary_prob": 0.7869752183069805,
       "primary_strength": "strong",
       "markets": [
         {
@@ -27072,7 +27584,7 @@
           "rows": [
             [
               "Home win",
-              0.5
+              0.5001
             ],
             [
               "Draw",
@@ -27097,7 +27609,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.5
+              0.4999
             ]
           ]
         },
@@ -27106,11 +27618,11 @@
           "rows": [
             [
               "Dundee Utd",
-              0.6621
+              0.6622
             ],
             [
               "Dundee",
-              0.3379
+              0.3378
             ]
           ]
         },
@@ -27136,7 +27648,7 @@
             ],
             [
               "Over 1.5",
-              0.7869
+              0.787
             ],
             [
               "Over 2.5",
@@ -27144,7 +27656,7 @@
             ],
             [
               "Over 3.5",
-              0.3277
+              0.3278
             ]
           ]
         },
@@ -27153,11 +27665,11 @@
           "rows": [
             [
               "Yes",
-              0.5689
+              0.569
             ],
             [
               "No",
-              0.4311
+              0.431
             ]
           ]
         },
@@ -27183,7 +27695,7 @@
             ],
             [
               "Dundee",
-              0.1789
+              0.1788
             ]
           ]
         },
@@ -27283,6 +27795,16 @@
           "away_wins": 3,
           "avg_goals": 2.8
         }
+      },
+      "xg_form_home": {
+        "for": 1.59,
+        "against": 1.43,
+        "n": 1
+      },
+      "xg_form_away": {
+        "for": 1.35,
+        "against": 1.6,
+        "n": 2
       },
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Dundee Utd 50% / draw 24% / Dundee 26%, expected goals 1.72 to 1.17. Form Dundee Utd 1W 2D 2L (D D L L W), Dundee 3W 0D 2L (W L W W L). Most likely score 1-1 (~12%), most probable of many."
     },
@@ -27519,6 +28041,8 @@
           "avg_goals": 3.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Napoli or draw (X2) (81%, strong). Model: Genoa 19% / draw 27% / Napoli 54%, expected goals 0.79 to 1.5. Form Genoa 0W 2D 3L (L L D D L), Napoli 3W 1D 1L (W W L D W). Most likely score 0-1 (~15%), most probable of many."
     },
     {
@@ -27754,6 +28278,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (84%, strong). Model: Parma 35% / draw 31% / Cagliari 35%, expected goals 1.05 to 1.05. Form Parma 2W 0D 3L (W L L L W), Cagliari 3W 1D 1L (W W L D W). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -27989,6 +28515,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Nice 39% / draw 26% / Lorient 35%, expected goals 1.48 to 1.39. Form Nice 1W 3D 1L (W D D L D), Lorient 2W 1D 2L (L W D L W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -28224,6 +28752,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (77%, strong). Model: Toulouse 35% / draw 27% / Lyon 39%, expected goals 1.35 to 1.44. Form Toulouse 2W 1D 2L (W W D L L), Lyon 3W 0D 2L (L L W W W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -28231,15 +28761,15 @@
       "away": "Bournemouth",
       "xg_home": 1.99,
       "xg_away": 1.01,
-      "prob_home": 0.5918240452531021,
-      "prob_draw": 0.23457982250847934,
-      "prob_away": 0.17359613223841852,
-      "over25": 0.5763029592876254,
-      "btts": 0.558616326144725,
+      "prob_home": 0.5918171284870202,
+      "prob_draw": 0.23458213117122323,
+      "prob_away": 0.17360074034175665,
+      "over25": 0.5763012474713786,
+      "btts": 0.5586184226696155,
       "top_score": "1-1",
-      "top_score_prob": 0.1109641215305893,
+      "top_score_prob": 0.11096519146320757,
       "primary_pick": "Manchester City or draw (1X)",
-      "primary_prob": 0.8264038677615814,
+      "primary_prob": 0.8263992596582435,
       "primary_strength": "strong",
       "markets": [
         {
@@ -28459,6 +28989,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Manchester City or draw (1X) (83%, strong). Model: Manchester City 59% / draw 23% / Bournemouth 17%, expected goals 1.99 to 1.01. Form Manchester City 2W 2D 1L (L D W W D), Bournemouth 2W 3D 0L (D D W W D). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -28466,15 +28998,15 @@
       "away": "Aston Villa",
       "xg_home": 1.5,
       "xg_away": 1.31,
-      "prob_home": 0.40368098732160446,
-      "prob_draw": 0.27686638031616034,
-      "prob_away": 0.31945263236223537,
-      "over25": 0.5339937865467881,
-      "btts": 0.5811977127527708,
+      "prob_home": 0.40367766144250905,
+      "prob_draw": 0.2768662877324315,
+      "prob_away": 0.31945605082505957,
+      "over25": 0.5339952324874271,
+      "btts": 0.5811991946079403,
       "top_score": "1-1",
-      "top_score_prob": 0.13119505761418096,
+      "top_score_prob": 0.13119494549657754,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7844015465590909,
+      "primary_prob": 0.7844025853821351,
       "primary_strength": "strong",
       "markets": [
         {
@@ -28694,6 +29226,8 @@
           "avg_goals": 3.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (78%, strong). Model: Brighton 40% / draw 28% / Aston Villa 32%, expected goals 1.5 to 1.31. Form Brighton 2W 0D 3L (L L W L W), Aston Villa 2W 1D 2L (W W D L L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -28929,6 +29463,8 @@
           "avg_goals": 1.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (85%, strong). Model: Angers 19% / draw 30% / Lille 51%, expected goals 0.7 to 1.32. Form Angers 0W 3D 2L (D D L L D), Lille 2W 2D 1L (L W D W D). Most likely score 0-1 (~17%), most probable of many."
     },
     {
@@ -29164,6 +29700,8 @@
           "avg_goals": 2.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Le Havre 26% / draw 25% / Monaco 49%, expected goals 1.21 to 1.74. Form Le Havre 1W 3D 1L (W L D D D), Monaco 1W 2D 2L (L L W D D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -29171,15 +29709,15 @@
       "away": "Liverpool",
       "xg_home": 1.59,
       "xg_away": 1.7,
-      "prob_home": 0.34863439536281526,
-      "prob_draw": 0.25244516865833244,
-      "prob_away": 0.39892043597885235,
-      "over25": 0.6384517627452394,
-      "btts": 0.661555955061479,
+      "prob_home": 0.34862313973774534,
+      "prob_draw": 0.252443150655689,
+      "prob_away": 0.3989337096065657,
+      "over25": 0.6384586037181009,
+      "btts": 0.6615604340229281,
       "top_score": "1-1",
-      "top_score_prob": 0.11179685388368492,
+      "top_score_prob": 0.11179524646771412,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8512125095780899,
+      "primary_prob": 0.851216528478771,
       "primary_strength": "strong",
       "markets": [
         {
@@ -29399,6 +29937,8 @@
           "avg_goals": 4.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (85%, strong). Model: Newcastle 35% / draw 25% / Liverpool 40%, expected goals 1.59 to 1.7. Form Newcastle 2W 1D 2L (L W D W L), Liverpool 1W 2D 2L (D L D L W). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -29634,6 +30174,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (89%, strong). Model: Venezia 37% / draw 33% / Lecce 30%, expected goals 0.96 to 0.84. Form Venezia 1W 1D 3L (L L W D L), Lecce 3W 1D 1L (W W L W D). Most likely score 0-0 (~17%), most probable of many."
     },
     {
@@ -29869,6 +30411,8 @@
           "avg_goals": 2.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Atalanta or draw (1X) (81%, strong). Model: Atalanta 57% / draw 24% / Sassuolo 19%, expected goals 1.74 to 0.9. Form Atalanta 1W 2D 2L (D L W D L), Sassuolo 1W 1D 3L (L L L W D). Most likely score 1-0 (~12%), most probable of many."
     },
     {
@@ -30104,6 +30648,8 @@
           "avg_goals": 4.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - AC Milan or draw (X2) (78%, strong). Model: Torino 22% / draw 25% / AC Milan 53%, expected goals 0.98 to 1.65. Form Torino 1W 2D 2L (D L W L D), AC Milan 1W 1D 3L (L W L L D). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -30339,6 +30885,8 @@
           "avg_goals": 3.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Paris Saint Germain or draw (1X) (88%, strong). Model: Paris Saint Germain 71% / draw 17% / Rennes 12%, expected goals 2.61 to 1.01. Form Paris Saint Germain 3W 1D 1L (L W W D W), Rennes 3W 0D 2L (L W L W W). Most likely score 2-1 (~9%), most probable of many."
     },
     {
@@ -30574,6 +31122,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Bologna 40% / draw 27% / Lazio 33%, expected goals 1.32 to 1.18. Form Bologna 2W 2D 1L (D W W D L), Lazio 2W 1D 2L (W L L W D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -30809,6 +31359,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - AS Roma or draw (1X) (81%, strong). Model: AS Roma 56% / draw 25% / Fiorentina 19%, expected goals 1.61 to 0.83. Form AS Roma 5W 0D 0L (W W W W W), Fiorentina 1W 3D 1L (D W D L D). Most likely score 1-0 (~14%), most probable of many."
     },
     {
@@ -30816,15 +31368,15 @@
       "away": "Chelsea",
       "xg_home": 1.29,
       "xg_away": 1.34,
-      "prob_home": 0.342566920422076,
-      "prob_draw": 0.28987251130445146,
-      "prob_away": 0.3675605682734726,
-      "over25": 0.48765505654048363,
-      "btts": 0.5475668690748282,
+      "prob_home": 0.34255341719978527,
+      "prob_draw": 0.289870597699296,
+      "prob_away": 0.3675759851009186,
+      "over25": 0.4876615303561436,
+      "btts": 0.5475714535147651,
       "top_score": "1-1",
-      "top_score_prob": 0.1385068491874303,
+      "top_score_prob": 0.13850588789178683,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7510233353491809,
+      "primary_prob": 0.7510281973474363,
       "primary_strength": "strong",
       "markets": [
         {
@@ -30943,7 +31495,7 @@
             ],
             [
               "Chelsea",
-              0.2765
+              0.2766
             ]
           ]
         },
@@ -31044,6 +31596,8 @@
           "avg_goals": 2.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (75%, strong). Model: Fulham 34% / draw 29% / Chelsea 37%, expected goals 1.29 to 1.34. Form Fulham 2W 1D 2L (W D L L W), Chelsea 1W 1D 3L (L W D L L). Most likely score 1-1 (~14%), most probable of many."
     },
     {
@@ -31279,6 +31833,8 @@
           "avg_goals": 4.2
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Bayern M\u00fcnchen or draw (1X) (89%, strong). Model: Bayern M\u00fcnchen 76% / draw 13% / VfB Stuttgart 11%, expected goals 3.33 to 1.32. Form Bayern M\u00fcnchen 4W 1D 0L (W W D W W), VfB Stuttgart 1W 3D 1L (D W D D L). Most likely score 3-1 (~8%), most probable of many."
     },
     {
@@ -31514,6 +32070,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 3.5 (74%, strong). Model: Lille 26% / draw 27% / Paris Saint Germain 46%, expected goals 1.06 to 1.5. Form Lille 2W 2D 1L (L W D W D), Paris Saint Germain 3W 1D 1L (L W W D W). Most likely score 1-1 (~13%), most probable of many."
     },
     {
@@ -31735,6 +32293,8 @@
           "avg_goals": 3.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Under 2.5 (86%, strong). Model: FSV Mainz 05 24% / draw 41% / SC Paderborn 07 34%, expected goals 0.56 to 0.73. Form FSV Mainz 05 2W 1D 2L (W L W L D), SC Paderborn 07 1W 1D 0L (W D). Most likely score 0-0 (~28%), most probable of many."
     },
     {
@@ -31970,6 +32530,8 @@
           "avg_goals": 0.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (82%, strong). Model: RB Leipzig 55% / draw 23% / Borussia M\u00f6nchengladbach 22%, expected goals 1.93 to 1.14. Form RB Leipzig 3W 0D 2L (L W L W W), Borussia M\u00f6nchengladbach 2W 2D 1L (W L W D D). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -32205,6 +32767,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (83%, strong). Model: Union Berlin 32% / draw 25% / Eintracht Frankfurt 44%, expected goals 1.44 to 1.71. Form Union Berlin 2W 1D 2L (W W D L L), Eintracht Frankfurt 0W 2D 3L (D L L D L). Most likely score 1-1 (~11%), most probable of many."
     },
     {
@@ -32440,6 +33004,8 @@
           "avg_goals": 2.8
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (87%, strong). Model: 1. FC K\u00f6ln 35% / draw 23% / 1899 Hoffenheim 42%, expected goals 1.69 to 1.85. Form 1. FC K\u00f6ln 0W 2D 3L (L L D L D), 1899 Hoffenheim 3W 1D 1L (L W D W W). Most likely score 1-1 (~10%), most probable of many."
     },
     {
@@ -32647,6 +33213,8 @@
           "avg_goals": 5.0
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Bayer Leverkusen or draw (X2) (90%, strong). Model: SV Elversberg 10% / draw 14% / Bayer Leverkusen 76%, expected goals 1.11 to 3.06. Form SV Elversberg 0W 1D 1L (L D), Bayer Leverkusen 2W 1D 2L (D L W W L). Most likely score 1-3 (~8%), most probable of many."
     },
     {
@@ -32882,6 +33450,8 @@
           "avg_goals": 3.7
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Borussia Dortmund or draw (1X) (88%, strong). Model: Borussia Dortmund 68% / draw 20% / Hamburger SV 12%, expected goals 2.19 to 0.83. Form Borussia Dortmund 3W 0D 2L (W W L W L), Hamburger SV 2W 1D 2L (D W W L L). Most likely score 2-0 (~12%), most probable of many."
     },
     {
@@ -33117,6 +33687,8 @@
           "avg_goals": 2.5
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: SC Freiburg 49% / draw 25% / Werder Bremen 26%, expected goals 1.7 to 1.17. Form SC Freiburg 2W 1D 2L (W L D L W), Werder Bremen 1W 1D 3L (L L L D W). Most likely score 1-1 (~12%), most probable of many."
     },
     {
@@ -33352,6 +33924,8 @@
           "avg_goals": 3.3
         }
       },
+      "xg_form_home": null,
+      "xg_form_away": null,
       "analysis": "THE CALL - VfB Stuttgart or draw (1X) (84%, strong). Model: VfB Stuttgart 66% / draw 18% / 1. FC K\u00f6ln 16%, expected goals 2.59 to 1.26. Form VfB Stuttgart 1W 3D 1L (D W D D L), 1. FC K\u00f6ln 0W 2D 3L (L L D L D). Most likely score 2-1 (~9%), most probable of many."
     }
   ]
