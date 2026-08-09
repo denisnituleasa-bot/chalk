@@ -365,9 +365,10 @@ def fetch_h2h(hid, aid, home, away, limit=6):
             winner = m["home"] if m["hg"] > m["ag"] else m["away"]
             if winner == home: hw += 1
             elif winner == away: aw += 1
+    avg = round(sum(m["hg"] + m["ag"] for m in meetings) / len(meetings), 1) if meetings else None
     time.sleep(0.4)   # be gentle on the rate limit
     return {"meetings": meetings[:limit],
-            "summary": ({"n": len(meetings), "home_wins": hw, "draws": dr, "away_wins": aw} if meetings else None)}
+            "summary": ({"n": len(meetings), "home_wins": hw, "draws": dr, "away_wins": aw, "avg_goals": avg} if meetings else None)}
 
 def grade_pick(pick, home, away, hg, ag):
     """Return 'win' / 'loss' / 'push' for a call, given the final score."""
