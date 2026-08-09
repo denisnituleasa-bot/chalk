@@ -56,6 +56,7 @@ LIVE_SEASON        = 2026
 DAYS_AHEAD         = 30          # wide enough to catch early-season fixtures weeks out
 MATCHES_PER_LEAGUE = 10          # up to a full matchday per league
 MAX_ANALYSES       = 100         # HARD cap on paid AI write-ups per run (cost control)
+MAX_XG_FETCH       = 200         # cap per run on extra xG stat calls (cache fills over days)
 MODEL              = "claude-sonnet-5"   # or "claude-haiku-4-5" to spend less
 
 # Cost note: only the soonest MAX_ANALYSES fixtures get a full Claude write-up;
@@ -370,6 +371,22 @@ def fetch_h2h(hid, aid, home, away, limit=6):
     return {"meetings": meetings[:limit],
             "summary": ({"n": len(meetings), "home_wins": hw, "draws": dr, "away_wins": aw, "avg_goals": avg} if meetings else None)}
 
+def fetch_fixture_xg(fixture_id):
+    """Expected goals per team for one finished fixture: {team_name: xg or None}."""
+    data = _get("/fixtures/statistics", {"fixture": fixture_id})
+    out = {}
+    for team in data.get("response", []):
+        name = team["team"]["name"]; xg = None
+        for s in team.get("statistics", []):
+            if "expected" in str(s.get("type", "")).lower():
+                v = s.get("value")
+                try:
+                    xg = float(v) if v not in (None, "") else None
+                except (TypeError, ValueError):
+                    xg = None
+        out[name] = xg
+    return out
+
 def grade_pick(pick, home, away, hg, ag):
     """Return 'win' / 'loss' / 'push' for a call, given the final score."""
     total = hg + ag
@@ -438,6 +455,8 @@ def main():
     # carry-over state from previous runs (committed back to the repo)
     pending = load_json("pending.json", {})
     graded  = load_json("graded.json", [])
+    xg_cache = load_json("xg_cache.json", {})   # fixture_id -> {h,a,hxg,axg,date}
+    xg_fetched = 0
 
     leagues_built = {}
     live_scores = {}          # league -> {(home,away): (hg,ag)}
@@ -454,10 +473,38 @@ def main():
             ids[fx["teams"]["home"]["name"]] = fx["teams"]["home"]["id"]
             ids[fx["teams"]["away"]["name"]] = fx["teams"]["away"]["id"]
         lg["ids"] = ids
+        # collect real xG for finished fixtures (cached; back-fills over runs)
+        for fx in season_fixtures:
+            if xg_fetched >= MAX_XG_FETCH:
+                break
+            if fx["fixture"]["status"]["short"] not in ("FT", "AET", "PEN"):
+                continue
+            fid = str(fx["fixture"]["id"])
+            if fid in xg_cache:
+                continue
+            hn = fx["teams"]["home"]["name"]; an = fx["teams"]["away"]["name"]
+            st = fetch_fixture_xg(fid)
+            xg_cache[fid] = {"h": hn, "a": an, "hxg": st.get(hn), "axg": st.get(an),
+                             "date": fx["fixture"]["date"][:10]}
+            xg_fetched += 1
+            time.sleep(0.25)
         known = set(lg["model"]["teams"])
         for kickoff, home, away in upcoming_from(season_fixtures, DAYS_AHEAD, MATCHES_PER_LEAGUE):
             if home in known and away in known:
                 all_fixtures.append((kickoff, name, home, away))
+
+    # build per-team recent xG (created / conceded) from the cache
+    team_xg = {}
+    for e in xg_cache.values():
+        if e.get("hxg") is not None and e.get("axg") is not None:
+            team_xg.setdefault(e["h"], []).append((e["hxg"], e["axg"], e.get("date", "")))
+            team_xg.setdefault(e["a"], []).append((e["axg"], e["hxg"], e.get("date", "")))
+    def xg_form(team, n=6):
+        recs = sorted(team_xg.get(team, []), key=lambda t: t[2], reverse=True)[:n]
+        if not recs:
+            return None
+        return {"for": round(sum(r[0] for r in recs) / len(recs), 2),
+                "against": round(sum(r[1] for r in recs) / len(recs), 2), "n": len(recs)}
 
     all_fixtures.sort(key=lambda t: t[0])
     print(f"\n{len(all_fixtures)} fixtures across {len(leagues_built)} leagues; "
@@ -473,6 +520,7 @@ def main():
         ids = lg.get("ids", {})
         hid, aid = ids.get(home), ids.get(away)
         p["h2h"] = fetch_h2h(hid, aid, home, away) if (hid and aid) else {"meetings": [], "summary": None}
+        p["xg_form_home"] = xg_form(home); p["xg_form_away"] = xg_form(away)
         if i < MAX_ANALYSES:
             p["analysis"] = write_analysis(p, lg["results"])
         else:
@@ -516,6 +564,9 @@ def main():
     print(f"Graded {newly} newly-finished matches ({len(pending)} awaiting results)")
 
     write_record(graded)
+
+    with open("xg_cache.json", "w") as f: json.dump(xg_cache, f)
+    print(f"xG cache: {len(xg_cache)} fixtures stored ({xg_fetched} fetched this run)")
 
 if __name__ == "__main__":
     main()
