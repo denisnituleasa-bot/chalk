@@ -1,27 +1,75 @@
 {
-  "updated": "2026-08-10T10:44:53.693841+00:00",
+  "updated": "2026-08-11T09:39:46.190047+00:00",
   "totals": {
-    "graded": 57,
-    "wins": 50,
-    "losses": 7,
+    "graded": 62,
+    "wins": 52,
+    "losses": 10,
     "pushes": 0,
-    "hit_rate": 0.8772
+    "hit_rate": 0.8387
   },
   "calibration": [
     {
       "bucket": "70\u201380%",
-      "stated": 0.774,
-      "actual": 0.8125,
-      "n": 16
+      "stated": 0.7731,
+      "actual": 0.7222,
+      "n": 18
     },
     {
       "bucket": "80\u201390%",
-      "stated": 0.8466,
-      "actual": 0.9024,
-      "n": 41
+      "stated": 0.8469,
+      "actual": 0.8864,
+      "n": 44
     }
   ],
   "recent": [
+    {
+      "id": "Argentina Primera|Union Santa Fe|Central Cordoba de Santiago|2026-08-11",
+      "league": "Argentina Primera",
+      "home": "Union Santa Fe",
+      "away": "Central Cordoba de Santiago",
+      "kickoff": "2026-08-11T00:15:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8353,
+      "score": "1-2",
+      "result": "win",
+      "graded_at": "2026-08-11T09:39:46.187652+00:00"
+    },
+    {
+      "id": "Argentina Primera|Banfield|Belgrano Cordoba|2026-08-10",
+      "league": "Argentina Primera",
+      "home": "Banfield",
+      "away": "Belgrano Cordoba",
+      "kickoff": "2026-08-10T22:00:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8424,
+      "score": "0-2",
+      "result": "win",
+      "graded_at": "2026-08-11T09:39:46.187652+00:00"
+    },
+    {
+      "id": "Primeira Liga|Santa Clara|Nacional|2026-08-10",
+      "league": "Primeira Liga",
+      "home": "Santa Clara",
+      "away": "Nacional",
+      "kickoff": "2026-08-10T19:15:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8748,
+      "score": "2-2",
+      "result": "loss",
+      "graded_at": "2026-08-11T09:39:46.187652+00:00"
+    },
+    {
+      "id": "Liga I|Sepsi OSK Sfantu Gheorghe|FCSB|2026-08-10",
+      "league": "Liga I",
+      "home": "Sepsi OSK Sfantu Gheorghe",
+      "away": "FCSB",
+      "kickoff": "2026-08-10T18:30:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.7655,
+      "score": "0-0",
+      "result": "loss",
+      "graded_at": "2026-08-11T09:39:46.187652+00:00"
+    },
     {
       "id": "Argentina Primera|Argentinos JRS|Racing Club|2026-08-09",
       "league": "Argentina Primera",
@@ -153,6 +201,18 @@
       "score": "0-1",
       "result": "win",
       "graded_at": "2026-08-10T10:44:53.691241+00:00"
+    },
+    {
+      "id": "Liga I|Sepsi OSK Sfantu Gheorghe|FCSB|2026-08-09",
+      "league": "Liga I",
+      "home": "Sepsi OSK Sfantu Gheorghe",
+      "away": "FCSB",
+      "kickoff": "2026-08-09T18:30:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.7656,
+      "score": "0-0",
+      "result": "loss",
+      "graded_at": "2026-08-11T09:39:46.187652+00:00"
     },
     {
       "id": "Argentina Primera|San Lorenzo|Huracan|2026-08-09",
@@ -681,30 +741,6 @@
       "score": "2-1",
       "result": "win",
       "graded_at": "2026-08-07T09:39:34.870621+00:00"
-    },
-    {
-      "id": "Argentina Primera|Tigre|Belgrano Cordoba|2026-08-06",
-      "league": "Argentina Primera",
-      "home": "Tigre",
-      "away": "Belgrano Cordoba",
-      "kickoff": "2026-08-06T00:15:00+00:00",
-      "pick": "Under 3.5",
-      "prob": 0.8904,
-      "score": "0-0",
-      "result": "win",
-      "graded_at": "2026-08-06T12:42:51.389846+00:00"
-    },
-    {
-      "id": "Argentina Primera|Boca Juniors|Estudiantes L.P.|2026-08-05",
-      "league": "Argentina Primera",
-      "home": "Boca Juniors",
-      "away": "Estudiantes L.P.",
-      "kickoff": "2026-08-05T22:00:00+00:00",
-      "pick": "Boca Juniors or draw (1X)",
-      "prob": 0.8542,
-      "score": "1-0",
-      "result": "win",
-      "graded_at": "2026-08-06T12:42:51.389846+00:00"
     }
   ]
 }
