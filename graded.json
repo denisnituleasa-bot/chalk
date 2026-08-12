@@ -742,5 +742,17 @@
     "score": "1-2",
     "result": "win",
     "graded_at": "2026-08-11T09:39:46.187652+00:00"
+  },
+  {
+    "id": "Argentina Primera|Talleres Cordoba|Lanus|2026-08-12",
+    "league": "Argentina Primera",
+    "home": "Talleres Cordoba",
+    "away": "Lanus",
+    "kickoff": "2026-08-12T00:00:00+00:00",
+    "pick": "Under 2.5",
+    "prob": 0.7628,
+    "score": "0-3",
+    "result": "loss",
+    "graded_at": "2026-08-12T09:51:21.190081+00:00"
   }
 ]
