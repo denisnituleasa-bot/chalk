@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-13T09:52:24.748785+00:00",
+  "updated": "2026-08-14T09:45:52.177962+00:00",
   "totals": {
-    "graded": 63,
-    "wins": 52,
+    "graded": 64,
+    "wins": 53,
     "losses": 11,
     "pushes": 0,
-    "hit_rate": 0.8254
+    "hit_rate": 0.8281
   },
   "calibration": [
     {
@@ -16,12 +16,24 @@
     },
     {
       "bucket": "80\u201390%",
-      "stated": 0.8469,
-      "actual": 0.8864,
-      "n": 44
+      "stated": 0.8466,
+      "actual": 0.8889,
+      "n": 45
     }
   ],
   "recent": [
+    {
+      "id": "Saudi Pro League|Al Shabab|Al-Qadisiyah FC|2026-08-13",
+      "league": "Saudi Pro League",
+      "home": "Al Shabab",
+      "away": "Al-Qadisiyah FC",
+      "kickoff": "2026-08-13T18:00:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.8363,
+      "score": "1-3",
+      "result": "win",
+      "graded_at": "2026-08-14T09:45:52.175347+00:00"
+    },
     {
       "id": "Argentina Primera|Talleres Cordoba|Lanus|2026-08-12",
       "league": "Argentina Primera",
@@ -729,18 +741,6 @@
       "score": "0-0",
       "result": "win",
       "graded_at": "2026-08-08T08:09:13.207960+00:00"
-    },
-    {
-      "id": "Liga I|Petrolul Ploiesti|O\u0163elul|2026-08-07",
-      "league": "Liga I",
-      "home": "Petrolul Ploiesti",
-      "away": "O\u0163elul",
-      "kickoff": "2026-08-07T15:30:00+00:00",
-      "pick": "Under 3.5",
-      "prob": 0.8578,
-      "score": "1-0",
-      "result": "win",
-      "graded_at": "2026-08-10T10:44:53.691241+00:00"
     }
   ]
 }
