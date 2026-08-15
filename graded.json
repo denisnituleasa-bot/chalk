@@ -766,5 +766,101 @@
     "score": "1-3",
     "result": "win",
     "graded_at": "2026-08-14T09:45:52.175347+00:00"
+  },
+  {
+    "id": "Saudi Pro League|NEOM|Al-Fayha|2026-08-14",
+    "league": "Saudi Pro League",
+    "home": "NEOM",
+    "away": "Al-Fayha",
+    "kickoff": "2026-08-14T16:50:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7969,
+    "score": "2-1",
+    "result": "win",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Eredivisie|Telstar|Sparta Rotterdam|2026-08-14",
+    "league": "Eredivisie",
+    "home": "Telstar",
+    "away": "Sparta Rotterdam",
+    "kickoff": "2026-08-14T18:00:00+00:00",
+    "pick": "Telstar or draw (1X)",
+    "prob": 0.7974,
+    "score": "1-3",
+    "result": "loss",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al-Ettifaq|Al Riyadh|2026-08-14",
+    "league": "Saudi Pro League",
+    "home": "Al-Ettifaq",
+    "away": "Al Riyadh",
+    "kickoff": "2026-08-14T18:00:00+00:00",
+    "pick": "Al-Ettifaq or draw (1X)",
+    "prob": 0.7925,
+    "score": "4-2",
+    "result": "win",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Belgian Pro League|Cercle Brugge|St. Truiden|2026-08-14",
+    "league": "Belgian Pro League",
+    "home": "Cercle Brugge",
+    "away": "St. Truiden",
+    "kickoff": "2026-08-14T18:45:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8273,
+    "score": "3-3",
+    "result": "win",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Liga I|FC Voluntari|Petrolul Ploiesti|2026-08-14",
+    "league": "Liga I",
+    "home": "FC Voluntari",
+    "away": "Petrolul Ploiesti",
+    "kickoff": "2026-08-14T15:30:00+00:00",
+    "pick": "FC Voluntari or draw (1X)",
+    "prob": 0.8042,
+    "score": "1-2",
+    "result": "loss",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Liga I|Arges Pitesti|Farul Constanta|2026-08-14",
+    "league": "Liga I",
+    "home": "Arges Pitesti",
+    "away": "Farul Constanta",
+    "kickoff": "2026-08-14T18:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8734,
+    "score": "1-1",
+    "result": "win",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Argentina Primera|Racing Club|Banfield|2026-08-14",
+    "league": "Argentina Primera",
+    "home": "Racing Club",
+    "away": "Banfield",
+    "kickoff": "2026-08-14T23:30:00+00:00",
+    "pick": "Racing Club or draw (1X)",
+    "prob": 0.876,
+    "score": "0-1",
+    "result": "loss",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
+  },
+  {
+    "id": "Primeira Liga|Sporting CP|Vit\u00f3ria SC|2026-08-14",
+    "league": "Primeira Liga",
+    "home": "Sporting CP",
+    "away": "Vit\u00f3ria SC",
+    "kickoff": "2026-08-14T19:15:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8724,
+    "score": "3-2",
+    "result": "win",
+    "graded_at": "2026-08-15T07:22:04.200926+00:00"
   }
 ]
