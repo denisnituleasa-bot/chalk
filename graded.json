@@ -2050,5 +2050,29 @@
     "score": "1-2",
     "result": "loss",
     "graded_at": "2026-08-20T08:08:03.887924+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al-Fayha|Al-Hilal Saudi FC|2026-08-20",
+    "league": "Saudi Pro League",
+    "home": "Al-Fayha",
+    "away": "Al-Hilal Saudi FC",
+    "kickoff": "2026-08-20T18:00:00+00:00",
+    "pick": "Al-Hilal Saudi FC (draw no bet)",
+    "prob": 0.8887,
+    "score": "0-3",
+    "result": "win",
+    "graded_at": "2026-08-21T08:07:34.253298+00:00"
+  },
+  {
+    "id": "La Liga|Rayo Vallecano|Alaves|2026-08-20",
+    "league": "La Liga",
+    "home": "Rayo Vallecano",
+    "away": "Alaves",
+    "kickoff": "2026-08-20T19:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8307,
+    "score": "1-1",
+    "result": "win",
+    "graded_at": "2026-08-21T08:07:34.253298+00:00"
   }
 ]

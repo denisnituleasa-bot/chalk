@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-20T08:08:03.890952+00:00",
+  "updated": "2026-08-21T08:07:34.256701+00:00",
   "totals": {
-    "graded": 171,
-    "wins": 134,
+    "graded": 173,
+    "wins": 136,
     "losses": 36,
     "pushes": 1,
-    "hit_rate": 0.7882
+    "hit_rate": 0.7907
   },
   "calibration": [
     {
@@ -16,12 +16,36 @@
     },
     {
       "bucket": "80\u201390%",
-      "stated": 0.8472,
-      "actual": 0.8056,
-      "n": 108
+      "stated": 0.8474,
+      "actual": 0.8091,
+      "n": 110
     }
   ],
   "recent": [
+    {
+      "id": "La Liga|Rayo Vallecano|Alaves|2026-08-20",
+      "league": "La Liga",
+      "home": "Rayo Vallecano",
+      "away": "Alaves",
+      "kickoff": "2026-08-20T19:00:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.8307,
+      "score": "1-1",
+      "result": "win",
+      "graded_at": "2026-08-21T08:07:34.253298+00:00"
+    },
+    {
+      "id": "Saudi Pro League|Al-Fayha|Al-Hilal Saudi FC|2026-08-20",
+      "league": "Saudi Pro League",
+      "home": "Al-Fayha",
+      "away": "Al-Hilal Saudi FC",
+      "kickoff": "2026-08-20T18:00:00+00:00",
+      "pick": "Al-Hilal Saudi FC (draw no bet)",
+      "prob": 0.8887,
+      "score": "0-3",
+      "result": "win",
+      "graded_at": "2026-08-21T08:07:34.253298+00:00"
+    },
     {
       "id": "MLS|Seattle Sounders|Austin|2026-08-20",
       "league": "MLS",
@@ -715,30 +739,6 @@
       "pick": "Under 3.5",
       "prob": 0.8903,
       "score": "1-1",
-      "result": "win",
-      "graded_at": "2026-08-16T07:48:23.231232+00:00"
-    },
-    {
-      "id": "MLS|Orlando City SC|FC Cincinnati|2026-08-15",
-      "league": "MLS",
-      "home": "Orlando City SC",
-      "away": "FC Cincinnati",
-      "kickoff": "2026-08-15T23:30:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.7996,
-      "score": "1-1",
-      "result": "win",
-      "graded_at": "2026-08-16T07:48:23.231232+00:00"
-    },
-    {
-      "id": "MLS|Toronto FC|New England Revolution|2026-08-15",
-      "league": "MLS",
-      "home": "Toronto FC",
-      "away": "New England Revolution",
-      "kickoff": "2026-08-15T23:30:00+00:00",
-      "pick": "Under 3.5",
-      "prob": 0.7628,
-      "score": "2-1",
       "result": "win",
       "graded_at": "2026-08-16T07:48:23.231232+00:00"
     }
