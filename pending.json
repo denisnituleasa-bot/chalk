@@ -69,96 +69,6 @@
     "prob": 0.8993,
     "strength": "strong"
   },
-  "Premier League|Manchester City|Bournemouth|2026-08-23": {
-    "id": "Premier League|Manchester City|Bournemouth|2026-08-23",
-    "league": "Premier League",
-    "home": "Manchester City",
-    "away": "Bournemouth",
-    "kickoff": "2026-08-23T13:00:00+00:00",
-    "pick": "Manchester City or draw (1X)",
-    "prob": 0.8264,
-    "strength": "strong"
-  },
-  "Premier League|Brighton|Aston Villa|2026-08-23": {
-    "id": "Premier League|Brighton|Aston Villa|2026-08-23",
-    "league": "Premier League",
-    "home": "Brighton",
-    "away": "Aston Villa",
-    "kickoff": "2026-08-23T13:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7844,
-    "strength": "strong"
-  },
-  "Ligue 1|Angers|Lille|2026-08-23": {
-    "id": "Ligue 1|Angers|Lille|2026-08-23",
-    "league": "Ligue 1",
-    "home": "Angers",
-    "away": "Lille",
-    "kickoff": "2026-08-23T13:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8545,
-    "strength": "strong"
-  },
-  "Ligue 1|Le Havre|Monaco|2026-08-23": {
-    "id": "Ligue 1|Le Havre|Monaco|2026-08-23",
-    "league": "Ligue 1",
-    "home": "Le Havre",
-    "away": "Monaco",
-    "kickoff": "2026-08-23T15:15:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7996,
-    "strength": "strong"
-  },
-  "Premier League|Newcastle|Liverpool|2026-08-23": {
-    "id": "Premier League|Newcastle|Liverpool|2026-08-23",
-    "league": "Premier League",
-    "home": "Newcastle",
-    "away": "Liverpool",
-    "kickoff": "2026-08-23T15:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8512,
-    "strength": "strong"
-  },
-  "Serie A|Venezia|Lecce|2026-08-23": {
-    "id": "Serie A|Venezia|Lecce|2026-08-23",
-    "league": "Serie A",
-    "home": "Venezia",
-    "away": "Lecce",
-    "kickoff": "2026-08-23T16:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8912,
-    "strength": "strong"
-  },
-  "Super Lig|Fenerbah\u00e7e|Konyaspor|2026-08-23": {
-    "id": "Super Lig|Fenerbah\u00e7e|Konyaspor|2026-08-23",
-    "league": "Super Lig",
-    "home": "Fenerbah\u00e7e",
-    "away": "Konyaspor",
-    "kickoff": "2026-08-23T12:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8865,
-    "strength": "strong"
-  },
-  "Serie A|Atalanta|Sassuolo|2026-08-23": {
-    "id": "Serie A|Atalanta|Sassuolo|2026-08-23",
-    "league": "Serie A",
-    "home": "Atalanta",
-    "away": "Sassuolo",
-    "kickoff": "2026-08-23T18:45:00+00:00",
-    "pick": "Atalanta or draw (1X)",
-    "prob": 0.8086,
-    "strength": "strong"
-  },
-  "Serie A|Torino|AC Milan|2026-08-23": {
-    "id": "Serie A|Torino|AC Milan|2026-08-23",
-    "league": "Serie A",
-    "home": "Torino",
-    "away": "AC Milan",
-    "kickoff": "2026-08-23T18:45:00+00:00",
-    "pick": "AC Milan or draw (X2)",
-    "prob": 0.7767,
-    "strength": "strong"
-  },
   "Ligue 1|Paris Saint Germain|Rennes|2026-08-23": {
     "id": "Ligue 1|Paris Saint Germain|Rennes|2026-08-23",
     "league": "Ligue 1",
@@ -226,7 +136,7 @@
     "away": "SC Paderborn 07",
     "kickoff": "2026-08-29T13:30:00+00:00",
     "pick": "Under 2.5",
-    "prob": 0.8591,
+    "prob": 0.8586,
     "strength": "strong"
   },
   "Bundesliga|RB Leipzig|Borussia M\u00f6nchengladbach|2026-08-29": {
@@ -266,7 +176,7 @@
     "away": "Bayer Leverkusen",
     "kickoff": "2026-08-29T13:30:00+00:00",
     "pick": "Bayer Leverkusen or draw (X2)",
-    "prob": 0.8987,
+    "prob": 0.8989,
     "strength": "strong"
   },
   "Bundesliga|Borussia Dortmund|Hamburger SV|2026-08-29": {
@@ -326,7 +236,7 @@
     "away": "Falkirk",
     "kickoff": "2026-08-29T14:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8912,
+    "prob": 0.8926,
     "strength": "strong"
   },
   "Scottish Premiership|Kilmarnock|Dundee Utd|2026-08-29": {
@@ -336,7 +246,7 @@
     "away": "Dundee Utd",
     "kickoff": "2026-08-29T14:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.7893,
+    "prob": 0.7891,
     "strength": "strong"
   },
   "Scottish Premiership|ST Mirren|Motherwell|2026-08-29": {
@@ -359,26 +269,6 @@
     "prob": 0.7829,
     "strength": "strong"
   },
-  "Liga I|Universitatea Craiova|FC Voluntari|2026-08-22": {
-    "id": "Liga I|Universitatea Craiova|FC Voluntari|2026-08-22",
-    "league": "Liga I",
-    "home": "Universitatea Craiova",
-    "away": "FC Voluntari",
-    "kickoff": "2026-08-22T17:00:00+00:00",
-    "pick": "Universitatea Craiova or draw (1X)",
-    "prob": 0.8536,
-    "strength": "strong"
-  },
-  "Liga I|Sepsi OSK Sfantu Gheorghe|Farul Constanta|2026-08-23": {
-    "id": "Liga I|Sepsi OSK Sfantu Gheorghe|Farul Constanta|2026-08-23",
-    "league": "Liga I",
-    "home": "Sepsi OSK Sfantu Gheorghe",
-    "away": "Farul Constanta",
-    "kickoff": "2026-08-23T13:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7879,
-    "strength": "strong"
-  },
   "Scottish Premiership|Heart Of Midlothian|ST Johnstone|2026-08-29": {
     "id": "Scottish Premiership|Heart Of Midlothian|ST Johnstone|2026-08-29",
     "league": "Scottish Premiership",
@@ -386,7 +276,7 @@
     "away": "ST Johnstone",
     "kickoff": "2026-08-29T14:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.7733,
+    "prob": 0.7654,
     "strength": "strong"
   },
   "Scottish Premiership|Aberdeen|Rangers|2026-08-30": {
@@ -396,7 +286,7 @@
     "away": "Rangers",
     "kickoff": "2026-08-30T11:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8041,
+    "prob": 0.807,
     "strength": "strong"
   },
   "Scottish Premiership|ST Mirren|Motherwell|2026-08-30": {
@@ -406,7 +296,7 @@
     "away": "Motherwell",
     "kickoff": "2026-08-30T14:00:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.8244,
+    "prob": 0.8312,
     "strength": "strong"
   },
   "Scottish Premiership|Dundee|Hibernian|2026-08-30": {
@@ -416,7 +306,7 @@
     "away": "Hibernian",
     "kickoff": "2026-08-30T14:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.7829,
+    "prob": 0.7811,
     "strength": "strong"
   },
   "Scottish Premiership|Celtic|Aberdeen|2026-09-02": {
@@ -426,7 +316,7 @@
     "away": "Aberdeen",
     "kickoff": "2026-09-02T18:45:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8589,
+    "prob": 0.8613,
     "strength": "strong"
   },
   "Scottish Premiership|Kilmarnock|ST Mirren|2026-09-02": {
@@ -436,7 +326,7 @@
     "away": "ST Mirren",
     "kickoff": "2026-09-02T18:45:00+00:00",
     "pick": "Kilmarnock or draw (1X)",
-    "prob": 0.7492,
+    "prob": 0.756,
     "strength": "strong"
   },
   "Scottish Premiership|Dundee|ST Johnstone|2026-09-02": {
@@ -446,7 +336,7 @@
     "away": "ST Johnstone",
     "kickoff": "2026-09-02T18:45:00+00:00",
     "pick": "Dundee or draw (1X)",
-    "prob": 0.7825,
+    "prob": 0.7968,
     "strength": "strong"
   },
   "Eredivisie|NEC Nijmegen|Excelsior|2026-08-22": {
@@ -459,116 +349,6 @@
     "prob": 0.8653,
     "strength": "strong"
   },
-  "Eredivisie|GO Ahead Eagles|ADO Den Haag|2026-08-23": {
-    "id": "Eredivisie|GO Ahead Eagles|ADO Den Haag|2026-08-23",
-    "league": "Eredivisie",
-    "home": "GO Ahead Eagles",
-    "away": "ADO Den Haag",
-    "kickoff": "2026-08-23T10:15:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8844,
-    "strength": "strong"
-  },
-  "Eredivisie|PSV Eindhoven|Groningen|2026-08-23": {
-    "id": "Eredivisie|PSV Eindhoven|Groningen|2026-08-23",
-    "league": "Eredivisie",
-    "home": "PSV Eindhoven",
-    "away": "Groningen",
-    "kickoff": "2026-08-23T12:30:00+00:00",
-    "pick": "PSV Eindhoven over 1.5 goals",
-    "prob": 0.8085,
-    "strength": "strong"
-  },
-  "Belgian Pro League|Lommel United|KVC Westerlo|2026-08-23": {
-    "id": "Belgian Pro League|Lommel United|KVC Westerlo|2026-08-23",
-    "league": "Belgian Pro League",
-    "home": "Lommel United",
-    "away": "KVC Westerlo",
-    "kickoff": "2026-08-23T14:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8625,
-    "strength": "strong"
-  },
-  "Primeira Liga|Vit\u00f3ria SC|Nacional|2026-08-23": {
-    "id": "Primeira Liga|Vit\u00f3ria SC|Nacional|2026-08-23",
-    "league": "Primeira Liga",
-    "home": "Vit\u00f3ria SC",
-    "away": "Nacional",
-    "kickoff": "2026-08-23T14:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7853,
-    "strength": "strong"
-  },
-  "La Liga|Atletico Madrid|Villarreal|2026-08-23": {
-    "id": "La Liga|Atletico Madrid|Villarreal|2026-08-23",
-    "league": "La Liga",
-    "home": "Atletico Madrid",
-    "away": "Villarreal",
-    "kickoff": "2026-08-23T15:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8214,
-    "strength": "strong"
-  },
-  "Liga I|Universitatea Craiova|FC Voluntari|2026-08-23": {
-    "id": "Liga I|Universitatea Craiova|FC Voluntari|2026-08-23",
-    "league": "Liga I",
-    "home": "Universitatea Craiova",
-    "away": "FC Voluntari",
-    "kickoff": "2026-08-23T15:30:00+00:00",
-    "pick": "Universitatea Craiova or draw (1X)",
-    "prob": 0.8535,
-    "strength": "strong"
-  },
-  "Super Lig|Trabzonspor|Ba\u015fak\u015fehir|2026-08-23": {
-    "id": "Super Lig|Trabzonspor|Ba\u015fak\u015fehir|2026-08-23",
-    "league": "Super Lig",
-    "home": "Trabzonspor",
-    "away": "Ba\u015fak\u015fehir",
-    "kickoff": "2026-08-23T16:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8274,
-    "strength": "strong"
-  },
-  "Super Lig|Ey\u00fcpspor|Gaziantep FK|2026-08-23": {
-    "id": "Super Lig|Ey\u00fcpspor|Gaziantep FK|2026-08-23",
-    "league": "Super Lig",
-    "home": "Ey\u00fcpspor",
-    "away": "Gaziantep FK",
-    "kickoff": "2026-08-23T16:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7472,
-    "strength": "strong"
-  },
-  "Belgian Pro League|Club Brugge KV|Cercle Brugge|2026-08-23": {
-    "id": "Belgian Pro League|Club Brugge KV|Cercle Brugge|2026-08-23",
-    "league": "Belgian Pro League",
-    "home": "Club Brugge KV",
-    "away": "Cercle Brugge",
-    "kickoff": "2026-08-23T16:30:00+00:00",
-    "pick": "Club Brugge KV over 1.5 goals",
-    "prob": 0.8213,
-    "strength": "strong"
-  },
-  "Primeira Liga|Santa Clara|Famalicao|2026-08-23": {
-    "id": "Primeira Liga|Santa Clara|Famalicao|2026-08-23",
-    "league": "Primeira Liga",
-    "home": "Santa Clara",
-    "away": "Famalicao",
-    "kickoff": "2026-08-23T17:00:00+00:00",
-    "pick": "Under 2.5",
-    "prob": 0.7501,
-    "strength": "strong"
-  },
-  "Liga I|CFR 1907 Cluj|FCSB|2026-08-23": {
-    "id": "Liga I|CFR 1907 Cluj|FCSB|2026-08-23",
-    "league": "Liga I",
-    "home": "CFR 1907 Cluj",
-    "away": "FCSB",
-    "kickoff": "2026-08-23T18:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7887,
-    "strength": "strong"
-  },
   "Saudi Pro League|NEOM|Al-Qadisiyah FC|2026-08-24": {
     "id": "Saudi Pro League|NEOM|Al-Qadisiyah FC|2026-08-24",
     "league": "Saudi Pro League",
@@ -577,106 +357,6 @@
     "kickoff": "2026-08-24T16:40:00+00:00",
     "pick": "Al-Qadisiyah FC or draw (X2)",
     "prob": 0.8282,
-    "strength": "strong"
-  },
-  "Eredivisie|Cambuur|Feyenoord|2026-08-23": {
-    "id": "Eredivisie|Cambuur|Feyenoord|2026-08-23",
-    "league": "Eredivisie",
-    "home": "Cambuur",
-    "away": "Feyenoord",
-    "kickoff": "2026-08-23T14:45:00+00:00",
-    "pick": "Feyenoord win",
-    "prob": 0.8852,
-    "strength": "strong"
-  },
-  "Super Lig|G\u00f6ztepe|Gen\u00e7lerbirli\u011fi S.K.|2026-08-23": {
-    "id": "Super Lig|G\u00f6ztepe|Gen\u00e7lerbirli\u011fi S.K.|2026-08-23",
-    "league": "Super Lig",
-    "home": "G\u00f6ztepe",
-    "away": "Gen\u00e7lerbirli\u011fi S.K.",
-    "kickoff": "2026-08-23T18:30:00+00:00",
-    "pick": "G\u00f6ztepe or draw (1X)",
-    "prob": 0.8196,
-    "strength": "strong"
-  },
-  "Super Lig|Alanyaspor|Be\u015fikta\u015f|2026-08-23": {
-    "id": "Super Lig|Alanyaspor|Be\u015fikta\u015f|2026-08-23",
-    "league": "Super Lig",
-    "home": "Alanyaspor",
-    "away": "Be\u015fikta\u015f",
-    "kickoff": "2026-08-23T18:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7593,
-    "strength": "strong"
-  },
-  "Brazil Serie A|Palmeiras|Vasco DA Gama|2026-08-23": {
-    "id": "Brazil Serie A|Palmeiras|Vasco DA Gama|2026-08-23",
-    "league": "Brazil Serie A",
-    "home": "Palmeiras",
-    "away": "Vasco DA Gama",
-    "kickoff": "2026-08-23T19:00:00+00:00",
-    "pick": "Palmeiras (draw no bet)",
-    "prob": 0.8852,
-    "strength": "strong"
-  },
-  "Brazil Serie A|Vitoria|Bahia|2026-08-23": {
-    "id": "Brazil Serie A|Vitoria|Bahia|2026-08-23",
-    "league": "Brazil Serie A",
-    "home": "Vitoria",
-    "away": "Bahia",
-    "kickoff": "2026-08-23T19:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7892,
-    "strength": "strong"
-  },
-  "Brazil Serie A|RB Bragantino|Gremio|2026-08-23": {
-    "id": "Brazil Serie A|RB Bragantino|Gremio|2026-08-23",
-    "league": "Brazil Serie A",
-    "home": "RB Bragantino",
-    "away": "Gremio",
-    "kickoff": "2026-08-23T19:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7393,
-    "strength": "strong"
-  },
-  "La Liga|Elche|Barcelona|2026-08-23": {
-    "id": "La Liga|Elche|Barcelona|2026-08-23",
-    "league": "La Liga",
-    "home": "Elche",
-    "away": "Barcelona",
-    "kickoff": "2026-08-23T19:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.866,
-    "strength": "strong"
-  },
-  "Primeira Liga|FC Porto|Arouca|2026-08-23": {
-    "id": "Primeira Liga|FC Porto|Arouca|2026-08-23",
-    "league": "Primeira Liga",
-    "home": "FC Porto",
-    "away": "Arouca",
-    "kickoff": "2026-08-23T19:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.833,
-    "strength": "strong"
-  },
-  "Brazil Serie A|Santos|Mirassol|2026-08-23": {
-    "id": "Brazil Serie A|Santos|Mirassol|2026-08-23",
-    "league": "Brazil Serie A",
-    "home": "Santos",
-    "away": "Mirassol",
-    "kickoff": "2026-08-23T21:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7435,
-    "strength": "strong"
-  },
-  "Liga MX|Atletico San Luis|CF Pachuca|2026-08-23": {
-    "id": "Liga MX|Atletico San Luis|CF Pachuca|2026-08-23",
-    "league": "Liga MX",
-    "home": "Atletico San Luis",
-    "away": "CF Pachuca",
-    "kickoff": "2026-08-23T23:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7485,
     "strength": "strong"
   },
   "Liga I|FC Botosani|Csikszereda|2026-08-24": {
@@ -779,46 +459,6 @@
     "prob": 0.8805,
     "strength": "strong"
   },
-  "Argentina Primera|Sarmiento Junin|Estudiantes L.P.|2026-08-23": {
-    "id": "Argentina Primera|Sarmiento Junin|Estudiantes L.P.|2026-08-23",
-    "league": "Argentina Primera",
-    "home": "Sarmiento Junin",
-    "away": "Estudiantes L.P.",
-    "kickoff": "2026-08-23T17:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8594,
-    "strength": "strong"
-  },
-  "Argentina Primera|Barracas Central|Platense|2026-08-23": {
-    "id": "Argentina Primera|Barracas Central|Platense|2026-08-23",
-    "league": "Argentina Primera",
-    "home": "Barracas Central",
-    "away": "Platense",
-    "kickoff": "2026-08-23T17:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8873,
-    "strength": "strong"
-  },
-  "Argentina Primera|Belgrano Cordoba|Defensa Y Justicia|2026-08-23": {
-    "id": "Argentina Primera|Belgrano Cordoba|Defensa Y Justicia|2026-08-23",
-    "league": "Argentina Primera",
-    "home": "Belgrano Cordoba",
-    "away": "Defensa Y Justicia",
-    "kickoff": "2026-08-23T20:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8112,
-    "strength": "strong"
-  },
-  "Liga MX|U.N.A.M. - Pumas|Necaxa|2026-08-24": {
-    "id": "Liga MX|U.N.A.M. - Pumas|Necaxa|2026-08-24",
-    "league": "Liga MX",
-    "home": "U.N.A.M. - Pumas",
-    "away": "Necaxa",
-    "kickoff": "2026-08-24T01:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8333,
-    "strength": "strong"
-  },
   "La Liga|Osasuna|Levante|2026-08-24": {
     "id": "La Liga|Osasuna|Levante|2026-08-24",
     "league": "La Liga",
@@ -907,36 +547,6 @@
     "kickoff": "2026-08-25T19:00:00+00:00",
     "pick": "Over 1.5",
     "prob": 0.7626,
-    "strength": "strong"
-  },
-  "Ligue 1|Rennes|Paris Saint Germain|2026-08-23": {
-    "id": "Ligue 1|Rennes|Paris Saint Germain|2026-08-23",
-    "league": "Ligue 1",
-    "home": "Rennes",
-    "away": "Paris Saint Germain",
-    "kickoff": "2026-08-23T18:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8543,
-    "strength": "strong"
-  },
-  "Argentina Primera|River Plate|Velez Sarsfield|2026-08-23": {
-    "id": "Argentina Primera|River Plate|Velez Sarsfield|2026-08-23",
-    "league": "Argentina Primera",
-    "home": "River Plate",
-    "away": "Velez Sarsfield",
-    "kickoff": "2026-08-23T22:15:00+00:00",
-    "pick": "River Plate or draw (1X)",
-    "prob": 0.812,
-    "strength": "strong"
-  },
-  "Argentina Primera|Racing Club|Boca Juniors|2026-08-24": {
-    "id": "Argentina Primera|Racing Club|Boca Juniors|2026-08-24",
-    "league": "Argentina Primera",
-    "home": "Racing Club",
-    "away": "Boca Juniors",
-    "kickoff": "2026-08-24T00:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.826,
     "strength": "strong"
   },
   "Saudi Pro League|Al Taawon|Al-Fayha|2026-08-25": {
@@ -1046,7 +656,7 @@
     "away": "Lommel United",
     "kickoff": "2026-08-29T18:45:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8638,
+    "prob": 0.8637,
     "strength": "strong"
   },
   "Liga MX|Atlas|Club Queretaro|2026-08-29": {
@@ -1067,36 +677,6 @@
     "kickoff": "2026-08-29T23:00:00+00:00",
     "pick": "Under 3.5",
     "prob": 0.7707,
-    "strength": "strong"
-  },
-  "Championship|West Brom|Burnley|2026-08-23": {
-    "id": "Championship|West Brom|Burnley|2026-08-23",
-    "league": "Championship",
-    "home": "West Brom",
-    "away": "Burnley",
-    "kickoff": "2026-08-23T11:00:00+00:00",
-    "pick": "Burnley (draw no bet)",
-    "prob": 0.8605,
-    "strength": "strong"
-  },
-  "MLS|New England Revolution|New York City FC|2026-08-23": {
-    "id": "MLS|New England Revolution|New York City FC|2026-08-23",
-    "league": "MLS",
-    "home": "New England Revolution",
-    "away": "New York City FC",
-    "kickoff": "2026-08-23T20:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7643,
-    "strength": "strong"
-  },
-  "MLS|Atlanta United FC|Sporting Kansas City|2026-08-23": {
-    "id": "MLS|Atlanta United FC|Sporting Kansas City|2026-08-23",
-    "league": "MLS",
-    "home": "Atlanta United FC",
-    "away": "Sporting Kansas City",
-    "kickoff": "2026-08-23T23:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8295,
     "strength": "strong"
   },
   "Argentina Primera|Tigre|Central Cordoba de Santiago|2026-08-24": {
@@ -1126,7 +706,7 @@
     "away": "Rosario Central",
     "kickoff": "2026-08-25T00:15:00+00:00",
     "pick": "Under 2.5",
-    "prob": 0.7913,
+    "prob": 0.7914,
     "strength": "strong"
   },
   "La Liga|Celta Vigo|Osasuna|2026-08-27": {
@@ -1156,7 +736,7 @@
     "away": "O\u0163elul",
     "kickoff": "2026-08-28T15:00:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8296,
+    "prob": 0.8295,
     "strength": "strong"
   },
   "Saudi Pro League|Al Riyadh|NEOM|2026-08-28": {
@@ -1246,7 +826,7 @@
     "away": "West Brom",
     "kickoff": "2026-08-29T11:30:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.7968,
+    "prob": 0.7969,
     "strength": "strong"
   },
   "Premier League|Bournemouth|Everton|2026-08-29": {
@@ -1266,7 +846,7 @@
     "away": "Millwall",
     "kickoff": "2026-08-29T14:00:00+00:00",
     "pick": "Southampton or draw (1X)",
-    "prob": 0.7703,
+    "prob": 0.7704,
     "strength": "strong"
   },
   "Championship|Cardiff|Sheffield Utd|2026-08-29": {
@@ -1306,7 +886,7 @@
     "away": "Newcastle",
     "kickoff": "2026-08-29T16:30:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8253,
+    "prob": 0.8254,
     "strength": "strong"
   },
   "Serie A|Sassuolo|Torino|2026-08-29": {
@@ -1546,7 +1126,7 @@
     "away": "ADO Den Haag",
     "kickoff": "2026-08-30T12:30:00+00:00",
     "pick": "Feyenoord win",
-    "prob": 0.889,
+    "prob": 0.8897,
     "strength": "strong"
   },
   "Premier League|Chelsea|Brighton|2026-08-30": {
@@ -1636,7 +1216,387 @@
     "away": "Dundee Utd",
     "kickoff": "2026-09-02T18:45:00+00:00",
     "pick": "Motherwell or draw (1X)",
-    "prob": 0.8236,
+    "prob": 0.824,
+    "strength": "strong"
+  },
+  "La Liga|Alaves|Villarreal|2026-08-28": {
+    "id": "La Liga|Alaves|Villarreal|2026-08-28",
+    "league": "La Liga",
+    "home": "Alaves",
+    "away": "Villarreal",
+    "kickoff": "2026-08-28T19:30:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7892,
+    "strength": "strong"
+  },
+  "La Liga|Levante|Real Betis|2026-08-29": {
+    "id": "La Liga|Levante|Real Betis|2026-08-29",
+    "league": "La Liga",
+    "home": "Levante",
+    "away": "Real Betis",
+    "kickoff": "2026-08-29T15:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7941,
+    "strength": "strong"
+  },
+  "La Liga|Real Sociedad|Espanyol|2026-08-29": {
+    "id": "La Liga|Real Sociedad|Espanyol|2026-08-29",
+    "league": "La Liga",
+    "home": "Real Sociedad",
+    "away": "Espanyol",
+    "kickoff": "2026-08-29T17:00:00+00:00",
+    "pick": "Real Sociedad or draw (1X)",
+    "prob": 0.7532,
+    "strength": "strong"
+  },
+  "Argentina Primera|Deportivo Riestra|Velez Sarsfield|2026-08-29": {
+    "id": "Argentina Primera|Deportivo Riestra|Velez Sarsfield|2026-08-29",
+    "league": "Argentina Primera",
+    "home": "Deportivo Riestra",
+    "away": "Velez Sarsfield",
+    "kickoff": "2026-08-29T17:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8891,
+    "strength": "strong"
+  },
+  "Serie A|Juventus|Parma|2026-08-29": {
+    "id": "Serie A|Juventus|Parma|2026-08-29",
+    "league": "Serie A",
+    "home": "Juventus",
+    "away": "Parma",
+    "kickoff": "2026-08-29T18:45:00+00:00",
+    "pick": "Juventus or draw (1X)",
+    "prob": 0.8657,
+    "strength": "strong"
+  },
+  "Argentina Primera|Rosario Central|Gimnasia L.P.|2026-08-29": {
+    "id": "Argentina Primera|Rosario Central|Gimnasia L.P.|2026-08-29",
+    "league": "Argentina Primera",
+    "home": "Rosario Central",
+    "away": "Gimnasia L.P.",
+    "kickoff": "2026-08-29T20:00:00+00:00",
+    "pick": "Rosario Central or draw (1X)",
+    "prob": 0.8563,
+    "strength": "strong"
+  },
+  "Argentina Primera|Atletico Tucuman|Belgrano Cordoba|2026-08-30": {
+    "id": "Argentina Primera|Atletico Tucuman|Belgrano Cordoba|2026-08-30",
+    "league": "Argentina Primera",
+    "home": "Atletico Tucuman",
+    "away": "Belgrano Cordoba",
+    "kickoff": "2026-08-30T00:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7894,
+    "strength": "strong"
+  },
+  "Argentina Primera|Talleres Cordoba|Central Cordoba de Santiago|2026-08-30": {
+    "id": "Argentina Primera|Talleres Cordoba|Central Cordoba de Santiago|2026-08-30",
+    "league": "Argentina Primera",
+    "home": "Talleres Cordoba",
+    "away": "Central Cordoba de Santiago",
+    "kickoff": "2026-08-30T00:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8769,
+    "strength": "strong"
+  },
+  "MLS|Sporting Kansas City|Vancouver Whitecaps|2026-08-30": {
+    "id": "MLS|Sporting Kansas City|Vancouver Whitecaps|2026-08-30",
+    "league": "MLS",
+    "home": "Sporting Kansas City",
+    "away": "Vancouver Whitecaps",
+    "kickoff": "2026-08-30T00:30:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.861,
+    "strength": "strong"
+  },
+  "MLS|Minnesota United FC|Orlando City SC|2026-08-30": {
+    "id": "MLS|Minnesota United FC|Orlando City SC|2026-08-30",
+    "league": "MLS",
+    "home": "Minnesota United FC",
+    "away": "Orlando City SC",
+    "kickoff": "2026-08-30T00:30:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8246,
+    "strength": "strong"
+  },
+  "Premier League|Leeds|Brentford|2026-08-30": {
+    "id": "Premier League|Leeds|Brentford|2026-08-30",
+    "league": "Premier League",
+    "home": "Leeds",
+    "away": "Brentford",
+    "kickoff": "2026-08-30T13:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7973,
+    "strength": "strong"
+  },
+  "Premier League|Sunderland|Fulham|2026-08-30": {
+    "id": "Premier League|Sunderland|Fulham|2026-08-30",
+    "league": "Premier League",
+    "home": "Sunderland",
+    "away": "Fulham",
+    "kickoff": "2026-08-30T13:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8124,
+    "strength": "strong"
+  },
+  "Liga I|Farul Constanta|FC Botosani|2026-08-30": {
+    "id": "Liga I|Farul Constanta|FC Botosani|2026-08-30",
+    "league": "Liga I",
+    "home": "Farul Constanta",
+    "away": "FC Botosani",
+    "kickoff": "2026-08-30T13:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7852,
+    "strength": "strong"
+  },
+  "Brazil Serie A|Atletico Paranaense|Fluminense|2026-08-30": {
+    "id": "Brazil Serie A|Atletico Paranaense|Fluminense|2026-08-30",
+    "league": "Brazil Serie A",
+    "home": "Atletico Paranaense",
+    "away": "Fluminense",
+    "kickoff": "2026-08-30T14:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8742,
+    "strength": "strong"
+  },
+  "Eredivisie|Telstar|Ajax|2026-08-30": {
+    "id": "Eredivisie|Telstar|Ajax|2026-08-30",
+    "league": "Eredivisie",
+    "home": "Telstar",
+    "away": "Ajax",
+    "kickoff": "2026-08-30T14:45:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7925,
+    "strength": "strong"
+  },
+  "Premier League|Manchester United|Ipswich|2026-08-30": {
+    "id": "Premier League|Manchester United|Ipswich|2026-08-30",
+    "league": "Premier League",
+    "home": "Manchester United",
+    "away": "Ipswich",
+    "kickoff": "2026-08-30T15:30:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8757,
+    "strength": "strong"
+  },
+  "Serie A|Napoli|Como|2026-08-30": {
+    "id": "Serie A|Napoli|Como|2026-08-30",
+    "league": "Serie A",
+    "home": "Napoli",
+    "away": "Como",
+    "kickoff": "2026-08-30T16:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7968,
+    "strength": "strong"
+  },
+  "Belgian Pro League|KVC Westerlo|Zulte Waregem|2026-08-30": {
+    "id": "Belgian Pro League|KVC Westerlo|Zulte Waregem|2026-08-30",
+    "league": "Belgian Pro League",
+    "home": "KVC Westerlo",
+    "away": "Zulte Waregem",
+    "kickoff": "2026-08-30T17:15:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8423,
+    "strength": "strong"
+  },
+  "Eredivisie|Cambuur|Twente|2026-08-30": {
+    "id": "Eredivisie|Cambuur|Twente|2026-08-30",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "Twente",
+    "kickoff": "2026-08-30T18:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8818,
+    "strength": "strong"
+  },
+  "Liga I|FCSB|Uta Arad|2026-08-30": {
+    "id": "Liga I|FCSB|Uta Arad|2026-08-30",
+    "league": "Liga I",
+    "home": "FCSB",
+    "away": "Uta Arad",
+    "kickoff": "2026-08-30T18:00:00+00:00",
+    "pick": "FCSB or draw (1X)",
+    "prob": 0.8214,
+    "strength": "strong"
+  },
+  "Super Lig|Ba\u015fak\u015fehir|Kas\u0131mpa\u015fa|2026-08-30": {
+    "id": "Super Lig|Ba\u015fak\u015fehir|Kas\u0131mpa\u015fa|2026-08-30",
+    "league": "Super Lig",
+    "home": "Ba\u015fak\u015fehir",
+    "away": "Kas\u0131mpa\u015fa",
+    "kickoff": "2026-08-30T18:30:00+00:00",
+    "pick": "Ba\u015fak\u015fehir or draw (1X)",
+    "prob": 0.8445,
+    "strength": "strong"
+  },
+  "Super Lig|Samsunspor|Fenerbah\u00e7e|2026-08-30": {
+    "id": "Super Lig|Samsunspor|Fenerbah\u00e7e|2026-08-30",
+    "league": "Super Lig",
+    "home": "Samsunspor",
+    "away": "Fenerbah\u00e7e",
+    "kickoff": "2026-08-30T18:30:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8582,
+    "strength": "strong"
+  },
+  "Serie A|Lazio|Genoa|2026-08-30": {
+    "id": "Serie A|Lazio|Genoa|2026-08-30",
+    "league": "Serie A",
+    "home": "Lazio",
+    "away": "Genoa",
+    "kickoff": "2026-08-30T18:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7998,
+    "strength": "strong"
+  },
+  "Serie A|Cagliari|Inter|2026-08-30": {
+    "id": "Serie A|Cagliari|Inter|2026-08-30",
+    "league": "Serie A",
+    "home": "Cagliari",
+    "away": "Inter",
+    "kickoff": "2026-08-30T18:45:00+00:00",
+    "pick": "Inter or draw (X2)",
+    "prob": 0.8841,
+    "strength": "strong"
+  },
+  "Ligue 1|Monaco|Marseille|2026-08-30": {
+    "id": "Ligue 1|Monaco|Marseille|2026-08-30",
+    "league": "Ligue 1",
+    "home": "Monaco",
+    "away": "Marseille",
+    "kickoff": "2026-08-30T18:45:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.89,
+    "strength": "strong"
+  },
+  "Brazil Serie A|Flamengo|Botafogo|2026-08-30": {
+    "id": "Brazil Serie A|Flamengo|Botafogo|2026-08-30",
+    "league": "Brazil Serie A",
+    "home": "Flamengo",
+    "away": "Botafogo",
+    "kickoff": "2026-08-30T19:00:00+00:00",
+    "pick": "Flamengo or draw (1X)",
+    "prob": 0.8062,
+    "strength": "strong"
+  },
+  "Brazil Serie A|Corinthians|Santos|2026-08-30": {
+    "id": "Brazil Serie A|Corinthians|Santos|2026-08-30",
+    "league": "Brazil Serie A",
+    "home": "Corinthians",
+    "away": "Santos",
+    "kickoff": "2026-08-30T19:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7611,
+    "strength": "strong"
+  },
+  "Primeira Liga|Famalicao|GIL Vicente|2026-08-30": {
+    "id": "Primeira Liga|Famalicao|GIL Vicente|2026-08-30",
+    "league": "Primeira Liga",
+    "home": "Famalicao",
+    "away": "GIL Vicente",
+    "kickoff": "2026-08-30T19:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8372,
+    "strength": "strong"
+  },
+  "Brazil Serie A|Mirassol|Palmeiras|2026-08-30": {
+    "id": "Brazil Serie A|Mirassol|Palmeiras|2026-08-30",
+    "league": "Brazil Serie A",
+    "home": "Mirassol",
+    "away": "Palmeiras",
+    "kickoff": "2026-08-30T21:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7493,
+    "strength": "strong"
+  },
+  "Brazil Serie A|Bahia|Internacional|2026-08-30": {
+    "id": "Brazil Serie A|Bahia|Internacional|2026-08-30",
+    "league": "Brazil Serie A",
+    "home": "Bahia",
+    "away": "Internacional",
+    "kickoff": "2026-08-30T22:30:00+00:00",
+    "pick": "Bahia or draw (1X)",
+    "prob": 0.7615,
+    "strength": "strong"
+  },
+  "Liga MX|Monterrey|Atletico San Luis|2026-08-31": {
+    "id": "Liga MX|Monterrey|Atletico San Luis|2026-08-31",
+    "league": "Liga MX",
+    "home": "Monterrey",
+    "away": "Atletico San Luis",
+    "kickoff": "2026-08-31T02:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8566,
+    "strength": "strong"
+  },
+  "Liga I|Rapid|Universitatea Craiova|2026-08-31": {
+    "id": "Liga I|Rapid|Universitatea Craiova|2026-08-31",
+    "league": "Liga I",
+    "home": "Rapid",
+    "away": "Universitatea Craiova",
+    "kickoff": "2026-08-31T17:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8141,
+    "strength": "strong"
+  },
+  "Primeira Liga|Benfica|Estoril|2026-08-31": {
+    "id": "Primeira Liga|Benfica|Estoril|2026-08-31",
+    "league": "Primeira Liga",
+    "home": "Benfica",
+    "away": "Estoril",
+    "kickoff": "2026-08-31T19:15:00+00:00",
+    "pick": "Benfica over 1.5 goals",
+    "prob": 0.8201,
+    "strength": "strong"
+  },
+  "Primeira Liga|SC Braga|Vit\u00f3ria SC|2026-08-31": {
+    "id": "Primeira Liga|SC Braga|Vit\u00f3ria SC|2026-08-31",
+    "league": "Primeira Liga",
+    "home": "SC Braga",
+    "away": "Vit\u00f3ria SC",
+    "kickoff": "2026-08-31T19:15:00+00:00",
+    "pick": "SC Braga or draw (1X)",
+    "prob": 0.8517,
+    "strength": "strong"
+  },
+  "Belgian Pro League|St. Truiden|Union St. Gilloise|2026-09-02": {
+    "id": "Belgian Pro League|St. Truiden|Union St. Gilloise|2026-09-02",
+    "league": "Belgian Pro League",
+    "home": "St. Truiden",
+    "away": "Union St. Gilloise",
+    "kickoff": "2026-09-02T18:30:00+00:00",
+    "pick": "Union St. Gilloise or draw (X2)",
+    "prob": 0.8082,
+    "strength": "strong"
+  },
+  "Ligue 1|Toulouse|Lille|2026-09-03": {
+    "id": "Ligue 1|Toulouse|Lille|2026-09-03",
+    "league": "Ligue 1",
+    "home": "Toulouse",
+    "away": "Lille",
+    "kickoff": "2026-09-03T18:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7897,
+    "strength": "strong"
+  },
+  "Eredivisie|Sparta Rotterdam|PEC Zwolle|2026-09-04": {
+    "id": "Eredivisie|Sparta Rotterdam|PEC Zwolle|2026-09-04",
+    "league": "Eredivisie",
+    "home": "Sparta Rotterdam",
+    "away": "PEC Zwolle",
+    "kickoff": "2026-09-04T18:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7771,
+    "strength": "strong"
+  },
+  "Liga MX|Puebla|Toluca|2026-09-05": {
+    "id": "Liga MX|Puebla|Toluca|2026-09-05",
+    "league": "Liga MX",
+    "home": "Puebla",
+    "away": "Toluca",
+    "kickoff": "2026-09-05T01:00:00+00:00",
+    "pick": "Toluca or draw (X2)",
+    "prob": 0.8647,
     "strength": "strong"
   }
 }
