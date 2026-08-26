@@ -1,27 +1,75 @@
 {
-  "updated": "2026-08-25T08:12:06.884236+00:00",
+  "updated": "2026-08-26T08:12:50.626149+00:00",
   "totals": {
-    "graded": 292,
-    "wins": 230,
-    "losses": 61,
+    "graded": 296,
+    "wins": 233,
+    "losses": 62,
     "pushes": 1,
-    "hit_rate": 0.7904
+    "hit_rate": 0.7898
   },
   "calibration": [
     {
       "bucket": "70\u201380%",
-      "stated": 0.7702,
-      "actual": 0.7212,
-      "n": 104
+      "stated": 0.7707,
+      "actual": 0.7196,
+      "n": 107
     },
     {
       "bucket": "80\u201390%",
       "stated": 0.8454,
-      "actual": 0.8289,
-      "n": 187
+      "actual": 0.8298,
+      "n": 188
     }
   ],
   "recent": [
+    {
+      "id": "La Liga|Valencia|Real Betis|2026-08-25",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Real Betis",
+      "kickoff": "2026-08-25T19:00:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.7626,
+      "score": "0-1",
+      "result": "loss",
+      "graded_at": "2026-08-26T08:12:50.622594+00:00"
+    },
+    {
+      "id": "Saudi Pro League|Al-Ettifaq|Al-Nassr|2026-08-25",
+      "league": "Saudi Pro League",
+      "home": "Al-Ettifaq",
+      "away": "Al-Nassr",
+      "kickoff": "2026-08-25T18:00:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.8543,
+      "score": "2-3",
+      "result": "win",
+      "graded_at": "2026-08-26T08:12:50.622594+00:00"
+    },
+    {
+      "id": "Saudi Pro League|Al Shabab|Al Riyadh|2026-08-25",
+      "league": "Saudi Pro League",
+      "home": "Al Shabab",
+      "away": "Al Riyadh",
+      "kickoff": "2026-08-25T18:00:00+00:00",
+      "pick": "Al Shabab or draw (1X)",
+      "prob": 0.7994,
+      "score": "3-3",
+      "result": "win",
+      "graded_at": "2026-08-26T08:12:50.622594+00:00"
+    },
+    {
+      "id": "Saudi Pro League|Al Taawon|Al-Fayha|2026-08-25",
+      "league": "Saudi Pro League",
+      "home": "Al Taawon",
+      "away": "Al-Fayha",
+      "kickoff": "2026-08-25T16:10:00+00:00",
+      "pick": "Al Taawon or draw (1X)",
+      "prob": 0.7992,
+      "score": "0-0",
+      "result": "win",
+      "graded_at": "2026-08-26T08:12:50.622594+00:00"
+    },
     {
       "id": "Argentina Primera|Lanus|Argentinos JRS|2026-08-25",
       "league": "Argentina Primera",
@@ -691,54 +739,6 @@
       "pick": "Over 1.5",
       "prob": 0.8396,
       "score": "5-0",
-      "result": "win",
-      "graded_at": "2026-08-23T07:51:52.886281+00:00"
-    },
-    {
-      "id": "Liga MX|Leon|Monterrey|2026-08-23",
-      "league": "Liga MX",
-      "home": "Leon",
-      "away": "Monterrey",
-      "kickoff": "2026-08-23T01:00:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.8154,
-      "score": "2-0",
-      "result": "win",
-      "graded_at": "2026-08-23T07:51:52.886281+00:00"
-    },
-    {
-      "id": "Liga MX|Puebla|Santos Laguna|2026-08-23",
-      "league": "Liga MX",
-      "home": "Puebla",
-      "away": "Santos Laguna",
-      "kickoff": "2026-08-23T01:00:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.7496,
-      "score": "3-2",
-      "result": "win",
-      "graded_at": "2026-08-23T07:51:52.886281+00:00"
-    },
-    {
-      "id": "MLS|Austin|Philadelphia Union|2026-08-23",
-      "league": "MLS",
-      "home": "Austin",
-      "away": "Philadelphia Union",
-      "kickoff": "2026-08-23T01:00:00+00:00",
-      "pick": "Under 3.5",
-      "prob": 0.7769,
-      "score": "1-1",
-      "result": "win",
-      "graded_at": "2026-08-23T07:51:52.886281+00:00"
-    },
-    {
-      "id": "MLS|Nashville SC|Columbus Crew|2026-08-23",
-      "league": "MLS",
-      "home": "Nashville SC",
-      "away": "Columbus Crew",
-      "kickoff": "2026-08-23T00:30:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.8183,
-      "score": "3-2",
       "result": "win",
       "graded_at": "2026-08-23T07:51:52.886281+00:00"
     }

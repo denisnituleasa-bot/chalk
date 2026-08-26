@@ -3502,5 +3502,53 @@
     "score": "2-2",
     "result": "loss",
     "graded_at": "2026-08-25T08:12:06.879693+00:00"
+  },
+  {
+    "id": "La Liga|Valencia|Real Betis|2026-08-25",
+    "league": "La Liga",
+    "home": "Valencia",
+    "away": "Real Betis",
+    "kickoff": "2026-08-25T19:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7626,
+    "score": "0-1",
+    "result": "loss",
+    "graded_at": "2026-08-26T08:12:50.622594+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al Taawon|Al-Fayha|2026-08-25",
+    "league": "Saudi Pro League",
+    "home": "Al Taawon",
+    "away": "Al-Fayha",
+    "kickoff": "2026-08-25T16:10:00+00:00",
+    "pick": "Al Taawon or draw (1X)",
+    "prob": 0.7992,
+    "score": "0-0",
+    "result": "win",
+    "graded_at": "2026-08-26T08:12:50.622594+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al-Ettifaq|Al-Nassr|2026-08-25",
+    "league": "Saudi Pro League",
+    "home": "Al-Ettifaq",
+    "away": "Al-Nassr",
+    "kickoff": "2026-08-25T18:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8543,
+    "score": "2-3",
+    "result": "win",
+    "graded_at": "2026-08-26T08:12:50.622594+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al Shabab|Al Riyadh|2026-08-25",
+    "league": "Saudi Pro League",
+    "home": "Al Shabab",
+    "away": "Al Riyadh",
+    "kickoff": "2026-08-25T18:00:00+00:00",
+    "pick": "Al Shabab or draw (1X)",
+    "prob": 0.7994,
+    "score": "3-3",
+    "result": "win",
+    "graded_at": "2026-08-26T08:12:50.622594+00:00"
   }
 ]
