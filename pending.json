@@ -339,16 +339,6 @@
     "prob": 0.8805,
     "strength": "strong"
   },
-  "Liga MX|Necaxa|Cruz Azul|2026-08-29": {
-    "id": "Liga MX|Necaxa|Cruz Azul|2026-08-29",
-    "league": "Liga MX",
-    "home": "Necaxa",
-    "away": "Cruz Azul",
-    "kickoff": "2026-08-29T01:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8012,
-    "strength": "strong"
-  },
   "Primeira Liga|Alverca|Santa Clara|2026-08-29": {
     "id": "Primeira Liga|Alverca|Santa Clara|2026-08-29",
     "league": "Primeira Liga",
@@ -387,16 +377,6 @@
     "kickoff": "2026-08-29T19:00:00+00:00",
     "pick": "Over 1.5",
     "prob": 0.8729,
-    "strength": "strong"
-  },
-  "Liga MX|Club Tijuana|U.N.A.M. - Pumas|2026-08-29": {
-    "id": "Liga MX|Club Tijuana|U.N.A.M. - Pumas|2026-08-29",
-    "league": "Liga MX",
-    "home": "Club Tijuana",
-    "away": "U.N.A.M. - Pumas",
-    "kickoff": "2026-08-29T03:10:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7859,
     "strength": "strong"
   },
   "Liga I|Csikszereda|CFR 1907 Cluj|2026-08-29": {
@@ -467,26 +447,6 @@
     "kickoff": "2026-08-29T23:00:00+00:00",
     "pick": "Under 3.5",
     "prob": 0.7707,
-    "strength": "strong"
-  },
-  "Argentina Primera|Union Santa Fe|Sarmiento Junin|2026-08-28": {
-    "id": "Argentina Primera|Union Santa Fe|Sarmiento Junin|2026-08-28",
-    "league": "Argentina Primera",
-    "home": "Union Santa Fe",
-    "away": "Sarmiento Junin",
-    "kickoff": "2026-08-28T22:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8846,
-    "strength": "strong"
-  },
-  "Argentina Primera|Boca Juniors|Lanus|2026-08-29": {
-    "id": "Argentina Primera|Boca Juniors|Lanus|2026-08-29",
-    "league": "Argentina Primera",
-    "home": "Boca Juniors",
-    "away": "Lanus",
-    "kickoff": "2026-08-29T00:30:00+00:00",
-    "pick": "Boca Juniors or draw (1X)",
-    "prob": 0.8463,
     "strength": "strong"
   },
   "Premier League|Liverpool|Nottingham Forest|2026-08-29": {
@@ -696,7 +656,7 @@
     "away": "Philadelphia Union",
     "kickoff": "2026-08-29T23:30:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.7544,
+    "prob": 0.7545,
     "strength": "strong"
   },
   "MLS|Atlanta United FC|Charlotte|2026-08-29": {
@@ -746,7 +706,7 @@
     "away": "Cruzeiro",
     "kickoff": "2026-08-30T00:20:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.7564,
+    "prob": 0.7562,
     "strength": "strong"
   },
   "MLS|Houston Dynamo|San Jose Earthquakes|2026-08-30": {
@@ -956,7 +916,7 @@
     "away": "Gimnasia L.P.",
     "kickoff": "2026-08-29T20:00:00+00:00",
     "pick": "Rosario Central or draw (1X)",
-    "prob": 0.8562,
+    "prob": 0.8563,
     "strength": "strong"
   },
   "Argentina Primera|Atletico Tucuman|Belgrano Cordoba|2026-08-30": {
@@ -966,7 +926,7 @@
     "away": "Belgrano Cordoba",
     "kickoff": "2026-08-30T00:30:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.7892,
+    "prob": 0.7893,
     "strength": "strong"
   },
   "Argentina Primera|Talleres Cordoba|Central Cordoba de Santiago|2026-08-30": {
@@ -986,7 +946,7 @@
     "away": "Vancouver Whitecaps",
     "kickoff": "2026-08-30T00:30:00+00:00",
     "pick": "Over 1.5",
-    "prob": 0.8609,
+    "prob": 0.861,
     "strength": "strong"
   },
   "MLS|Minnesota United FC|Orlando City SC|2026-08-30": {
@@ -1166,7 +1126,7 @@
     "away": "Santos",
     "kickoff": "2026-08-30T19:00:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.761,
+    "prob": 0.7611,
     "strength": "strong"
   },
   "Primeira Liga|Famalicao|GIL Vicente|2026-08-30": {
@@ -1186,7 +1146,7 @@
     "away": "Palmeiras",
     "kickoff": "2026-08-30T21:30:00+00:00",
     "pick": "Under 3.5",
-    "prob": 0.7492,
+    "prob": 0.7493,
     "strength": "strong"
   },
   "Brazil Serie A|Bahia|Internacional|2026-08-30": {
@@ -1587,6 +1547,76 @@
     "kickoff": "2026-09-05T17:30:00+00:00",
     "pick": "Over 1.5",
     "prob": 0.7388,
+    "strength": "strong"
+  },
+  "Argentina Primera|Independ. Rivadavia|Racing Club|2026-08-31": {
+    "id": "Argentina Primera|Independ. Rivadavia|Racing Club|2026-08-31",
+    "league": "Argentina Primera",
+    "home": "Independ. Rivadavia",
+    "away": "Racing Club",
+    "kickoff": "2026-08-31T00:30:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8288,
+    "strength": "strong"
+  },
+  "Argentina Primera|Defensa Y Justicia|Platense|2026-08-31": {
+    "id": "Argentina Primera|Defensa Y Justicia|Platense|2026-08-31",
+    "league": "Argentina Primera",
+    "home": "Defensa Y Justicia",
+    "away": "Platense",
+    "kickoff": "2026-08-31T22:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.8642,
+    "strength": "strong"
+  },
+  "Primeira Liga|FC Porto|Moreirense|2026-09-04": {
+    "id": "Primeira Liga|FC Porto|Moreirense|2026-09-04",
+    "league": "Primeira Liga",
+    "home": "FC Porto",
+    "away": "Moreirense",
+    "kickoff": "2026-09-04T19:15:00+00:00",
+    "pick": "FC Porto win",
+    "prob": 0.7664,
+    "strength": "strong"
+  },
+  "Primeira Liga|Sporting CP|Nacional|2026-09-04": {
+    "id": "Primeira Liga|Sporting CP|Nacional|2026-09-04",
+    "league": "Primeira Liga",
+    "home": "Sporting CP",
+    "away": "Nacional",
+    "kickoff": "2026-09-04T19:15:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.8585,
+    "strength": "strong"
+  },
+  "Liga MX|FC Juarez|CF Pachuca|2026-09-05": {
+    "id": "Liga MX|FC Juarez|CF Pachuca|2026-09-05",
+    "league": "Liga MX",
+    "home": "FC Juarez",
+    "away": "CF Pachuca",
+    "kickoff": "2026-09-05T03:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7618,
+    "strength": "strong"
+  },
+  "Liga MX|Club Queretaro|Monterrey|2026-09-05": {
+    "id": "Liga MX|Club Queretaro|Monterrey|2026-09-05",
+    "league": "Liga MX",
+    "home": "Club Queretaro",
+    "away": "Monterrey",
+    "kickoff": "2026-09-05T23:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.741,
+    "strength": "strong"
+  },
+  "Liga MX|Atletico San Luis|Guadalajara Chivas|2026-09-05": {
+    "id": "Liga MX|Atletico San Luis|Guadalajara Chivas|2026-09-05",
+    "league": "Liga MX",
+    "home": "Atletico San Luis",
+    "away": "Guadalajara Chivas",
+    "kickoff": "2026-09-05T23:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7884,
     "strength": "strong"
   }
 }

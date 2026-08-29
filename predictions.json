@@ -1,986 +1,6 @@
 {
-  "generated_at": "2026-08-28T21:31:37.709578+00:00",
+  "generated_at": "2026-08-29T06:08:42.471855+00:00",
   "predictions": [
-    {
-      "home": "Union Santa Fe",
-      "away": "Sarmiento Junin",
-      "xg_home": 1.23,
-      "xg_away": 0.61,
-      "prob_home": 0.5008452980717065,
-      "prob_draw": 0.32606947791809093,
-      "prob_away": 0.17308522401020282,
-      "over25": 0.28036588441244875,
-      "btts": 0.33563463808246286,
-      "top_score": "1-0",
-      "top_score_prob": 0.18316142951881118,
-      "primary_pick": "Under 3.5",
-      "primary_prob": 0.8846244344176417,
-      "primary_strength": "strong",
-      "markets": [
-        {
-          "group": "Result",
-          "rows": [
-            [
-              "Home win",
-              0.5008
-            ],
-            [
-              "Draw",
-              0.3261
-            ],
-            [
-              "Away win",
-              0.1731
-            ]
-          ]
-        },
-        {
-          "group": "Double chance",
-          "rows": [
-            [
-              "Home or draw (1X)",
-              0.8269
-            ],
-            [
-              "Home or away (12)",
-              0.6739
-            ],
-            [
-              "Draw or away (X2)",
-              0.4992
-            ]
-          ]
-        },
-        {
-          "group": "Draw no bet",
-          "rows": [
-            [
-              "Union Santa Fe",
-              0.7432
-            ],
-            [
-              "Sarmiento Junin",
-              0.2568
-            ]
-          ]
-        },
-        {
-          "group": "Asian handicap",
-          "rows": [
-            [
-              "Union Santa Fe -1.5",
-              0.2346
-            ],
-            [
-              "Sarmiento Junin -1.5",
-              0.0464
-            ]
-          ]
-        },
-        {
-          "group": "Total goals",
-          "rows": [
-            [
-              "Over 0.5",
-              0.8295
-            ],
-            [
-              "Over 1.5",
-              0.5611
-            ],
-            [
-              "Over 2.5",
-              0.2804
-            ],
-            [
-              "Over 3.5",
-              0.1154
-            ]
-          ]
-        },
-        {
-          "group": "Both teams to score",
-          "rows": [
-            [
-              "Yes",
-              0.3356
-            ],
-            [
-              "No",
-              0.6644
-            ]
-          ]
-        },
-        {
-          "group": "Team goals",
-          "rows": [
-            [
-              "Union Santa Fe over 1.5",
-              0.3478
-            ],
-            [
-              "Sarmiento Junin over 1.5",
-              0.1259
-            ]
-          ]
-        },
-        {
-          "group": "Clean sheet",
-          "rows": [
-            [
-              "Union Santa Fe",
-              0.5423
-            ],
-            [
-              "Sarmiento Junin",
-              0.2926
-            ]
-          ]
-        },
-        {
-          "group": "Goals odd / even",
-          "rows": [
-            [
-              "Odd",
-              0.4638
-            ],
-            [
-              "Even",
-              0.5362
-            ]
-          ]
-        },
-        {
-          "group": "Correct score (top 3)",
-          "rows": [
-            [
-              "1-0",
-              0.1832
-            ],
-            [
-              "0-0",
-              0.1705
-            ],
-            [
-              "1-1",
-              0.1312
-            ]
-          ]
-        }
-      ],
-      "league": "Argentina Primera",
-      "league_id": 128,
-      "kickoff": "2026-08-28T22:00:00+00:00",
-      "form_home": {
-        "last5_sequence": "L D D W W",
-        "last5_record": "2W 2D 1L",
-        "last5_goals": "scored 5, conceded 2 in last 5"
-      },
-      "form_away": {
-        "last5_sequence": "D W D L L",
-        "last5_record": "1W 2D 2L",
-        "last5_goals": "scored 4, conceded 6 in last 5"
-      },
-      "h2h": {
-        "meetings": [
-          {
-            "date": "2026-02-26",
-            "home": "Sarmiento Junin",
-            "away": "Union Santa Fe",
-            "hg": 1,
-            "ag": 3
-          },
-          {
-            "date": "2024-09-29",
-            "home": "Sarmiento Junin",
-            "away": "Union Santa Fe",
-            "hg": 1,
-            "ag": 0
-          },
-          {
-            "date": "2024-03-02",
-            "home": "Sarmiento Junin",
-            "away": "Union Santa Fe",
-            "hg": 1,
-            "ag": 2
-          },
-          {
-            "date": "2023-10-08",
-            "home": "Union Santa Fe",
-            "away": "Sarmiento Junin",
-            "hg": 1,
-            "ag": 0
-          },
-          {
-            "date": "2023-05-15",
-            "home": "Union Santa Fe",
-            "away": "Sarmiento Junin",
-            "hg": 0,
-            "ag": 2
-          },
-          {
-            "date": "2022-09-08",
-            "home": "Union Santa Fe",
-            "away": "Sarmiento Junin",
-            "hg": 1,
-            "ag": 0
-          }
-        ],
-        "summary": {
-          "n": 6,
-          "home_wins": 4,
-          "draws": 0,
-          "away_wins": 2,
-          "avg_goals": 2.0
-        }
-      },
-      "xg_form_home": {
-        "for": 1.08,
-        "against": 0.9,
-        "n": 6
-      },
-      "xg_form_away": {
-        "for": 1.51,
-        "against": 1.24,
-        "n": 6
-      },
-      "analysis": "THE CALL - Under 3.5 (88%, strong). Model: Union Santa Fe 50% / draw 33% / Sarmiento Junin 17%, expected goals 1.23 to 0.61. Form Union Santa Fe 2W 2D 1L (L D D W W), Sarmiento Junin 1W 2D 2L (D W D L L). Most likely score 1-0 (~18%), most probable of many."
-    },
-    {
-      "home": "Boca Juniors",
-      "away": "Lanus",
-      "xg_home": 1.43,
-      "xg_away": 0.64,
-      "prob_home": 0.5528826005482224,
-      "prob_draw": 0.2934032758852804,
-      "prob_away": 0.15371412356649744,
-      "over25": 0.3416943385229227,
-      "btts": 0.36949585890712305,
-      "top_score": "1-0",
-      "top_score_prob": 0.16970014321122637,
-      "primary_pick": "Boca Juniors or draw (1X)",
-      "primary_prob": 0.8462858764335028,
-      "primary_strength": "strong",
-      "markets": [
-        {
-          "group": "Result",
-          "rows": [
-            [
-              "Home win",
-              0.5529
-            ],
-            [
-              "Draw",
-              0.2934
-            ],
-            [
-              "Away win",
-              0.1537
-            ]
-          ]
-        },
-        {
-          "group": "Double chance",
-          "rows": [
-            [
-              "Home or draw (1X)",
-              0.8463
-            ],
-            [
-              "Home or away (12)",
-              0.7066
-            ],
-            [
-              "Draw or away (X2)",
-              0.4471
-            ]
-          ]
-        },
-        {
-          "group": "Draw no bet",
-          "rows": [
-            [
-              "Boca Juniors",
-              0.7825
-            ],
-            [
-              "Lanus",
-              0.2175
-            ]
-          ]
-        },
-        {
-          "group": "Asian handicap",
-          "rows": [
-            [
-              "Boca Juniors -1.5",
-              0.2872
-            ],
-            [
-              "Lanus -1.5",
-              0.0422
-            ]
-          ]
-        },
-        {
-          "group": "Total goals",
-          "rows": [
-            [
-              "Over 0.5",
-              0.8621
-            ],
-            [
-              "Over 1.5",
-              0.6235
-            ],
-            [
-              "Over 2.5",
-              0.3417
-            ],
-            [
-              "Over 3.5",
-              0.1553
-            ]
-          ]
-        },
-        {
-          "group": "Both teams to score",
-          "rows": [
-            [
-              "Yes",
-              0.3695
-            ],
-            [
-              "No",
-              0.6305
-            ]
-          ]
-        },
-        {
-          "group": "Team goals",
-          "rows": [
-            [
-              "Boca Juniors over 1.5",
-              0.4193
-            ],
-            [
-              "Lanus over 1.5",
-              0.1338
-            ]
-          ]
-        },
-        {
-          "group": "Clean sheet",
-          "rows": [
-            [
-              "Boca Juniors",
-              0.5296
-            ],
-            [
-              "Lanus",
-              0.2388
-            ]
-          ]
-        },
-        {
-          "group": "Goals odd / even",
-          "rows": [
-            [
-              "Odd",
-              0.4692
-            ],
-            [
-              "Even",
-              0.5308
-            ]
-          ]
-        },
-        {
-          "group": "Correct score (top 3)",
-          "rows": [
-            [
-              "1-0",
-              0.1697
-            ],
-            [
-              "0-0",
-              0.1379
-            ],
-            [
-              "2-0",
-              0.1297
-            ]
-          ]
-        }
-      ],
-      "league": "Argentina Primera",
-      "league_id": 128,
-      "kickoff": "2026-08-29T00:30:00+00:00",
-      "form_home": {
-        "last5_sequence": "L W W W W",
-        "last5_record": "4W 0D 1L",
-        "last5_goals": "scored 7, conceded 1 in last 5"
-      },
-      "form_away": {
-        "last5_sequence": "L W D L W",
-        "last5_record": "2W 1D 2L",
-        "last5_goals": "scored 7, conceded 5 in last 5"
-      },
-      "h2h": {
-        "meetings": [
-          {
-            "date": "2026-03-05",
-            "home": "Lanus",
-            "away": "Boca Juniors",
-            "hg": 0,
-            "ag": 3
-          },
-          {
-            "date": "2025-05-11",
-            "home": "Boca Juniors",
-            "away": "Lanus",
-            "hg": 0,
-            "ag": 0
-          },
-          {
-            "date": "2024-11-03",
-            "home": "Lanus",
-            "away": "Boca Juniors",
-            "hg": 1,
-            "ag": 0
-          },
-          {
-            "date": "2024-02-19",
-            "home": "Lanus",
-            "away": "Boca Juniors",
-            "hg": 2,
-            "ag": 1
-          },
-          {
-            "date": "2023-09-23",
-            "home": "Boca Juniors",
-            "away": "Lanus",
-            "hg": 1,
-            "ag": 1
-          },
-          {
-            "date": "2023-06-10",
-            "home": "Boca Juniors",
-            "away": "Lanus",
-            "hg": 1,
-            "ag": 1
-          }
-        ],
-        "summary": {
-          "n": 6,
-          "home_wins": 1,
-          "draws": 3,
-          "away_wins": 2,
-          "avg_goals": 1.8
-        }
-      },
-      "xg_form_home": {
-        "for": 1.52,
-        "against": 1.1,
-        "n": 6
-      },
-      "xg_form_away": {
-        "for": 1.5,
-        "against": 0.85,
-        "n": 6
-      },
-      "analysis": "THE CALL - Boca Juniors or draw (1X) (85%, strong). Model: Boca Juniors 55% / draw 29% / Lanus 15%, expected goals 1.43 to 0.64. Form Boca Juniors 4W 0D 1L (L W W W W), Lanus 2W 1D 2L (L W D L W). Most likely score 1-0 (~17%), most probable of many."
-    },
-    {
-      "home": "Necaxa",
-      "away": "Cruz Azul",
-      "xg_home": 1.21,
-      "xg_away": 1.75,
-      "prob_home": 0.2576675422877756,
-      "prob_draw": 0.24828539867334193,
-      "prob_away": 0.4940470590388826,
-      "over25": 0.5677043452603907,
-      "btts": 0.5862636147508148,
-      "top_score": "1-1",
-      "top_score_prob": 0.11623984660526003,
-      "primary_pick": "Over 1.5",
-      "primary_prob": 0.8012460822261877,
-      "primary_strength": "strong",
-      "markets": [
-        {
-          "group": "Result",
-          "rows": [
-            [
-              "Home win",
-              0.2577
-            ],
-            [
-              "Draw",
-              0.2483
-            ],
-            [
-              "Away win",
-              0.494
-            ]
-          ]
-        },
-        {
-          "group": "Double chance",
-          "rows": [
-            [
-              "Home or draw (1X)",
-              0.506
-            ],
-            [
-              "Home or away (12)",
-              0.7517
-            ],
-            [
-              "Draw or away (X2)",
-              0.7423
-            ]
-          ]
-        },
-        {
-          "group": "Draw no bet",
-          "rows": [
-            [
-              "Necaxa",
-              0.3428
-            ],
-            [
-              "Cruz Azul",
-              0.6572
-            ]
-          ]
-        },
-        {
-          "group": "Asian handicap",
-          "rows": [
-            [
-              "Necaxa -1.5",
-              0.1071
-            ],
-            [
-              "Cruz Azul -1.5",
-              0.2733
-            ]
-          ]
-        },
-        {
-          "group": "Total goals",
-          "rows": [
-            [
-              "Over 0.5",
-              0.9417
-            ],
-            [
-              "Over 1.5",
-              0.8012
-            ],
-            [
-              "Over 2.5",
-              0.5677
-            ],
-            [
-              "Over 3.5",
-              0.3437
-            ]
-          ]
-        },
-        {
-          "group": "Both teams to score",
-          "rows": [
-            [
-              "Yes",
-              0.5863
-            ],
-            [
-              "No",
-              0.4137
-            ]
-          ]
-        },
-        {
-          "group": "Team goals",
-          "rows": [
-            [
-              "Necaxa over 1.5",
-              0.3409
-            ],
-            [
-              "Cruz Azul over 1.5",
-              0.5221
-            ]
-          ]
-        },
-        {
-          "group": "Clean sheet",
-          "rows": [
-            [
-              "Necaxa",
-              0.1738
-            ],
-            [
-              "Cruz Azul",
-              0.2983
-            ]
-          ]
-        },
-        {
-          "group": "Goals odd / even",
-          "rows": [
-            [
-              "Odd",
-              0.4856
-            ],
-            [
-              "Even",
-              0.5144
-            ]
-          ]
-        },
-        {
-          "group": "Correct score (top 3)",
-          "rows": [
-            [
-              "1-1",
-              0.1162
-            ],
-            [
-              "1-2",
-              0.096
-            ],
-            [
-              "0-1",
-              0.0842
-            ]
-          ]
-        }
-      ],
-      "league": "Liga MX",
-      "league_id": 262,
-      "kickoff": "2026-08-29T01:00:00+00:00",
-      "form_home": {
-        "last5_sequence": "L D D L W",
-        "last5_record": "1W 2D 2L",
-        "last5_goals": "scored 5, conceded 9 in last 5"
-      },
-      "form_away": {
-        "last5_sequence": "W D W D W",
-        "last5_record": "3W 2D 0L",
-        "last5_goals": "scored 7, conceded 4 in last 5"
-      },
-      "h2h": {
-        "meetings": [
-          {
-            "date": "2026-04-27",
-            "home": "Cruz Azul",
-            "away": "Necaxa",
-            "hg": 4,
-            "ag": 1
-          },
-          {
-            "date": "2025-10-22",
-            "home": "Necaxa",
-            "away": "Cruz Azul",
-            "hg": 1,
-            "ag": 1
-          },
-          {
-            "date": "2025-01-29",
-            "home": "Necaxa",
-            "away": "Cruz Azul",
-            "hg": 1,
-            "ag": 3
-          },
-          {
-            "date": "2024-10-05",
-            "home": "Cruz Azul",
-            "away": "Necaxa",
-            "hg": 3,
-            "ag": 0
-          },
-          {
-            "date": "2024-03-16",
-            "home": "Cruz Azul",
-            "away": "Necaxa",
-            "hg": 1,
-            "ag": 2
-          },
-          {
-            "date": "2023-10-05",
-            "home": "Necaxa",
-            "away": "Cruz Azul",
-            "hg": 1,
-            "ag": 3
-          }
-        ],
-        "summary": {
-          "n": 6,
-          "home_wins": 1,
-          "draws": 1,
-          "away_wins": 4,
-          "avg_goals": 3.5
-        }
-      },
-      "xg_form_home": {
-        "for": 1.84,
-        "against": 1.05,
-        "n": 5
-      },
-      "xg_form_away": {
-        "for": 1.91,
-        "against": 1.42,
-        "n": 5
-      },
-      "analysis": "THE CALL - Over 1.5 (80%, strong). Model: Necaxa 26% / draw 25% / Cruz Azul 49%, expected goals 1.21 to 1.75. Form Necaxa 1W 2D 2L (L D D L W), Cruz Azul 3W 2D 0L (W D W D W). Most likely score 1-1 (~12%), most probable of many."
-    },
-    {
-      "home": "Club Tijuana",
-      "away": "U.N.A.M. - Pumas",
-      "xg_home": 1.56,
-      "xg_away": 1.3,
-      "prob_home": 0.4271313031740172,
-      "prob_draw": 0.2611796365761948,
-      "prob_away": 0.31168906024978804,
-      "over25": 0.5448312564403317,
-      "btts": 0.5816436947721111,
-      "top_score": "1-1",
-      "top_score_prob": 0.12302878165288063,
-      "primary_pick": "Over 1.5",
-      "primary_prob": 0.7859029103923114,
-      "primary_strength": "strong",
-      "markets": [
-        {
-          "group": "Result",
-          "rows": [
-            [
-              "Home win",
-              0.4271
-            ],
-            [
-              "Draw",
-              0.2612
-            ],
-            [
-              "Away win",
-              0.3117
-            ]
-          ]
-        },
-        {
-          "group": "Double chance",
-          "rows": [
-            [
-              "Home or draw (1X)",
-              0.6883
-            ],
-            [
-              "Home or away (12)",
-              0.7388
-            ],
-            [
-              "Draw or away (X2)",
-              0.5729
-            ]
-          ]
-        },
-        {
-          "group": "Draw no bet",
-          "rows": [
-            [
-              "Club Tijuana",
-              0.5781
-            ],
-            [
-              "U.N.A.M. - Pumas",
-              0.4219
-            ]
-          ]
-        },
-        {
-          "group": "Asian handicap",
-          "rows": [
-            [
-              "Club Tijuana -1.5",
-              0.2179
-            ],
-            [
-              "U.N.A.M. - Pumas -1.5",
-              0.1382
-            ]
-          ]
-        },
-        {
-          "group": "Total goals",
-          "rows": [
-            [
-              "Over 0.5",
-              0.9359
-            ],
-            [
-              "Over 1.5",
-              0.7859
-            ],
-            [
-              "Over 2.5",
-              0.5448
-            ],
-            [
-              "Over 3.5",
-              0.3215
-            ]
-          ]
-        },
-        {
-          "group": "Both teams to score",
-          "rows": [
-            [
-              "Yes",
-              0.5816
-            ],
-            [
-              "No",
-              0.4184
-            ]
-          ]
-        },
-        {
-          "group": "Team goals",
-          "rows": [
-            [
-              "Club Tijuana over 1.5",
-              0.4617
-            ],
-            [
-              "U.N.A.M. - Pumas over 1.5",
-              0.3737
-            ]
-          ]
-        },
-        {
-          "group": "Clean sheet",
-          "rows": [
-            [
-              "Club Tijuana",
-              0.2721
-            ],
-            [
-              "U.N.A.M. - Pumas",
-              0.2103
-            ]
-          ]
-        },
-        {
-          "group": "Goals odd / even",
-          "rows": [
-            [
-              "Odd",
-              0.4846
-            ],
-            [
-              "Even",
-              0.5154
-            ]
-          ]
-        },
-        {
-          "group": "Correct score (top 3)",
-          "rows": [
-            [
-              "1-1",
-              0.123
-            ],
-            [
-              "2-1",
-              0.0905
-            ],
-            [
-              "1-0",
-              0.0824
-            ]
-          ]
-        }
-      ],
-      "league": "Liga MX",
-      "league_id": 262,
-      "kickoff": "2026-08-29T03:10:00+00:00",
-      "form_home": {
-        "last5_sequence": "D W D W W",
-        "last5_record": "3W 2D 0L",
-        "last5_goals": "scored 7, conceded 3 in last 5"
-      },
-      "form_away": {
-        "last5_sequence": "L D W L D",
-        "last5_record": "1W 2D 2L",
-        "last5_goals": "scored 5, conceded 6 in last 5"
-      },
-      "h2h": {
-        "meetings": [
-          {
-            "date": "2026-02-28",
-            "home": "Club Tijuana",
-            "away": "U.N.A.M. - Pumas",
-            "hg": 1,
-            "ag": 1
-          },
-          {
-            "date": "2025-11-02",
-            "home": "U.N.A.M. - Pumas",
-            "away": "Club Tijuana",
-            "hg": 4,
-            "ag": 1
-          },
-          {
-            "date": "2025-02-26",
-            "home": "Club Tijuana",
-            "away": "U.N.A.M. - Pumas",
-            "hg": 4,
-            "ag": 2
-          },
-          {
-            "date": "2024-09-22",
-            "home": "U.N.A.M. - Pumas",
-            "away": "Club Tijuana",
-            "hg": 1,
-            "ag": 0
-          },
-          {
-            "date": "2024-03-10",
-            "home": "U.N.A.M. - Pumas",
-            "away": "Club Tijuana",
-            "hg": 3,
-            "ag": 3
-          },
-          {
-            "date": "2023-07-01",
-            "home": "Club Tijuana",
-            "away": "U.N.A.M. - Pumas",
-            "hg": 2,
-            "ag": 3
-          }
-        ],
-        "summary": {
-          "n": 6,
-          "home_wins": 1,
-          "draws": 2,
-          "away_wins": 3,
-          "avg_goals": 4.2
-        }
-      },
-      "xg_form_home": {
-        "for": 1.78,
-        "against": 0.78,
-        "n": 3
-      },
-      "xg_form_away": {
-        "for": 1.09,
-        "against": 0.96,
-        "n": 5
-      },
-      "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Club Tijuana 43% / draw 26% / U.N.A.M. - Pumas 31%, expected goals 1.56 to 1.3. Form Club Tijuana 3W 2D 0L (D W D W W), U.N.A.M. - Pumas 1W 2D 2L (L D W L D). Most likely score 1-1 (~12%), most probable of many."
-    },
     {
       "home": "Liverpool",
       "away": "Nottingham Forest",
@@ -8876,15 +7896,15 @@
       "away": "Velez Sarsfield",
       "xg_home": 1.06,
       "xg_away": 0.75,
-      "prob_home": 0.410200915755237,
-      "prob_draw": 0.3474602107462316,
-      "prob_away": 0.2423388734985314,
-      "over25": 0.27302332965788145,
-      "btts": 0.3586485925695215,
+      "prob_home": 0.4101422494152193,
+      "prob_draw": 0.34749868593019506,
+      "prob_away": 0.2423590646545855,
+      "over25": 0.2729546747413005,
+      "btts": 0.358598630233321,
       "top_score": "0-0",
-      "top_score_prob": 0.17597017831819978,
+      "top_score_prob": 0.17601453181777063,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.889096702045322,
+      "primary_prob": 0.8891382032747577,
       "primary_strength": "strong",
       "markets": [
         {
@@ -8892,7 +7912,7 @@
           "rows": [
             [
               "Home win",
-              0.4102
+              0.4101
             ],
             [
               "Draw",
@@ -8900,7 +7920,7 @@
             ],
             [
               "Away win",
-              0.2423
+              0.2424
             ]
           ]
         },
@@ -8909,7 +7929,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7577
+              0.7576
             ],
             [
               "Home or away (12)",
@@ -8917,7 +7937,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.5898
+              0.5899
             ]
           ]
         },
@@ -8939,7 +7959,7 @@
           "rows": [
             [
               "Deportivo Riestra -1.5",
-              0.1711
+              0.171
             ],
             [
               "Velez Sarsfield -1.5",
@@ -8956,7 +7976,7 @@
             ],
             [
               "Over 1.5",
-              0.5541
+              0.554
             ],
             [
               "Over 2.5",
@@ -8986,7 +8006,7 @@
           "rows": [
             [
               "Deportivo Riestra over 1.5",
-              0.2869
+              0.2868
             ],
             [
               "Velez Sarsfield over 1.5",
@@ -9003,7 +8023,7 @@
             ],
             [
               "Velez Sarsfield",
-              0.3459
+              0.346
             ]
           ]
         },
@@ -11809,15 +10829,15 @@
       "away": "Gimnasia L.P.",
       "xg_home": 1.2,
       "xg_away": 0.5,
-      "prob_home": 0.5246619101986306,
-      "prob_draw": 0.3315602723674872,
-      "prob_away": 0.14377781743388215,
-      "over25": 0.24308991009654246,
-      "btts": 0.2862618220738629,
+      "prob_home": 0.5247515648009036,
+      "prob_draw": 0.3315431564015053,
+      "prob_away": 0.14370527879759126,
+      "over25": 0.24306807602959804,
+      "btts": 0.286193562505803,
       "top_score": "1-0",
-      "top_score_prob": 0.20812992042149803,
+      "top_score_prob": 0.20816794173345438,
       "primary_pick": "Rosario Central or draw (1X)",
-      "primary_prob": 0.8562221825661178,
+      "primary_prob": 0.8562947212024088,
       "primary_strength": "strong",
       "markets": [
         {
@@ -11825,15 +10845,15 @@
           "rows": [
             [
               "Home win",
-              0.5247
+              0.5248
             ],
             [
               "Draw",
-              0.3316
+              0.3315
             ],
             [
               "Away win",
-              0.1438
+              0.1437
             ]
           ]
         },
@@ -11842,15 +10862,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.8562
+              0.8563
             ],
             [
               "Home or away (12)",
-              0.6684
+              0.6685
             ],
             [
               "Draw or away (X2)",
-              0.4753
+              0.4752
             ]
           ]
         },
@@ -11859,11 +10879,11 @@
           "rows": [
             [
               "Rosario Central",
-              0.7849
+              0.785
             ],
             [
               "Gimnasia L.P.",
-              0.2151
+              0.215
             ]
           ]
         },
@@ -11876,7 +10896,7 @@
             ],
             [
               "Gimnasia L.P. -1.5",
-              0.0329
+              0.0328
             ]
           ]
         },
@@ -11885,7 +10905,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.8067
+              0.8066
             ],
             [
               "Over 1.5",
@@ -11906,11 +10926,11 @@
           "rows": [
             [
               "Yes",
-              0.2863
+              0.2862
             ],
             [
               "No",
-              0.7137
+              0.7138
             ]
           ]
         },
@@ -11923,7 +10943,7 @@
             ],
             [
               "Gimnasia L.P. over 1.5",
-              0.0905
+              0.0904
             ]
           ]
         },
@@ -11932,7 +10952,7 @@
           "rows": [
             [
               "Rosario Central",
-              0.606
+              0.6061
             ],
             [
               "Gimnasia L.P.",
@@ -11958,15 +10978,15 @@
           "rows": [
             [
               "1-0",
-              0.2081
+              0.2082
             ],
             [
               "0-0",
-              0.1933
+              0.1934
             ],
             [
               "2-0",
-              0.1314
+              0.1315
             ]
           ]
         }
@@ -12054,15 +11074,15 @@
       "away": "Chicago Fire",
       "xg_home": 2.17,
       "xg_away": 1.31,
-      "prob_home": 0.5645881561556471,
-      "prob_draw": 0.2143378837497889,
-      "prob_away": 0.2210739600945639,
-      "over25": 0.6759475649410671,
-      "btts": 0.6525020548603204,
+      "prob_home": 0.5646430418125072,
+      "prob_draw": 0.21433980969754252,
+      "prob_away": 0.2210171484899503,
+      "over25": 0.6759644323315914,
+      "btts": 0.6525018856132409,
       "top_score": "2-1",
-      "top_score_prob": 0.0949610173889223,
+      "top_score_prob": 0.09496196513017711,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8673256830895355,
+      "primary_prob": 0.8673442036850175,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12078,7 +11098,7 @@
             ],
             [
               "Away win",
-              0.2211
+              0.221
             ]
           ]
         },
@@ -12087,7 +11107,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7789
+              0.779
             ],
             [
               "Home or away (12)",
@@ -12104,11 +11124,11 @@
           "rows": [
             [
               "Seattle Sounders",
-              0.7186
+              0.7187
             ],
             [
               "Chicago Fire",
-              0.2814
+              0.2813
             ]
           ]
         },
@@ -12117,7 +11137,7 @@
           "rows": [
             [
               "Seattle Sounders -1.5",
-              0.3505
+              0.3506
             ],
             [
               "Chicago Fire -1.5",
@@ -12138,11 +11158,11 @@
             ],
             [
               "Over 2.5",
-              0.6759
+              0.676
             ],
             [
               "Over 3.5",
-              0.4596
+              0.4597
             ]
           ]
         },
@@ -12168,7 +11188,7 @@
             ],
             [
               "Chicago Fire over 1.5",
-              0.3777
+              0.3776
             ]
           ]
         },
@@ -12181,7 +11201,7 @@
             ],
             [
               "Chicago Fire",
-              0.1142
+              0.1141
             ]
           ]
         },
@@ -12299,15 +11319,15 @@
       "away": "Vitoria",
       "xg_home": 1.47,
       "xg_away": 0.82,
-      "prob_home": 0.5270597632150409,
-      "prob_draw": 0.2610866245672832,
-      "prob_away": 0.2118536122176758,
-      "over25": 0.40317620120198755,
-      "btts": 0.43059839204567213,
+      "prob_home": 0.5272538271912584,
+      "prob_draw": 0.26101416710716374,
+      "prob_away": 0.21173200570157774,
+      "over25": 0.4032709544853868,
+      "btts": 0.4306018162795888,
       "top_score": "1-0",
-      "top_score_prob": 0.15012228545048042,
+      "top_score_prob": 0.15012786375323067,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7999486363866999,
+      "primary_prob": 0.7998760805671279,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12315,15 +11335,15 @@
           "rows": [
             [
               "Home win",
-              0.5271
+              0.5273
             ],
             [
               "Draw",
-              0.2611
+              0.261
             ],
             [
               "Away win",
-              0.2119
+              0.2117
             ]
           ]
         },
@@ -12332,15 +11352,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7881
+              0.7883
             ],
             [
               "Home or away (12)",
-              0.7389
+              0.739
             ],
             [
               "Draw or away (X2)",
-              0.4729
+              0.4727
             ]
           ]
         },
@@ -12349,11 +11369,11 @@
           "rows": [
             [
               "Atletico-MG",
-              0.7133
+              0.7135
             ],
             [
               "Vitoria",
-              0.2867
+              0.2865
             ]
           ]
         },
@@ -12362,7 +11382,7 @@
           "rows": [
             [
               "Atletico-MG -1.5",
-              0.2669
+              0.2671
             ],
             [
               "Vitoria -1.5",
@@ -12379,11 +11399,11 @@
             ],
             [
               "Over 1.5",
-              0.6665
+              0.6666
             ],
             [
               "Over 2.5",
-              0.4032
+              0.4033
             ],
             [
               "Over 3.5",
@@ -12409,11 +11429,11 @@
           "rows": [
             [
               "Atletico-MG over 1.5",
-              0.4333
+              0.4335
             ],
             [
               "Vitoria over 1.5",
-              0.1997
+              0.1996
             ]
           ]
         },
@@ -12422,11 +11442,11 @@
           "rows": [
             [
               "Atletico-MG",
-              0.4389
+              0.439
             ],
             [
               "Vitoria",
-              0.2291
+              0.229
             ]
           ]
         },
@@ -12452,7 +11472,7 @@
             ],
             [
               "1-1",
-              0.1201
+              0.12
             ],
             [
               "2-0",
@@ -12544,15 +11564,15 @@
       "away": "RB Bragantino",
       "xg_home": 1.68,
       "xg_away": 0.93,
-      "prob_home": 0.5506497981375904,
-      "prob_draw": 0.238545665536346,
-      "prob_away": 0.21080453632606344,
-      "over25": 0.4842312911093322,
-      "btts": 0.49154818555414453,
+      "prob_home": 0.5506923656010178,
+      "prob_draw": 0.23852334637419456,
+      "prob_away": 0.21078428802478755,
+      "over25": 0.4842566566293558,
+      "btts": 0.4915495617154276,
       "top_score": "1-0",
-      "top_score_prob": 0.12509176889334445,
+      "top_score_prob": 0.12509313581306428,
       "primary_pick": "Sao Paulo or draw (1X)",
-      "primary_prob": 0.7891954636739364,
+      "primary_prob": 0.7892157119752123,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12560,7 +11580,7 @@
           "rows": [
             [
               "Home win",
-              0.5506
+              0.5507
             ],
             [
               "Draw",
@@ -12585,7 +11605,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4494
+              0.4493
             ]
           ]
         },
@@ -12607,7 +11627,7 @@
           "rows": [
             [
               "Sao Paulo -1.5",
-              0.3003
+              0.3004
             ],
             [
               "RB Bragantino -1.5",
@@ -12620,7 +11640,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9283
+              0.9284
             ],
             [
               "Over 1.5",
@@ -12628,7 +11648,7 @@
             ],
             [
               "Over 2.5",
-              0.4842
+              0.4843
             ],
             [
               "Over 3.5",
@@ -12654,7 +11674,7 @@
           "rows": [
             [
               "Sao Paulo over 1.5",
-              0.4996
+              0.4997
             ],
             [
               "RB Bragantino over 1.5",
@@ -12789,15 +11809,15 @@
       "away": "Club Queretaro",
       "xg_home": 1.41,
       "xg_away": 0.89,
-      "prob_home": 0.4823746021400843,
-      "prob_draw": 0.2863890372658368,
-      "prob_away": 0.23123636059407876,
-      "over25": 0.40505181908805427,
-      "btts": 0.454277671112793,
+      "prob_home": 0.4823588052266977,
+      "prob_draw": 0.2864006615362027,
+      "prob_away": 0.2312405332370996,
+      "over25": 0.405032638169271,
+      "btts": 0.4542675613677974,
       "top_score": "1-1",
-      "top_score_prob": 0.1333666012973797,
+      "top_score_prob": 0.1333709168768301,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7985102465856919,
+      "primary_prob": 0.7985249779891855,
       "primary_strength": "strong",
       "markets": [
         {
@@ -12869,11 +11889,11 @@
             ],
             [
               "Over 1.5",
-              0.6776
+              0.6775
             ],
             [
               "Over 2.5",
-              0.4051
+              0.405
             ],
             [
               "Over 3.5",
@@ -13034,15 +12054,15 @@
       "away": "Guadalajara Chivas",
       "xg_home": 1.32,
       "xg_away": 1.12,
-      "prob_home": 0.40582996636357305,
-      "prob_draw": 0.2875369178584129,
-      "prob_away": 0.30663311577801416,
-      "over25": 0.4401891565676086,
-      "btts": 0.5007789270780124,
+      "prob_home": 0.4058346018409491,
+      "prob_draw": 0.28753829160812994,
+      "prob_away": 0.30662710655092085,
+      "over25": 0.4401990329517527,
+      "btts": 0.5007883256950896,
       "top_score": "1-1",
-      "top_score_prob": 0.13648691772329133,
+      "top_score_prob": 0.13648799086961602,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.770742018929969,
+      "primary_prob": 0.7707339926456948,
       "primary_strength": "strong",
       "markets": [
         {
@@ -13278,16 +12298,16 @@
       "home": "Toronto FC",
       "away": "New York City FC",
       "xg_home": 1.07,
-      "xg_away": 1.26,
-      "prob_home": 0.3074705633290211,
-      "prob_draw": 0.29535761195931276,
-      "prob_away": 0.397171824711666,
-      "over25": 0.4111815078728786,
-      "btts": 0.47783006748626355,
+      "xg_away": 1.25,
+      "prob_home": 0.3074756316067417,
+      "prob_draw": 0.2954080383356255,
+      "prob_away": 0.3971163300576328,
+      "over25": 0.41110794761575015,
+      "btts": 0.47778792658620345,
       "top_score": "1-1",
-      "top_score_prob": 0.1388626651610327,
+      "top_score_prob": 0.13888301599729155,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7937786964604607,
+      "primary_prob": 0.7938357580350901,
       "primary_strength": "strong",
       "markets": [
         {
@@ -13303,7 +12323,7 @@
             ],
             [
               "Away win",
-              0.3972
+              0.3971
             ]
           ]
         },
@@ -13312,7 +12332,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6028
+              0.6029
             ],
             [
               "Home or away (12)",
@@ -13329,11 +12349,11 @@
           "rows": [
             [
               "Toronto FC",
-              0.4363
+              0.4364
             ],
             [
               "New York City FC",
-              0.5637
+              0.5636
             ]
           ]
         },
@@ -13355,15 +12375,15 @@
           "rows": [
             [
               "Over 0.5",
-              0.8949
+              0.8948
             ],
             [
               "Over 1.5",
-              0.683
+              0.6829
             ],
             [
               "Over 2.5",
-              0.4112
+              0.4111
             ],
             [
               "Over 3.5",
@@ -13393,7 +12413,7 @@
             ],
             [
               "New York City FC over 1.5",
-              0.3572
+              0.3571
             ]
           ]
         },
@@ -13406,7 +12426,7 @@
             ],
             [
               "New York City FC",
-              0.3422
+              0.3423
             ]
           ]
         },
@@ -13436,7 +12456,7 @@
             ],
             [
               "0-0",
-              0.1051
+              0.1052
             ]
           ]
         }
@@ -13517,22 +12537,22 @@
         "against": 1.68,
         "n": 6
       },
-      "analysis": "THE CALL - Under 3.5 (79%, strong). Model: Toronto FC 31% / draw 30% / New York City FC 40%, expected goals 1.07 to 1.26. Form Toronto FC 1W 3D 1L (W L D D D), New York City FC 3W 1D 1L (L W W D W). Most likely score 1-1 (~14%), most probable of many."
+      "analysis": "THE CALL - Under 3.5 (79%, strong). Model: Toronto FC 31% / draw 30% / New York City FC 40%, expected goals 1.07 to 1.25. Form Toronto FC 1W 3D 1L (W L D D D), New York City FC 3W 1D 1L (L W W D W). Most likely score 1-1 (~14%), most probable of many."
     },
     {
       "home": "New York Red Bulls",
       "away": "Philadelphia Union",
       "xg_home": 1.29,
       "xg_away": 1.38,
-      "prob_home": 0.3422413761593502,
-      "prob_draw": 0.27328326088903027,
-      "prob_away": 0.38447536295161966,
-      "over25": 0.5009958615418623,
-      "btts": 0.551055772535865,
+      "prob_home": 0.34223445520623647,
+      "prob_draw": 0.2733069084843932,
+      "prob_away": 0.3844586363093703,
+      "over25": 0.5010061349680569,
+      "btts": 0.5510770189637305,
       "top_score": "1-1",
-      "top_score_prob": 0.13012586863703485,
+      "top_score_prob": 0.13013756143176905,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7544363155248989,
+      "primary_prob": 0.7544569105044008,
       "primary_strength": "strong",
       "markets": [
         {
@@ -13604,7 +12624,7 @@
             ],
             [
               "Over 1.5",
-              0.7544
+              0.7545
             ],
             [
               "Over 2.5",
@@ -13769,15 +12789,15 @@
       "away": "Charlotte",
       "xg_home": 1.1,
       "xg_away": 1.37,
-      "prob_home": 0.2949299017658398,
-      "prob_draw": 0.28360115876049935,
-      "prob_away": 0.42146893947366104,
-      "over25": 0.44905191739387307,
-      "btts": 0.5056274037872527,
+      "prob_home": 0.29493095035689343,
+      "prob_draw": 0.2836441029225757,
+      "prob_away": 0.42142494672053094,
+      "over25": 0.4489988002251643,
+      "btts": 0.5056022679869812,
       "top_score": "1-1",
-      "top_score_prob": 0.13482780621858215,
+      "top_score_prob": 0.13484754840162072,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7634890013384281,
+      "primary_prob": 0.7635327726114707,
       "primary_strength": "strong",
       "markets": [
         {
@@ -13793,7 +12813,7 @@
             ],
             [
               "Away win",
-              0.4215
+              0.4214
             ]
           ]
         },
@@ -13802,7 +12822,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.5785
+              0.5786
             ],
             [
               "Home or away (12)",
@@ -13845,7 +12865,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9083
+              0.9082
             ],
             [
               "Over 1.5",
@@ -13853,7 +12873,7 @@
             ],
             [
               "Over 2.5",
-              0.4491
+              0.449
             ],
             [
               "Over 3.5",
@@ -13883,7 +12903,7 @@
             ],
             [
               "Charlotte over 1.5",
-              0.3973
+              0.3972
             ]
           ]
         },
@@ -13922,11 +12942,11 @@
             ],
             [
               "0-1",
-              0.1082
+              0.1081
             ],
             [
               "0-0",
-              0.0917
+              0.0918
             ]
           ]
         }
@@ -14014,15 +13034,15 @@
       "away": "Los Angeles FC",
       "xg_home": 0.98,
       "xg_away": 2.22,
-      "prob_home": 0.1487264945404277,
-      "prob_draw": 0.20091946728618165,
-      "prob_away": 0.6503540381733908,
-      "over25": 0.6210032481289249,
-      "btts": 0.5622926918065552,
+      "prob_home": 0.14868771990129678,
+      "prob_draw": 0.2009103585773221,
+      "prob_away": 0.650401921521381,
+      "over25": 0.6210644204070844,
+      "btts": 0.5623207857509203,
       "top_score": "0-2",
-      "top_score_prob": 0.10038732310584028,
+      "top_score_prob": 0.10038444023995445,
       "primary_pick": "Los Angeles FC or draw (X2)",
-      "primary_prob": 0.8512735054595724,
+      "primary_prob": 0.8513122800987031,
       "primary_strength": "strong",
       "markets": [
         {
@@ -14098,11 +13118,11 @@
             ],
             [
               "Over 2.5",
-              0.621
+              0.6211
             ],
             [
               "Over 3.5",
-              0.3984
+              0.3985
             ]
           ]
         },
@@ -14128,7 +13148,7 @@
             ],
             [
               "Los Angeles FC over 1.5",
-              0.6513
+              0.6514
             ]
           ]
         },
@@ -14137,7 +13157,7 @@
           "rows": [
             [
               "DC United",
-              0.1082
+              0.1081
             ],
             [
               "Los Angeles FC",
@@ -14150,11 +13170,11 @@
           "rows": [
             [
               "Odd",
-              0.489
+              0.4889
             ],
             [
               "Even",
-              0.511
+              0.5111
             ]
           ]
         },
@@ -14245,15 +13265,15 @@
       "away": "CF Montreal",
       "xg_home": 3.27,
       "xg_away": 1.09,
-      "prob_home": 0.788480712601856,
-      "prob_draw": 0.12487532345619605,
-      "prob_away": 0.08664396394194782,
-      "over25": 0.8099265040297403,
-      "btts": 0.6421875220878366,
+      "prob_home": 0.788461580142756,
+      "prob_draw": 0.12489042644318286,
+      "prob_away": 0.08664799341406108,
+      "over25": 0.8099292996360998,
+      "btts": 0.642210026882998,
       "top_score": "3-1",
-      "top_score_prob": 0.08121774222235097,
+      "top_score_prob": 0.08121756817443489,
       "primary_pick": "Inter Miami over 1.5 goals",
-      "primary_prob": 0.8371785197034525,
+      "primary_prob": 0.837174227595024,
       "primary_strength": "strong",
       "markets": [
         {
@@ -14312,7 +13332,7 @@
             ],
             [
               "CF Montreal -1.5",
-              0.0301
+              0.0302
             ]
           ]
         },
@@ -14490,15 +13510,15 @@
       "away": "Cruzeiro",
       "xg_home": 1.19,
       "xg_away": 1.31,
-      "prob_home": 0.33955257918350457,
-      "prob_draw": 0.26504691458191526,
-      "prob_away": 0.39540050623458023,
-      "over25": 0.45762289220619956,
-      "btts": 0.5071966556489805,
+      "prob_home": 0.33954194403304094,
+      "prob_draw": 0.2649874731362144,
+      "prob_away": 0.39547058283074465,
+      "over25": 0.4578199655765229,
+      "btts": 0.5073462523853729,
       "top_score": "1-1",
-      "top_score_prob": 0.12579367845988254,
+      "top_score_prob": 0.1257684841303016,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.75637818271529,
+      "primary_prob": 0.7562135618651447,
       "primary_strength": "strong",
       "markets": [
         {
@@ -14506,7 +13526,7 @@
           "rows": [
             [
               "Home win",
-              0.3396
+              0.3395
             ],
             [
               "Draw",
@@ -14514,7 +13534,7 @@
             ],
             [
               "Away win",
-              0.3954
+              0.3955
             ]
           ]
         },
@@ -14523,7 +13543,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6046
+              0.6045
             ],
             [
               "Home or away (12)",
@@ -14531,7 +13551,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.6604
+              0.6605
             ]
           ]
         },
@@ -14557,7 +13577,7 @@
             ],
             [
               "Cruzeiro -1.5",
-              0.1775
+              0.1776
             ]
           ]
         },
@@ -14566,19 +13586,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.9204
+              0.9205
             ],
             [
               "Over 1.5",
-              0.7118
+              0.712
             ],
             [
               "Over 2.5",
-              0.4576
+              0.4578
             ],
             [
               "Over 3.5",
-              0.2436
+              0.2438
             ]
           ]
         },
@@ -14587,11 +13607,11 @@
           "rows": [
             [
               "Yes",
-              0.5072
+              0.5073
             ],
             [
               "No",
-              0.4928
+              0.4927
             ]
           ]
         },
@@ -14600,11 +13620,11 @@
           "rows": [
             [
               "Vasco DA Gama over 1.5",
-              0.3352
+              0.3354
             ],
             [
               "Cruzeiro over 1.5",
-              0.3772
+              0.3774
             ]
           ]
         },
@@ -14613,11 +13633,11 @@
           "rows": [
             [
               "Vasco DA Gama",
-              0.2694
+              0.2693
             ],
             [
               "Cruzeiro",
-              0.303
+              0.3029
             ]
           ]
         },
@@ -14626,11 +13646,11 @@
           "rows": [
             [
               "Odd",
-              0.5007
+              0.5008
             ],
             [
               "Even",
-              0.4993
+              0.4992
             ]
           ]
         },
@@ -14728,22 +13748,22 @@
         "against": 1.12,
         "n": 6
       },
-      "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Vasco DA Gama 34% / draw 27% / Cruzeiro 40%, expected goals 1.19 to 1.31. Form Vasco DA Gama 1W 0D 4L (L L W L L), Cruzeiro 1W 3D 1L (L D D W D). Most likely score 1-1 (~13%), most probable of many."
+      "analysis": "THE CALL - Under 3.5 (76%, strong). Model: Vasco DA Gama 34% / draw 26% / Cruzeiro 40%, expected goals 1.19 to 1.31. Form Vasco DA Gama 1W 0D 4L (L L W L L), Cruzeiro 1W 3D 1L (L D D W D). Most likely score 1-1 (~13%), most probable of many."
     },
     {
       "home": "Atletico Tucuman",
       "away": "Belgrano Cordoba",
       "xg_home": 1.29,
       "xg_away": 1.06,
-      "prob_home": 0.40621954966997553,
-      "prob_draw": 0.3034647767610928,
-      "prob_away": 0.2903156735689315,
-      "over25": 0.41703652748577524,
-      "btts": 0.486182327147365,
+      "prob_home": 0.40614206902587857,
+      "prob_draw": 0.30352004770598506,
+      "prob_away": 0.29033788326813637,
+      "over25": 0.41687575551424116,
+      "btts": 0.48606318360539447,
       "top_score": "1-1",
-      "top_score_prob": 0.14325481778056393,
+      "top_score_prob": 0.14327257388005563,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7892149732091884,
+      "primary_prob": 0.7893408665439258,
       "primary_strength": "strong",
       "markets": [
         {
@@ -14751,7 +13771,7 @@
           "rows": [
             [
               "Home win",
-              0.4062
+              0.4061
             ],
             [
               "Draw",
@@ -14776,7 +13796,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.5938
+              0.5939
             ]
           ]
         },
@@ -14785,11 +13805,11 @@
           "rows": [
             [
               "Atletico Tucuman",
-              0.5832
+              0.5831
             ],
             [
               "Belgrano Cordoba",
-              0.4168
+              0.4169
             ]
           ]
         },
@@ -14798,7 +13818,7 @@
           "rows": [
             [
               "Atletico Tucuman -1.5",
-              0.1899
+              0.1898
             ],
             [
               "Belgrano Cordoba -1.5",
@@ -14811,19 +13831,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.8917
+              0.8916
             ],
             [
               "Over 1.5",
-              0.6933
+              0.6932
             ],
             [
               "Over 2.5",
-              0.417
+              0.4169
             ],
             [
               "Over 3.5",
-              0.2108
+              0.2107
             ]
           ]
         },
@@ -14832,11 +13852,11 @@
           "rows": [
             [
               "Yes",
-              0.4862
+              0.4861
             ],
             [
               "No",
-              0.5138
+              0.5139
             ]
           ]
         },
@@ -14845,11 +13865,11 @@
           "rows": [
             [
               "Atletico Tucuman over 1.5",
-              0.3708
+              0.3707
             ],
             [
               "Belgrano Cordoba over 1.5",
-              0.2849
+              0.2848
             ]
           ]
         },
@@ -14858,11 +13878,11 @@
           "rows": [
             [
               "Atletico Tucuman",
-              0.3478
+              0.3479
             ],
             [
               "Belgrano Cordoba",
-              0.2743
+              0.2744
             ]
           ]
         },
@@ -14892,7 +13912,7 @@
             ],
             [
               "0-0",
-              0.1083
+              0.1084
             ]
           ]
         }
@@ -14980,15 +14000,15 @@
       "away": "Central Cordoba de Santiago",
       "xg_home": 1.01,
       "xg_away": 0.88,
-      "prob_home": 0.36152772339887923,
-      "prob_draw": 0.3452613140516542,
-      "prob_away": 0.29321096254946666,
-      "over25": 0.29276362003219936,
-      "btts": 0.38472040666299084,
+      "prob_home": 0.3616508172896723,
+      "prob_draw": 0.34524523423263453,
+      "prob_away": 0.29310394847769294,
+      "over25": 0.2928020940520353,
+      "btts": 0.38474605969994685,
       "top_score": "0-0",
-      "top_score_prob": 0.16483952313669237,
+      "top_score_prob": 0.16482034285530406,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.8769214022169513,
+      "primary_prob": 0.8768972015188828,
       "primary_strength": "strong",
       "markets": [
         {
@@ -14996,15 +14016,15 @@
           "rows": [
             [
               "Home win",
-              0.3615
+              0.3617
             ],
             [
               "Draw",
-              0.3453
+              0.3452
             ],
             [
               "Away win",
-              0.2932
+              0.2931
             ]
           ]
         },
@@ -15013,15 +14033,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7068
+              0.7069
             ],
             [
               "Home or away (12)",
-              0.6547
+              0.6548
             ],
             [
               "Draw or away (X2)",
-              0.6385
+              0.6383
             ]
           ]
         },
@@ -15030,11 +14050,11 @@
           "rows": [
             [
               "Talleres Cordoba",
-              0.5522
+              0.5523
             ],
             [
               "Central Cordoba de Santiago",
-              0.4478
+              0.4477
             ]
           ]
         },
@@ -15043,11 +14063,11 @@
           "rows": [
             [
               "Talleres Cordoba -1.5",
-              0.1438
+              0.1439
             ],
             [
               "Central Cordoba de Santiago -1.5",
-              0.1048
+              0.1047
             ]
           ]
         },
@@ -15060,7 +14080,7 @@
             ],
             [
               "Over 1.5",
-              0.5758
+              0.5759
             ],
             [
               "Over 2.5",
@@ -15090,7 +14110,7 @@
           "rows": [
             [
               "Talleres Cordoba over 1.5",
-              0.2669
+              0.267
             ],
             [
               "Central Cordoba de Santiago over 1.5",
@@ -15107,7 +14127,7 @@
             ],
             [
               "Central Cordoba de Santiago",
-              0.3652
+              0.3651
             ]
           ]
         },
@@ -15225,15 +14245,15 @@
       "away": "San Jose Earthquakes",
       "xg_home": 1.84,
       "xg_away": 1.33,
-      "prob_home": 0.49057976654632063,
-      "prob_draw": 0.23927926756065737,
-      "prob_away": 0.27014096589302194,
-      "over25": 0.6136472332578577,
-      "btts": 0.6240365641548267,
+      "prob_home": 0.4905968432093243,
+      "prob_draw": 0.23929015292546352,
+      "prob_away": 0.27011300386521203,
+      "over25": 0.6136814755933125,
+      "btts": 0.6240680931512089,
       "top_score": "1-1",
-      "top_score_prob": 0.10864720244758694,
+      "top_score_prob": 0.10865046772207794,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8306751481205146,
+      "primary_prob": 0.8307071914213925,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15309,11 +14329,11 @@
             ],
             [
               "Over 2.5",
-              0.6136
+              0.6137
             ],
             [
               "Over 3.5",
-              0.3906
+              0.3907
             ]
           ]
         },
@@ -15322,11 +14342,11 @@
           "rows": [
             [
               "Yes",
-              0.624
+              0.6241
             ],
             [
               "No",
-              0.376
+              0.3759
             ]
           ]
         },
@@ -15352,7 +14372,7 @@
             ],
             [
               "San Jose Earthquakes",
-              0.1582
+              0.1581
             ]
           ]
         },
@@ -15361,11 +14381,11 @@
           "rows": [
             [
               "Odd",
-              0.4873
+              0.4872
             ],
             [
               "Even",
-              0.5127
+              0.5128
             ]
           ]
         },
@@ -15374,7 +14394,7 @@
           "rows": [
             [
               "1-1",
-              0.1086
+              0.1087
             ],
             [
               "2-1",
@@ -15470,15 +14490,15 @@
       "away": "Vancouver Whitecaps",
       "xg_home": 1.23,
       "xg_away": 2.2,
-      "prob_home": 0.20048181509426405,
-      "prob_draw": 0.21087329529239868,
-      "prob_away": 0.5886448896133372,
-      "over25": 0.6648939144013137,
-      "btts": 0.6334971070095253,
+      "prob_home": 0.2003464756542805,
+      "prob_draw": 0.21083477313353885,
+      "prob_away": 0.5888187512121807,
+      "over25": 0.6649701027149335,
+      "btts": 0.6334925983436961,
       "top_score": "1-2",
-      "top_score_prob": 0.09647608619084742,
+      "top_score_prob": 0.09647486240701753,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8609430644122674,
+      "primary_prob": 0.8609953021715567,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15486,15 +14506,15 @@
           "rows": [
             [
               "Home win",
-              0.2005
+              0.2003
             ],
             [
               "Draw",
-              0.2109
+              0.2108
             ],
             [
               "Away win",
-              0.5886
+              0.5888
             ]
           ]
         },
@@ -15503,15 +14523,15 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.4114
+              0.4112
             ],
             [
               "Home or away (12)",
-              0.7891
+              0.7892
             ],
             [
               "Draw or away (X2)",
-              0.7995
+              0.7997
             ]
           ]
         },
@@ -15520,11 +14540,11 @@
           "rows": [
             [
               "Sporting Kansas City",
-              0.2541
+              0.2539
             ],
             [
               "Vancouver Whitecaps",
-              0.7459
+              0.7461
             ]
           ]
         },
@@ -15537,7 +14557,7 @@
             ],
             [
               "Vancouver Whitecaps -1.5",
-              0.3711
+              0.3713
             ]
           ]
         },
@@ -15550,15 +14570,15 @@
             ],
             [
               "Over 1.5",
-              0.8609
+              0.861
             ],
             [
               "Over 2.5",
-              0.6649
+              0.665
             ],
             [
               "Over 3.5",
-              0.4469
+              0.447
             ]
           ]
         },
@@ -15580,11 +14600,11 @@
           "rows": [
             [
               "Sporting Kansas City over 1.5",
-              0.3474
+              0.3473
             ],
             [
               "Vancouver Whitecaps over 1.5",
-              0.6445
+              0.6447
             ]
           ]
         },
@@ -15593,11 +14613,11 @@
           "rows": [
             [
               "Sporting Kansas City",
-              0.1112
+              0.1111
             ],
             [
               "Vancouver Whitecaps",
-              0.2929
+              0.293
             ]
           ]
         },
@@ -15715,15 +14735,15 @@
       "away": "Orlando City SC",
       "xg_home": 1.75,
       "xg_away": 1.37,
-      "prob_home": 0.4583270268647582,
-      "prob_draw": 0.24532891090227082,
-      "prob_away": 0.29634406223297094,
-      "over25": 0.60378017214355,
-      "btts": 0.6229960349382877,
+      "prob_home": 0.45835275660536806,
+      "prob_draw": 0.2453388117328997,
+      "prob_away": 0.29630843166173243,
+      "over25": 0.6038212584949137,
+      "btts": 0.6230330082603729,
       "top_score": "1-1",
-      "top_score_prob": 0.11188629262645149,
+      "top_score_prob": 0.11188860862291054,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.8245789341887946,
+      "primary_prob": 0.8246159348789357,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15731,7 +14751,7 @@
           "rows": [
             [
               "Home win",
-              0.4583
+              0.4584
             ],
             [
               "Draw",
@@ -15756,7 +14776,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.5417
+              0.5416
             ]
           ]
         },
@@ -15765,11 +14785,11 @@
           "rows": [
             [
               "Minnesota United FC",
-              0.6073
+              0.6074
             ],
             [
               "Orlando City SC",
-              0.3927
+              0.3926
             ]
           ]
         },
@@ -15825,7 +14845,7 @@
           "rows": [
             [
               "Minnesota United FC over 1.5",
-              0.5221
+              0.5222
             ],
             [
               "Orlando City SC over 1.5",
@@ -15842,7 +14862,7 @@
             ],
             [
               "Orlando City SC",
-              0.1738
+              0.1737
             ]
           ]
         },
@@ -15960,15 +14980,15 @@
       "away": "FC Cincinnati",
       "xg_home": 1.39,
       "xg_away": 1.27,
-      "prob_home": 0.39212686788422413,
-      "prob_draw": 0.2738298590061127,
-      "prob_away": 0.3340432731096634,
-      "over25": 0.49752712602029225,
-      "btts": 0.5478580752603378,
+      "prob_home": 0.39215485998300437,
+      "prob_draw": 0.2738422521607393,
+      "prob_away": 0.3340028878562563,
+      "over25": 0.49757706817502534,
+      "btts": 0.5479075417023942,
       "top_score": "1-1",
-      "top_score_prob": 0.13044874984617222,
+      "top_score_prob": 0.13045454744560678,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7518566575684531,
+      "primary_prob": 0.7519067808858667,
       "primary_strength": "strong",
       "markets": [
         {
@@ -15976,7 +14996,7 @@
           "rows": [
             [
               "Home win",
-              0.3921
+              0.3922
             ],
             [
               "Draw",
@@ -16001,7 +15021,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.6079
+              0.6078
             ]
           ]
         },
@@ -16044,7 +15064,7 @@
             ],
             [
               "Over 2.5",
-              0.4975
+              0.4976
             ],
             [
               "Over 3.5",
@@ -16070,7 +15090,7 @@
           "rows": [
             [
               "Nashville SC over 1.5",
-              0.4063
+              0.4064
             ],
             [
               "FC Cincinnati over 1.5",
@@ -16109,7 +15129,7 @@
           "rows": [
             [
               "1-1",
-              0.1304
+              0.1305
             ],
             [
               "1-0",
@@ -16205,15 +15225,15 @@
       "away": "Puebla",
       "xg_home": 2.4,
       "xg_away": 0.57,
-      "prob_home": 0.7768674294288783,
-      "prob_draw": 0.15785717462211665,
-      "prob_away": 0.06527539594900503,
-      "over25": 0.5684771193621375,
-      "btts": 0.39734119605044604,
+      "prob_home": 0.776862387102649,
+      "prob_draw": 0.15786226243649545,
+      "prob_away": 0.06527535046085554,
+      "over25": 0.5684700443997543,
+      "btts": 0.39734011637474553,
       "top_score": "2-0",
-      "top_score_prob": 0.14834569097077874,
+      "top_score_prob": 0.14834674504613285,
       "primary_pick": "Over 1.5",
-      "primary_prob": 0.7994246087931759,
+      "primary_prob": 0.7994210937554789,
       "primary_strength": "strong",
       "markets": [
         {
@@ -16450,15 +15470,15 @@
       "away": "Tigres UANL",
       "xg_home": 0.91,
       "xg_away": 1.84,
-      "prob_home": 0.1751397535004882,
-      "prob_draw": 0.23724067609423607,
-      "prob_away": 0.5876195704052758,
-      "over25": 0.5192731587328433,
-      "btts": 0.508891365709759,
+      "prob_home": 0.1751386538866332,
+      "prob_draw": 0.23724550308614248,
+      "prob_away": 0.5876158430272242,
+      "over25": 0.5192696733068118,
+      "btts": 0.5088911494012914,
       "top_score": "1-1",
-      "top_score_prob": 0.11314954225366311,
+      "top_score_prob": 0.11315193108394488,
       "primary_pick": "Tigres UANL or draw (X2)",
-      "primary_prob": 0.8248602464995118,
+      "primary_prob": 0.8248613461133667,
       "primary_strength": "strong",
       "markets": [
         {
@@ -16599,7 +15619,7 @@
           "rows": [
             [
               "1-1",
-              0.1131
+              0.1132
             ],
             [
               "0-1",
@@ -20082,15 +19102,15 @@
       "away": "Fluminense",
       "xg_home": 0.95,
       "xg_away": 0.95,
-      "prob_home": 0.34488837934037214,
-      "prob_draw": 0.31361330678022886,
-      "prob_away": 0.3414983138793989,
-      "over25": 0.29713367218522346,
-      "btts": 0.37467941176137787,
+      "prob_home": 0.34496167735192373,
+      "prob_draw": 0.31362111320729424,
+      "prob_away": 0.34141720944078224,
+      "over25": 0.29708454263798606,
+      "btts": 0.37463070931214254,
       "top_score": "0-0",
-      "top_score_prob": 0.14694298801633116,
+      "top_score_prob": 0.14696490758142405,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.874160885387615,
+      "primary_prob": 0.8741920510744836,
       "primary_strength": "strong",
       "markets": [
         {
@@ -20098,7 +19118,7 @@
           "rows": [
             [
               "Home win",
-              0.3449
+              0.345
             ],
             [
               "Draw",
@@ -20106,7 +19126,7 @@
             ],
             [
               "Away win",
-              0.3415
+              0.3414
             ]
           ]
         },
@@ -20115,7 +19135,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.6585
+              0.6586
             ],
             [
               "Home or away (12)",
@@ -20123,7 +19143,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.6551
+              0.655
             ]
           ]
         },
@@ -20132,11 +19152,11 @@
           "rows": [
             [
               "Atletico Paranaense",
-              0.5025
+              0.5026
             ],
             [
               "Fluminense",
-              0.4975
+              0.4974
             ]
           ]
         },
@@ -20145,11 +19165,11 @@
           "rows": [
             [
               "Atletico Paranaense -1.5",
-              0.1254
+              0.1255
             ],
             [
               "Fluminense -1.5",
-              0.1235
+              0.1234
             ]
           ]
         },
@@ -20158,11 +19178,11 @@
           "rows": [
             [
               "Over 0.5",
-              0.8531
+              0.853
             ],
             [
               "Over 1.5",
-              0.565
+              0.5649
             ],
             [
               "Over 2.5",
@@ -20179,11 +19199,11 @@
           "rows": [
             [
               "Yes",
-              0.3747
+              0.3746
             ],
             [
               "No",
-              0.6253
+              0.6254
             ]
           ]
         },
@@ -20196,7 +19216,7 @@
             ],
             [
               "Fluminense over 1.5",
-              0.2453
+              0.2452
             ]
           ]
         },
@@ -20231,7 +19251,7 @@
           "rows": [
             [
               "0-0",
-              0.1469
+              0.147
             ],
             [
               "1-0",
@@ -22973,15 +21993,15 @@
       "away": "River Plate",
       "xg_home": 0.87,
       "xg_away": 1.5,
-      "prob_home": 0.20697375202315055,
-      "prob_draw": 0.2854736681971541,
-      "prob_away": 0.5075525797796955,
-      "over25": 0.4239902650128699,
-      "btts": 0.46504214561945706,
+      "prob_home": 0.20697453188370485,
+      "prob_draw": 0.28546389112411746,
+      "prob_away": 0.5075615769921777,
+      "over25": 0.4240416791494248,
+      "btts": 0.4650848651048317,
       "top_score": "1-1",
-      "top_score_prob": 0.1340775063062676,
+      "top_score_prob": 0.13407618916431702,
       "primary_pick": "River Plate or draw (X2)",
-      "primary_prob": 0.7930262479768495,
+      "primary_prob": 0.7930254681162952,
       "primary_strength": "strong",
       "markets": [
         {
@@ -23070,11 +22090,11 @@
           "rows": [
             [
               "Yes",
-              0.465
+              0.4651
             ],
             [
               "No",
-              0.535
+              0.5349
             ]
           ]
         },
@@ -23087,7 +22107,7 @@
             ],
             [
               "River Plate over 1.5",
-              0.4428
+              0.4429
             ]
           ]
         },
@@ -23100,7 +22120,7 @@
             ],
             [
               "River Plate",
-              0.4173
+              0.4172
             ]
           ]
         },
@@ -24443,15 +23463,15 @@
       "away": "Botafogo",
       "xg_home": 1.71,
       "xg_away": 0.88,
-      "prob_home": 0.5713413065349403,
-      "prob_draw": 0.23484857932320213,
-      "prob_away": 0.1938101141418574,
-      "over25": 0.47838474072184045,
-      "btts": 0.47723558908427893,
+      "prob_home": 0.571382000570093,
+      "prob_draw": 0.2348362813264846,
+      "prob_away": 0.1937817181034225,
+      "over25": 0.4783568081110944,
+      "btts": 0.47718958892336216,
       "top_score": "1-0",
-      "top_score_prob": 0.13024509885274066,
+      "top_score_prob": 0.13026496718489167,
       "primary_pick": "Flamengo or draw (1X)",
-      "primary_prob": 0.8061898858581424,
+      "primary_prob": 0.8062182818965776,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24459,7 +23479,7 @@
           "rows": [
             [
               "Home win",
-              0.5713
+              0.5714
             ],
             [
               "Draw",
@@ -24484,7 +23504,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4287
+              0.4286
             ]
           ]
         },
@@ -24523,7 +23543,7 @@
             ],
             [
               "Over 1.5",
-              0.7284
+              0.7283
             ],
             [
               "Over 2.5",
@@ -24592,7 +23612,7 @@
           "rows": [
             [
               "1-0",
-              0.1302
+              0.1303
             ],
             [
               "1-1",
@@ -24688,15 +23708,15 @@
       "away": "Santos",
       "xg_home": 1.51,
       "xg_away": 0.97,
-      "prob_home": 0.5009097242625165,
-      "prob_draw": 0.2550206780417539,
-      "prob_away": 0.24406959769572978,
-      "over25": 0.45200813490693886,
-      "btts": 0.482260305776722,
+      "prob_home": 0.5009567049904057,
+      "prob_draw": 0.25500799719351763,
+      "prob_away": 0.24403529781607686,
+      "over25": 0.45198951104891366,
+      "btts": 0.482226427604958,
       "top_score": "1-0",
-      "top_score_prob": 0.12827117961557727,
+      "top_score_prob": 0.12828909882054568,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.76104727853067,
+      "primary_prob": 0.7610626972832268,
       "primary_strength": "strong",
       "markets": [
         {
@@ -24704,7 +23724,7 @@
           "rows": [
             [
               "Home win",
-              0.5009
+              0.501
             ],
             [
               "Draw",
@@ -24712,7 +23732,7 @@
             ],
             [
               "Away win",
-              0.2441
+              0.244
             ]
           ]
         },
@@ -24721,7 +23741,7 @@
           "rows": [
             [
               "Home or draw (1X)",
-              0.7559
+              0.756
             ],
             [
               "Home or away (12)",
@@ -24729,7 +23749,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.4991
+              0.499
             ]
           ]
         },
@@ -24751,7 +23771,7 @@
           "rows": [
             [
               "Corinthians -1.5",
-              0.2542
+              0.2543
             ],
             [
               "Santos -1.5",
@@ -24776,7 +23796,7 @@
             ],
             [
               "Over 3.5",
-              0.239
+              0.2389
             ]
           ]
         },
@@ -24785,11 +23805,11 @@
           "rows": [
             [
               "Yes",
-              0.4823
+              0.4822
             ],
             [
               "No",
-              0.5177
+              0.5178
             ]
           ]
         },
@@ -25416,15 +24436,15 @@
       "away": "Aldosivi",
       "xg_home": 1.79,
       "xg_away": 0.67,
-      "prob_home": 0.6316821659717813,
-      "prob_draw": 0.2435498613631731,
-      "prob_away": 0.12476797266504558,
-      "over25": 0.4470058612326549,
-      "btts": 0.41874949950074614,
+      "prob_home": 0.6317340289917146,
+      "prob_draw": 0.24349684616030115,
+      "prob_away": 0.1247691248479842,
+      "over25": 0.4472048190937547,
+      "btts": 0.4188971510385288,
       "top_score": "1-0",
-      "top_score_prob": 0.14209957989992653,
+      "top_score_prob": 0.14202612332383216,
       "primary_pick": "Argentinos JRS or draw (1X)",
-      "primary_prob": 0.8752320273349544,
+      "primary_prob": 0.8752308751520157,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25479,7 +24499,7 @@
           "rows": [
             [
               "Argentinos JRS -1.5",
-              0.3772
+              0.3773
             ],
             [
               "Aldosivi -1.5",
@@ -25496,15 +24516,15 @@
             ],
             [
               "Over 1.5",
-              0.7155
+              0.7156
             ],
             [
               "Over 2.5",
-              0.447
+              0.4472
             ],
             [
               "Over 3.5",
-              0.2348
+              0.235
             ]
           ]
         },
@@ -25513,11 +24533,11 @@
           "rows": [
             [
               "Yes",
-              0.4187
+              0.4189
             ],
             [
               "No",
-              0.5813
+              0.5811
             ]
           ]
         },
@@ -25526,11 +24546,11 @@
           "rows": [
             [
               "Argentinos JRS over 1.5",
-              0.5342
+              0.5344
             ],
             [
               "Aldosivi over 1.5",
-              0.1469
+              0.147
             ]
           ]
         },
@@ -25539,7 +24559,7 @@
           "rows": [
             [
               "Argentinos JRS",
-              0.5096
+              0.5094
             ],
             [
               "Aldosivi",
@@ -25565,7 +24585,7 @@
           "rows": [
             [
               "1-0",
-              0.1421
+              0.142
             ],
             [
               "2-0",
@@ -25661,15 +24681,15 @@
       "away": "Palmeiras",
       "xg_home": 1.42,
       "xg_away": 1.12,
-      "prob_home": 0.4410819769304049,
-      "prob_draw": 0.2599395602529303,
-      "prob_away": 0.29897846281666474,
-      "over25": 0.46615162948116506,
-      "btts": 0.508610729139912,
+      "prob_home": 0.44107508970860343,
+      "prob_draw": 0.25994847875152893,
+      "prob_away": 0.29897643153986775,
+      "over25": 0.4660741482234098,
+      "btts": 0.5085443600881513,
       "top_score": "1-1",
-      "top_score_prob": 0.12343790531402901,
+      "top_score_prob": 0.12344090254232243,
       "primary_pick": "Under 3.5",
-      "primary_prob": 0.7492075982194899,
+      "primary_prob": 0.749273169192944,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25737,19 +24757,19 @@
           "rows": [
             [
               "Over 0.5",
-              0.9231
+              0.923
             ],
             [
               "Over 1.5",
-              0.7186
+              0.7185
             ],
             [
               "Over 2.5",
-              0.4662
+              0.4661
             ],
             [
               "Over 3.5",
-              0.2508
+              0.2507
             ]
           ]
         },
@@ -25758,11 +24778,11 @@
           "rows": [
             [
               "Yes",
-              0.5086
+              0.5085
             ],
             [
               "No",
-              0.4914
+              0.4915
             ]
           ]
         },
@@ -25775,7 +24795,7 @@
             ],
             [
               "Palmeiras over 1.5",
-              0.3079
+              0.3078
             ]
           ]
         },
@@ -25906,15 +24926,15 @@
       "away": "Internacional",
       "xg_home": 1.64,
       "xg_away": 1.02,
-      "prob_home": 0.5193434878986202,
-      "prob_draw": 0.24222258857216214,
-      "prob_away": 0.2384339235292176,
-      "over25": 0.4977335049495783,
-      "btts": 0.5148743338375703,
+      "prob_home": 0.5193197423661331,
+      "prob_draw": 0.24223074553666624,
+      "prob_away": 0.23844951209720078,
+      "over25": 0.49767270439529476,
+      "btts": 0.5148282105739411,
       "top_score": "1-0",
-      "top_score_prob": 0.11604281466124712,
+      "top_score_prob": 0.116063033679814,
       "primary_pick": "Bahia or draw (1X)",
-      "primary_prob": 0.7615660764707823,
+      "primary_prob": 0.7615504879027993,
       "primary_strength": "strong",
       "markets": [
         {
@@ -25956,11 +24976,11 @@
           "rows": [
             [
               "Bahia",
-              0.6854
+              0.6853
             ],
             [
               "Internacional",
-              0.3146
+              0.3147
             ]
           ]
         },
@@ -25982,7 +25002,7 @@
           "rows": [
             [
               "Over 0.5",
-              0.9323
+              0.9322
             ],
             [
               "Over 1.5",
@@ -25994,7 +25014,7 @@
             ],
             [
               "Over 3.5",
-              0.2782
+              0.2781
             ]
           ]
         },
@@ -26003,11 +25023,11 @@
           "rows": [
             [
               "Yes",
-              0.5149
+              0.5148
             ],
             [
               "No",
-              0.4851
+              0.4852
             ]
           ]
         },
@@ -26016,7 +25036,7 @@
           "rows": [
             [
               "Bahia over 1.5",
-              0.488
+              0.4879
             ],
             [
               "Internacional over 1.5",
@@ -26029,11 +25049,11 @@
           "rows": [
             [
               "Bahia",
-              0.3589
+              0.359
             ],
             [
               "Internacional",
-              0.1939
+              0.194
             ]
           ]
         },
@@ -26055,7 +25075,7 @@
           "rows": [
             [
               "1-0",
-              0.116
+              0.1161
             ],
             [
               "1-1",
@@ -26151,15 +25171,15 @@
       "away": "FC Juarez",
       "xg_home": 2.67,
       "xg_away": 0.88,
-      "prob_home": 0.7497561755945942,
-      "prob_draw": 0.15555075636826854,
-      "prob_away": 0.09469306803713737,
-      "over25": 0.6887792356610734,
-      "btts": 0.5485201859237423,
+      "prob_home": 0.749751687779675,
+      "prob_draw": 0.15555513622511535,
+      "prob_away": 0.09469317599520943,
+      "over25": 0.6887734448811624,
+      "btts": 0.5485186995568683,
       "top_score": "2-0",
-      "top_score_prob": 0.1023862011587553,
+      "top_score_prob": 0.10238733906718635,
       "primary_pick": "Toluca (draw no bet)",
-      "primary_prob": 0.8878641093573725,
+      "primary_prob": 0.88786339990049,
       "primary_strength": "strong",
       "markets": [
         {
@@ -26392,19 +25412,19 @@
       "analysis": "THE CALL - Toluca (draw no bet) (89%, strong). Model: Toluca 75% / draw 16% / FC Juarez 9%, expected goals 2.67 to 0.88. Form Toluca 1W 0D 4L (L L W L L), FC Juarez 1W 1D 3L (W L L L D). Most likely score 2-0 (~10%), most probable of many."
     },
     {
-      "home": "Monterrey",
-      "away": "Atletico San Luis",
-      "xg_home": 2.21,
-      "xg_away": 1.18,
-      "prob_home": 0.6026407903402294,
-      "prob_draw": 0.20895972869101315,
-      "prob_away": 0.18839948096875742,
-      "over25": 0.6572435821270582,
-      "btts": 0.6206547795712862,
-      "top_score": "2-1",
-      "top_score_prob": 0.09721265438428756,
-      "primary_pick": "Over 1.5",
-      "primary_prob": 0.8565987674042069,
+      "home": "Independ. Rivadavia",
+      "away": "Racing Club",
+      "xg_home": 1.01,
+      "xg_away": 1.14,
+      "prob_home": 0.3061694677529765,
+      "prob_draw": 0.32098982782940694,
+      "prob_away": 0.3728407044176162,
+      "over25": 0.3641970245406025,
+      "btts": 0.4460020688458506,
+      "top_score": "1-1",
+      "top_score_prob": 0.1473935586424132,
+      "primary_pick": "Under 3.5",
+      "primary_prob": 0.8288448636180287,
       "primary_strength": "strong",
       "markets": [
         {
@@ -26412,7 +25432,238 @@
           "rows": [
             [
               "Home win",
-              0.6026
+              0.3062
+            ],
+            [
+              "Draw",
+              0.321
+            ],
+            [
+              "Away win",
+              0.3728
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.6272
+            ],
+            [
+              "Home or away (12)",
+              0.679
+            ],
+            [
+              "Draw or away (X2)",
+              0.6938
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "Independ. Rivadavia",
+              0.4509
+            ],
+            [
+              "Racing Club",
+              0.5491
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "Independ. Rivadavia -1.5",
+              0.1199
+            ],
+            [
+              "Racing Club -1.5",
+              0.1606
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.8704
+            ],
+            [
+              "Over 1.5",
+              0.6467
+            ],
+            [
+              "Over 2.5",
+              0.3642
+            ],
+            [
+              "Over 3.5",
+              0.1712
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.446
+            ],
+            [
+              "No",
+              0.554
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "Independ. Rivadavia over 1.5",
+              0.2679
+            ],
+            [
+              "Racing Club over 1.5",
+              0.3161
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "Independ. Rivadavia",
+              0.3194
+            ],
+            [
+              "Racing Club",
+              0.3642
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4666
+            ],
+            [
+              "Even",
+              0.5334
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "1-1",
+              0.1474
+            ],
+            [
+              "0-0",
+              0.1296
+            ],
+            [
+              "0-1",
+              0.1195
+            ]
+          ]
+        }
+      ],
+      "league": "Argentina Primera",
+      "league_id": 128,
+      "kickoff": "2026-08-31T00:30:00+00:00",
+      "form_home": {
+        "last5_sequence": "W D L L D",
+        "last5_record": "1W 2D 2L",
+        "last5_goals": "scored 4, conceded 5 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "D W D W W",
+        "last5_record": "3W 2D 0L",
+        "last5_goals": "scored 6, conceded 3 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-02-26",
+            "home": "Racing Club",
+            "away": "Independ. Rivadavia",
+            "hg": 1,
+            "ag": 1
+          },
+          {
+            "date": "2025-10-07",
+            "home": "Racing Club",
+            "away": "Independ. Rivadavia",
+            "hg": 0,
+            "ag": 0
+          },
+          {
+            "date": "2025-03-28",
+            "home": "Independ. Rivadavia",
+            "away": "Racing Club",
+            "hg": 2,
+            "ag": 1
+          },
+          {
+            "date": "2024-11-10",
+            "home": "Racing Club",
+            "away": "Independ. Rivadavia",
+            "hg": 2,
+            "ag": 1
+          }
+        ],
+        "summary": {
+          "n": 4,
+          "home_wins": 1,
+          "draws": 2,
+          "away_wins": 1,
+          "avg_goals": 2.0
+        }
+      },
+      "xg_form_home": {
+        "for": 1.82,
+        "against": 0.8,
+        "n": 5
+      },
+      "xg_form_away": {
+        "for": 1.11,
+        "against": 1.27,
+        "n": 6
+      },
+      "analysis": "THE CALL - Under 3.5 (83%, strong). Model: Independ. Rivadavia 31% / draw 32% / Racing Club 37%, expected goals 1.01 to 1.14. Form Independ. Rivadavia 1W 2D 2L (W D L L D), Racing Club 3W 2D 0L (D W D W W). Most likely score 1-1 (~15%), most probable of many."
+    },
+    {
+      "home": "Monterrey",
+      "away": "Atletico San Luis",
+      "xg_home": 2.21,
+      "xg_away": 1.18,
+      "prob_home": 0.6026520830534481,
+      "prob_draw": 0.20895754613340242,
+      "prob_away": 0.1883903708131494,
+      "over25": 0.6572547780159141,
+      "btts": 0.6206599387119792,
+      "top_score": "2-1",
+      "top_score_prob": 0.09721213949454532,
+      "primary_pick": "Over 1.5",
+      "primary_prob": 0.8566067166155436,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.6027
             ],
             [
               "Draw",
@@ -26437,7 +25688,7 @@
             ],
             [
               "Draw or away (X2)",
-              0.3974
+              0.3973
             ]
           ]
         },
@@ -26480,7 +25731,7 @@
             ],
             [
               "Over 2.5",
-              0.6572
+              0.6573
             ],
             [
               "Over 3.5",
@@ -28595,6 +27846,251 @@
         "n": 2
       },
       "analysis": "THE CALL - Barcelona (draw no bet) (90%, strong). Model: Barcelona 76% / draw 15% / Rayo Vallecano 9%, expected goals 2.47 to 0.7. Form Barcelona 3W 0D 2L (L W L W W), Rayo Vallecano 3W 2D 0L (W W D D W). Most likely score 2-0 (~13%), most probable of many."
+    },
+    {
+      "home": "Defensa Y Justicia",
+      "away": "Platense",
+      "xg_home": 1.09,
+      "xg_away": 0.87,
+      "prob_home": 0.3912662464151003,
+      "prob_draw": 0.33598412114600024,
+      "prob_away": 0.2727496324388994,
+      "over25": 0.3125270062173591,
+      "btts": 0.3987430638615862,
+      "top_score": "0-0",
+      "top_score_prob": 0.1540790747508594,
+      "primary_pick": "Under 3.5",
+      "primary_prob": 0.8642494091224557,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.3913
+            ],
+            [
+              "Draw",
+              0.336
+            ],
+            [
+              "Away win",
+              0.2727
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.7273
+            ],
+            [
+              "Home or away (12)",
+              0.664
+            ],
+            [
+              "Draw or away (X2)",
+              0.6087
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "Defensa Y Justicia",
+              0.5892
+            ],
+            [
+              "Platense",
+              0.4108
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "Defensa Y Justicia -1.5",
+              0.1652
+            ],
+            [
+              "Platense -1.5",
+              0.096
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.8459
+            ],
+            [
+              "Over 1.5",
+              0.5963
+            ],
+            [
+              "Over 2.5",
+              0.3125
+            ],
+            [
+              "Over 3.5",
+              0.1358
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.3987
+            ],
+            [
+              "No",
+              0.6013
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "Defensa Y Justicia over 1.5",
+              0.2982
+            ],
+            [
+              "Platense over 1.5",
+              0.2157
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "Defensa Y Justicia",
+              0.42
+            ],
+            [
+              "Platense",
+              0.3354
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4636
+            ],
+            [
+              "Even",
+              0.5364
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "0-0",
+              0.1541
+            ],
+            [
+              "1-1",
+              0.1467
+            ],
+            [
+              "1-0",
+              0.1406
+            ]
+          ]
+        }
+      ],
+      "league": "Argentina Primera",
+      "league_id": 128,
+      "kickoff": "2026-08-31T22:00:00+00:00",
+      "form_home": {
+        "last5_sequence": "L L L L W",
+        "last5_record": "1W 0D 4L",
+        "last5_goals": "scored 2, conceded 9 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "L L D L L",
+        "last5_record": "0W 1D 4L",
+        "last5_goals": "scored 1, conceded 9 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-02-24",
+            "home": "Platense",
+            "away": "Defensa Y Justicia",
+            "hg": 0,
+            "ag": 0
+          },
+          {
+            "date": "2025-09-14",
+            "home": "Defensa Y Justicia",
+            "away": "Platense",
+            "hg": 1,
+            "ag": 2
+          },
+          {
+            "date": "2025-03-04",
+            "home": "Platense",
+            "away": "Defensa Y Justicia",
+            "hg": 0,
+            "ag": 1
+          },
+          {
+            "date": "2024-07-29",
+            "home": "Defensa Y Justicia",
+            "away": "Platense",
+            "hg": 1,
+            "ag": 3
+          },
+          {
+            "date": "2024-01-31",
+            "home": "Defensa Y Justicia",
+            "away": "Platense",
+            "hg": 3,
+            "ag": 0
+          },
+          {
+            "date": "2023-08-27",
+            "home": "Platense",
+            "away": "Defensa Y Justicia",
+            "hg": 0,
+            "ag": 0
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 2,
+          "draws": 2,
+          "away_wins": 2,
+          "avg_goals": 1.8
+        }
+      },
+      "xg_form_home": {
+        "for": 1.47,
+        "against": 1.06,
+        "n": 6
+      },
+      "xg_form_away": {
+        "for": 1.11,
+        "against": 1.63,
+        "n": 5
+      },
+      "analysis": "THE CALL - Under 3.5 (86%, strong). Model: Defensa Y Justicia 39% / draw 34% / Platense 27%, expected goals 1.09 to 0.87. Form Defensa Y Justicia 1W 0D 4L (L L L L W), Platense 0W 1D 4L (L L D L L). Most likely score 0-0 (~15%), most probable of many."
     },
     {
       "home": "Al-Hilal Saudi FC",
@@ -32933,19 +32429,509 @@
       "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Real Betis 31% / draw 24% / Real Madrid 46%, expected goals 1.31 to 1.65. Form Real Betis 3W 1D 1L (W L W D W), Real Madrid 4W 0D 1L (W W W L W). Most likely score 1-1 (~11%), most probable of many."
     },
     {
+      "home": "FC Porto",
+      "away": "Moreirense",
+      "xg_home": 2.24,
+      "xg_away": 0.53,
+      "prob_home": 0.766351581549731,
+      "prob_draw": 0.16089701875151818,
+      "prob_away": 0.07275139969875055,
+      "over25": 0.5239117445309713,
+      "btts": 0.3669702914170524,
+      "top_score": "2-0",
+      "top_score_prob": 0.1572285952601314,
+      "primary_pick": "FC Porto win",
+      "primary_prob": 0.766351581549731,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.7664
+            ],
+            [
+              "Draw",
+              0.1609
+            ],
+            [
+              "Away win",
+              0.0728
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.9272
+            ],
+            [
+              "Home or away (12)",
+              0.8391
+            ],
+            [
+              "Draw or away (X2)",
+              0.2336
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "FC Porto",
+              0.9133
+            ],
+            [
+              "Moreirense",
+              0.0867
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "FC Porto -1.5",
+              0.5241
+            ],
+            [
+              "Moreirense -1.5",
+              0.0151
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.938
+            ],
+            [
+              "Over 1.5",
+              0.7636
+            ],
+            [
+              "Over 2.5",
+              0.5239
+            ],
+            [
+              "Over 3.5",
+              0.3019
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.367
+            ],
+            [
+              "No",
+              0.633
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "FC Porto over 1.5",
+              0.6557
+            ],
+            [
+              "Moreirense over 1.5",
+              0.0993
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "FC Porto",
+              0.5888
+            ],
+            [
+              "Moreirense",
+              0.1062
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4991
+            ],
+            [
+              "Even",
+              0.5009
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "2-0",
+              0.1572
+            ],
+            [
+              "1-0",
+              0.1407
+            ],
+            [
+              "3-0",
+              0.1175
+            ]
+          ]
+        }
+      ],
+      "league": "Primeira Liga",
+      "league_id": 94,
+      "kickoff": "2026-09-04T19:15:00+00:00",
+      "form_home": {
+        "last5_sequence": "W L W W W",
+        "last5_record": "4W 0D 1L",
+        "last5_goals": "scored 7, conceded 4 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "D L W L W",
+        "last5_record": "2W 1D 2L",
+        "last5_goals": "scored 5, conceded 8 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-03-15",
+            "home": "FC Porto",
+            "away": "Moreirense",
+            "hg": 3,
+            "ag": 0
+          },
+          {
+            "date": "2025-10-27",
+            "home": "Moreirense",
+            "away": "FC Porto",
+            "hg": 1,
+            "ag": 2
+          },
+          {
+            "date": "2025-05-02",
+            "home": "FC Porto",
+            "away": "Moreirense",
+            "hg": 3,
+            "ag": 1
+          },
+          {
+            "date": "2024-12-21",
+            "home": "Moreirense",
+            "away": "FC Porto",
+            "hg": 0,
+            "ag": 3
+          },
+          {
+            "date": "2024-11-24",
+            "home": "Moreirense",
+            "away": "FC Porto",
+            "hg": 2,
+            "ag": 1
+          },
+          {
+            "date": "2024-10-31",
+            "home": "FC Porto",
+            "away": "Moreirense",
+            "hg": 2,
+            "ag": 0
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 5,
+          "draws": 0,
+          "away_wins": 1,
+          "avg_goals": 3.0
+        }
+      },
+      "xg_form_home": {
+        "for": 2.52,
+        "against": 0.93,
+        "n": 3
+      },
+      "xg_form_away": {
+        "for": 0.35,
+        "against": 1.54,
+        "n": 2
+      },
+      "analysis": "THE CALL - FC Porto win (77%, strong). Model: FC Porto 77% / draw 16% / Moreirense 7%, expected goals 2.24 to 0.53. Form FC Porto 4W 0D 1L (W L W W W), Moreirense 2W 1D 2L (D L W L W). Most likely score 2-0 (~16%), most probable of many."
+    },
+    {
+      "home": "Sporting CP",
+      "away": "Nacional",
+      "xg_home": 2.89,
+      "xg_away": 0.56,
+      "prob_home": 0.8450381890745738,
+      "prob_draw": 0.10772474825894254,
+      "prob_away": 0.0472370626664837,
+      "over25": 0.6699750852021924,
+      "btts": 0.4062293801806915,
+      "top_score": "2-0",
+      "top_score_prob": 0.13226075049043373,
+      "primary_pick": "Over 1.5",
+      "primary_prob": 0.8584725819213204,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.845
+            ],
+            [
+              "Draw",
+              0.1077
+            ],
+            [
+              "Away win",
+              0.0472
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.9528
+            ],
+            [
+              "Home or away (12)",
+              0.8923
+            ],
+            [
+              "Draw or away (X2)",
+              0.155
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "Sporting CP",
+              0.9471
+            ],
+            [
+              "Nacional",
+              0.0529
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "Sporting CP -1.5",
+              0.6554
+            ],
+            [
+              "Nacional -1.5",
+              0.01
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.9687
+            ],
+            [
+              "Over 1.5",
+              0.8585
+            ],
+            [
+              "Over 2.5",
+              0.67
+            ],
+            [
+              "Over 3.5",
+              0.4527
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.4062
+            ],
+            [
+              "No",
+              0.5938
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "Sporting CP over 1.5",
+              0.7835
+            ],
+            [
+              "Nacional over 1.5",
+              0.1099
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "Sporting CP",
+              0.5694
+            ],
+            [
+              "Nacional",
+              0.0557
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.5002
+            ],
+            [
+              "Even",
+              0.4998
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "2-0",
+              0.1323
+            ],
+            [
+              "3-0",
+              0.1273
+            ],
+            [
+              "1-0",
+              0.092
+            ]
+          ]
+        }
+      ],
+      "league": "Primeira Liga",
+      "league_id": 94,
+      "kickoff": "2026-09-04T19:15:00+00:00",
+      "form_home": {
+        "last5_sequence": "W W W D D",
+        "last5_record": "3W 2D 0L",
+        "last5_goals": "scored 15, conceded 5 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "W L L W W",
+        "last5_record": "3W 0D 2L",
+        "last5_goals": "scored 6, conceded 4 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-02-01",
+            "home": "Sporting CP",
+            "away": "Nacional",
+            "hg": 2,
+            "ag": 1
+          },
+          {
+            "date": "2025-08-23",
+            "home": "Nacional",
+            "away": "Sporting CP",
+            "hg": 1,
+            "ag": 4
+          },
+          {
+            "date": "2025-01-25",
+            "home": "Sporting CP",
+            "away": "Nacional",
+            "hg": 2,
+            "ag": 0
+          },
+          {
+            "date": "2024-10-29",
+            "home": "Sporting CP",
+            "away": "Nacional",
+            "hg": 3,
+            "ag": 1
+          },
+          {
+            "date": "2024-08-17",
+            "home": "Nacional",
+            "away": "Sporting CP",
+            "hg": 1,
+            "ag": 6
+          },
+          {
+            "date": "2021-05-01",
+            "home": "Sporting CP",
+            "away": "Nacional",
+            "hg": 2,
+            "ag": 0
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 6,
+          "draws": 0,
+          "away_wins": 0,
+          "avg_goals": 3.8
+        }
+      },
+      "xg_form_home": {
+        "for": 1.35,
+        "against": 0.69,
+        "n": 4
+      },
+      "xg_form_away": {
+        "for": 1.24,
+        "against": 1.8,
+        "n": 3
+      },
+      "analysis": "THE CALL - Over 1.5 (86%, strong). Model: Sporting CP 85% / draw 11% / Nacional 5%, expected goals 2.89 to 0.56. Form Sporting CP 3W 2D 0L (W W W D D), Nacional 3W 0D 2L (W L L W W). Most likely score 2-0 (~13%), most probable of many."
+    },
+    {
       "home": "Puebla",
       "away": "Toluca",
       "xg_home": 0.82,
       "xg_away": 2.03,
-      "prob_home": 0.13529059685337663,
-      "prob_draw": 0.21328991196888453,
-      "prob_away": 0.6514194911777388,
-      "over25": 0.5426031221426093,
-      "btts": 0.49092015207394174,
+      "prob_home": 0.1352888187460321,
+      "prob_draw": 0.2132940472430646,
+      "prob_away": 0.6514171340109032,
+      "over25": 0.5425993894615111,
+      "btts": 0.4909189098285739,
       "top_score": "0-2",
-      "top_score_prob": 0.1195337033853385,
+      "top_score_prob": 0.11953439446917082,
       "primary_pick": "Toluca or draw (X2)",
-      "primary_prob": 0.8647094031466234,
+      "primary_prob": 0.8647111812539678,
       "primary_strength": "strong",
       "markets": [
         {
@@ -33176,6 +33162,251 @@
         "n": 3
       },
       "analysis": "THE CALL - Toluca or draw (X2) (86%, strong). Model: Puebla 14% / draw 21% / Toluca 65%, expected goals 0.82 to 2.03. Form Puebla 0W 1D 4L (L L L L D), Toluca 1W 0D 4L (L L W L L). Most likely score 0-2 (~12%), most probable of many."
+    },
+    {
+      "home": "FC Juarez",
+      "away": "CF Pachuca",
+      "xg_home": 1.34,
+      "xg_away": 1.38,
+      "prob_home": 0.35582623206764274,
+      "prob_draw": 0.27160631064793506,
+      "prob_away": 0.3725674572844222,
+      "over25": 0.5107252937122282,
+      "btts": 0.5592764438812252,
+      "top_score": "1-1",
+      "top_score_prob": 0.12911969014694621,
+      "primary_pick": "Over 1.5",
+      "primary_prob": 0.7617798184276705,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.3558
+            ],
+            [
+              "Draw",
+              0.2716
+            ],
+            [
+              "Away win",
+              0.3726
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.6274
+            ],
+            [
+              "Home or away (12)",
+              0.7284
+            ],
+            [
+              "Draw or away (X2)",
+              0.6442
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "FC Juarez",
+              0.4885
+            ],
+            [
+              "CF Pachuca",
+              0.5115
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "FC Juarez -1.5",
+              0.1634
+            ],
+            [
+              "CF Pachuca -1.5",
+              0.1748
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.9268
+            ],
+            [
+              "Over 1.5",
+              0.7618
+            ],
+            [
+              "Over 2.5",
+              0.5107
+            ],
+            [
+              "Over 3.5",
+              0.2898
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.5593
+            ],
+            [
+              "No",
+              0.4407
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "FC Juarez over 1.5",
+              0.3875
+            ],
+            [
+              "CF Pachuca over 1.5",
+              0.4002
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "FC Juarez",
+              0.2523
+            ],
+            [
+              "CF Pachuca",
+              0.2617
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4834
+            ],
+            [
+              "Even",
+              0.5166
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "1-1",
+              0.1291
+            ],
+            [
+              "1-2",
+              0.0839
+            ],
+            [
+              "0-1",
+              0.0837
+            ]
+          ]
+        }
+      ],
+      "league": "Liga MX",
+      "league_id": 262,
+      "kickoff": "2026-09-05T03:00:00+00:00",
+      "form_home": {
+        "last5_sequence": "W L L L D",
+        "last5_record": "1W 1D 3L",
+        "last5_goals": "scored 7, conceded 11 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "L W W W L",
+        "last5_record": "3W 0D 2L",
+        "last5_goals": "scored 4, conceded 3 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-02-08",
+            "home": "CF Pachuca",
+            "away": "FC Juarez",
+            "hg": 2,
+            "ag": 0
+          },
+          {
+            "date": "2025-11-24",
+            "home": "FC Juarez",
+            "away": "CF Pachuca",
+            "hg": 2,
+            "ag": 1
+          },
+          {
+            "date": "2025-10-18",
+            "home": "FC Juarez",
+            "away": "CF Pachuca",
+            "hg": 2,
+            "ag": 2
+          },
+          {
+            "date": "2025-03-01",
+            "home": "FC Juarez",
+            "away": "CF Pachuca",
+            "hg": 2,
+            "ag": 2
+          },
+          {
+            "date": "2024-11-10",
+            "home": "CF Pachuca",
+            "away": "FC Juarez",
+            "hg": 0,
+            "ag": 1
+          },
+          {
+            "date": "2024-03-03",
+            "home": "CF Pachuca",
+            "away": "FC Juarez",
+            "hg": 3,
+            "ag": 2
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 2,
+          "draws": 2,
+          "away_wins": 2,
+          "avg_goals": 3.2
+        }
+      },
+      "xg_form_home": {
+        "for": 0.52,
+        "against": 2.08,
+        "n": 4
+      },
+      "xg_form_away": {
+        "for": 0.91,
+        "against": 1.31,
+        "n": 5
+      },
+      "analysis": "THE CALL - Over 1.5 (76%, strong). Model: FC Juarez 36% / draw 27% / CF Pachuca 37%, expected goals 1.34 to 1.38. Form FC Juarez 1W 1D 3L (W L L L D), CF Pachuca 3W 0D 2L (L W W W L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
       "home": "FC Botosani",
@@ -34395,6 +34626,496 @@
       "analysis": "THE CALL - Over 1.5 (74%, strong). Model: Dinamo Bucuresti 43% / draw 27% / FCSB 30%, expected goals 1.44 to 1.17. Form Dinamo Bucuresti 1W 2D 2L (L D D W L), FCSB 2W 1D 2L (W W L D L). Most likely score 1-1 (~13%), most probable of many."
     },
     {
+      "home": "Club Queretaro",
+      "away": "Monterrey",
+      "xg_home": 1.17,
+      "xg_away": 1.43,
+      "prob_home": 0.30086150929192385,
+      "prob_draw": 0.2756084598489006,
+      "prob_away": 0.4235300308591754,
+      "over25": 0.4829354037579686,
+      "btts": 0.532947137218699,
+      "top_score": "1-1",
+      "top_score_prob": 0.13144783742825658,
+      "primary_pick": "Over 1.5",
+      "primary_prob": 0.7410230676407709,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.3009
+            ],
+            [
+              "Draw",
+              0.2756
+            ],
+            [
+              "Away win",
+              0.4235
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.5765
+            ],
+            [
+              "Home or away (12)",
+              0.7244
+            ],
+            [
+              "Draw or away (X2)",
+              0.6991
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "Club Queretaro",
+              0.4153
+            ],
+            [
+              "Monterrey",
+              0.5847
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "Club Queretaro -1.5",
+              0.1256
+            ],
+            [
+              "Monterrey -1.5",
+              0.2073
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.9188
+            ],
+            [
+              "Over 1.5",
+              0.741
+            ],
+            [
+              "Over 2.5",
+              0.4829
+            ],
+            [
+              "Over 3.5",
+              0.2652
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.5329
+            ],
+            [
+              "No",
+              0.4671
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "Club Queretaro over 1.5",
+              0.327
+            ],
+            [
+              "Monterrey over 1.5",
+              0.4199
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "Club Queretaro",
+              0.2383
+            ],
+            [
+              "Monterrey",
+              0.31
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4826
+            ],
+            [
+              "Even",
+              0.5174
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "1-1",
+              0.1314
+            ],
+            [
+              "0-1",
+              0.0986
+            ],
+            [
+              "1-2",
+              0.089
+            ]
+          ]
+        }
+      ],
+      "league": "Liga MX",
+      "league_id": 262,
+      "kickoff": "2026-09-05T23:00:00+00:00",
+      "form_home": {
+        "last5_sequence": "W D D W D",
+        "last5_record": "2W 3D 0L",
+        "last5_goals": "scored 8, conceded 5 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "L W L D L",
+        "last5_record": "1W 1D 3L",
+        "last5_goals": "scored 4, conceded 9 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-03-05",
+            "home": "Monterrey",
+            "away": "Club Queretaro",
+            "hg": 4,
+            "ag": 0
+          },
+          {
+            "date": "2025-09-14",
+            "home": "Club Queretaro",
+            "away": "Monterrey",
+            "hg": 0,
+            "ag": 1
+          },
+          {
+            "date": "2025-02-16",
+            "home": "Club Queretaro",
+            "away": "Monterrey",
+            "hg": 2,
+            "ag": 4
+          },
+          {
+            "date": "2024-07-21",
+            "home": "Monterrey",
+            "away": "Club Queretaro",
+            "hg": 2,
+            "ag": 1
+          },
+          {
+            "date": "2024-01-25",
+            "home": "Monterrey",
+            "away": "Club Queretaro",
+            "hg": 1,
+            "ag": 1
+          },
+          {
+            "date": "2023-11-11",
+            "home": "Club Queretaro",
+            "away": "Monterrey",
+            "hg": 0,
+            "ag": 0
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 0,
+          "draws": 2,
+          "away_wins": 4,
+          "avg_goals": 2.7
+        }
+      },
+      "xg_form_home": {
+        "for": 1.42,
+        "against": 1.58,
+        "n": 4
+      },
+      "xg_form_away": {
+        "for": 1.81,
+        "against": 1.49,
+        "n": 4
+      },
+      "analysis": "THE CALL - Over 1.5 (74%, strong). Model: Club Queretaro 30% / draw 28% / Monterrey 42%, expected goals 1.17 to 1.43. Form Club Queretaro 2W 3D 0L (W D D W D), Monterrey 1W 1D 3L (L W L D L). Most likely score 1-1 (~13%), most probable of many."
+    },
+    {
+      "home": "Atletico San Luis",
+      "away": "Guadalajara Chivas",
+      "xg_home": 1.35,
+      "xg_away": 1.53,
+      "prob_home": 0.3280972410059785,
+      "prob_draw": 0.261548074653976,
+      "prob_away": 0.4103546843400456,
+      "over25": 0.548421190671265,
+      "btts": 0.5864006180851682,
+      "top_score": "1-1",
+      "top_score_prob": 0.1229573311718809,
+      "primary_pick": "Over 1.5",
+      "primary_prob": 0.7884041063585192,
+      "primary_strength": "strong",
+      "markets": [
+        {
+          "group": "Result",
+          "rows": [
+            [
+              "Home win",
+              0.3281
+            ],
+            [
+              "Draw",
+              0.2615
+            ],
+            [
+              "Away win",
+              0.4104
+            ]
+          ]
+        },
+        {
+          "group": "Double chance",
+          "rows": [
+            [
+              "Home or draw (1X)",
+              0.5896
+            ],
+            [
+              "Home or away (12)",
+              0.7385
+            ],
+            [
+              "Draw or away (X2)",
+              0.6719
+            ]
+          ]
+        },
+        {
+          "group": "Draw no bet",
+          "rows": [
+            [
+              "Atletico San Luis",
+              0.4443
+            ],
+            [
+              "Guadalajara Chivas",
+              0.5557
+            ]
+          ]
+        },
+        {
+          "group": "Asian handicap",
+          "rows": [
+            [
+              "Atletico San Luis -1.5",
+              0.1491
+            ],
+            [
+              "Guadalajara Chivas -1.5",
+              0.2059
+            ]
+          ]
+        },
+        {
+          "group": "Total goals",
+          "rows": [
+            [
+              "Over 0.5",
+              0.9367
+            ],
+            [
+              "Over 1.5",
+              0.7884
+            ],
+            [
+              "Over 2.5",
+              0.5484
+            ],
+            [
+              "Over 3.5",
+              0.325
+            ]
+          ]
+        },
+        {
+          "group": "Both teams to score",
+          "rows": [
+            [
+              "Yes",
+              0.5864
+            ],
+            [
+              "No",
+              0.4136
+            ]
+          ]
+        },
+        {
+          "group": "Team goals",
+          "rows": [
+            [
+              "Atletico San Luis over 1.5",
+              0.3894
+            ],
+            [
+              "Guadalajara Chivas over 1.5",
+              0.4521
+            ]
+          ]
+        },
+        {
+          "group": "Clean sheet",
+          "rows": [
+            [
+              "Atletico San Luis",
+              0.2166
+            ],
+            [
+              "Guadalajara Chivas",
+              0.2603
+            ]
+          ]
+        },
+        {
+          "group": "Goals odd / even",
+          "rows": [
+            [
+              "Odd",
+              0.4846
+            ],
+            [
+              "Even",
+              0.5154
+            ]
+          ]
+        },
+        {
+          "group": "Correct score (top 3)",
+          "rows": [
+            [
+              "1-1",
+              0.123
+            ],
+            [
+              "1-2",
+              0.0888
+            ],
+            [
+              "0-1",
+              0.0794
+            ]
+          ]
+        }
+      ],
+      "league": "Liga MX",
+      "league_id": 262,
+      "kickoff": "2026-09-05T23:00:00+00:00",
+      "form_home": {
+        "last5_sequence": "L W L D W",
+        "last5_record": "2W 1D 2L",
+        "last5_goals": "scored 6, conceded 6 in last 5"
+      },
+      "form_away": {
+        "last5_sequence": "L D W L D",
+        "last5_record": "1W 2D 2L",
+        "last5_goals": "scored 6, conceded 7 in last 5"
+      },
+      "h2h": {
+        "meetings": [
+          {
+            "date": "2026-01-31",
+            "home": "Atletico San Luis",
+            "away": "Guadalajara Chivas",
+            "hg": 2,
+            "ag": 3
+          },
+          {
+            "date": "2025-07-26",
+            "home": "Guadalajara Chivas",
+            "away": "Atletico San Luis",
+            "hg": 4,
+            "ag": 3
+          },
+          {
+            "date": "2025-02-27",
+            "home": "Atletico San Luis",
+            "away": "Guadalajara Chivas",
+            "hg": 3,
+            "ag": 1
+          },
+          {
+            "date": "2024-11-09",
+            "home": "Guadalajara Chivas",
+            "away": "Atletico San Luis",
+            "hg": 0,
+            "ag": 1
+          },
+          {
+            "date": "2024-02-05",
+            "home": "Atletico San Luis",
+            "away": "Guadalajara Chivas",
+            "hg": 0,
+            "ag": 2
+          },
+          {
+            "date": "2023-07-09",
+            "home": "Guadalajara Chivas",
+            "away": "Atletico San Luis",
+            "hg": 3,
+            "ag": 1
+          }
+        ],
+        "summary": {
+          "n": 6,
+          "home_wins": 2,
+          "draws": 0,
+          "away_wins": 4,
+          "avg_goals": 3.8
+        }
+      },
+      "xg_form_home": {
+        "for": 1.15,
+        "against": 1.78,
+        "n": 4
+      },
+      "xg_form_away": {
+        "for": 1.48,
+        "against": 0.9,
+        "n": 4
+      },
+      "analysis": "THE CALL - Over 1.5 (79%, strong). Model: Atletico San Luis 33% / draw 26% / Guadalajara Chivas 41%, expected goals 1.35 to 1.53. Form Atletico San Luis 2W 1D 2L (L W L D W), Guadalajara Chivas 1W 2D 2L (L D W L D). Most likely score 1-1 (~12%), most probable of many."
+    },
+    {
       "home": "Ba\u015fak\u015fehir",
       "away": "Galatasaray",
       "xg_home": 1.28,
@@ -34638,251 +35359,6 @@
         "n": 2
       },
       "analysis": "THE CALL - Over 1.5 (83%, strong). Model: Ba\u015fak\u015fehir 25% / draw 26% / Galatasaray 48%, expected goals 1.28 to 1.81. Form Ba\u015fak\u015fehir 3W 1D 1L (W W L W D), Galatasaray 3W 0D 2L (L W L W W). Most likely score 1-1 (~12%), most probable of many."
-    },
-    {
-      "home": "FC Porto",
-      "away": "Moreirense",
-      "xg_home": 2.24,
-      "xg_away": 0.53,
-      "prob_home": 0.766351581549731,
-      "prob_draw": 0.16089701875151818,
-      "prob_away": 0.07275139969875055,
-      "over25": 0.5239117445309713,
-      "btts": 0.3669702914170524,
-      "top_score": "2-0",
-      "top_score_prob": 0.1572285952601314,
-      "primary_pick": "FC Porto win",
-      "primary_prob": 0.766351581549731,
-      "primary_strength": "strong",
-      "markets": [
-        {
-          "group": "Result",
-          "rows": [
-            [
-              "Home win",
-              0.7664
-            ],
-            [
-              "Draw",
-              0.1609
-            ],
-            [
-              "Away win",
-              0.0728
-            ]
-          ]
-        },
-        {
-          "group": "Double chance",
-          "rows": [
-            [
-              "Home or draw (1X)",
-              0.9272
-            ],
-            [
-              "Home or away (12)",
-              0.8391
-            ],
-            [
-              "Draw or away (X2)",
-              0.2336
-            ]
-          ]
-        },
-        {
-          "group": "Draw no bet",
-          "rows": [
-            [
-              "FC Porto",
-              0.9133
-            ],
-            [
-              "Moreirense",
-              0.0867
-            ]
-          ]
-        },
-        {
-          "group": "Asian handicap",
-          "rows": [
-            [
-              "FC Porto -1.5",
-              0.5241
-            ],
-            [
-              "Moreirense -1.5",
-              0.0151
-            ]
-          ]
-        },
-        {
-          "group": "Total goals",
-          "rows": [
-            [
-              "Over 0.5",
-              0.938
-            ],
-            [
-              "Over 1.5",
-              0.7636
-            ],
-            [
-              "Over 2.5",
-              0.5239
-            ],
-            [
-              "Over 3.5",
-              0.3019
-            ]
-          ]
-        },
-        {
-          "group": "Both teams to score",
-          "rows": [
-            [
-              "Yes",
-              0.367
-            ],
-            [
-              "No",
-              0.633
-            ]
-          ]
-        },
-        {
-          "group": "Team goals",
-          "rows": [
-            [
-              "FC Porto over 1.5",
-              0.6557
-            ],
-            [
-              "Moreirense over 1.5",
-              0.0993
-            ]
-          ]
-        },
-        {
-          "group": "Clean sheet",
-          "rows": [
-            [
-              "FC Porto",
-              0.5888
-            ],
-            [
-              "Moreirense",
-              0.1062
-            ]
-          ]
-        },
-        {
-          "group": "Goals odd / even",
-          "rows": [
-            [
-              "Odd",
-              0.4991
-            ],
-            [
-              "Even",
-              0.5009
-            ]
-          ]
-        },
-        {
-          "group": "Correct score (top 3)",
-          "rows": [
-            [
-              "2-0",
-              0.1572
-            ],
-            [
-              "1-0",
-              0.1407
-            ],
-            [
-              "3-0",
-              0.1175
-            ]
-          ]
-        }
-      ],
-      "league": "Primeira Liga",
-      "league_id": 94,
-      "kickoff": "2026-09-06T15:00:00+00:00",
-      "form_home": {
-        "last5_sequence": "W L W W W",
-        "last5_record": "4W 0D 1L",
-        "last5_goals": "scored 7, conceded 4 in last 5"
-      },
-      "form_away": {
-        "last5_sequence": "D L W L W",
-        "last5_record": "2W 1D 2L",
-        "last5_goals": "scored 5, conceded 8 in last 5"
-      },
-      "h2h": {
-        "meetings": [
-          {
-            "date": "2026-03-15",
-            "home": "FC Porto",
-            "away": "Moreirense",
-            "hg": 3,
-            "ag": 0
-          },
-          {
-            "date": "2025-10-27",
-            "home": "Moreirense",
-            "away": "FC Porto",
-            "hg": 1,
-            "ag": 2
-          },
-          {
-            "date": "2025-05-02",
-            "home": "FC Porto",
-            "away": "Moreirense",
-            "hg": 3,
-            "ag": 1
-          },
-          {
-            "date": "2024-12-21",
-            "home": "Moreirense",
-            "away": "FC Porto",
-            "hg": 0,
-            "ag": 3
-          },
-          {
-            "date": "2024-11-24",
-            "home": "Moreirense",
-            "away": "FC Porto",
-            "hg": 2,
-            "ag": 1
-          },
-          {
-            "date": "2024-10-31",
-            "home": "FC Porto",
-            "away": "Moreirense",
-            "hg": 2,
-            "ag": 0
-          }
-        ],
-        "summary": {
-          "n": 6,
-          "home_wins": 5,
-          "draws": 0,
-          "away_wins": 1,
-          "avg_goals": 3.0
-        }
-      },
-      "xg_form_home": {
-        "for": 2.52,
-        "against": 0.93,
-        "n": 3
-      },
-      "xg_form_away": {
-        "for": 0.35,
-        "against": 1.54,
-        "n": 2
-      },
-      "analysis": "THE CALL - FC Porto win (77%, strong). Model: FC Porto 77% / draw 16% / Moreirense 7%, expected goals 2.24 to 0.53. Form FC Porto 4W 0D 1L (W L W W W), Moreirense 2W 1D 2L (D L W L W). Most likely score 2-0 (~16%), most probable of many."
     }
   ]
 }
