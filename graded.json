@@ -5314,5 +5314,77 @@
     "score": "1-0",
     "result": "win",
     "graded_at": "2026-09-01T06:15:38.436409+00:00"
+  },
+  {
+    "id": "Saudi Pro League|Al-Hilal Saudi FC|Al-Ahli Jeddah|2026-09-01",
+    "league": "Saudi Pro League",
+    "home": "Al-Hilal Saudi FC",
+    "away": "Al-Ahli Jeddah",
+    "kickoff": "2026-09-01T18:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7782,
+    "score": "3-0",
+    "result": "win",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
+  },
+  {
+    "id": "Championship|Preston|Bristol City|2026-09-01",
+    "league": "Championship",
+    "home": "Preston",
+    "away": "Bristol City",
+    "kickoff": "2026-09-01T18:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7625,
+    "score": "1-3",
+    "result": "loss",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
+  },
+  {
+    "id": "Championship|Swansea|Watford|2026-09-01",
+    "league": "Championship",
+    "home": "Swansea",
+    "away": "Watford",
+    "kickoff": "2026-09-01T18:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7626,
+    "score": "2-0",
+    "result": "win",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
+  },
+  {
+    "id": "Championship|Portsmouth|Derby|2026-09-01",
+    "league": "Championship",
+    "home": "Portsmouth",
+    "away": "Derby",
+    "kickoff": "2026-09-01T18:45:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7445,
+    "score": "0-2",
+    "result": "win",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
+  },
+  {
+    "id": "Championship|Birmingham|Southampton|2026-09-01",
+    "league": "Championship",
+    "home": "Birmingham",
+    "away": "Southampton",
+    "kickoff": "2026-09-01T19:00:00+00:00",
+    "pick": "Over 1.5",
+    "prob": 0.7677,
+    "score": "1-1",
+    "result": "win",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
+  },
+  {
+    "id": "Championship|Stoke City|Norwich|2026-09-01",
+    "league": "Championship",
+    "home": "Stoke City",
+    "away": "Norwich",
+    "kickoff": "2026-09-01T19:00:00+00:00",
+    "pick": "Under 3.5",
+    "prob": 0.7589,
+    "score": "1-0",
+    "result": "win",
+    "graded_at": "2026-09-02T06:21:05.481840+00:00"
   }
 ]

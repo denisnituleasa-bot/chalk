@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-01T06:15:38.440876+00:00",
+  "updated": "2026-09-02T06:21:05.486961+00:00",
   "totals": {
-    "graded": 443,
-    "wins": 350,
-    "losses": 92,
+    "graded": 449,
+    "wins": 355,
+    "losses": 93,
     "pushes": 1,
-    "hit_rate": 0.7919
+    "hit_rate": 0.7924
   },
   "calibration": [
     {
       "bucket": "70\u201380%",
-      "stated": 0.7725,
-      "actual": 0.7515,
-      "n": 165
+      "stated": 0.7721,
+      "actual": 0.7544,
+      "n": 171
     },
     {
       "bucket": "80\u201390%",
@@ -22,6 +22,78 @@
     }
   ],
   "recent": [
+    {
+      "id": "Championship|Birmingham|Southampton|2026-09-01",
+      "league": "Championship",
+      "home": "Birmingham",
+      "away": "Southampton",
+      "kickoff": "2026-09-01T19:00:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.7677,
+      "score": "1-1",
+      "result": "win",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
+    {
+      "id": "Championship|Stoke City|Norwich|2026-09-01",
+      "league": "Championship",
+      "home": "Stoke City",
+      "away": "Norwich",
+      "kickoff": "2026-09-01T19:00:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.7589,
+      "score": "1-0",
+      "result": "win",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
+    {
+      "id": "Championship|Preston|Bristol City|2026-09-01",
+      "league": "Championship",
+      "home": "Preston",
+      "away": "Bristol City",
+      "kickoff": "2026-09-01T18:45:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.7625,
+      "score": "1-3",
+      "result": "loss",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
+    {
+      "id": "Championship|Swansea|Watford|2026-09-01",
+      "league": "Championship",
+      "home": "Swansea",
+      "away": "Watford",
+      "kickoff": "2026-09-01T18:45:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.7626,
+      "score": "2-0",
+      "result": "win",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
+    {
+      "id": "Championship|Portsmouth|Derby|2026-09-01",
+      "league": "Championship",
+      "home": "Portsmouth",
+      "away": "Derby",
+      "kickoff": "2026-09-01T18:45:00+00:00",
+      "pick": "Under 3.5",
+      "prob": 0.7445,
+      "score": "0-2",
+      "result": "win",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
+    {
+      "id": "Saudi Pro League|Al-Hilal Saudi FC|Al-Ahli Jeddah|2026-09-01",
+      "league": "Saudi Pro League",
+      "home": "Al-Hilal Saudi FC",
+      "away": "Al-Ahli Jeddah",
+      "kickoff": "2026-09-01T18:00:00+00:00",
+      "pick": "Over 1.5",
+      "prob": 0.7782,
+      "score": "3-0",
+      "result": "win",
+      "graded_at": "2026-09-02T06:21:05.481840+00:00"
+    },
     {
       "id": "Argentina Primera|Tigre|Barracas Central|2026-09-01",
       "league": "Argentina Primera",
@@ -669,78 +741,6 @@
       "score": "2-1",
       "result": "win",
       "graded_at": "2026-08-31T06:09:58.122338+00:00"
-    },
-    {
-      "id": "Scottish Premiership|Aberdeen|Rangers|2026-08-30",
-      "league": "Scottish Premiership",
-      "home": "Aberdeen",
-      "away": "Rangers",
-      "kickoff": "2026-08-30T11:00:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.8041,
-      "score": "0-1",
-      "result": "loss",
-      "graded_at": "2026-08-31T06:09:58.122338+00:00"
-    },
-    {
-      "id": "Eredivisie|Utrecht|PSV Eindhoven|2026-08-30",
-      "league": "Eredivisie",
-      "home": "Utrecht",
-      "away": "PSV Eindhoven",
-      "kickoff": "2026-08-30T10:15:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.8957,
-      "score": "1-6",
-      "result": "win",
-      "graded_at": "2026-08-31T06:09:58.122338+00:00"
-    },
-    {
-      "id": "Liga MX|Santos Laguna|Tigres UANL|2026-08-30",
-      "league": "Liga MX",
-      "home": "Santos Laguna",
-      "away": "Tigres UANL",
-      "kickoff": "2026-08-30T03:10:00+00:00",
-      "pick": "Tigres UANL or draw (X2)",
-      "prob": 0.8249,
-      "score": "0-0",
-      "result": "win",
-      "graded_at": "2026-08-30T06:09:16.480068+00:00"
-    },
-    {
-      "id": "Liga MX|Club America|Puebla|2026-08-30",
-      "league": "Liga MX",
-      "home": "Club America",
-      "away": "Puebla",
-      "kickoff": "2026-08-30T01:05:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.7994,
-      "score": "2-0",
-      "result": "win",
-      "graded_at": "2026-08-30T06:09:16.480068+00:00"
-    },
-    {
-      "id": "MLS|Houston Dynamo|San Jose Earthquakes|2026-08-30",
-      "league": "MLS",
-      "home": "Houston Dynamo",
-      "away": "San Jose Earthquakes",
-      "kickoff": "2026-08-30T00:30:00+00:00",
-      "pick": "Over 1.5",
-      "prob": 0.8307,
-      "score": "0-0",
-      "result": "loss",
-      "graded_at": "2026-08-30T06:09:16.480068+00:00"
-    },
-    {
-      "id": "Argentina Primera|Atletico Tucuman|Belgrano Cordoba|2026-08-30",
-      "league": "Argentina Primera",
-      "home": "Atletico Tucuman",
-      "away": "Belgrano Cordoba",
-      "kickoff": "2026-08-30T00:30:00+00:00",
-      "pick": "Under 3.5",
-      "prob": 0.7893,
-      "score": "0-0",
-      "result": "win",
-      "graded_at": "2026-08-30T06:09:16.480068+00:00"
     }
   ]
 }
