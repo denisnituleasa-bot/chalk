@@ -69,16 +69,6 @@
     "prob": 0.7405,
     "strength": "strong"
   },
-  "Primeira Liga|SC Braga|GIL Vicente|2026-08-16": {
-    "id": "Primeira Liga|SC Braga|GIL Vicente|2026-08-16",
-    "league": "Primeira Liga",
-    "home": "SC Braga",
-    "away": "GIL Vicente",
-    "kickoff": "2026-08-16T19:30:00+00:00",
-    "pick": "SC Braga or draw (1X)",
-    "prob": 0.832,
-    "strength": "strong"
-  },
   "Scottish Premiership|Celtic|Aberdeen|2026-09-02": {
     "id": "Scottish Premiership|Celtic|Aberdeen|2026-09-02",
     "league": "Scottish Premiership",
