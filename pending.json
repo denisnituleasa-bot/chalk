@@ -1,14 +1,4 @@
 {
-  "Ligue 1|Paris Saint Germain|Rennes|2026-08-23": {
-    "id": "Ligue 1|Paris Saint Germain|Rennes|2026-08-23",
-    "league": "Ligue 1",
-    "home": "Paris Saint Germain",
-    "away": "Rennes",
-    "kickoff": "2026-08-23T18:45:00+00:00",
-    "pick": "Paris Saint Germain or draw (1X)",
-    "prob": 0.8809,
-    "strength": "strong"
-  },
   "Bundesliga|VfB Stuttgart|1. FC K\u00f6ln|2026-09-04": {
     "id": "Bundesliga|VfB Stuttgart|1. FC K\u00f6ln|2026-09-04",
     "league": "Bundesliga",
