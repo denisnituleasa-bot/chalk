@@ -9,56 +9,6 @@
     "prob": 0.8372,
     "strength": "strong"
   },
-  "Scottish Premiership|Celtic|Aberdeen|2026-09-02": {
-    "id": "Scottish Premiership|Celtic|Aberdeen|2026-09-02",
-    "league": "Scottish Premiership",
-    "home": "Celtic",
-    "away": "Aberdeen",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8589,
-    "strength": "strong"
-  },
-  "Scottish Premiership|Kilmarnock|ST Mirren|2026-09-02": {
-    "id": "Scottish Premiership|Kilmarnock|ST Mirren|2026-09-02",
-    "league": "Scottish Premiership",
-    "home": "Kilmarnock",
-    "away": "ST Mirren",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Kilmarnock or draw (1X)",
-    "prob": 0.7492,
-    "strength": "strong"
-  },
-  "Scottish Premiership|Dundee|ST Johnstone|2026-09-02": {
-    "id": "Scottish Premiership|Dundee|ST Johnstone|2026-09-02",
-    "league": "Scottish Premiership",
-    "home": "Dundee",
-    "away": "ST Johnstone",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Dundee or draw (1X)",
-    "prob": 0.7825,
-    "strength": "strong"
-  },
-  "Scottish Premiership|Motherwell|Dundee Utd|2026-09-02": {
-    "id": "Scottish Premiership|Motherwell|Dundee Utd|2026-09-02",
-    "league": "Scottish Premiership",
-    "home": "Motherwell",
-    "away": "Dundee Utd",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Motherwell or draw (1X)",
-    "prob": 0.8236,
-    "strength": "strong"
-  },
-  "Belgian Pro League|St. Truiden|Union St. Gilloise|2026-09-02": {
-    "id": "Belgian Pro League|St. Truiden|Union St. Gilloise|2026-09-02",
-    "league": "Belgian Pro League",
-    "home": "St. Truiden",
-    "away": "Union St. Gilloise",
-    "kickoff": "2026-09-02T18:30:00+00:00",
-    "pick": "Union St. Gilloise or draw (X2)",
-    "prob": 0.8081,
-    "strength": "strong"
-  },
   "Ligue 1|Toulouse|Lille|2026-09-03": {
     "id": "Ligue 1|Toulouse|Lille|2026-09-03",
     "league": "Ligue 1",
@@ -297,46 +247,6 @@
     "kickoff": "2026-09-05T23:00:00+00:00",
     "pick": "Over 1.5",
     "prob": 0.7884,
-    "strength": "strong"
-  },
-  "Championship|Millwall|Wrexham|2026-09-02": {
-    "id": "Championship|Millwall|Wrexham|2026-09-02",
-    "league": "Championship",
-    "home": "Millwall",
-    "away": "Wrexham",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7504,
-    "strength": "strong"
-  },
-  "Championship|West Brom|Charlton|2026-09-02": {
-    "id": "Championship|West Brom|Charlton|2026-09-02",
-    "league": "Championship",
-    "home": "West Brom",
-    "away": "Charlton",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.859,
-    "strength": "strong"
-  },
-  "Scottish Premiership|Falkirk|Rangers|2026-09-02": {
-    "id": "Scottish Premiership|Falkirk|Rangers|2026-09-02",
-    "league": "Scottish Premiership",
-    "home": "Falkirk",
-    "away": "Rangers",
-    "kickoff": "2026-09-02T19:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8533,
-    "strength": "strong"
-  },
-  "Brazil Serie A|Flamengo|Mirassol|2026-09-02": {
-    "id": "Brazil Serie A|Flamengo|Mirassol|2026-09-02",
-    "league": "Brazil Serie A",
-    "home": "Flamengo",
-    "away": "Mirassol",
-    "kickoff": "2026-09-02T22:30:00+00:00",
-    "pick": "Flamengo or draw (1X)",
-    "prob": 0.8038,
     "strength": "strong"
   },
   "Belgian Pro League|Gent|OH Leuven|2026-09-03": {
@@ -1377,26 +1287,6 @@
     "kickoff": "2026-09-12T17:00:00+00:00",
     "pick": "CFR 1907 Cluj or draw (X2)",
     "prob": 0.7657,
-    "strength": "strong"
-  },
-  "Championship|QPR|Cardiff|2026-09-02": {
-    "id": "Championship|QPR|Cardiff|2026-09-02",
-    "league": "Championship",
-    "home": "QPR",
-    "away": "Cardiff",
-    "kickoff": "2026-09-02T18:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7975,
-    "strength": "strong"
-  },
-  "Championship|Burnley|Middlesbrough|2026-09-02": {
-    "id": "Championship|Burnley|Middlesbrough|2026-09-02",
-    "league": "Championship",
-    "home": "Burnley",
-    "away": "Middlesbrough",
-    "kickoff": "2026-09-02T19:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8919,
     "strength": "strong"
   },
   "Championship|Preston|Blackburn|2026-09-05": {
