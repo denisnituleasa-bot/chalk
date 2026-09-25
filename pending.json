@@ -9,16 +9,6 @@
     "prob": 0.8372,
     "strength": "strong"
   },
-  "Ligue 1|Toulouse|Lille|2026-09-03": {
-    "id": "Ligue 1|Toulouse|Lille|2026-09-03",
-    "league": "Ligue 1",
-    "home": "Toulouse",
-    "away": "Lille",
-    "kickoff": "2026-09-03T18:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7897,
-    "strength": "strong"
-  },
   "Eredivisie|Sparta Rotterdam|PEC Zwolle|2026-09-04": {
     "id": "Eredivisie|Sparta Rotterdam|PEC Zwolle|2026-09-04",
     "league": "Eredivisie",
@@ -77,46 +67,6 @@
     "kickoff": "2026-09-06T15:00:00+00:00",
     "pick": "FC Porto win",
     "prob": 0.7664,
-    "strength": "strong"
-  },
-  "Saudi Pro League|Al-Fayha|Al Kholood|2026-09-03": {
-    "id": "Saudi Pro League|Al-Fayha|Al Kholood|2026-09-03",
-    "league": "Saudi Pro League",
-    "home": "Al-Fayha",
-    "away": "Al Kholood",
-    "kickoff": "2026-09-03T15:55:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7594,
-    "strength": "strong"
-  },
-  "Saudi Pro League|NEOM|Al Khaleej Saihat|2026-09-03": {
-    "id": "Saudi Pro League|NEOM|Al Khaleej Saihat|2026-09-03",
-    "league": "Saudi Pro League",
-    "home": "NEOM",
-    "away": "Al Khaleej Saihat",
-    "kickoff": "2026-09-03T16:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7858,
-    "strength": "strong"
-  },
-  "Belgian Pro League|Anderlecht|Kortrijk|2026-09-03": {
-    "id": "Belgian Pro League|Anderlecht|Kortrijk|2026-09-03",
-    "league": "Belgian Pro League",
-    "home": "Anderlecht",
-    "away": "Kortrijk",
-    "kickoff": "2026-09-03T18:30:00+00:00",
-    "pick": "Anderlecht or draw (1X)",
-    "prob": 0.8475,
-    "strength": "strong"
-  },
-  "La Liga|Real Sociedad|Celta Vigo|2026-09-03": {
-    "id": "La Liga|Real Sociedad|Celta Vigo|2026-09-03",
-    "league": "La Liga",
-    "home": "Real Sociedad",
-    "away": "Celta Vigo",
-    "kickoff": "2026-09-03T19:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8003,
     "strength": "strong"
   },
   "Ligue 1|Lyon|Auxerre|2026-09-04": {
@@ -247,26 +197,6 @@
     "kickoff": "2026-09-05T23:00:00+00:00",
     "pick": "Over 1.5",
     "prob": 0.7884,
-    "strength": "strong"
-  },
-  "Belgian Pro League|Gent|OH Leuven|2026-09-03": {
-    "id": "Belgian Pro League|Gent|OH Leuven|2026-09-03",
-    "league": "Belgian Pro League",
-    "home": "Gent",
-    "away": "OH Leuven",
-    "kickoff": "2026-09-03T18:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7708,
-    "strength": "strong"
-  },
-  "Scottish Premiership|Hibernian|Heart Of Midlothian|2026-09-03": {
-    "id": "Scottish Premiership|Hibernian|Heart Of Midlothian|2026-09-03",
-    "league": "Scottish Premiership",
-    "home": "Hibernian",
-    "away": "Heart Of Midlothian",
-    "kickoff": "2026-09-03T18:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7865,
     "strength": "strong"
   },
   "Super Lig|Ba\u015fak\u015fehir|Galatasaray|2026-09-04": {
