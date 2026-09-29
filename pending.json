@@ -1,34 +1,4 @@
 {
-  "Liga I|FC Voluntari|Arges Pitesti|2026-09-07": {
-    "id": "Liga I|FC Voluntari|Arges Pitesti|2026-09-07",
-    "league": "Liga I",
-    "home": "FC Voluntari",
-    "away": "Arges Pitesti",
-    "kickoff": "2026-09-07T14:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.761,
-    "strength": "strong"
-  },
-  "Super Lig|G\u00f6ztepe|Gaziantep FK|2026-09-07": {
-    "id": "Super Lig|G\u00f6ztepe|Gaziantep FK|2026-09-07",
-    "league": "Super Lig",
-    "home": "G\u00f6ztepe",
-    "away": "Gaziantep FK",
-    "kickoff": "2026-09-07T17:00:00+00:00",
-    "pick": "G\u00f6ztepe or draw (1X)",
-    "prob": 0.8209,
-    "strength": "strong"
-  },
-  "Liga I|Universitatea Craiova|Universitatea Cluj|2026-09-07": {
-    "id": "Liga I|Universitatea Craiova|Universitatea Cluj|2026-09-07",
-    "league": "Liga I",
-    "home": "Universitatea Craiova",
-    "away": "Universitatea Cluj",
-    "kickoff": "2026-09-07T17:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7964,
-    "strength": "strong"
-  },
   "Eredivisie|NEC Nijmegen|Excelsior|2026-09-08": {
     "id": "Eredivisie|NEC Nijmegen|Excelsior|2026-09-08",
     "league": "Eredivisie",
@@ -69,56 +39,6 @@
     "prob": 0.8551,
     "strength": "strong"
   },
-  "Serie A|Cagliari|Lecce|2026-09-07": {
-    "id": "Serie A|Cagliari|Lecce|2026-09-07",
-    "league": "Serie A",
-    "home": "Cagliari",
-    "away": "Lecce",
-    "kickoff": "2026-09-07T16:30:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8524,
-    "strength": "strong"
-  },
-  "La Liga|Getafe|Celta Vigo|2026-09-07": {
-    "id": "La Liga|Getafe|Celta Vigo|2026-09-07",
-    "league": "La Liga",
-    "home": "Getafe",
-    "away": "Celta Vigo",
-    "kickoff": "2026-09-07T17:00:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.8727,
-    "strength": "strong"
-  },
-  "Super Lig|Rizespor|Alanyaspor|2026-09-07": {
-    "id": "Super Lig|Rizespor|Alanyaspor|2026-09-07",
-    "league": "Super Lig",
-    "home": "Rizespor",
-    "away": "Alanyaspor",
-    "kickoff": "2026-09-07T17:00:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7762,
-    "strength": "strong"
-  },
-  "Serie A|Udinese|Lazio|2026-09-07": {
-    "id": "Serie A|Udinese|Lazio|2026-09-07",
-    "league": "Serie A",
-    "home": "Udinese",
-    "away": "Lazio",
-    "kickoff": "2026-09-07T18:45:00+00:00",
-    "pick": "Under 3.5",
-    "prob": 0.7857,
-    "strength": "strong"
-  },
-  "Primeira Liga|Estoril|Arouca|2026-09-07": {
-    "id": "Primeira Liga|Estoril|Arouca|2026-09-07",
-    "league": "Primeira Liga",
-    "home": "Estoril",
-    "away": "Arouca",
-    "kickoff": "2026-09-07T19:15:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8812,
-    "strength": "strong"
-  },
   "Primeira Liga|Moreirense|Benfica|2026-09-09": {
     "id": "Primeira Liga|Moreirense|Benfica|2026-09-09",
     "league": "Primeira Liga",
@@ -137,16 +57,6 @@
     "kickoff": "2026-09-12T17:00:00+00:00",
     "pick": "CFR 1907 Cluj or draw (X2)",
     "prob": 0.7657,
-    "strength": "strong"
-  },
-  "Saudi Pro League|Al Khaleej Saihat|Al Riyadh|2026-09-07": {
-    "id": "Saudi Pro League|Al Khaleej Saihat|Al Riyadh|2026-09-07",
-    "league": "Saudi Pro League",
-    "home": "Al Khaleej Saihat",
-    "away": "Al Riyadh",
-    "kickoff": "2026-09-07T15:30:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.7945,
     "strength": "strong"
   }
 }
