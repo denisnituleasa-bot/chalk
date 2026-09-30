@@ -1,14 +1,4 @@
 {
-  "Eredivisie|NEC Nijmegen|Excelsior|2026-09-08": {
-    "id": "Eredivisie|NEC Nijmegen|Excelsior|2026-09-08",
-    "league": "Eredivisie",
-    "home": "NEC Nijmegen",
-    "away": "Excelsior",
-    "kickoff": "2026-09-08T16:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8653,
-    "strength": "strong"
-  },
   "Ligue 1|Rennes|Marseille|2026-09-11": {
     "id": "Ligue 1|Rennes|Marseille|2026-09-11",
     "league": "Ligue 1",
