@@ -29,16 +29,6 @@
     "prob": 0.8551,
     "strength": "strong"
   },
-  "Primeira Liga|Moreirense|Benfica|2026-09-09": {
-    "id": "Primeira Liga|Moreirense|Benfica|2026-09-09",
-    "league": "Primeira Liga",
-    "home": "Moreirense",
-    "away": "Benfica",
-    "kickoff": "2026-09-09T19:45:00+00:00",
-    "pick": "Benfica or draw (X2)",
-    "prob": 0.8831,
-    "strength": "strong"
-  },
   "Liga I|Sepsi OSK Sfantu Gheorghe|CFR 1907 Cluj|2026-09-12": {
     "id": "Liga I|Sepsi OSK Sfantu Gheorghe|CFR 1907 Cluj|2026-09-12",
     "league": "Liga I",
