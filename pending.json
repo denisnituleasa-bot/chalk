@@ -1,24 +1,4 @@
 {
-  "Ligue 1|Rennes|Marseille|2026-09-11": {
-    "id": "Ligue 1|Rennes|Marseille|2026-09-11",
-    "league": "Ligue 1",
-    "home": "Rennes",
-    "away": "Marseille",
-    "kickoff": "2026-09-11T18:45:00+00:00",
-    "pick": "Over 1.5",
-    "prob": 0.8779,
-    "strength": "strong"
-  },
-  "Liga MX|Necaxa|Puebla|2026-09-12": {
-    "id": "Liga MX|Necaxa|Puebla|2026-09-12",
-    "league": "Liga MX",
-    "home": "Necaxa",
-    "away": "Puebla",
-    "kickoff": "2026-09-12T01:00:00+00:00",
-    "pick": "Necaxa or draw (1X)",
-    "prob": 0.8538,
-    "strength": "strong"
-  },
   "Liga I|FCSB|Petrolul Ploiesti|2026-09-12": {
     "id": "Liga I|FCSB|Petrolul Ploiesti|2026-09-12",
     "league": "Liga I",
